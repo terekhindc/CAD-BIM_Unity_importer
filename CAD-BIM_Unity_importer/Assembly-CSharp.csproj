@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\BigCubeSpawner.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CubeSpawner2.cs" />
+    <Compile Include="Assets\Scripts\FPSCounter.cs" />
     <Compile Include="Assets\Scripts\InputSystem.cs" />
     <Compile Include="Assets\Scripts\MouseController.cs" />
     <Compile Include="Assets\Scripts\MoveComponent.cs" />
@@ -71,6 +72,9 @@
     <Compile Include="Assets\Scripts\PlayerComponent.cs" />
     <Compile Include="Assets\Scripts\SpeedComponent.cs" />
     <Compile Include="Assets\Scripts\StartECS.cs" />
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Transforms">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
     </Reference>
@@ -118,9 +122,6 @@
     </Reference>
     <Reference Include="Unity.Entities">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
