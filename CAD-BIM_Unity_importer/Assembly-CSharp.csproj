@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AppManager.cs" />
     <Compile Include="Assets\Scripts\BigCubeSpawner.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CubeSpawner2.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets\Scripts\MoveSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerComponent.cs" />
     <Compile Include="Assets\Scripts\SpeedComponent.cs" />
+    <Compile Include="Assets\Scripts\StartECS.cs" />
     <Reference Include="Unity.Transforms">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
     </Reference>
