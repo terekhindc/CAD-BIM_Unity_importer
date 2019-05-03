@@ -62,96 +62,104 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CubeGenerator.cs" />
+    <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\FPS.cs" />
+    <Compile Include="Assets\Scripts\HelloSpawner.cs" />
+    <Compile Include="Assets\Scripts\HelloSpawnerProxy.cs" />
+    <Compile Include="Assets\Scripts\HelloSpawnerSystem.cs" />
+    <Compile Include="Assets\Scripts\MouseController.cs" />
+    <Compile Include="Assets\Scripts\RotationSpeed.cs" />
+    <Compile Include="Assets\Scripts\RotationSpeedProxy.cs" />
+    <Compile Include="Assets\Scripts\RotationSpeedSystem.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Properties">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Properties.Codegen">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.Codegen.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.Codegen.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Jobs">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Jobs.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.StaticTypeRegistry">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Properties">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Scenes.Hybrid">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Scenes.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Extensions">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Extensions.Hybrid">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.Hybrid">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.BuildUtils">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Hybrid">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms.Hybrid">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -340,16 +348,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/Workspace/Unity/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.collections@0.0.9-preview.17/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.collections@0.0.9-preview.17/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
