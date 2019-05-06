@@ -16,8 +16,6 @@ namespace Samples.HelloCube_06
         // Referenced prefabs have to be declared so that the conversion system knows about them ahead of time
         public void DeclareReferencedPrefabs(List<GameObject> gameObjects)
         {
-            counter++;
-            Debug.Log(counter);
             gameObjects.Add(Prefab);
         }
 
