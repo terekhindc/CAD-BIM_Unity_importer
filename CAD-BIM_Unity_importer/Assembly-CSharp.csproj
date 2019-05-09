@@ -63,19 +63,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ColliderECS.cs" />
     <Compile Include="Assets\Scripts\FPS.cs" />
     <Compile Include="Assets\Scripts\HelloSpawner.cs" />
     <Compile Include="Assets\Scripts\HelloSpawnerProxy.cs" />
     <Compile Include="Assets\Scripts\HelloSpawnerSystem.cs" />
     <Compile Include="Assets\Scripts\MouseController.cs" />
-    <Compile Include="Assets\Scripts\ObjectClickSystem.cs" />
     <Compile Include="Assets\Scripts\ObjectSpawner.cs" />
+    <Compile Include="Assets\Scripts\ObjectSpawnerProxy.cs" />
+    <Compile Include="Assets\Scripts\ObjectSpawnerSystem.cs" />
     <Compile Include="Assets\Scripts\RotationSpeed.cs" />
     <Compile Include="Assets\Scripts\RotationSpeedProxy.cs" />
     <Compile Include="Assets\Scripts\RotationSpeedSystem.cs" />
     <Compile Include="Assets\Scripts\Sheet\Sheet.cs" />
     <Compile Include="Assets\Scripts\Sheet\SheetProxy.cs" />
     <Compile Include="Assets\Scripts\Sheet\SheetSystem.cs" />
+    <Compile Include="Assets\Scripts\StartUp.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
