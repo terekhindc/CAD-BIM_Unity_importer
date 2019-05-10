@@ -20,7 +20,7 @@ public class ObjectSpawnerSystem : ComponentSystem
     static void Initalize()
     {        
         entityManager = World.Active.EntityManager;
-        cubeArchetype = entityManager.CreateArchetype(typeof(ObjectSpawner), typeof(Translation), typeof(Transform));
+        cubeArchetype = entityManager.CreateArchetype(typeof(ObjectSpawner), typeof(Translation), typeof(BoxColliderECS));
         Debug.Log(entityManager.World);
 
     }
@@ -28,7 +28,7 @@ public class ObjectSpawnerSystem : ComponentSystem
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     public static void InitalizeWithScene()
     {
-        CreateFixedCountObject(10);
+        CreateOneObject();
     }
 
     static void CreateOneObject ()
@@ -43,10 +43,21 @@ public class ObjectSpawnerSystem : ComponentSystem
         translation = new Translation
         {
             Value = new float3(objectSpawner.position)
-        };        
+        };
+
+        Vector3 start = new Vector3(0, 0, 0);
+        Vector3 end = new Vector3(10, 10, 10);
+
+        BoxColliderECS boxCollider = new BoxColliderECS
+        {
+            diagonal = new Diagonal(start, end)
+        };
 
         entityManager.SetComponentData(entity, objectSpawner);
-        entityManager.SetComponentData(entity, translation);        
+        entityManager.SetComponentData(entity, translation);
+        entityManager.SetComponentData(entity, boxCollider);
+
+        TextComponent.SetMessage(objectSpawner.index, "Асгард");
     }
 
     static void CreateFixedCountObject(int count)
@@ -68,25 +79,13 @@ public class ObjectSpawnerSystem : ComponentSystem
 
         entityManager.SetComponentData(entity, objectSpawner);
         entityManager.SetComponentData(entity, translation);
+        entityManager.SetComponentData(entity, translation);
     }
 
 
     protected override void OnUpdate()
     {        
-        if (Input.GetMouseButtonDown(0))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-                        
-            Debug.Log(World.EntityManager.GetComponentData<ObjectSpawner>(entity).position);
-            Debug.Log(TextComponent.GetMessage(World.EntityManager.GetComponentData<ObjectSpawner>(entity).index));
-
-            if (Physics.Raycast(ray,out hit))
-            {
-                Debug.Log (hit.collider);
-            }
-            
-        }
+        
     }
 
 }

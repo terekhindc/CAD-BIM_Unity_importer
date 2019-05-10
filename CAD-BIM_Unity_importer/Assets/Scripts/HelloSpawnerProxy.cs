@@ -31,7 +31,14 @@ namespace Samples.HelloCube_06
                 CountX = CountX,
                 CountY = CountY
             };
-            dstManager.AddComponentData(entity, spawnerData);
+
+            var spawner = new ObjectSpawner
+            {
+                index = counter,
+                position = new Vector3(0, 0, 0)
+            };
+
+            dstManager.AddComponentData(entity, spawnerData);            
         }
     }
 }

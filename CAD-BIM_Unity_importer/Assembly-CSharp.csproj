@@ -28,7 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;CS0649;IDE0051</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -37,7 +37,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;CS0649;IDE0051</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -62,8 +62,54 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Common\Scripts\BasePhysicsDemo.cs" />
+    <Compile Include="Assets\Common\Scripts\CameraControl.cs" />
+    <Compile Include="Assets\Common\Scripts\CameraSmoothTrack.cs" />
+    <Compile Include="Assets\Common\Scripts\EntityKillerBehaviour.cs" />
+    <Compile Include="Assets\Common\Scripts\EntitySender.cs" />
+    <Compile Include="Assets\Common\Scripts\EntityTracker.cs" />
+    <Compile Include="Assets\Common\Scripts\MousePick\MousePickBehaviour.cs" />
+    <Compile Include="Assets\Common\Scripts\Pauser.cs" />
+    <Compile Include="Assets\Common\Scripts\RayBlaster\RayTracer.cs" />
+    <Compile Include="Assets\Common\Scripts\RayBlaster\RayTracerSystem.cs" />
+    <Compile Include="Assets\Common\Scripts\SpawnRandomPhysicsBodies.cs" />
+    <Compile Include="Assets\Demos\3. Query\Scripts\QueryTester.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Conversion\PhysicsJointConversionSystem.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\BallAndSocketJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\BaseJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\FreeHingeJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\LimitedHingeJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\PrismaticJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\RagdollJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\RigidJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Creators\StiffSpringJoint.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Editors\BallAndSocketJointEditor.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Editors\EditorUtilities.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Editors\LimitedHingeJointEditor.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\Editors\RagdollJointEditor.cs" />
+    <Compile Include="Assets\Demos\4. Joints\Scripts\RagdollDemo.cs" />
+    <Compile Include="Assets\Demos\5. Modify\Scripts\AddNarrowphaseContactsBehaviour.cs" />
+    <Compile Include="Assets\Demos\5. Modify\Scripts\LinearDashpotBehaviour.cs" />
+    <Compile Include="Assets\Demos\5. Modify\Scripts\ModifyBroadphasePairsBehaviour.cs" />
+    <Compile Include="Assets\Demos\5. Modify\Scripts\ModifyContactJacobiansBehaviour.cs" />
+    <Compile Include="Assets\Demos\5. Modify\Scripts\ModifyNarrowphaseContactsBehaviour.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\CharacterController\Scripts\CharacterControllerBodyComponent.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\CharacterController\Scripts\CharacterControllerComponent.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\CharacterController\Scripts\CharacterControllerUtilities.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\CharacterController\Scripts\PhysicsGunBehaviour.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\ImmediateMode\Scripts\DisableCanvas.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\ImmediateMode\Scripts\ProjectIntoFutureEveryFrame.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\ImmediateMode\Scripts\ProjectIntoFutureGO.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\ImmediateMode\Scripts\ProjectIntoFutureOnCue.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\ImmediateMode\Scripts\TagWhiteBall.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\PlanetGravity\Scripts\PlanetGravityBehaviour.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\PlanetGravity\Scripts\SpawnRandomAsteroids.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\RaycastCar\Scripts\Fabrik.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\RaycastCar\Scripts\SwapVehicles.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\RaycastCar\Scripts\VehicleControls.cs" />
+    <Compile Include="Assets\Demos\6. Use Cases\RaycastCar\Scripts\VehicleMechanics.cs" />
+    <Compile Include="Assets\Scripts\BoxColliderECS.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\ColliderECS.cs" />
     <Compile Include="Assets\Scripts\FPS.cs" />
     <Compile Include="Assets\Scripts\HelloSpawner.cs" />
     <Compile Include="Assets\Scripts\HelloSpawnerProxy.cs" />
@@ -79,14 +125,22 @@
     <Compile Include="Assets\Scripts\Sheet\SheetProxy.cs" />
     <Compile Include="Assets\Scripts\Sheet\SheetSystem.cs" />
     <Compile Include="Assets\Scripts\StartUp.cs" />
+    <Compile Include="Assets\Scripts\TextData.cs" />
+    <Compile Include="Assets\Tests\Compound\CompoundDemo.cs" />
+    <Compile Include="Assets\Tests\JointTest\AngLimitDemo.cs" />
+    <Compile Include="Assets\Tests\JointTest\BoxCapsuleDemo.cs" />
+    <Compile Include="Assets\Tests\JointTest\LimitedHingeDemo.cs" />
+    <Compile Include="Assets\Tests\JointTest\RagdollGridDemo.cs" />
+    <Compile Include="Assets\Tests\JointTest\SoftJointDemo.cs" />
+    <Compile Include="Assets\Tests\JointTest\TwistGridDemo.cs" />
+    <Compile Include="Assets\Tests\Pyramids\CreatePyramidsBehaviour.cs" />
+    <Compile Include="Assets\Tests\StreamingStressTest\SpawnCopiesAsChildren.cs" />
+    <Compile Include="Assets\Tests\StreamingStressTest\ToggleSubsceneLoading.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Properties.Codegen">
-      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.Codegen.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Jobs">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
@@ -100,9 +154,6 @@
     <Reference Include="Unity.Entities.StaticTypeRegistry">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Properties">
-      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
@@ -111,6 +162,9 @@
     </Reference>
     <Reference Include="Unity.Scenes.Editor">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics">
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Physics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -133,6 +187,9 @@
     <Reference Include="Unity.Rendering.Hybrid">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Physics.Hybrid">
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
@@ -145,8 +202,17 @@
     <Reference Include="Unity.Mathematics">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Properties">
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Physics.Editor">
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Entities">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties.Reflection">
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Properties.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Transforms">
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
@@ -365,7 +431,7 @@
       <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.collections@0.0.9-preview.17/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:/Workspace/Git/CAD-BIM_Unity_importer/CAD-BIM_Unity_importer/Library/PackageCache/com.unity.collections@0.0.9-preview.18/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
