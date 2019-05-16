@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_model_import_ui_vr" kind="class" language="C#" prot="public">
+    <compoundname>ModelImportUiVr</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_window" prot="public" virt="non-virtual">IWindow</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a43fbbfac9bf58148f3e2a05827824079" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform ModelImportUiVr.ContentRect</definition>
+        <argsstring></argsstring>
+        <name>ContentRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" compoundref="_model_import_ui_vr_8cs" startline="28" endline="50">ReplaceCurrentDisplayableContent</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" compoundref="_model_import_ui_vr_8cs" startline="178" endline="214">ShowPage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a2f5d329583de1c44327e65f5ed4ce302" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform ModelImportUiVr.ControlsRect</definition>
+        <argsstring></argsstring>
+        <name>ControlsRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a379fe882068c6dd8b44320ac64164cf3" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ModelImportUiVr.FileUsagePreferenceItemUiPrefab</definition>
+        <argsstring></argsstring>
+        <name>FileUsagePreferenceItemUiPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" compoundref="_model_import_ui_vr_8cs" startline="28" endline="50">ReplaceCurrentDisplayableContent</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" compoundref="_model_import_ui_vr_8cs" startline="178" endline="214">ShowPage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1ae7e432d08fdcad54d5b6967373b166f9" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ModelImportUiVr.ShowNthPageButtonPrefab</definition>
+        <argsstring></argsstring>
+        <name>ShowNthPageButtonPrefab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a0ed1df0840dea3ca857fada817d83474" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ModelImportUiVr.PrevPageButtonGo</definition>
+        <argsstring></argsstring>
+        <name>PrevPageButtonGo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a3e500d9c3c5d5f0d2a4b9dda1e76a4f9" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ModelImportUiVr.NextPageButtonGo</definition>
+        <argsstring></argsstring>
+        <name>NextPageButtonGo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a993eba8f0736dedb38513206772e011b" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref> &gt;</type>
+        <definition>List&lt;FileUsagePreference&gt; ModelImportUiVr.FileUsagePreferences</definition>
+        <argsstring></argsstring>
+        <name>FileUsagePreferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" compoundref="_model_import_ui_vr_8cs" startline="28" endline="50">ReplaceCurrentDisplayableContent</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" compoundref="_model_import_ui_vr_8cs" startline="171" endline="176">InitializeAllFilesToLoadModels</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" compoundref="_model_import_ui_vr_8cs" startline="178" endline="214">ShowPage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_model_import_ui_vr_1ab88c8a5ec9c3ea4f5a7316ca93adb996" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ModelImportUiVr._itemHeight</definition>
+        <argsstring></argsstring>
+        <name>_itemHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a46cbfe0397c9b7a5274430c6b016bcf8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModelImportUiVr._itemsPerPage</definition>
+        <argsstring></argsstring>
+        <name>_itemsPerPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1ac490c9cd52cb0112fc9afeda66f1fb26" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModelImportUiVr._currentPageIndex</definition>
+        <argsstring></argsstring>
+        <name>_currentPageIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="22" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a3b94ca62196f2381e6e25d2bc12c694f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModelImportUiVr._pagesCount</definition>
+        <argsstring></argsstring>
+        <name>_pagesCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1aa1f325438603bf3675b94959c5c02258" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ModelImportUiVr._currentCentralPageButtonIndex</definition>
+        <argsstring></argsstring>
+        <name>_currentCentralPageButtonIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="24" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_model_import_ui_vr_1a7d24e988fbc316a0ec705b574cef90a9" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, GameObject &gt;</type>
+        <definition>Dictionary&lt;int, GameObject&gt; ModelImportUiVr._showNthPagesButtonsGos</definition>
+        <argsstring></argsstring>
+        <name>_showNthPagesButtonsGos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="25" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.ReplaceCurrentDisplayableContent</definition>
+        <argsstring>(List&lt; FileUsagePreference &gt; fileUsagePreferences, int pageIndex)</argsstring>
+        <name>ReplaceCurrentDisplayableContent</name>
+        <param>
+          <type>List&lt; <ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref> &gt;</type>
+          <declname>fileUsagePreferences</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pageIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="28" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="28" bodyend="50"/>
+        <references refid="class_model_import_ui_vr_1a379fe882068c6dd8b44320ac64164cf3" compoundref="_model_import_ui_vr_8cs" startline="12">FileUsagePreferenceItemUiPrefab</references>
+        <references refid="class_model_import_ui_vr_1a43fbbfac9bf58148f3e2a05827824079" compoundref="_model_import_ui_vr_8cs" startline="9">ContentRect</references>
+        <references refid="class_model_import_ui_vr_1a993eba8f0736dedb38513206772e011b" compoundref="_model_import_ui_vr_8cs" startline="18">FileUsagePreferences</references>
+        <referencedby refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" compoundref="_model_import_ui_vr_8cs" startline="178" endline="214">ShowPage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.InitializeAllFilesToLoadModels</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeAllFilesToLoadModels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="171" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="171" bodyend="176"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <references refid="class_object_hive_vr_1a5d86649a9b24ee1b196f9c2aa413cbfd" compoundref="_object_hive_vr_8cs" startline="8">ObjectHiveVr.ModelImportManager</references>
+        <references refid="class_model_import_manager_1a6e6fafc0e15cc807f0a9687a5ac49823" compoundref="_model_import_manager_8cs" startline="10" endline="20">ModelImportManager.GetObjFilesList</references>
+        <references refid="class_model_import_ui_vr_1a993eba8f0736dedb38513206772e011b" compoundref="_model_import_ui_vr_8cs" startline="18">FileUsagePreferences</references>
+        <references refid="class_model_import_ui_vr_1a9a755198e4567dc72ee904c92f6df3ad" compoundref="_model_import_ui_vr_8cs" startline="224" endline="246">ImportModels</references>
+        <referencedby refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" compoundref="_vr_mp_player_8cs" startline="9" endline="30">VrMpPlayer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.ShowPage</definition>
+        <argsstring>(int pageIndex)</argsstring>
+        <name>ShowPage</name>
+        <param>
+          <type>int</type>
+          <declname>pageIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="178" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="178" bodyend="214"/>
+        <references refid="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" compoundref="_model_import_ui_vr_8cs" startline="28" endline="50">ReplaceCurrentDisplayableContent</references>
+        <references refid="class_model_import_ui_vr_1a993eba8f0736dedb38513206772e011b" compoundref="_model_import_ui_vr_8cs" startline="18">FileUsagePreferences</references>
+        <references refid="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" compoundref="_show_nth_page_button_ui_8cs" startline="10">ShowNthPageButtonUi.Button</references>
+        <references refid="class_model_import_ui_vr_1a379fe882068c6dd8b44320ac64164cf3" compoundref="_model_import_ui_vr_8cs" startline="12">FileUsagePreferenceItemUiPrefab</references>
+        <references refid="class_model_import_ui_vr_1a43fbbfac9bf58148f3e2a05827824079" compoundref="_model_import_ui_vr_8cs" startline="9">ContentRect</references>
+        <referencedby refid="class_model_import_ui_vr_1ac34967a5831f33b6afe216322e2909bb" compoundref="_model_import_ui_vr_8cs" startline="277" endline="281">Show</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a9a755198e4567dc72ee904c92f6df3ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.ImportModels</definition>
+        <argsstring>()</argsstring>
+        <name>ImportModels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="224" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="224" bodyend="246"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <referencedby refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" compoundref="_model_import_ui_vr_8cs" startline="171" endline="176">InitializeAllFilesToLoadModels</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1ac34967a5831f33b6afe216322e2909bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.Show</definition>
+        <argsstring>(object dataObject)</argsstring>
+        <name>Show</name>
+        <reimplements refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9">Show</reimplements>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+        </param>
+        <briefdescription>
+<para>Parameter needs for interface signature </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dataObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>useless parameter</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="277" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="277" bodyend="281"/>
+        <references refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" compoundref="_model_import_ui_vr_8cs" startline="178" endline="214">ShowPage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a20b68a74daa479ca9582518531871b77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <reimplements refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378">Hide</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="283" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a1a0afbc19ce40ac3365a73716075bcd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.CenterOnNextPage</definition>
+        <argsstring>()</argsstring>
+        <name>CenterOnNextPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="288" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="288" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a9aee36657340e839eae154bf9c4fdd22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.CenterOnPrevPage</definition>
+        <argsstring>()</argsstring>
+        <name>CenterOnPrevPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="296" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="296" bodyend="302"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_model_import_ui_vr_1a15b7b1739caf3cad36d84dc1655408a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.DestroyShowNthPagesButtons</definition>
+        <argsstring>()</argsstring>
+        <name>DestroyShowNthPagesButtons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="52" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="52" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1aba7f6908de659d4cf1e96d18f5b1afd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.GeneratePagesControlsButtons</definition>
+        <argsstring>(int pageIndex)</argsstring>
+        <name>GeneratePagesControlsButtons</name>
+        <param>
+          <type>int</type>
+          <declname>pageIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="62" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="62" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1aa7909745516c4aea5210fee88e910f4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ModelImportUiVr.ClearPage</definition>
+        <argsstring>()</argsstring>
+        <name>ClearPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="216" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="216" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_ui_vr_1a85624a0bc5d49b93e20093883535447d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator ModelImportUiVr.ImportModelsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ImportModelsAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="248" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="248" bodyend="271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="146">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="144">
+        <label>ModelImportUiVr</label>
+        <link refid="class_model_import_ui_vr"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+        <childnode refid="146" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="149">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="147">
+        <label>ModelImportUiVr</label>
+        <link refid="class_model_import_ui_vr"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="148">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ModelImportUiVr.cs" bodystart="7" bodyend="303"/>
+    <listofallmembers>
+      <member refid="class_model_import_ui_vr_1aa1f325438603bf3675b94959c5c02258" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>_currentCentralPageButtonIndex</name></member>
+      <member refid="class_model_import_ui_vr_1ac490c9cd52cb0112fc9afeda66f1fb26" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>_currentPageIndex</name></member>
+      <member refid="class_model_import_ui_vr_1ab88c8a5ec9c3ea4f5a7316ca93adb996" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>_itemHeight</name></member>
+      <member refid="class_model_import_ui_vr_1a46cbfe0397c9b7a5274430c6b016bcf8" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>_itemsPerPage</name></member>
+      <member refid="class_model_import_ui_vr_1a3b94ca62196f2381e6e25d2bc12c694f" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>_pagesCount</name></member>
+      <member refid="class_model_import_ui_vr_1a7d24e988fbc316a0ec705b574cef90a9" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>_showNthPagesButtonsGos</name></member>
+      <member refid="class_model_import_ui_vr_1a1a0afbc19ce40ac3365a73716075bcd4" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>CenterOnNextPage</name></member>
+      <member refid="class_model_import_ui_vr_1a9aee36657340e839eae154bf9c4fdd22" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>CenterOnPrevPage</name></member>
+      <member refid="class_model_import_ui_vr_1aa7909745516c4aea5210fee88e910f4c" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ClearPage</name></member>
+      <member refid="class_model_import_ui_vr_1a43fbbfac9bf58148f3e2a05827824079" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ContentRect</name></member>
+      <member refid="class_model_import_ui_vr_1a2f5d329583de1c44327e65f5ed4ce302" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ControlsRect</name></member>
+      <member refid="class_model_import_ui_vr_1a15b7b1739caf3cad36d84dc1655408a8" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>DestroyShowNthPagesButtons</name></member>
+      <member refid="class_model_import_ui_vr_1a379fe882068c6dd8b44320ac64164cf3" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>FileUsagePreferenceItemUiPrefab</name></member>
+      <member refid="class_model_import_ui_vr_1a993eba8f0736dedb38513206772e011b" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>FileUsagePreferences</name></member>
+      <member refid="class_model_import_ui_vr_1aba7f6908de659d4cf1e96d18f5b1afd4" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>GeneratePagesControlsButtons</name></member>
+      <member refid="class_model_import_ui_vr_1a20b68a74daa479ca9582518531871b77" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>Hide</name></member>
+      <member refid="class_model_import_ui_vr_1a9a755198e4567dc72ee904c92f6df3ad" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ImportModels</name></member>
+      <member refid="class_model_import_ui_vr_1a85624a0bc5d49b93e20093883535447d" prot="private" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ImportModelsAsync</name></member>
+      <member refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>InitializeAllFilesToLoadModels</name></member>
+      <member refid="class_model_import_ui_vr_1a3e500d9c3c5d5f0d2a4b9dda1e76a4f9" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>NextPageButtonGo</name></member>
+      <member refid="class_model_import_ui_vr_1a0ed1df0840dea3ca857fada817d83474" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>PrevPageButtonGo</name></member>
+      <member refid="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ReplaceCurrentDisplayableContent</name></member>
+      <member refid="class_model_import_ui_vr_1ac34967a5831f33b6afe216322e2909bb" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>Show</name></member>
+      <member refid="class_model_import_ui_vr_1ae7e432d08fdcad54d5b6967373b166f9" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ShowNthPageButtonPrefab</name></member>
+      <member refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" prot="public" virt="non-virtual"><scope>ModelImportUiVr</scope><name>ShowPage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

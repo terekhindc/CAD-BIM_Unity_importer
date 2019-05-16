@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_node" kind="class" language="C#" prot="public">
+    <compoundname>Node</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_node_1a3616974f5d2d3cb5103f3ecc6f839cf6" prot="public" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Node.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" compoundref="_node_8cs" startline="20" endline="29">Node</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" compoundref="_scene_shapes_instantiator_8cs" startline="759" endline="786">SceneShapesInstantiator.CreateColliders</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1a211f252da47c86c6395111473af56116" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int Node.ParentId</definition>
+        <argsstring></argsstring>
+        <name>ParentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" compoundref="_node_8cs" startline="20" endline="29">Node</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1a4ab676883b2af5ab37f07c1d41dfe93e" prot="public" static="no" mutable="no">
+        <type>readonly Vector3</type>
+        <definition>readonly Vector3 Node.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" compoundref="_node_8cs" startline="20" endline="29">Node</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1a2255f55bc7904392510365aa7c7069f6" prot="public" static="no" mutable="no">
+        <type>readonly byte</type>
+        <definition>readonly byte Node.ColorIndex</definition>
+        <argsstring></argsstring>
+        <name>ColorIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" compoundref="_node_8cs" startline="20" endline="29">Node</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1ac49c69569aa07d54598b6b793ba26a31" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; Node.ChildrenIds</definition>
+        <argsstring></argsstring>
+        <name>ChildrenIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" compoundref="_node_8cs" startline="20" endline="29">Node</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" compoundref="_scene_shapes_instantiator_8cs" startline="759" endline="786">SceneShapesInstantiator.CreateColliders</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1ad1d0767136bf9f05acac77e77388a796" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_node_1aa16042fa0253f5e0d97abdc5857363a6" kindref="member">Transform</ref> &gt;</type>
+        <definition>List&lt;Transform&gt; Node.GeometryContainersTransforms</definition>
+        <argsstring></argsstring>
+        <name>GeometryContainersTransforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" compoundref="_node_8cs" startline="20" endline="29">Node</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1aa16042fa0253f5e0d97abdc5857363a6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Node.Transform</definition>
+        <argsstring></argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Node.Node</definition>
+        <argsstring>(string name, int parentId, Vector3 position, byte colorIndex)</argsstring>
+        <name>Node</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parentId</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>colorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="20" bodyend="29"/>
+        <references refid="class_node_1a3616974f5d2d3cb5103f3ecc6f839cf6" compoundref="_node_8cs" startline="6">Name</references>
+        <references refid="class_node_1a211f252da47c86c6395111473af56116" compoundref="_node_8cs" startline="8">ParentId</references>
+        <references refid="class_node_1a4ab676883b2af5ab37f07c1d41dfe93e" compoundref="_node_8cs" startline="10">Position</references>
+        <references refid="class_node_1a2255f55bc7904392510365aa7c7069f6" compoundref="_node_8cs" startline="12">ColorIndex</references>
+        <references refid="class_node_1ac49c69569aa07d54598b6b793ba26a31" compoundref="_node_8cs" startline="14">ChildrenIds</references>
+        <references refid="class_node_1ad1d0767136bf9f05acac77e77388a796" compoundref="_node_8cs" startline="16">GeometryContainersTransforms</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/Node.cs" bodystart="4" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_node_1ac49c69569aa07d54598b6b793ba26a31" prot="public" virt="non-virtual"><scope>Node</scope><name>ChildrenIds</name></member>
+      <member refid="class_node_1a2255f55bc7904392510365aa7c7069f6" prot="public" virt="non-virtual"><scope>Node</scope><name>ColorIndex</name></member>
+      <member refid="class_node_1ad1d0767136bf9f05acac77e77388a796" prot="public" virt="non-virtual"><scope>Node</scope><name>GeometryContainersTransforms</name></member>
+      <member refid="class_node_1a3616974f5d2d3cb5103f3ecc6f839cf6" prot="public" virt="non-virtual"><scope>Node</scope><name>Name</name></member>
+      <member refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" prot="public" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1a211f252da47c86c6395111473af56116" prot="public" virt="non-virtual"><scope>Node</scope><name>ParentId</name></member>
+      <member refid="class_node_1a4ab676883b2af5ab37f07c1d41dfe93e" prot="public" virt="non-virtual"><scope>Node</scope><name>Position</name></member>
+      <member refid="class_node_1aa16042fa0253f5e0d97abdc5857363a6" prot="public" virt="non-virtual"><scope>Node</scope><name>Transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

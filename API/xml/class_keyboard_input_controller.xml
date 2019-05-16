@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_keyboard_input_controller" kind="class" language="C#" prot="public">
+    <compoundname>KeyboardInputController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KeyboardInputController.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/KeyboardInputController.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/KeyboardInputController.cs" bodystart="5" bodyend="9"/>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a7e7d498b91dafeec3e17f437f8b21476" compoundref="_ui_manager_8cs" startline="28" endline="31">UiManager.ShowModelImportUi</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="114">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="113">
+        <label>KeyboardInputController</label>
+        <link refid="class_keyboard_input_controller"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="116">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="115">
+        <label>KeyboardInputController</label>
+        <link refid="class_keyboard_input_controller"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/KeyboardInputController.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/KeyboardInputController.cs" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" prot="public" virt="non-virtual"><scope>KeyboardInputController</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

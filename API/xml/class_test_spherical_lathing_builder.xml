@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_test_spherical_lathing_builder" kind="class" language="C#" prot="public">
+    <compoundname>TestSphericalLathingBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_spherical_lathing_builder_1a6553ab885937fc1376be0d8e0e495d97" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphericalLathingBuilder.H</definition>
+        <argsstring></argsstring>
+        <name>H</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_spherical_lathing_builder_1aa81e26148cebdd81ba7067d292ffacbd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphericalLathingBuilder.S</definition>
+        <argsstring></argsstring>
+        <name>S</name>
+        <initializer>= 30f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_spherical_lathing_builder_1a977f0ccf34432c1ab9c21b909ed9f3c9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphericalLathingBuilder.FillAngle</definition>
+        <argsstring></argsstring>
+        <name>FillAngle</name>
+        <initializer>= 360f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_spherical_lathing_builder_1a7a9ebb9b908c19519ccab9c82afa18d0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphericalLathingBuilder.RevoluteStep</definition>
+        <argsstring></argsstring>
+        <name>RevoluteStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_spherical_lathing_builder_1a76d43d5f7e35d185be8d183321b43d25" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphericalLathingBuilder.CircularStep</definition>
+        <argsstring></argsstring>
+        <name>CircularStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_spherical_lathing_builder_1a5af4837fb97edb8002c00bb22ee817e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestSphericalLathingBuilder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="14" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="334">
+        <label>TestSphericalLathingBuilder</label>
+        <link refid="class_test_spherical_lathing_builder"/>
+        <childnode refid="335" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="335">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="336">
+        <label>TestSphericalLathingBuilder</label>
+        <link refid="class_test_spherical_lathing_builder"/>
+        <childnode refid="337" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="337">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphericalLathingBuilder.cs" bodystart="4" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_test_spherical_lathing_builder_1a76d43d5f7e35d185be8d183321b43d25" prot="public" virt="non-virtual"><scope>TestSphericalLathingBuilder</scope><name>CircularStep</name></member>
+      <member refid="class_test_spherical_lathing_builder_1a977f0ccf34432c1ab9c21b909ed9f3c9" prot="public" virt="non-virtual"><scope>TestSphericalLathingBuilder</scope><name>FillAngle</name></member>
+      <member refid="class_test_spherical_lathing_builder_1a6553ab885937fc1376be0d8e0e495d97" prot="public" virt="non-virtual"><scope>TestSphericalLathingBuilder</scope><name>H</name></member>
+      <member refid="class_test_spherical_lathing_builder_1a7a9ebb9b908c19519ccab9c82afa18d0" prot="public" virt="non-virtual"><scope>TestSphericalLathingBuilder</scope><name>RevoluteStep</name></member>
+      <member refid="class_test_spherical_lathing_builder_1aa81e26148cebdd81ba7067d292ffacbd" prot="public" virt="non-virtual"><scope>TestSphericalLathingBuilder</scope><name>S</name></member>
+      <member refid="class_test_spherical_lathing_builder_1a5af4837fb97edb8002c00bb22ee817e2" prot="private" virt="non-virtual"><scope>TestSphericalLathingBuilder</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

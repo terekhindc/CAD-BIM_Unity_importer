@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_keyboard_input_controller_8cs" kind="file" language="C#">
+    <compoundname>KeyboardInputController.cs</compoundname>
+    <innerclass refid="class_keyboard_input_controller" prot="public">KeyboardInputController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_keyboard_input_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_keyboard_input_controller" kindref="compound">KeyboardInputController</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="5" refid="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" kindref="member">Update</ref><sp/>()</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetKeyUp(KeyCode.I))</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_ui_manager" kindref="compound">UiManager</ref>.<ref refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" kindref="member">I</ref>.<ref refid="class_ui_manager_1a7e7d498b91dafeec3e17f437f8b21476" kindref="member">ShowModelImportUi</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/KeyboardInputController.cs"/>
+  </compounddef>
+</doxygen>

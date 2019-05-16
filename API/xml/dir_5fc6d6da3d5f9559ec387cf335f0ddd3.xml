@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_5fc6d6da3d5f9559ec387cf335f0ddd3" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VrAdaptedScripts</compoundname>
+    <innerfile refid="_vr_mp_player_8cs">VrMpPlayer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VrAdaptedScripts/"/>
+  </compounddef>
+</doxygen>

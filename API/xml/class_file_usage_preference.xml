@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_file_usage_preference" kind="class" language="C#" prot="public">
+    <compoundname>FileUsagePreference</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string FileUsagePreference.FileFullAddress</definition>
+        <argsstring></argsstring>
+        <name>FileFullAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" bodystart="4" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" compoundref="_file_usage_preference_item_ui_8cs" startline="16" endline="24">FileUsagePreferenceItemUi.SetFileUsagePreference</referencedby>
+        <referencedby refid="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" compoundref="_file_usage_preference_item_ui_8cs" startline="26" endline="44">FileUsagePreferenceItemUi.OnIsNeededToggle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_1a43d76051845a1b45f5f78f83069ccb9e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileUsagePreference.IsInspected</definition>
+        <argsstring></argsstring>
+        <name>IsInspected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileUsagePreference.IsNeeded</definition>
+        <argsstring></argsstring>
+        <name>IsNeeded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" compoundref="_file_usage_preference_item_ui_8cs" startline="16" endline="24">FileUsagePreferenceItemUi.SetFileUsagePreference</referencedby>
+        <referencedby refid="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" compoundref="_file_usage_preference_item_ui_8cs" startline="26" endline="44">FileUsagePreferenceItemUi.OnIsNeededToggle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileUsagePreference.IsLoaded</definition>
+        <argsstring></argsstring>
+        <name>IsLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" compoundref="_file_usage_preference_item_ui_8cs" startline="16" endline="24">FileUsagePreferenceItemUi.SetFileUsagePreference</referencedby>
+        <referencedby refid="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" compoundref="_file_usage_preference_item_ui_8cs" startline="26" endline="44">FileUsagePreferenceItemUi.OnIsNeededToggle</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject FileUsagePreference.GameObject</definition>
+        <argsstring></argsstring>
+        <name>GameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" compoundref="_file_usage_preference_item_ui_8cs" startline="26" endline="44">FileUsagePreferenceItemUi.OnIsNeededToggle</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs" bodystart="2" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" prot="public" virt="non-virtual"><scope>FileUsagePreference</scope><name>FileFullAddress</name></member>
+      <member refid="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" prot="public" virt="non-virtual"><scope>FileUsagePreference</scope><name>GameObject</name></member>
+      <member refid="class_file_usage_preference_1a43d76051845a1b45f5f78f83069ccb9e" prot="public" virt="non-virtual"><scope>FileUsagePreference</scope><name>IsInspected</name></member>
+      <member refid="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" prot="public" virt="non-virtual"><scope>FileUsagePreference</scope><name>IsLoaded</name></member>
+      <member refid="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" prot="public" virt="non-virtual"><scope>FileUsagePreference</scope><name>IsNeeded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

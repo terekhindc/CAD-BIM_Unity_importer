@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_aim" kind="class" language="C#" prot="public">
+    <compoundname>Aim</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_aim_1a7c3f5059710fa92c6f4d6442939103c8" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform Aim.LaserTransform</definition>
+        <argsstring></argsstring>
+        <name>LaserTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_aim_1a049d6d5df0f1b496b579d8d7abe2a166" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera Aim._cam</definition>
+        <argsstring></argsstring>
+        <name>_cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aim_1a145e7a054ef36b46a176c4d06f12f5ed" prot="private" static="no" mutable="no">
+        <type><ref refid="class_interaction_object" kindref="compound">InteractionObject</ref></type>
+        <definition>InteractionObject Aim._highlighted</definition>
+        <argsstring></argsstring>
+        <name>_highlighted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aim_1a5c449ca032294a6decada7665591cc79" prot="private" static="no" mutable="no">
+        <type><ref refid="class_interaction_object" kindref="compound">InteractionObject</ref></type>
+        <definition>InteractionObject Aim._selected</definition>
+        <argsstring></argsstring>
+        <name>_selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aim_1ac8a74d2cb2d45ee8ae53a32dfd168c0f" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 Aim._screenCenter</definition>
+        <argsstring></argsstring>
+        <name>_screenCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_aim_1aec5b76e36e51b4e13de045cde2fafde9" prot="private" static="no" mutable="no">
+        <type>UnityAction</type>
+        <definition>UnityAction Aim.UpAct</definition>
+        <argsstring></argsstring>
+        <name>UpAct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_aim_1a0ac97301ab74d52416af371175bc5781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Aim.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_aim_1af6492a8eb4afae08a066e0e670d9dd19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Aim.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="22" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_aim_1a193f986098a52462327a00545f056541" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Aim.FindTarget</definition>
+        <argsstring>()</argsstring>
+        <name>FindTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="27" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="27" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>Aim</label>
+        <link refid="class_aim"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>Aim</label>
+        <link refid="class_aim"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Aim.cs" bodystart="4" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_aim_1a049d6d5df0f1b496b579d8d7abe2a166" prot="private" virt="non-virtual"><scope>Aim</scope><name>_cam</name></member>
+      <member refid="class_aim_1a145e7a054ef36b46a176c4d06f12f5ed" prot="private" virt="non-virtual"><scope>Aim</scope><name>_highlighted</name></member>
+      <member refid="class_aim_1ac8a74d2cb2d45ee8ae53a32dfd168c0f" prot="private" virt="non-virtual"><scope>Aim</scope><name>_screenCenter</name></member>
+      <member refid="class_aim_1a5c449ca032294a6decada7665591cc79" prot="private" virt="non-virtual"><scope>Aim</scope><name>_selected</name></member>
+      <member refid="class_aim_1a193f986098a52462327a00545f056541" prot="private" virt="non-virtual"><scope>Aim</scope><name>FindTarget</name></member>
+      <member refid="class_aim_1a7c3f5059710fa92c6f4d6442939103c8" prot="public" virt="non-virtual"><scope>Aim</scope><name>LaserTransform</name></member>
+      <member refid="class_aim_1a0ac97301ab74d52416af371175bc5781" prot="public" virt="non-virtual"><scope>Aim</scope><name>Start</name></member>
+      <member refid="class_aim_1aec5b76e36e51b4e13de045cde2fafde9" prot="private" virt="non-virtual"><scope>Aim</scope><name>UpAct</name></member>
+      <member refid="class_aim_1af6492a8eb4afae08a066e0e670d9dd19" prot="public" virt="non-virtual"><scope>Aim</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

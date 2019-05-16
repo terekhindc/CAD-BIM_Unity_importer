@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_numeric_control_ui" kind="class" language="C#" prot="public">
+    <compoundname>NumericControlUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_numeric_control_ui_1a364ae2a0aac660f08b9a1e11c30f8d1d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.DefaultValue</definition>
+        <argsstring></argsstring>
+        <name>DefaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a1b5a87a59a991fd86ac43cf307ef31e5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.MinValue</definition>
+        <argsstring></argsstring>
+        <name>MinValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1abea5d1fe4f626c1c6e28f79787f5b8b7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.MaxValue</definition>
+        <argsstring></argsstring>
+        <name>MaxValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1ac902f86a5846a21f8a59199e1c8e6d21" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.Increment1</definition>
+        <argsstring></argsstring>
+        <name>Increment1</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_numeric_control_ui_1acbca58e1608cef5a26dd50f27804b55a" compoundref="_numeric_control_ui_8cs" startline="69" endline="69">Inc1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a4dc0c7082772f42ef9ddcae863c2dc2d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.Increment2</definition>
+        <argsstring></argsstring>
+        <name>Increment2</name>
+        <initializer>= 4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_numeric_control_ui_1a2c6f6262aa2610841deae715120b5ac4" compoundref="_numeric_control_ui_8cs" startline="70" endline="70">Inc2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a7566ae406ed71a284164342567eb0094" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.Increment3</definition>
+        <argsstring></argsstring>
+        <name>Increment3</name>
+        <initializer>= 16f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_numeric_control_ui_1a24bb521b7ba4f796cd17d8897f654f5c" compoundref="_numeric_control_ui_8cs" startline="71" endline="71">Inc3</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1ab8c218664ec27b8b0623a7d60bb4e2ca" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.Decrement1</definition>
+        <argsstring></argsstring>
+        <name>Decrement1</name>
+        <initializer>= -1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_numeric_control_ui_1a9c8c73af6395bdf852b9b0accceee765" compoundref="_numeric_control_ui_8cs" startline="72" endline="72">Dec1</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a855fcd77f32cfe2b6a25ebf03ac2e5d1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.Decrement2</definition>
+        <argsstring></argsstring>
+        <name>Decrement2</name>
+        <initializer>= -4f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_numeric_control_ui_1a57c1bbd7814a56164695ce2eaddc24df" compoundref="_numeric_control_ui_8cs" startline="73" endline="73">Dec2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a55693d2f583171375759278332669b4a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi.Decrement3</definition>
+        <argsstring></argsstring>
+        <name>Decrement3</name>
+        <initializer>= -16f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_numeric_control_ui_1acc9c65621a2fe11e5a05ebc0b79fb3dd" compoundref="_numeric_control_ui_8cs" startline="74" endline="74">Dec3</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a653ebdf7d80e0dbc9333d9c075258bdf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NumericControlUi.DecimalAccuracy</definition>
+        <argsstring></argsstring>
+        <name>DecimalAccuracy</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a20bd51b0903ca3b98ad639986e510d7a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NumericControlUi.HintString</definition>
+        <argsstring></argsstring>
+        <name>HintString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="25" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a3a720216d8b23201f1fa31969104da88" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.ValueText</definition>
+        <argsstring></argsstring>
+        <name>ValueText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="27" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1ae3899a202f6c43282bc85877642ff3a5" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.Increment1ButtonText</definition>
+        <argsstring></argsstring>
+        <name>Increment1ButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="29" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a6fdc9705bbb38673ff8a9db702991d33" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.Increment2ButtonText</definition>
+        <argsstring></argsstring>
+        <name>Increment2ButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="30" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a7ad042c69fd8524be5a24dcfe550dc89" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.Increment3ButtonText</definition>
+        <argsstring></argsstring>
+        <name>Increment3ButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="31" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a8146152735bf1db9e4d8b1e30b27869e" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.Decrement1ButtonText</definition>
+        <argsstring></argsstring>
+        <name>Decrement1ButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1a80864db6311b50c928b7de9dc472a5dd" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.Decrement2ButtonText</definition>
+        <argsstring></argsstring>
+        <name>Decrement2ButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="34" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1aa929f1c88082d2d13f871a1771f88b36" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.Decrement3ButtonText</definition>
+        <argsstring></argsstring>
+        <name>Decrement3ButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="35" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_numeric_control_ui_1ae4d67252653e392dbb31ae60046b6090" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI NumericControlUi.HintText</definition>
+        <argsstring></argsstring>
+        <name>HintText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="37" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_numeric_control_ui_1a0a572c78729a3d198cb1a30232b06f86" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float NumericControlUi._value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="39" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_numeric_control_ui_1aedc4029860038af433ea84eeff744adf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.SetValue</definition>
+        <argsstring>(float value)</argsstring>
+        <name>SetValue</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="41" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1a34908899b9595379f0da02851afd7aae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.ChangeValue</definition>
+        <argsstring>(float delta)</argsstring>
+        <name>ChangeValue</name>
+        <param>
+          <type>float</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="52" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1a581dfd71bee62b8026af485ad7df5f0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="57" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="57" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_numeric_control_ui_1a03d4bf8f932d9ef9f7b8dee2626487b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float NumericControlUi.Value</definition>
+        <argsstring>()</argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="47" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1acbca58e1608cef5a26dd50f27804b55a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Inc1</definition>
+        <argsstring>()</argsstring>
+        <name>Inc1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="69" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="69" bodyend="69"/>
+        <references refid="class_numeric_control_ui_1ac902f86a5846a21f8a59199e1c8e6d21" compoundref="_numeric_control_ui_8cs" startline="15">Increment1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1a2c6f6262aa2610841deae715120b5ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Inc2</definition>
+        <argsstring>()</argsstring>
+        <name>Inc2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="70" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="70" bodyend="70"/>
+        <references refid="class_numeric_control_ui_1a4dc0c7082772f42ef9ddcae863c2dc2d" compoundref="_numeric_control_ui_8cs" startline="16">Increment2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1a24bb521b7ba4f796cd17d8897f654f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Inc3</definition>
+        <argsstring>()</argsstring>
+        <name>Inc3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="71" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="71" bodyend="71"/>
+        <references refid="class_numeric_control_ui_1a7566ae406ed71a284164342567eb0094" compoundref="_numeric_control_ui_8cs" startline="17">Increment3</references>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1a9c8c73af6395bdf852b9b0accceee765" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Dec1</definition>
+        <argsstring>()</argsstring>
+        <name>Dec1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="72" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="72" bodyend="72"/>
+        <references refid="class_numeric_control_ui_1ab8c218664ec27b8b0623a7d60bb4e2ca" compoundref="_numeric_control_ui_8cs" startline="19">Decrement1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1a57c1bbd7814a56164695ce2eaddc24df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Dec2</definition>
+        <argsstring>()</argsstring>
+        <name>Dec2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="73" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="73" bodyend="73"/>
+        <references refid="class_numeric_control_ui_1a855fcd77f32cfe2b6a25ebf03ac2e5d1" compoundref="_numeric_control_ui_8cs" startline="20">Decrement2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_numeric_control_ui_1acc9c65621a2fe11e5a05ebc0b79fb3dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NumericControlUi.Dec3</definition>
+        <argsstring>()</argsstring>
+        <name>Dec3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="74" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="74" bodyend="74"/>
+        <references refid="class_numeric_control_ui_1a55693d2f583171375759278332669b4a" compoundref="_numeric_control_ui_8cs" startline="21">Decrement3</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="174">
+        <label>NumericControlUi</label>
+        <link refid="class_numeric_control_ui"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="176">
+        <label>NumericControlUi</label>
+        <link refid="class_numeric_control_ui"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/NumericControlUi.cs" bodystart="8" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_numeric_control_ui_1a0a572c78729a3d198cb1a30232b06f86" prot="private" virt="non-virtual"><scope>NumericControlUi</scope><name>_value</name></member>
+      <member refid="class_numeric_control_ui_1a34908899b9595379f0da02851afd7aae" prot="private" virt="non-virtual"><scope>NumericControlUi</scope><name>ChangeValue</name></member>
+      <member refid="class_numeric_control_ui_1a9c8c73af6395bdf852b9b0accceee765" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Dec1</name></member>
+      <member refid="class_numeric_control_ui_1a57c1bbd7814a56164695ce2eaddc24df" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Dec2</name></member>
+      <member refid="class_numeric_control_ui_1acc9c65621a2fe11e5a05ebc0b79fb3dd" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Dec3</name></member>
+      <member refid="class_numeric_control_ui_1a653ebdf7d80e0dbc9333d9c075258bdf" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>DecimalAccuracy</name></member>
+      <member refid="class_numeric_control_ui_1ab8c218664ec27b8b0623a7d60bb4e2ca" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Decrement1</name></member>
+      <member refid="class_numeric_control_ui_1a8146152735bf1db9e4d8b1e30b27869e" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Decrement1ButtonText</name></member>
+      <member refid="class_numeric_control_ui_1a855fcd77f32cfe2b6a25ebf03ac2e5d1" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Decrement2</name></member>
+      <member refid="class_numeric_control_ui_1a80864db6311b50c928b7de9dc472a5dd" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Decrement2ButtonText</name></member>
+      <member refid="class_numeric_control_ui_1a55693d2f583171375759278332669b4a" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Decrement3</name></member>
+      <member refid="class_numeric_control_ui_1aa929f1c88082d2d13f871a1771f88b36" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Decrement3ButtonText</name></member>
+      <member refid="class_numeric_control_ui_1a364ae2a0aac660f08b9a1e11c30f8d1d" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>DefaultValue</name></member>
+      <member refid="class_numeric_control_ui_1a20bd51b0903ca3b98ad639986e510d7a" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>HintString</name></member>
+      <member refid="class_numeric_control_ui_1ae4d67252653e392dbb31ae60046b6090" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>HintText</name></member>
+      <member refid="class_numeric_control_ui_1acbca58e1608cef5a26dd50f27804b55a" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Inc1</name></member>
+      <member refid="class_numeric_control_ui_1a2c6f6262aa2610841deae715120b5ac4" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Inc2</name></member>
+      <member refid="class_numeric_control_ui_1a24bb521b7ba4f796cd17d8897f654f5c" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Inc3</name></member>
+      <member refid="class_numeric_control_ui_1ac902f86a5846a21f8a59199e1c8e6d21" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Increment1</name></member>
+      <member refid="class_numeric_control_ui_1ae3899a202f6c43282bc85877642ff3a5" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Increment1ButtonText</name></member>
+      <member refid="class_numeric_control_ui_1a4dc0c7082772f42ef9ddcae863c2dc2d" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Increment2</name></member>
+      <member refid="class_numeric_control_ui_1a6fdc9705bbb38673ff8a9db702991d33" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Increment2ButtonText</name></member>
+      <member refid="class_numeric_control_ui_1a7566ae406ed71a284164342567eb0094" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Increment3</name></member>
+      <member refid="class_numeric_control_ui_1a7ad042c69fd8524be5a24dcfe550dc89" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Increment3ButtonText</name></member>
+      <member refid="class_numeric_control_ui_1abea5d1fe4f626c1c6e28f79787f5b8b7" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>MaxValue</name></member>
+      <member refid="class_numeric_control_ui_1a1b5a87a59a991fd86ac43cf307ef31e5" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>MinValue</name></member>
+      <member refid="class_numeric_control_ui_1aedc4029860038af433ea84eeff744adf" prot="private" virt="non-virtual"><scope>NumericControlUi</scope><name>SetValue</name></member>
+      <member refid="class_numeric_control_ui_1a581dfd71bee62b8026af485ad7df5f0d" prot="private" virt="non-virtual"><scope>NumericControlUi</scope><name>Start</name></member>
+      <member refid="class_numeric_control_ui_1a03d4bf8f932d9ef9f7b8dee2626487b0" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>Value</name></member>
+      <member refid="class_numeric_control_ui_1a3a720216d8b23201f1fa31969104da88" prot="public" virt="non-virtual"><scope>NumericControlUi</scope><name>ValueText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

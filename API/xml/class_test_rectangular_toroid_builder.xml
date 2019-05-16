@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_test_rectangular_toroid_builder" kind="class" language="C#" prot="public">
+    <compoundname>TestRectangularToroidBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_rectangular_toroid_builder_1ad2d27a508825ab823e86a6ea3460a036" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestRectangularToroidBuilder.InnerRadius</definition>
+        <argsstring></argsstring>
+        <name>InnerRadius</name>
+        <initializer>= 25f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rectangular_toroid_builder_1aa8f9f63846378fa0a6b6e420e2391e88" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestRectangularToroidBuilder.OutterRadius</definition>
+        <argsstring></argsstring>
+        <name>OutterRadius</name>
+        <initializer>= 51f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rectangular_toroid_builder_1a9b5d6407a6daaa6bd9ec91acaf146065" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestRectangularToroidBuilder.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <initializer>= 12f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rectangular_toroid_builder_1aedbb430ff20f22deb1d437fbfaa9cc4c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestRectangularToroidBuilder.FillAngle</definition>
+        <argsstring></argsstring>
+        <name>FillAngle</name>
+        <initializer>= 3.1415927f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rectangular_toroid_builder_1afc270db54a2a85d8f98ea6d46a7afac2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestRectangularToroidBuilder.CircularStep</definition>
+        <argsstring></argsstring>
+        <name>CircularStep</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_rectangular_toroid_builder_1adec6d807698b1266cb6f50aeb57d7957" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestRectangularToroidBuilder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="14" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="322">
+        <label>TestRectangularToroidBuilder</label>
+        <link refid="class_test_rectangular_toroid_builder"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="324">
+        <label>TestRectangularToroidBuilder</label>
+        <link refid="class_test_rectangular_toroid_builder"/>
+        <childnode refid="325" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestRectangularToroidBuilder.cs" bodystart="4" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_test_rectangular_toroid_builder_1afc270db54a2a85d8f98ea6d46a7afac2" prot="public" virt="non-virtual"><scope>TestRectangularToroidBuilder</scope><name>CircularStep</name></member>
+      <member refid="class_test_rectangular_toroid_builder_1aedbb430ff20f22deb1d437fbfaa9cc4c" prot="public" virt="non-virtual"><scope>TestRectangularToroidBuilder</scope><name>FillAngle</name></member>
+      <member refid="class_test_rectangular_toroid_builder_1a9b5d6407a6daaa6bd9ec91acaf146065" prot="public" virt="non-virtual"><scope>TestRectangularToroidBuilder</scope><name>Height</name></member>
+      <member refid="class_test_rectangular_toroid_builder_1ad2d27a508825ab823e86a6ea3460a036" prot="public" virt="non-virtual"><scope>TestRectangularToroidBuilder</scope><name>InnerRadius</name></member>
+      <member refid="class_test_rectangular_toroid_builder_1aa8f9f63846378fa0a6b6e420e2391e88" prot="public" virt="non-virtual"><scope>TestRectangularToroidBuilder</scope><name>OutterRadius</name></member>
+      <member refid="class_test_rectangular_toroid_builder_1adec6d807698b1266cb6f50aeb57d7957" prot="private" virt="non-virtual"><scope>TestRectangularToroidBuilder</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

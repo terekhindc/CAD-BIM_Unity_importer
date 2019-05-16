@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_rvm_structure_reader" kind="class" language="C#" prot="public">
+    <compoundname>RvmStructureReader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rvm_structure_reader_1ac3f5dbc43783e51008a044925f28f85a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RvmStructureReader.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmStructureReader.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmStructureReader.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rvm_structure_reader_1a778b2b66638094b6e2d57dac6ca7977a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmStructureReader.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmStructureReader.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmStructureReader.cs" bodystart="11" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="242">
+        <label>RvmStructureReader</label>
+        <link refid="class_rvm_structure_reader"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="244">
+        <label>RvmStructureReader</label>
+        <link refid="class_rvm_structure_reader"/>
+        <childnode refid="245" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmStructureReader.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmStructureReader.cs" bodystart="7" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_rvm_structure_reader_1ac3f5dbc43783e51008a044925f28f85a" prot="public" virt="non-virtual"><scope>RvmStructureReader</scope><name>FileName</name></member>
+      <member refid="class_rvm_structure_reader_1a778b2b66638094b6e2d57dac6ca7977a" prot="private" virt="non-virtual"><scope>RvmStructureReader</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

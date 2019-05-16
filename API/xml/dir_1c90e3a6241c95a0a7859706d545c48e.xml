@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_1c90e3a6241c95a0a7859706d545c48e" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts</compoundname>
+    <innerdir refid="dir_d9454b42a4029b9b71c9e7c6338901dc">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader</innerdir>
+    <innerdir refid="dir_b6e7d6fc15f6401775b4e354c978c897">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry</innerdir>
+    <innerdir refid="dir_332f7e9eb8bdd98877f3ccb0710dbe1c">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers</innerdir>
+    <innerdir refid="dir_a0eedb2871d337d75772080595d2c80a">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking</innerdir>
+    <innerdir refid="dir_7fc7288ae5fcd7b239122225cd4f0843">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings</innerdir>
+    <innerdir refid="dir_f68caa7bf3928204a4e8f4258c7db97a">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR</innerdir>
+    <innerdir refid="dir_a95187025ae3462992bcf44da6f2d5d6">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp</innerdir>
+    <innerdir refid="dir_5062b8a2b3b1db6b2b6243e91502a63e">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui</innerdir>
+    <innerdir refid="dir_a967a3f2ada423d9f378b98811bf5623">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts</innerdir>
+    <innerdir refid="dir_5fc6d6da3d5f9559ec387cf335f0ddd3">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VrAdaptedScripts</innerdir>
+    <innerfile refid="_aim_8cs">Aim.cs</innerfile>
+    <innerfile refid="_animation_generator_8cs">AnimationGenerator.cs</innerfile>
+    <innerfile refid="_att_data_8cs">AttData.cs</innerfile>
+    <innerfile refid="_att_reader_8cs">AttReader.cs</innerfile>
+    <innerfile refid="_att_reader_tester_8cs">AttReaderTester.cs</innerfile>
+    <innerfile refid="_character_animator_8cs">CharacterAnimator.cs</innerfile>
+    <innerfile refid="_file_usage_preference_8cs">FileUsagePreference.cs</innerfile>
+    <innerfile refid="_file_usage_preference_item_ui_8cs">FileUsagePreferenceItemUi.cs</innerfile>
+    <innerfile refid="_game_object_counter_8cs">GameObjectCounter.cs</innerfile>
+    <innerfile refid="_hide_object_message_8cs">HideObjectMessage.cs</innerfile>
+    <innerfile refid="_interaction_object_8cs">InteractionObject.cs</innerfile>
+    <innerfile refid="_interact_with_object_message_8cs">InteractWithObjectMessage.cs</innerfile>
+    <innerfile refid="_i_wherety_player_8cs">IWheretyPlayer.cs</innerfile>
+    <innerfile refid="_keyboard_input_controller_8cs">KeyboardInputController.cs</innerfile>
+    <innerfile refid="_model_import_manager_8cs">ModelImportManager.cs</innerfile>
+    <innerfile refid="_move_object_message_8cs">MoveObjectMessage.cs</innerfile>
+    <innerfile refid="_player_8cs">Player.cs</innerfile>
+    <innerfile refid="_play_pickup_animation_message_8cs">PlayPickupAnimationMessage.cs</innerfile>
+    <innerfile refid="_progress_data_8cs">ProgressData.cs</innerfile>
+    <innerfile refid="_progress_ui_8cs">ProgressUi.cs</innerfile>
+    <innerfile refid="_rvm_converter_8cs">RvmConverter.cs</innerfile>
+    <innerfile refid="_rvm_reader_8cs">RvmReader.cs</innerfile>
+    <innerfile refid="_rvm_structure_reader_8cs">RvmStructureReader.cs</innerfile>
+    <innerfile refid="_scene_shapes_instantiator_8cs">SceneShapesInstantiator.cs</innerfile>
+    <innerfile refid="_select_and_show_attributes_message_8cs">SelectAndShowAttributesMessage.cs</innerfile>
+    <innerfile refid="_shape_data_repository_8cs">ShapeDataRepository.cs</innerfile>
+    <innerfile refid="_shape_types_8cs">ShapeTypes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

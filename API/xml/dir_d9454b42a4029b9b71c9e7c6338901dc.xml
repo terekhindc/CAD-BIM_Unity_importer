@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_d9454b42a4029b9b71c9e7c6338901dc" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader</compoundname>
+    <innerfile refid="_color_table_reader_8cs">ColorTableReader.cs</innerfile>
+    <innerfile refid="_color_table_reader_tester_8cs">ColorTableReaderTester.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/"/>
+  </compounddef>
+</doxygen>

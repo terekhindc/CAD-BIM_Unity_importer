@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_settings_window" kind="class" language="C#" prot="public">
+    <compoundname>SettingsWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_settings_window_1aed24c62328169b35cb4952858b9d9725" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material SettingsWindow.Material</definition>
+        <argsstring></argsstring>
+        <name>Material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_settings_window_1a706b46c1692f4e53e73de2fc9a229eee" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SettingsWindow._tr</definition>
+        <argsstring></argsstring>
+        <name>_tr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_settings_window_1a92c8cfbf10ca1d37a5c3f2cc1123ad0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsWindow.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" bodystart="11" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_window_1a575309eef791f840c9d285443e3358d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsWindow.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" line="51" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" bodystart="51" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="264">
+        <label>SettingsWindow</label>
+        <link refid="class_settings_window"/>
+        <childnode refid="265" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="266">
+        <label>SettingsWindow</label>
+        <link refid="class_settings_window"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsWindow.cs" bodystart="5" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_settings_window_1a706b46c1692f4e53e73de2fc9a229eee" prot="private" virt="non-virtual"><scope>SettingsWindow</scope><name>_tr</name></member>
+      <member refid="class_settings_window_1aed24c62328169b35cb4952858b9d9725" prot="public" virt="non-virtual"><scope>SettingsWindow</scope><name>Material</name></member>
+      <member refid="class_settings_window_1a92c8cfbf10ca1d37a5c3f2cc1123ad0e" prot="private" virt="non-virtual"><scope>SettingsWindow</scope><name>Start</name></member>
+      <member refid="class_settings_window_1a575309eef791f840c9d285443e3358d0" prot="private" virt="non-virtual"><scope>SettingsWindow</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

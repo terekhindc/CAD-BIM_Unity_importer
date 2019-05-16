@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_test_sphere_builder" kind="class" language="C#" prot="public">
+    <compoundname>TestSphereBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_sphere_builder_1a2df230f71771bed5c9536e3dc1b0e400" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphereBuilder.R</definition>
+        <argsstring></argsstring>
+        <name>R</name>
+        <initializer>= 50f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_sphere_builder_1a2f2519aa35b59088558b1278b39785f6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphereBuilder.FillAngle</definition>
+        <argsstring></argsstring>
+        <name>FillAngle</name>
+        <initializer>= 2 * Mathf.PI</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_sphere_builder_1acfeb82ac98b24881642783bfc56f5bfa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphereBuilder.RevoluteStep</definition>
+        <argsstring></argsstring>
+        <name>RevoluteStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_sphere_builder_1ac016d41c470e1f798516fdaf2a0a261d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestSphereBuilder.CircularStep</definition>
+        <argsstring></argsstring>
+        <name>CircularStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_sphere_builder_1a16e1d6eb765f6347c834b8db35f1c726" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestSphereBuilder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" bodystart="15" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="330">
+        <label>TestSphereBuilder</label>
+        <link refid="class_test_sphere_builder"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="332">
+        <label>TestSphereBuilder</label>
+        <link refid="class_test_sphere_builder"/>
+        <childnode refid="333" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestSphereBuilder.cs" bodystart="6" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_test_sphere_builder_1ac016d41c470e1f798516fdaf2a0a261d" prot="public" virt="non-virtual"><scope>TestSphereBuilder</scope><name>CircularStep</name></member>
+      <member refid="class_test_sphere_builder_1a2f2519aa35b59088558b1278b39785f6" prot="public" virt="non-virtual"><scope>TestSphereBuilder</scope><name>FillAngle</name></member>
+      <member refid="class_test_sphere_builder_1a2df230f71771bed5c9536e3dc1b0e400" prot="public" virt="non-virtual"><scope>TestSphereBuilder</scope><name>R</name></member>
+      <member refid="class_test_sphere_builder_1acfeb82ac98b24881642783bfc56f5bfa" prot="public" virt="non-virtual"><scope>TestSphereBuilder</scope><name>RevoluteStep</name></member>
+      <member refid="class_test_sphere_builder_1a16e1d6eb765f6347c834b8db35f1c726" prot="private" virt="non-virtual"><scope>TestSphereBuilder</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

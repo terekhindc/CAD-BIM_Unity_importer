@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_show_nth_page_button_ui" kind="class" language="C#" prot="public">
+    <compoundname>ShowNthPageButtonUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_show_nth_page_button_ui_1adc4338f73874204ed3c86faa877cd2eb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_model_import_ui" kindref="compound">ModelImportUi</ref></type>
+        <definition>ModelImportUi ShowNthPageButtonUi.ModelImportUi</definition>
+        <argsstring></argsstring>
+        <name>ModelImportUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ShowNthPageButtonUi.PageIndex</definition>
+        <argsstring></argsstring>
+        <name>PageIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_show_nth_page_button_ui_1aa1688012097d455138dc09cea38f6287" compoundref="_show_nth_page_button_ui_8cs" startline="12" endline="15">OnButtonClick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button ShowNthPageButtonUi.Button</definition>
+        <argsstring></argsstring>
+        <name>Button</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_model_import_ui_1ab3f81f6357a8a955ab08082ee631b62f" compoundref="_model_import_ui_8cs" startline="178" endline="214">ModelImportUi.ShowPage</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" compoundref="_model_import_ui_vr_8cs" startline="178" endline="214">ModelImportUiVr.ShowPage</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_show_nth_page_button_ui_1aa1688012097d455138dc09cea38f6287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowNthPageButtonUi.OnButtonClick</definition>
+        <argsstring>()</argsstring>
+        <name>OnButtonClick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_model_import_ui_1ab3f81f6357a8a955ab08082ee631b62f" compoundref="_model_import_ui_8cs" startline="178" endline="214">ModelImportUi.ShowPage</references>
+        <references refid="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" compoundref="_show_nth_page_button_ui_8cs" startline="9">PageIndex</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="279">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="278">
+        <label>ShowNthPageButtonUi</label>
+        <link refid="class_show_nth_page_button_ui"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="283">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="281">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="280">
+        <label>ShowNthPageButtonUi</label>
+        <link refid="class_show_nth_page_button_ui"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+        <childnode refid="282" relation="usage">
+          <edgelabel>ModelImportUi</edgelabel>
+        </childnode>
+      </node>
+      <node id="282">
+        <label>ModelImportUi</label>
+        <link refid="class_model_import_ui"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs" bodystart="6" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" prot="public" virt="non-virtual"><scope>ShowNthPageButtonUi</scope><name>Button</name></member>
+      <member refid="class_show_nth_page_button_ui_1adc4338f73874204ed3c86faa877cd2eb" prot="public" virt="non-virtual"><scope>ShowNthPageButtonUi</scope><name>ModelImportUi</name></member>
+      <member refid="class_show_nth_page_button_ui_1aa1688012097d455138dc09cea38f6287" prot="public" virt="non-virtual"><scope>ShowNthPageButtonUi</scope><name>OnButtonClick</name></member>
+      <member refid="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" prot="public" virt="non-virtual"><scope>ShowNthPageButtonUi</scope><name>PageIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

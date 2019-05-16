@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_shape_data_8cs" kind="file" language="C#">
+    <compoundname>ShapeData.cs</compoundname>
+    <innerclass refid="class_shape_data" prot="public">ShapeData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_shape_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shape_data" kindref="compound">ShapeData</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>Matrix4x4<sp/><ref refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" kindref="member">TransformMatrix</ref>;</highlight></codeline>
+<codeline lineno="6" refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>Vector3<sp/><ref refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" kindref="member">BoundMin</ref>;</highlight></codeline>
+<codeline lineno="7" refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>Vector3<sp/><ref refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" kindref="member">BoundMax</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" kindref="member">Transform</ref><sp/><ref refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" kindref="member">Transform</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="10" refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" kindref="member">ParentId</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" kindref="member">ShapeData</ref>(Matrix4x4<sp/>transformMatrix,<sp/>Vector3<sp/>boundMin,<sp/>Vector3<sp/>boundMax,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parentId)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" kindref="member">TransformMatrix</ref><sp/>=<sp/>transformMatrix;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" kindref="member">BoundMin</ref><sp/>=<sp/>boundMin;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" kindref="member">BoundMax</ref><sp/>=<sp/>boundMax;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" kindref="member">ParentId</ref><sp/>=<sp/>parentId;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_cylinder_builder" kind="class" language="C#" prot="public">
+    <compoundname>CylinderBuilder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh CylinderBuilder.Build</definition>
+        <argsstring>(PrimitiveShapeData cylinderData, LodSettings lodSettings)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>cylinderData</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/CylinderBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/CylinderBuilder.cs" bodystart="7" bodyend="60"/>
+        <references refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" compoundref="_primitive_shape_data_8cs" startline="5">PrimitiveShapeData.Parameters</references>
+        <references refid="class_geometry_common_1adee2a9a148bfcd203fa8cf5a698e5dfc" compoundref="_geometry_common_8cs" startline="94" endline="109">GeometryCommon.CreateVerticesForSmoothCircleSection</references>
+        <references refid="class_geometry_common_1a9dab84938cd8a24192b3552022819daa" compoundref="_geometry_common_8cs" startline="7" endline="19">GeometryCommon.GetIndicesOfSmoothSection</references>
+        <references refid="class_geometry_common_1af7e0cdd1981d96161e9169449808b8a4" compoundref="_geometry_common_8cs" startline="34" endline="47">GeometryCommon.TriangulateCapBySectionIndices</references>
+        <references refid="class_geometry_common_1aa6a96089933023f69fffeb799c87debb" compoundref="_geometry_common_8cs" startline="61" endline="77">GeometryCommon.Triangulate2SectionsByIndices</references>
+        <references refid="class_geometry_common_1a384bdf59b9cedb2ff13f7cd71db2663c" compoundref="_geometry_common_8cs" startline="79" endline="92">GeometryCommon.CreateMesh</references>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/CylinderBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/CylinderBuilder.cs" bodystart="5" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" prot="public" virt="non-virtual"><scope>CylinderBuilder</scope><name>Build</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

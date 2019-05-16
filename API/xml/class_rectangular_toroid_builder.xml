@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_rectangular_toroid_builder" kind="class" language="C#" prot="public">
+    <compoundname>RectangularToroidBuilder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh RectangularToroidBuilder.Build</definition>
+        <argsstring>(PrimitiveShapeData rectangularToroidBaseData, LodSettings lodSettings)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>rectangularToroidBaseData</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" bodystart="6" bodyend="60"/>
+        <references refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" compoundref="_primitive_shape_data_8cs" startline="5">PrimitiveShapeData.Parameters</references>
+        <references refid="class_geometry_common_1a9dab84938cd8a24192b3552022819daa" compoundref="_geometry_common_8cs" startline="7" endline="19">GeometryCommon.GetIndicesOfSmoothSection</references>
+        <references refid="class_geometry_common_1af2330eeb38210494e38fd37e4cba2809" compoundref="_geometry_common_8cs" startline="49" endline="59">GeometryCommon.CreateVerticesRotatedSection</references>
+        <references refid="class_geometry_common_1aa6a96089933023f69fffeb799c87debb" compoundref="_geometry_common_8cs" startline="61" endline="77">GeometryCommon.Triangulate2SectionsByIndices</references>
+        <references refid="class_geometry_common_1af7e0cdd1981d96161e9169449808b8a4" compoundref="_geometry_common_8cs" startline="34" endline="47">GeometryCommon.TriangulateCapBySectionIndices</references>
+        <references refid="class_geometry_common_1a384bdf59b9cedb2ff13f7cd71db2663c" compoundref="_geometry_common_8cs" startline="79" endline="92">GeometryCommon.CreateMesh</references>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_rectangular_toroid_builder_1a2c2a39a863213603c4932ffd2c49fa4d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>static List&lt;Vector3&gt; RectangularToroidBuilder.CreateVerticesForSmoothSection</definition>
+        <argsstring>(float innerRadius, float outterRadius, float height)</argsstring>
+        <name>CreateVerticesForSmoothSection</name>
+        <param>
+          <type>float</type>
+          <declname>innerRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>outterRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" line="62" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" bodystart="62" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangular_toroid_builder_1a592f6329ccb724a93ea502c4ea87be76" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>static List&lt;Vector3&gt; RectangularToroidBuilder.CreateVerticesEdgySection</definition>
+        <argsstring>(float innerRadius, float outterRadius, float height)</argsstring>
+        <name>CreateVerticesEdgySection</name>
+        <param>
+          <type>float</type>
+          <declname>innerRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>outterRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" line="74" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" bodystart="74" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rectangular_toroid_builder_1a56d05a2a097d9612ad747bf1247fb5c7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>static List&lt;Vector3&gt; RectangularToroidBuilder.SmoothSection</definition>
+        <argsstring>(List&lt; Vector3 &gt; section)</argsstring>
+        <name>SmoothSection</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" line="94" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" bodystart="94" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/RectangularToroidBuilder.cs" bodystart="4" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" prot="public" virt="non-virtual"><scope>RectangularToroidBuilder</scope><name>Build</name></member>
+      <member refid="class_rectangular_toroid_builder_1a592f6329ccb724a93ea502c4ea87be76" prot="private" virt="non-virtual"><scope>RectangularToroidBuilder</scope><name>CreateVerticesEdgySection</name></member>
+      <member refid="class_rectangular_toroid_builder_1a2c2a39a863213603c4932ffd2c49fa4d" prot="private" virt="non-virtual"><scope>RectangularToroidBuilder</scope><name>CreateVerticesForSmoothSection</name></member>
+      <member refid="class_rectangular_toroid_builder_1a56d05a2a097d9612ad747bf1247fb5c7" prot="private" virt="non-virtual"><scope>RectangularToroidBuilder</scope><name>SmoothSection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_smooth_lathing_lod_settings" kind="class" language="C#" prot="public">
+    <compoundname>SmoothLathingLodSettings</compoundname>
+    <basecompoundref refid="class_lod_settings" prot="public" virt="non-virtual">LodSettings</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_smooth_lathing_lod_settings_1a53a6e0dff50e8ede70039050bc5b274c" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float SmoothLathingLodSettings.RevoluteStep</definition>
+        <argsstring></argsstring>
+        <name>RevoluteStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" bodystart="3" bodyend="-1"/>
+        <referencedby refid="class_smooth_lathing_lod_settings_1a3fc49355e780895ff32251fd69bd809f" compoundref="_smooth_lathing_lod_settings_8cs" startline="5" endline="9">SmoothLathingLodSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_smooth_lathing_lod_settings_1a35ee4b8040b8daccd52d974a37752b06" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float SmoothLathingLodSettings.CircularStep</definition>
+        <argsstring></argsstring>
+        <name>CircularStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" bodystart="4" bodyend="-1"/>
+        <referencedby refid="class_smooth_lathing_lod_settings_1a3fc49355e780895ff32251fd69bd809f" compoundref="_smooth_lathing_lod_settings_8cs" startline="5" endline="9">SmoothLathingLodSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_smooth_lathing_lod_settings_1a3fc49355e780895ff32251fd69bd809f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SmoothLathingLodSettings.SmoothLathingLodSettings</definition>
+        <argsstring>(float screenRelativeTransitionHeight, float revoluteStep, float circularStep)</argsstring>
+        <name>SmoothLathingLodSettings</name>
+        <param>
+          <type>float</type>
+          <declname>screenRelativeTransitionHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>revoluteStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>circularStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" bodystart="5" bodyend="9"/>
+        <references refid="class_smooth_lathing_lod_settings_1a53a6e0dff50e8ede70039050bc5b274c" compoundref="_smooth_lathing_lod_settings_8cs" startline="3">RevoluteStep</references>
+        <references refid="class_smooth_lathing_lod_settings_1a35ee4b8040b8daccd52d974a37752b06" compoundref="_smooth_lathing_lod_settings_8cs" startline="4">CircularStep</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="291">
+        <label>LodSettings</label>
+        <link refid="class_lod_settings"/>
+      </node>
+      <node id="290">
+        <label>SmoothLathingLodSettings</label>
+        <link refid="class_smooth_lathing_lod_settings"/>
+        <childnode refid="291" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="293">
+        <label>LodSettings</label>
+        <link refid="class_lod_settings"/>
+      </node>
+      <node id="292">
+        <label>SmoothLathingLodSettings</label>
+        <link refid="class_smooth_lathing_lod_settings"/>
+        <childnode refid="293" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/SmoothLathingLodSettings.cs" bodystart="1" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_smooth_lathing_lod_settings_1a35ee4b8040b8daccd52d974a37752b06" prot="public" virt="non-virtual"><scope>SmoothLathingLodSettings</scope><name>CircularStep</name></member>
+      <member refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" prot="public" virt="non-virtual"><scope>SmoothLathingLodSettings</scope><name>LodSettings</name></member>
+      <member refid="class_smooth_lathing_lod_settings_1a53a6e0dff50e8ede70039050bc5b274c" prot="public" virt="non-virtual"><scope>SmoothLathingLodSettings</scope><name>RevoluteStep</name></member>
+      <member refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" prot="public" virt="non-virtual"><scope>SmoothLathingLodSettings</scope><name>ScreenRelativeTransitionHeight</name></member>
+      <member refid="class_smooth_lathing_lod_settings_1a3fc49355e780895ff32251fd69bd809f" prot="public" virt="non-virtual"><scope>SmoothLathingLodSettings</scope><name>SmoothLathingLodSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

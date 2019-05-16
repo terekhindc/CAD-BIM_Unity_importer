@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_i_wherety_player_8cs" kind="file" language="C#">
+    <compoundname>IWheretyPlayer.cs</compoundname>
+    <innerclass refid="interface_i_wherety_player" prot="public">IWheretyPlayer</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="interface_i_wherety_player" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_i_wherety_player" kindref="compound">IWheretyPlayer</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c" kindref="member">HideObject</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>objectName);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3" kindref="member">InteractWithObject</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>objectName);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_i_wherety_player_1afd5f6bbda4034e3c00502d0ac26474c1" kindref="member">MoveObject</ref>(Transform<sp/>transform);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/IWheretyPlayer.cs"/>
+  </compounddef>
+</doxygen>

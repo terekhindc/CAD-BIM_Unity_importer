@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_builder_settings" kind="class" language="C#" prot="public">
+    <compoundname>BuilderSettings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_builder_settings_1a88e4ad513d7779376f9b94ec9201c49a" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_lod_settings" kindref="compound">LodSettings</ref> &gt; []</type>
+        <definition>List&lt;LodSettings&gt; [] BuilderSettings.Lods</definition>
+        <argsstring></argsstring>
+        <name>Lods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/BuilderSettings.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/BuilderSettings.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_builder_settings_1ac73d6ecb0d660bca8654b24161723c66" compoundref="_builder_settings_8cs" startline="7" endline="88">BuilderSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_builder_settings_1ac73d6ecb0d660bca8654b24161723c66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BuilderSettings.BuilderSettings</definition>
+        <argsstring>()</argsstring>
+        <name>BuilderSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/BuilderSettings.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/BuilderSettings.cs" bodystart="7" bodyend="88"/>
+        <references refid="class_builder_settings_1a88e4ad513d7779376f9b94ec9201c49a" compoundref="_builder_settings_8cs" startline="5">Lods</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/BuilderSettings.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/BuilderSettings.cs" bodystart="3" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_builder_settings_1ac73d6ecb0d660bca8654b24161723c66" prot="public" virt="non-virtual"><scope>BuilderSettings</scope><name>BuilderSettings</name></member>
+      <member refid="class_builder_settings_1a88e4ad513d7779376f9b94ec9201c49a" prot="public" virt="non-virtual"><scope>BuilderSettings</scope><name>Lods</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

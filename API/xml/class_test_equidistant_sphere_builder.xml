@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_test_equidistant_sphere_builder" kind="class" language="C#" prot="public">
+    <compoundname>TestEquidistantSphereBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_equidistant_sphere_builder_1a86962bb121302613285a046c3bb12e2f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestEquidistantSphereBuilder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEquidistantSphereBuilder.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEquidistantSphereBuilder.cs" bodystart="9" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="318">
+        <label>TestEquidistantSphereBuilder</label>
+        <link refid="class_test_equidistant_sphere_builder"/>
+        <childnode refid="319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="320">
+        <label>TestEquidistantSphereBuilder</label>
+        <link refid="class_test_equidistant_sphere_builder"/>
+        <childnode refid="321" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEquidistantSphereBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEquidistantSphereBuilder.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_test_equidistant_sphere_builder_1a86962bb121302613285a046c3bb12e2f" prot="private" virt="non-virtual"><scope>TestEquidistantSphereBuilder</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

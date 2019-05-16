@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_geometry_common" kind="class" language="C#" prot="public">
+    <compoundname>GeometryCommon</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_geometry_common_1a9dab84938cd8a24192b3552022819daa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int []</type>
+        <definition>static int [] GeometryCommon.GetIndicesOfSmoothSection</definition>
+        <argsstring>(int startIndex, int verticesInSectionCount)</argsstring>
+        <name>GetIndicesOfSmoothSection</name>
+        <param>
+          <type>int</type>
+          <declname>startIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verticesInSectionCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="7" bodyend="19"/>
+        <referencedby refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</referencedby>
+        <referencedby refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</referencedby>
+        <referencedby refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_common_1a1f4f9acf5a00f335f85282261a31fd3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int []</type>
+        <definition>static int [] GeometryCommon.GetIndicesOfSmoothDomedSection</definition>
+        <argsstring>(int startIndex, int verticesInSectionCount)</argsstring>
+        <name>GetIndicesOfSmoothDomedSection</name>
+        <param>
+          <type>int</type>
+          <declname>startIndex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verticesInSectionCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="21" bodyend="32"/>
+        <referencedby refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</referencedby>
+        <referencedby refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_common_1af7e0cdd1981d96161e9169449808b8a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int []</type>
+        <definition>static int [] GeometryCommon.TriangulateCapBySectionIndices</definition>
+        <argsstring>(int[] sectionVerticesIndices)</argsstring>
+        <name>TriangulateCapBySectionIndices</name>
+        <param>
+          <type>int []</type>
+          <declname>sectionVerticesIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="34" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="34" bodyend="47"/>
+        <referencedby refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</referencedby>
+        <referencedby refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</referencedby>
+        <referencedby refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</referencedby>
+        <referencedby refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</referencedby>
+        <referencedby refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_common_1af2330eeb38210494e38fd37e4cba2809" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>static List&lt;Vector3&gt; GeometryCommon.CreateVerticesRotatedSection</definition>
+        <argsstring>(List&lt; Vector3 &gt; sourceSection, Quaternion rotation)</argsstring>
+        <name>CreateVerticesRotatedSection</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>sourceSection</declname>
+        </param>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="49" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="49" bodyend="59"/>
+        <referencedby refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</referencedby>
+        <referencedby refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</referencedby>
+        <referencedby refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_common_1aa6a96089933023f69fffeb799c87debb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int []</type>
+        <definition>static int [] GeometryCommon.Triangulate2SectionsByIndices</definition>
+        <argsstring>(int[] startSectionVerticesIndices, int[] endSectionVerticesIndices)</argsstring>
+        <name>Triangulate2SectionsByIndices</name>
+        <param>
+          <type>int []</type>
+          <declname>startSectionVerticesIndices</declname>
+        </param>
+        <param>
+          <type>int []</type>
+          <declname>endSectionVerticesIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="61" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="61" bodyend="77"/>
+        <referencedby refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</referencedby>
+        <referencedby refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</referencedby>
+        <referencedby refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</referencedby>
+        <referencedby refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</referencedby>
+        <referencedby refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_common_1a384bdf59b9cedb2ff13f7cd71db2663c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh GeometryCommon.CreateMesh</definition>
+        <argsstring>(List&lt; Vector3 &gt; vertices, List&lt; int &gt; indices, List&lt; Vector2 &gt; uvs=null)</argsstring>
+        <name>CreateMesh</name>
+        <param>
+          <type>List&lt; Vector3 &gt;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>List&lt; int &gt;</type>
+          <declname>indices</declname>
+        </param>
+        <param>
+          <type>List&lt; Vector2 &gt;</type>
+          <declname>uvs</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="79" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="79" bodyend="92"/>
+        <referencedby refid="class_box_builder_1abc60d5703f823177fa84743c041866da" compoundref="_box_builder_8cs" startline="7" endline="84">BoxBuilder.Build</referencedby>
+        <referencedby refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</referencedby>
+        <referencedby refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_equidistant_sphere_builder_1aa425c9b7641a2e583ab8dd34e749d72b" compoundref="_equidistant_sphere_builder_8cs" startline="6" endline="34">EquidistantSphereBuilder.Build</referencedby>
+        <referencedby refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</referencedby>
+        <referencedby refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</referencedby>
+        <referencedby refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</referencedby>
+        <referencedby refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_geometry_common_1adee2a9a148bfcd203fa8cf5a698e5dfc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>static List&lt;Vector3&gt; GeometryCommon.CreateVerticesForSmoothCircleSection</definition>
+        <argsstring>(Vector3 offset, Vector3 startPoint, Vector3 rotationAxis, float circularStep)</argsstring>
+        <name>CreateVerticesForSmoothCircleSection</name>
+        <param>
+          <type>Vector3</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>startPoint</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>rotationAxis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>circularStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="94" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="94" bodyend="109"/>
+        <referencedby refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</referencedby>
+        <referencedby refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/GeometryCommon.cs" bodystart="5" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_geometry_common_1a384bdf59b9cedb2ff13f7cd71db2663c" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>CreateMesh</name></member>
+      <member refid="class_geometry_common_1adee2a9a148bfcd203fa8cf5a698e5dfc" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>CreateVerticesForSmoothCircleSection</name></member>
+      <member refid="class_geometry_common_1af2330eeb38210494e38fd37e4cba2809" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>CreateVerticesRotatedSection</name></member>
+      <member refid="class_geometry_common_1a1f4f9acf5a00f335f85282261a31fd3c" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>GetIndicesOfSmoothDomedSection</name></member>
+      <member refid="class_geometry_common_1a9dab84938cd8a24192b3552022819daa" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>GetIndicesOfSmoothSection</name></member>
+      <member refid="class_geometry_common_1aa6a96089933023f69fffeb799c87debb" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>Triangulate2SectionsByIndices</name></member>
+      <member refid="class_geometry_common_1af7e0cdd1981d96161e9169449808b8a4" prot="public" virt="non-virtual"><scope>GeometryCommon</scope><name>TriangulateCapBySectionIndices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

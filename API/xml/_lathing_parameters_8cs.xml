@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_lathing_parameters_8cs" kind="file" language="C#">
+    <compoundname>LathingParameters.cs</compoundname>
+    <innerclass refid="class_lathing_parameters" prot="public">LathingParameters</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_lathing_parameters" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_lathing_parameters" kindref="compound">LathingParameters</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" kindref="member">Closed</ref>;</highlight></codeline>
+<codeline lineno="7" refid="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;int&gt;<sp/><ref refid="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" kindref="member">Indices</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/>Quaternion<sp/><ref refid="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" kindref="member">Rotation</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" kindref="member">StepsCount</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;<sp/><ref refid="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" kindref="member">Vertices</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" kindref="member">LathingParameters</ref>(ref<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>revoluteStep,<sp/>ref<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fillAngle)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fillAngle<sp/>=<sp/>Mathf.Rad2Deg<sp/>*<sp/>fillAngle;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" kindref="member">Closed</ref><sp/>=<sp/>Mathf.Abs(fillAngle<sp/>-<sp/>360f)<sp/>&lt;=<sp/>.001f;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" kindref="member">StepsCount</ref><sp/>=<sp/>Mathf.FloorToInt(fillAngle<sp/>/<sp/>revoluteStep);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//if<sp/>(StepsCount<sp/>&lt;<sp/>3)<sp/>StepsCount<sp/>=<sp/>3;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>revoluteStep<sp/>=<sp/>fillAngle<sp/>/<sp/><ref refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" kindref="member">StepsCount</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" kindref="member">Closed</ref>)<sp/><ref refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" kindref="member">StepsCount</ref>--;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" kindref="member">Rotation</ref><sp/>=<sp/>Quaternion.AngleAxis(revoluteStep,<sp/>Vector3.forward);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" kindref="member">Indices</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;int&gt;();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" kindref="member">Vertices</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs"/>
+  </compounddef>
+</doxygen>

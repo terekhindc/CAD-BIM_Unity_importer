@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_progress_ui" kind="class" language="C#" prot="public">
+    <compoundname>ProgressUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_window" prot="public" virt="non-virtual">IWindow</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_progress_ui_1a510b0d8d5a1e7cf565beeca2b26d0463" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text ProgressUi.ProgressText</definition>
+        <argsstring></argsstring>
+        <name>ProgressText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_progress_ui_1ac3ee49ce28ddca827f90fe13d434c9f4" compoundref="_progress_ui_8cs" startline="11" endline="16">Hide</referencedby>
+        <referencedby refid="class_progress_ui_1a59904d8df7c6b696637d26648a26a0b3" compoundref="_progress_ui_8cs" startline="18" endline="24">Show</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_progress_ui_1a4ddaef0f03a85ae79966ca78243da48f" prot="public" static="no" mutable="no">
+        <type>Slider</type>
+        <definition>Slider ProgressUi.ProgressSlider</definition>
+        <argsstring></argsstring>
+        <name>ProgressSlider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_progress_ui_1ac3ee49ce28ddca827f90fe13d434c9f4" compoundref="_progress_ui_8cs" startline="11" endline="16">Hide</referencedby>
+        <referencedby refid="class_progress_ui_1a59904d8df7c6b696637d26648a26a0b3" compoundref="_progress_ui_8cs" startline="18" endline="24">Show</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_progress_ui_1ac3ee49ce28ddca827f90fe13d434c9f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProgressUi.Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <reimplements refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378">Hide</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" bodystart="11" bodyend="16"/>
+        <references refid="class_progress_ui_1a4ddaef0f03a85ae79966ca78243da48f" compoundref="_progress_ui_8cs" startline="9">ProgressSlider</references>
+        <references refid="class_progress_ui_1a510b0d8d5a1e7cf565beeca2b26d0463" compoundref="_progress_ui_8cs" startline="8">ProgressText</references>
+      </memberdef>
+      <memberdef kind="function" id="class_progress_ui_1a59904d8df7c6b696637d26648a26a0b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProgressUi.Show</definition>
+        <argsstring>(object dataObject=null)</argsstring>
+        <name>Show</name>
+        <reimplements refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9">Show</reimplements>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" bodystart="18" bodyend="24"/>
+        <references refid="class_progress_ui_1a510b0d8d5a1e7cf565beeca2b26d0463" compoundref="_progress_ui_8cs" startline="8">ProgressText</references>
+        <references refid="class_progress_ui_1a4ddaef0f03a85ae79966ca78243da48f" compoundref="_progress_ui_8cs" startline="9">ProgressSlider</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="224">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="222">
+        <label>ProgressUi</label>
+        <link refid="class_progress_ui"/>
+        <childnode refid="223" relation="public-inheritance">
+        </childnode>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="227">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="225">
+        <label>ProgressUi</label>
+        <link refid="class_progress_ui"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+        <childnode refid="228" relation="usage">
+          <edgelabel>ProgressText</edgelabel>
+        </childnode>
+      </node>
+      <node id="228">
+        <label>Text</label>
+      </node>
+      <node id="226">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressUi.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_progress_ui_1ac3ee49ce28ddca827f90fe13d434c9f4" prot="public" virt="non-virtual"><scope>ProgressUi</scope><name>Hide</name></member>
+      <member refid="class_progress_ui_1a4ddaef0f03a85ae79966ca78243da48f" prot="public" virt="non-virtual"><scope>ProgressUi</scope><name>ProgressSlider</name></member>
+      <member refid="class_progress_ui_1a510b0d8d5a1e7cf565beeca2b26d0463" prot="public" virt="non-virtual"><scope>ProgressUi</scope><name>ProgressText</name></member>
+      <member refid="class_progress_ui_1a59904d8df7c6b696637d26648a26a0b3" prot="public" virt="non-virtual"><scope>ProgressUi</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_multiple_mesh_shape_data_8cs" kind="file" language="C#">
+    <compoundname>MultipleMeshShapeData.cs</compoundname>
+    <innerclass refid="class_multiple_mesh_shape_data" prot="public">MultipleMeshShapeData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_multiple_mesh_shape_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_multiple_mesh_shape_data" kindref="compound">MultipleMeshShapeData</ref><sp/>:<sp/><ref refid="class_shape_data" kindref="compound">ShapeData</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_multiple_mesh_shape_data_1a2ffb02bda59bf4da93a025537d762b54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref><sp/><ref refid="class_multiple_mesh_shape_data_1a2ffb02bda59bf4da93a025537d762b54" kindref="member">MultipleMeshesData</ref>;</highlight></codeline>
+<codeline lineno="6" refid="class_multiple_mesh_shape_data_1a0b948060fcca07176b1083c3db30c2b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_multiple_mesh_shape_data_1a0b948060fcca07176b1083c3db30c2b6" kindref="member">Offset</ref>;</highlight></codeline>
+<codeline lineno="7" refid="class_multiple_mesh_shape_data_1a102a4edea562cc4e7527df92911e0e57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Quaternion<sp/><ref refid="class_multiple_mesh_shape_data_1a102a4edea562cc4e7527df92911e0e57" kindref="member">Rotation</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_multiple_mesh_shape_data_1a58d64b20953f7a4116e518e5dfa0c301" kindref="member">MultipleMeshShapeData</ref></highlight></codeline>
+<codeline lineno="10" refid="class_multiple_mesh_shape_data_1a58d64b20953f7a4116e518e5dfa0c301" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Matrix4x4<sp/>transformMatrix,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>boundMin,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>boundMax,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>parentId,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref><sp/>multipleMeshesData</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)<sp/>:<sp/>base(transformMatrix,<sp/>boundMin,<sp/>boundMax,<sp/>parentId)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref><sp/>=<sp/>multipleMeshesData;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs"/>
+  </compounddef>
+</doxygen>

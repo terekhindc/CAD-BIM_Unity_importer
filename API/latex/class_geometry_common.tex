@@ -1,0 +1,104 @@
+\hypertarget{class_geometry_common}{}\section{Geometry\+Common Class Reference}
+\label{class_geometry_common}\index{GeometryCommon@{GeometryCommon}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_geometry_common_a9dab84938cd8a24192b3552022819daa}{Get\+Indices\+Of\+Smooth\+Section}} (int start\+Index, int vertices\+In\+Section\+Count)
+\item 
+static int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_geometry_common_a1f4f9acf5a00f335f85282261a31fd3c}{Get\+Indices\+Of\+Smooth\+Domed\+Section}} (int start\+Index, int vertices\+In\+Section\+Count)
+\item 
+static int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_geometry_common_af7e0cdd1981d96161e9169449808b8a4}{Triangulate\+Cap\+By\+Section\+Indices}} (int\mbox{[}$\,$\mbox{]} section\+Vertices\+Indices)
+\item 
+static List$<$ Vector3 $>$ \mbox{\hyperlink{class_geometry_common_af2330eeb38210494e38fd37e4cba2809}{Create\+Vertices\+Rotated\+Section}} (List$<$ Vector3 $>$ source\+Section, Quaternion rotation)
+\item 
+static int \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_geometry_common_aa6a96089933023f69fffeb799c87debb}{Triangulate2\+Sections\+By\+Indices}} (int\mbox{[}$\,$\mbox{]} start\+Section\+Vertices\+Indices, int\mbox{[}$\,$\mbox{]} end\+Section\+Vertices\+Indices)
+\item 
+static Mesh \mbox{\hyperlink{class_geometry_common_a384bdf59b9cedb2ff13f7cd71db2663c}{Create\+Mesh}} (List$<$ Vector3 $>$ vertices, List$<$ int $>$ indices, List$<$ Vector2 $>$ uvs=null)
+\item 
+static List$<$ Vector3 $>$ \mbox{\hyperlink{class_geometry_common_adee2a9a148bfcd203fa8cf5a698e5dfc}{Create\+Vertices\+For\+Smooth\+Circle\+Section}} (Vector3 offset, Vector3 start\+Point, Vector3 rotation\+Axis, float circular\+Step)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 5 of file Geometry\+Common.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_geometry_common_a384bdf59b9cedb2ff13f7cd71db2663c}\label{class_geometry_common_a384bdf59b9cedb2ff13f7cd71db2663c}} 
+\index{GeometryCommon@{GeometryCommon}!CreateMesh@{CreateMesh}}
+\index{CreateMesh@{CreateMesh}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{CreateMesh()}{CreateMesh()}}
+{\footnotesize\ttfamily static Mesh Geometry\+Common.\+Create\+Mesh (\begin{DoxyParamCaption}\item[{List$<$ Vector3 $>$}]{vertices,  }\item[{List$<$ int $>$}]{indices,  }\item[{List$<$ Vector2 $>$}]{uvs = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 79 of file Geometry\+Common.\+cs.
+
+\mbox{\Hypertarget{class_geometry_common_adee2a9a148bfcd203fa8cf5a698e5dfc}\label{class_geometry_common_adee2a9a148bfcd203fa8cf5a698e5dfc}} 
+\index{GeometryCommon@{GeometryCommon}!CreateVerticesForSmoothCircleSection@{CreateVerticesForSmoothCircleSection}}
+\index{CreateVerticesForSmoothCircleSection@{CreateVerticesForSmoothCircleSection}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{CreateVerticesForSmoothCircleSection()}{CreateVerticesForSmoothCircleSection()}}
+{\footnotesize\ttfamily static List$<$Vector3$>$ Geometry\+Common.\+Create\+Vertices\+For\+Smooth\+Circle\+Section (\begin{DoxyParamCaption}\item[{Vector3}]{offset,  }\item[{Vector3}]{start\+Point,  }\item[{Vector3}]{rotation\+Axis,  }\item[{float}]{circular\+Step }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 94 of file Geometry\+Common.\+cs.
+
+\mbox{\Hypertarget{class_geometry_common_af2330eeb38210494e38fd37e4cba2809}\label{class_geometry_common_af2330eeb38210494e38fd37e4cba2809}} 
+\index{GeometryCommon@{GeometryCommon}!CreateVerticesRotatedSection@{CreateVerticesRotatedSection}}
+\index{CreateVerticesRotatedSection@{CreateVerticesRotatedSection}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{CreateVerticesRotatedSection()}{CreateVerticesRotatedSection()}}
+{\footnotesize\ttfamily static List$<$Vector3$>$ Geometry\+Common.\+Create\+Vertices\+Rotated\+Section (\begin{DoxyParamCaption}\item[{List$<$ Vector3 $>$}]{source\+Section,  }\item[{Quaternion}]{rotation }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 49 of file Geometry\+Common.\+cs.
+
+\mbox{\Hypertarget{class_geometry_common_a1f4f9acf5a00f335f85282261a31fd3c}\label{class_geometry_common_a1f4f9acf5a00f335f85282261a31fd3c}} 
+\index{GeometryCommon@{GeometryCommon}!GetIndicesOfSmoothDomedSection@{GetIndicesOfSmoothDomedSection}}
+\index{GetIndicesOfSmoothDomedSection@{GetIndicesOfSmoothDomedSection}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{GetIndicesOfSmoothDomedSection()}{GetIndicesOfSmoothDomedSection()}}
+{\footnotesize\ttfamily static int \mbox{[}$\,$\mbox{]} Geometry\+Common.\+Get\+Indices\+Of\+Smooth\+Domed\+Section (\begin{DoxyParamCaption}\item[{int}]{start\+Index,  }\item[{int}]{vertices\+In\+Section\+Count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 21 of file Geometry\+Common.\+cs.
+
+\mbox{\Hypertarget{class_geometry_common_a9dab84938cd8a24192b3552022819daa}\label{class_geometry_common_a9dab84938cd8a24192b3552022819daa}} 
+\index{GeometryCommon@{GeometryCommon}!GetIndicesOfSmoothSection@{GetIndicesOfSmoothSection}}
+\index{GetIndicesOfSmoothSection@{GetIndicesOfSmoothSection}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{GetIndicesOfSmoothSection()}{GetIndicesOfSmoothSection()}}
+{\footnotesize\ttfamily static int \mbox{[}$\,$\mbox{]} Geometry\+Common.\+Get\+Indices\+Of\+Smooth\+Section (\begin{DoxyParamCaption}\item[{int}]{start\+Index,  }\item[{int}]{vertices\+In\+Section\+Count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 7 of file Geometry\+Common.\+cs.
+
+\mbox{\Hypertarget{class_geometry_common_aa6a96089933023f69fffeb799c87debb}\label{class_geometry_common_aa6a96089933023f69fffeb799c87debb}} 
+\index{GeometryCommon@{GeometryCommon}!Triangulate2SectionsByIndices@{Triangulate2SectionsByIndices}}
+\index{Triangulate2SectionsByIndices@{Triangulate2SectionsByIndices}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{Triangulate2SectionsByIndices()}{Triangulate2SectionsByIndices()}}
+{\footnotesize\ttfamily static int \mbox{[}$\,$\mbox{]} Geometry\+Common.\+Triangulate2\+Sections\+By\+Indices (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{start\+Section\+Vertices\+Indices,  }\item[{int \mbox{[}$\,$\mbox{]}}]{end\+Section\+Vertices\+Indices }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 61 of file Geometry\+Common.\+cs.
+
+\mbox{\Hypertarget{class_geometry_common_af7e0cdd1981d96161e9169449808b8a4}\label{class_geometry_common_af7e0cdd1981d96161e9169449808b8a4}} 
+\index{GeometryCommon@{GeometryCommon}!TriangulateCapBySectionIndices@{TriangulateCapBySectionIndices}}
+\index{TriangulateCapBySectionIndices@{TriangulateCapBySectionIndices}!GeometryCommon@{GeometryCommon}}
+\subsubsection{\texorpdfstring{TriangulateCapBySectionIndices()}{TriangulateCapBySectionIndices()}}
+{\footnotesize\ttfamily static int \mbox{[}$\,$\mbox{]} Geometry\+Common.\+Triangulate\+Cap\+By\+Section\+Indices (\begin{DoxyParamCaption}\item[{int \mbox{[}$\,$\mbox{]}}]{section\+Vertices\+Indices }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 34 of file Geometry\+Common.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Workspace/\+Unity/\+R\+V\+M\+\_\+\+Importer/\+Assets/\+Scripts/\+Geometry/\+Builders/\mbox{\hyperlink{_geometry_common_8cs}{Geometry\+Common.\+cs}}\end{DoxyCompactItemize}

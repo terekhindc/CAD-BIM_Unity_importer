@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_progress_data" kind="class" language="C#" prot="public">
+    <compoundname>ProgressData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_progress_data_1aef6d1fae14a8aca09596ec591b295f19" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProgressData.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_progress_data_1a492f8d3bcace30ba4b1ed320e1ca7823" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProgressData.TotalToDoCount</definition>
+        <argsstring></argsstring>
+        <name>TotalToDoCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_progress_data_1a2a29b5afc1fc19673c81e615edbdda03" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProgressData.CompletedCount</definition>
+        <argsstring></argsstring>
+        <name>CompletedCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs" bodystart="1" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_progress_data_1a2a29b5afc1fc19673c81e615edbdda03" prot="public" virt="non-virtual"><scope>ProgressData</scope><name>CompletedCount</name></member>
+      <member refid="class_progress_data_1aef6d1fae14a8aca09596ec591b295f19" prot="public" virt="non-virtual"><scope>ProgressData</scope><name>Message</name></member>
+      <member refid="class_progress_data_1a492f8d3bcace30ba4b1ed320e1ca7823" prot="public" virt="non-virtual"><scope>ProgressData</scope><name>TotalToDoCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

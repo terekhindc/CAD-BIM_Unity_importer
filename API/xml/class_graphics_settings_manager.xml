@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_graphics_settings_manager" kind="class" language="C#" prot="public">
+    <compoundname>GraphicsSettingsManager</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_graphics_settings_manager_1a3717acc2d0beb03673f30037b05ef07e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GraphicsSettingsManager.KeyLod</definition>
+        <argsstring></argsstring>
+        <name>KeyLod</name>
+        <initializer>= &quot;Lod&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graphics_settings_manager_1a00308a7af37a308ae8ed36c16cbbee56" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GraphicsSettingsManager.KeyScrRelTransH</definition>
+        <argsstring></argsstring>
+        <name>KeyScrRelTransH</name>
+        <initializer>= &quot;Srth&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graphics_settings_manager_1a5f19b28670e3602bcf719eb8028ad0be" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GraphicsSettingsManager.KeyRevStep</definition>
+        <argsstring></argsstring>
+        <name>KeyRevStep</name>
+        <initializer>= &quot;RevoluteStep&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graphics_settings_manager_1aa761a3d54d371de705d20d412b184b56" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GraphicsSettingsManager.KeyCircStep</definition>
+        <argsstring></argsstring>
+        <name>KeyCircStep</name>
+        <initializer>= &quot;CircularStep&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graphics_settings_manager_1acf897fb73dd92dc8c3302e2a24b8d3d0" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GraphicsSettingsManager.KeyLodsCount</definition>
+        <argsstring></argsstring>
+        <name>KeyLodsCount</name>
+        <initializer>= &quot;Count&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_graphics_settings_manager_1a40dbd2ad5b9ea8f704dda493a87b96b4" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string GraphicsSettingsManager.KeyCaps</definition>
+        <argsstring></argsstring>
+        <name>KeyCaps</name>
+        <initializer>= &quot;Caps&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_graphics_settings_manager_1ae8cb1fa784876b8a1a7907fa0a785757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.StoreLodSettings</definition>
+        <argsstring>(ShapeTypes shapeType, List&lt; LodSettings &gt; lodSettings)</argsstring>
+        <name>StoreLodSettings</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>shapeType</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_lod_settings" kindref="compound">LodSettings</ref> &gt;</type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="16" bodyend="24"/>
+        <referencedby refid="class_graphics_settings_manager_1a4d02f60a64880fa16f2aaf4000cbbfe9" compoundref="_graphics_settings_manager_8cs" startline="210" endline="278">GraphicsSettingsManager</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a6883354bfc01606cf75d70e067d0a28d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_lod_settings" kindref="compound">LodSettings</ref> &gt;</type>
+        <definition>List&lt;LodSettings&gt; GraphicsSettingsManager.ReadLodSettings</definition>
+        <argsstring>(ShapeTypes shapeType)</argsstring>
+        <name>ReadLodSettings</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>shapeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="52" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="52" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1acd5f867b4893c148f46b267901130ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.StoreEdgedLathingLodSettings</definition>
+        <argsstring>(ShapeTypes shapeType, List&lt; EdgedLathingLodSettings &gt; lodSettings)</argsstring>
+        <name>StoreEdgedLathingLodSettings</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>shapeType</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_edged_lathing_lod_settings" kindref="compound">EdgedLathingLodSettings</ref> &gt;</type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="73" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="73" bodyend="81"/>
+        <referencedby refid="class_graphics_settings_manager_1a4d02f60a64880fa16f2aaf4000cbbfe9" compoundref="_graphics_settings_manager_8cs" startline="210" endline="278">GraphicsSettingsManager</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a9492feedb687bce9bf90ac72ecd81188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_lod_settings" kindref="compound">LodSettings</ref> &gt;</type>
+        <definition>List&lt;LodSettings&gt; GraphicsSettingsManager.ReadEdgedLathingLodSettings</definition>
+        <argsstring>(ShapeTypes shapeType)</argsstring>
+        <name>ReadEdgedLathingLodSettings</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>shapeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="113" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="113" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1af0136cd657b53d839c722092cfd691f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.StoreSmoothLathingLodSettings</definition>
+        <argsstring>(ShapeTypes shapeType, List&lt; SmoothLathingLodSettings &gt; lodSettings)</argsstring>
+        <name>StoreSmoothLathingLodSettings</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>shapeType</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref> &gt;</type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="136" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="136" bodyend="144"/>
+        <referencedby refid="class_graphics_settings_manager_1a4d02f60a64880fa16f2aaf4000cbbfe9" compoundref="_graphics_settings_manager_8cs" startline="210" endline="278">GraphicsSettingsManager</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a5eb8cc166509d6efe01f2cd3683b7766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_lod_settings" kindref="compound">LodSettings</ref> &gt;</type>
+        <definition>List&lt;LodSettings&gt; GraphicsSettingsManager.ReadSmoothLathingLodSettings</definition>
+        <argsstring>(ShapeTypes shapeType)</argsstring>
+        <name>ReadSmoothLathingLodSettings</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>shapeType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="176" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="176" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a4d02f60a64880fa16f2aaf4000cbbfe9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GraphicsSettingsManager.GraphicsSettingsManager</definition>
+        <argsstring>()</argsstring>
+        <name>GraphicsSettingsManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="210" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="210" bodyend="278"/>
+        <references refid="class_graphics_settings_manager_1ae8cb1fa784876b8a1a7907fa0a785757" compoundref="_graphics_settings_manager_8cs" startline="16" endline="24">StoreLodSettings</references>
+        <references refid="class_graphics_settings_manager_1acd5f867b4893c148f46b267901130ce0" compoundref="_graphics_settings_manager_8cs" startline="73" endline="81">StoreEdgedLathingLodSettings</references>
+        <references refid="class_graphics_settings_manager_1af0136cd657b53d839c722092cfd691f2" compoundref="_graphics_settings_manager_8cs" startline="136" endline="144">StoreSmoothLathingLodSettings</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_graphics_settings_manager_1a9462457764b08416c13bdc9d74a25488" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.StoreLodSettings</definition>
+        <argsstring>(int shapeTypeId, int lodIndex, LodSettings lodSettings)</argsstring>
+        <name>StoreLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="26" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="26" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a3057abb11e46261aa6d2f6c4dcf9e8a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.DeleteLodSettings</definition>
+        <argsstring>(int shapeTypeId)</argsstring>
+        <name>DeleteLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="37" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="37" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a15db714e4a86faadc68e07716d39245e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></type>
+        <definition>LodSettings GraphicsSettingsManager.ReadLodSettings</definition>
+        <argsstring>(int shapeTypeId, int lodIndex)</argsstring>
+        <name>ReadLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="64" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1aa1d5b2e9c46c87c55f6a9b1872f94eef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.StoreEdgedLathingLodSettings</definition>
+        <argsstring>(int shapeTypeId, int lodIndex, EdgedLathingLodSettings lodSettings)</argsstring>
+        <name>StoreEdgedLathingLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="class_edged_lathing_lod_settings" kindref="compound">EdgedLathingLodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="83" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="83" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a0a165a09a367c17ca1e19ceeb370c8fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.DeleteEdgedLathingLodSettings</definition>
+        <argsstring>(int shapeTypeId)</argsstring>
+        <name>DeleteEdgedLathingLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="96" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="96" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1add4314bc80c6bd53f451e92b20a90992" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_edged_lathing_lod_settings" kindref="compound">EdgedLathingLodSettings</ref></type>
+        <definition>EdgedLathingLodSettings GraphicsSettingsManager.ReadEdgedLathingLodSettings</definition>
+        <argsstring>(int shapeTypeId, int lodIndex)</argsstring>
+        <name>ReadEdgedLathingLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="125" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="125" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1adc413313a1932cebde4f981c5cae02f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.StoreSmoothLathingLodSettings</definition>
+        <argsstring>(int shapeTypeId, int lodIndex, SmoothLathingLodSettings lodSettings)</argsstring>
+        <name>StoreSmoothLathingLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="146" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="146" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a1361950731715ade2f23c492e440a8ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GraphicsSettingsManager.DeleteSmoothLathingLodSettings</definition>
+        <argsstring>(int shapeTypeId)</argsstring>
+        <name>DeleteSmoothLathingLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="159" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="159" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a3e55cee07d61fd4d8c2aa44e089c33d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref></type>
+        <definition>SmoothLathingLodSettings GraphicsSettingsManager.ReadSmoothLathingLodSettings</definition>
+        <argsstring>(int shapeTypeId, int lodIndex)</argsstring>
+        <name>ReadSmoothLathingLodSettings</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="188" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="188" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a4886d3b5d3df48cb5404530b6d701224" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GraphicsSettingsManager.NthLodKey</definition>
+        <argsstring>(int shapeTypeId, int lodIndex)</argsstring>
+        <name>NthLodKey</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lodIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="199" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="199" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_graphics_settings_manager_1a4d599a6e4925535f5cbc03ff00ba9cba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string GraphicsSettingsManager.LodKey</definition>
+        <argsstring>(int shapeTypeId)</argsstring>
+        <name>LodKey</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="204" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="204" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/GraphicsSettingsManager.cs" bodystart="4" bodyend="279"/>
+    <listofallmembers>
+      <member refid="class_graphics_settings_manager_1a0a165a09a367c17ca1e19ceeb370c8fa" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>DeleteEdgedLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a3057abb11e46261aa6d2f6c4dcf9e8a0" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>DeleteLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a1361950731715ade2f23c492e440a8ea" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>DeleteSmoothLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a4d02f60a64880fa16f2aaf4000cbbfe9" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>GraphicsSettingsManager</name></member>
+      <member refid="class_graphics_settings_manager_1a40dbd2ad5b9ea8f704dda493a87b96b4" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>KeyCaps</name></member>
+      <member refid="class_graphics_settings_manager_1aa761a3d54d371de705d20d412b184b56" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>KeyCircStep</name></member>
+      <member refid="class_graphics_settings_manager_1a3717acc2d0beb03673f30037b05ef07e" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>KeyLod</name></member>
+      <member refid="class_graphics_settings_manager_1acf897fb73dd92dc8c3302e2a24b8d3d0" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>KeyLodsCount</name></member>
+      <member refid="class_graphics_settings_manager_1a5f19b28670e3602bcf719eb8028ad0be" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>KeyRevStep</name></member>
+      <member refid="class_graphics_settings_manager_1a00308a7af37a308ae8ed36c16cbbee56" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>KeyScrRelTransH</name></member>
+      <member refid="class_graphics_settings_manager_1a4d599a6e4925535f5cbc03ff00ba9cba" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>LodKey</name></member>
+      <member refid="class_graphics_settings_manager_1a4886d3b5d3df48cb5404530b6d701224" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>NthLodKey</name></member>
+      <member refid="class_graphics_settings_manager_1a9492feedb687bce9bf90ac72ecd81188" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>ReadEdgedLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1add4314bc80c6bd53f451e92b20a90992" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>ReadEdgedLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a6883354bfc01606cf75d70e067d0a28d" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>ReadLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a15db714e4a86faadc68e07716d39245e" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>ReadLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a5eb8cc166509d6efe01f2cd3683b7766" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>ReadSmoothLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a3e55cee07d61fd4d8c2aa44e089c33d2" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>ReadSmoothLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1acd5f867b4893c148f46b267901130ce0" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>StoreEdgedLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1aa1d5b2e9c46c87c55f6a9b1872f94eef" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>StoreEdgedLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1ae8cb1fa784876b8a1a7907fa0a785757" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>StoreLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1a9462457764b08416c13bdc9d74a25488" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>StoreLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1af0136cd657b53d839c722092cfd691f2" prot="public" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>StoreSmoothLathingLodSettings</name></member>
+      <member refid="class_graphics_settings_manager_1adc413313a1932cebde4f981c5cae02f5" prot="private" virt="non-virtual"><scope>GraphicsSettingsManager</scope><name>StoreSmoothLathingLodSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

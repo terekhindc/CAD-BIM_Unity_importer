@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_plant_settings" kind="class" language="C#" prot="public">
+    <compoundname>PlantSettings</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_plant_settings_1a1f2ff2b67f41524fa46c571179c94520" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlantSettings.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a177bfddd185ddca1d0784c1a40c2b1e5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlantSettings.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a2bbf2e3449fb49879511e48455fcb61c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlantSettings.LocationDescription</definition>
+        <argsstring></argsstring>
+        <name>LocationDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a1c1f7e402e63c8d9bbcb91e56cc1e4df" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlantSettings.Company</definition>
+        <argsstring></argsstring>
+        <name>Company</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1af526aceb5c55f8d2fa36fc7633179827" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string PlantSettings.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a188bcd3b0e807284256f4fe8ac12bde5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlantSettings.LatitudeFullDeg</definition>
+        <argsstring></argsstring>
+        <name>LatitudeFullDeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a8710d8ee2ca86ec19eda05fb5aaf0c76" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlantSettings.LongitudeFullDeg</definition>
+        <argsstring></argsstring>
+        <name>LongitudeFullDeg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a0585d33a62c175024d74037aa4de491b" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; PlantSettings.RvmFilesNames</definition>
+        <argsstring></argsstring>
+        <name>RvmFilesNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plant_settings_1a09b724758164500cd3bd159d5815a6f4" prot="public" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; PlantSettings.AttFilesNames</definition>
+        <argsstring></argsstring>
+        <name>AttFilesNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">SettingsManager.StorePlantSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs" bodystart="6" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_plant_settings_1a09b724758164500cd3bd159d5815a6f4" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>AttFilesNames</name></member>
+      <member refid="class_plant_settings_1a1c1f7e402e63c8d9bbcb91e56cc1e4df" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>Company</name></member>
+      <member refid="class_plant_settings_1af526aceb5c55f8d2fa36fc7633179827" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>Description</name></member>
+      <member refid="class_plant_settings_1a1f2ff2b67f41524fa46c571179c94520" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>Id</name></member>
+      <member refid="class_plant_settings_1a188bcd3b0e807284256f4fe8ac12bde5" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>LatitudeFullDeg</name></member>
+      <member refid="class_plant_settings_1a2bbf2e3449fb49879511e48455fcb61c" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>LocationDescription</name></member>
+      <member refid="class_plant_settings_1a8710d8ee2ca86ec19eda05fb5aaf0c76" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>LongitudeFullDeg</name></member>
+      <member refid="class_plant_settings_1a177bfddd185ddca1d0784c1a40c2b1e5" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>Name</name></member>
+      <member refid="class_plant_settings_1a0585d33a62c175024d74037aa4de491b" prot="public" virt="non-virtual"><scope>PlantSettings</scope><name>RvmFilesNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

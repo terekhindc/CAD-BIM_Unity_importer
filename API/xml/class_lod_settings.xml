@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_lod_settings" kind="class" language="C#" prot="public">
+    <compoundname>LodSettings</compoundname>
+    <derivedcompoundref refid="class_edged_lathing_lod_settings" prot="public" virt="non-virtual">EdgedLathingLodSettings</derivedcompoundref>
+    <derivedcompoundref refid="class_smooth_lathing_lod_settings" prot="public" virt="non-virtual">SmoothLathingLodSettings</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float LodSettings.ScreenRelativeTransitionHeight</definition>
+        <argsstring></argsstring>
+        <name>ScreenRelativeTransitionHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs" bodystart="3" bodyend="-1"/>
+        <referencedby refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" compoundref="_lod_settings_8cs" startline="5" endline="8">LodSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LodSettings.LodSettings</definition>
+        <argsstring>(float screenRelativeTransitionHeight)</argsstring>
+        <name>LodSettings</name>
+        <param>
+          <type>float</type>
+          <declname>screenRelativeTransitionHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs" bodystart="5" bodyend="8"/>
+        <references refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" compoundref="_lod_settings_8cs" startline="3">ScreenRelativeTransitionHeight</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="120">
+        <label>EdgedLathingLodSettings</label>
+        <link refid="class_edged_lathing_lod_settings"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>LodSettings</label>
+        <link refid="class_lod_settings"/>
+      </node>
+      <node id="121">
+        <label>SmoothLathingLodSettings</label>
+        <link refid="class_smooth_lathing_lod_settings"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs" bodystart="1" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" prot="public" virt="non-virtual"><scope>LodSettings</scope><name>LodSettings</name></member>
+      <member refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" prot="public" virt="non-virtual"><scope>LodSettings</scope><name>ScreenRelativeTransitionHeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

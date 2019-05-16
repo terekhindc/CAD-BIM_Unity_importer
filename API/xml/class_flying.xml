@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_flying" kind="class" language="C#" prot="public">
+    <compoundname>Flying</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_flying_1a038c8686f992ad9dcf177d50eb5ca812" prot="public" static="no" mutable="no">
+        <type>SteamVR_Action_Single</type>
+        <definition>SteamVR_Action_Single Flying.flyAction</definition>
+        <argsstring></argsstring>
+        <name>flyAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flying_1a7fd7c0cc8163fec9302c8a4a3a8e7190" prot="public" static="no" mutable="no">
+        <type>Hand</type>
+        <definition>Hand Flying.hand</definition>
+        <argsstring></argsstring>
+        <name>hand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_flying_1ad0aaba54151449abeb89a6d285fb5ce1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Flying.Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_flying_1a2129bdbcaf980a70619d0a629d97099a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Flying.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="16" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flying_1a894a1bf0b6fa5bde38ba092fd66c7a8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Flying.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="31" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_flying_1a524dfc8d6cf9af609d49b9774a70c4ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Flying.OnFlyActionChange</definition>
+        <argsstring>(SteamVR_Action_Single actionIn, SteamVR_Input_Sources inputSource, float newValue)</argsstring>
+        <name>OnFlyActionChange</name>
+        <param>
+          <type>SteamVR_Action_Single</type>
+          <declname>actionIn</declname>
+        </param>
+        <param>
+          <type>SteamVR_Input_Sources</type>
+          <declname>inputSource</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="40" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="66">
+        <label>Flying</label>
+        <link refid="class_flying"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="68">
+        <label>Flying</label>
+        <link refid="class_flying"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/Flying.cs" bodystart="8" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_flying_1a038c8686f992ad9dcf177d50eb5ca812" prot="public" virt="non-virtual"><scope>Flying</scope><name>flyAction</name></member>
+      <member refid="class_flying_1a7fd7c0cc8163fec9302c8a4a3a8e7190" prot="public" virt="non-virtual"><scope>Flying</scope><name>hand</name></member>
+      <member refid="class_flying_1a894a1bf0b6fa5bde38ba092fd66c7a8d" prot="private" virt="non-virtual"><scope>Flying</scope><name>OnDisable</name></member>
+      <member refid="class_flying_1a2129bdbcaf980a70619d0a629d97099a" prot="private" virt="non-virtual"><scope>Flying</scope><name>OnEnable</name></member>
+      <member refid="class_flying_1a524dfc8d6cf9af609d49b9774a70c4ad" prot="private" virt="non-virtual"><scope>Flying</scope><name>OnFlyActionChange</name></member>
+      <member refid="class_flying_1ad0aaba54151449abeb89a6d285fb5ce1" prot="public" virt="non-virtual"><scope>Flying</scope><name>Speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

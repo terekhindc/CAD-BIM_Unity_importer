@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_animation_generator" kind="class" language="C#" prot="public">
+    <compoundname>AnimationGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_animation_generator_1adab5c046d19bfe7ac1481eb4ba90a5d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationGenerator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animation_generator_1af89932b566b36834b7df236611ad460a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationGenerator.CreateRotationAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>CreateRotationAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" bodystart="12" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_animation_generator_1a7eda6973543d285daeff12e9f5b64141" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AnimationGenerator.CreateTranslation</definition>
+        <argsstring>()</argsstring>
+        <name>CreateTranslation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" line="43" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" bodystart="43" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>AnimationGenerator</label>
+        <link refid="class_animation_generator"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>AnimationGenerator</label>
+        <link refid="class_animation_generator"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AnimationGenerator.cs" bodystart="5" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_animation_generator_1af89932b566b36834b7df236611ad460a" prot="private" virt="non-virtual"><scope>AnimationGenerator</scope><name>CreateRotationAnimation</name></member>
+      <member refid="class_animation_generator_1a7eda6973543d285daeff12e9f5b64141" prot="private" virt="non-virtual"><scope>AnimationGenerator</scope><name>CreateTranslation</name></member>
+      <member refid="class_animation_generator_1adab5c046d19bfe7ac1481eb4ba90a5d0" prot="private" virt="non-virtual"><scope>AnimationGenerator</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

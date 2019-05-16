@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_action_menu_ui" kind="class" language="C#" prot="public">
+    <compoundname>ActionMenuUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_window" prot="public" virt="non-virtual">IWindow</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_action_menu_ui_1a125b419d9b19f37c0e57bf574b3b5431" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interaction_object" kindref="compound">InteractionObject</ref></type>
+        <definition>InteractionObject ActionMenuUi.InteractionObject</definition>
+        <argsstring></argsstring>
+        <name>InteractionObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a" compoundref="_action_menu_ui_8cs" startline="18" endline="28">Show</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_action_menu_ui_1a205cb239d9c7677519de0bab93018659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionMenuUi.Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <reimplements refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378">Hide</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionMenuUi.Show</definition>
+        <argsstring>(object interactionObject)</argsstring>
+        <name>Show</name>
+        <reimplements refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9">Show</reimplements>
+        <param>
+          <type>object</type>
+          <declname>interactionObject</declname>
+        </param>
+        <briefdescription>
+<para>Behaviour is driven by necessary object of <ref refid="class_interaction_object" kindref="compound">InteractionObject</ref> type </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interactionObject</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object of <ref refid="class_interaction_object" kindref="compound">InteractionObject</ref> type</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" bodystart="18" bodyend="28"/>
+        <references refid="class_action_menu_ui_1a125b419d9b19f37c0e57bf574b3b5431" compoundref="_action_menu_ui_8cs" startline="7">InteractionObject</references>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionMenuUi.Interact</definition>
+        <argsstring>()</argsstring>
+        <name>Interact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" line="30" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" bodystart="30" bodyend="52"/>
+        <references refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" compoundref="_object_hive_8cs" startline="16" endline="23">ObjectHive.Instance</references>
+        <references refid="class_object_hive_1a933d07cee34249f0111144125b45b54c" compoundref="_object_hive_8cs" startline="11">ObjectHive.Player</references>
+        <references refid="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3">IWheretyPlayer.InteractWithObject</references>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ActionMenuUi.HidePart</definition>
+        <argsstring>()</argsstring>
+        <name>HidePart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" line="54" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" bodystart="54" bodyend="69"/>
+        <references refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" compoundref="_object_hive_8cs" startline="16" endline="23">ObjectHive.Instance</references>
+        <references refid="class_object_hive_1a933d07cee34249f0111144125b45b54c" compoundref="_object_hive_8cs" startline="11">ObjectHive.Player</references>
+        <references refid="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c">IWheretyPlayer.HideObject</references>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="0">
+        <label>ActionMenuUi</label>
+        <link refid="class_action_menu_ui"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="3">
+        <label>ActionMenuUi</label>
+        <link refid="class_action_menu_ui"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>InteractionObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="6">
+        <label>InteractionObject</label>
+        <link refid="class_interaction_object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ActionMenuUi.cs" bodystart="5" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_action_menu_ui_1a205cb239d9c7677519de0bab93018659" prot="public" virt="non-virtual"><scope>ActionMenuUi</scope><name>Hide</name></member>
+      <member refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" prot="public" virt="non-virtual"><scope>ActionMenuUi</scope><name>HidePart</name></member>
+      <member refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" prot="public" virt="non-virtual"><scope>ActionMenuUi</scope><name>Interact</name></member>
+      <member refid="class_action_menu_ui_1a125b419d9b19f37c0e57bf574b3b5431" prot="public" virt="non-virtual"><scope>ActionMenuUi</scope><name>InteractionObject</name></member>
+      <member refid="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a" prot="public" virt="non-virtual"><scope>ActionMenuUi</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

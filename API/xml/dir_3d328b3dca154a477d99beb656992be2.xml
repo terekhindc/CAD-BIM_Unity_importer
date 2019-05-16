@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_3d328b3dca154a477d99beb656992be2" kind="dir">
+    <compoundname>D:/Workspace/Unity</compoundname>
+    <innerdir refid="dir_6765db3cc24274e3ef087163d71da81f">D:/Workspace/Unity/RVM_Importer</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/"/>
+  </compounddef>
+</doxygen>

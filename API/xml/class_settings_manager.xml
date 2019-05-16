@@ -1,0 +1,432 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_settings_manager" kind="class" language="C#" prot="public">
+    <compoundname>SettingsManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_settings_manager_1a973e9c2891d7c46da20bf9dd5f4d9871" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; SettingsManager.GetIdsOfStoredPlantsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetIdsOfStoredPlantsSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="7" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a42993797c173e310fdd16626d3b150cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SettingsManager.FindFreeId</definition>
+        <argsstring>()</argsstring>
+        <name>FindFreeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="24" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="24" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a10acd78357b5be7d14e239f2e6742dcf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsManager.StoreId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>StoreId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="43" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="43" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1adfdf1b6d0276ce230456250ad27286c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsManager.EraseId</definition>
+        <argsstring>(int id)</argsstring>
+        <name>EraseId</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="50" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="50" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a398ba0cc314c194d57d47638830eec96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsManager.EraseAllIds</definition>
+        <argsstring>()</argsstring>
+        <name>EraseAllIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="61" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a1dafcbeb688edd9578e20643eff64838" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetIndexKeyInIdsList</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetIndexKeyInIdsList</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="220" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="220" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a40412db4f48c7562ca92796e7810acf0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantsCountKey</definition>
+        <argsstring>()</argsstring>
+        <name>GetPlantsCountKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="221" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="221" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1aeb124366fae9a644fb1436bf79607c6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantNameKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantNameKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="222" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="222" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1af5893813576341903398e6927ccc20e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantLocationDescriptionKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantLocationDescriptionKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="223" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="223" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1aae8274d6c3691081d4b2a5694b191ba3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantCompanyKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantCompanyKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="224" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="224" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a704e3ec857e19a5bfd76b7ce5b586e80" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantDescriptionKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantDescriptionKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="225" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="225" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1ab6639dbe3e1f696cfb219e3d78436b53" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantLatitudeKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantLatitudeKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="226" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a6b89926f88f7e5aaf61a7edf5ea265a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantLongitudeKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantLongitudeKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="227" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="227" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a1cfc3f3cd8d2723f933f649a057f214b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantRvmCountKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantRvmCountKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="228" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="228" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1abaae500d0e78b082e950b83c3f6505cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantAttCountKey</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantAttCountKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="229" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1add8b3b33ffdc01f0e2f62d00ca91970e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantRvmKey</definition>
+        <argsstring>(int id, int indx)</argsstring>
+        <name>GetPlantRvmKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="230" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="230" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1ac40b232c8c7169bbd2d95160e948b022" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SettingsManager.GetPlantAttKey</definition>
+        <argsstring>(int id, int indx)</argsstring>
+        <name>GetPlantAttKey</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>indx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="231" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="231" bodyend="231"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsManager.StorePlantSettings</definition>
+        <argsstring>(PlantSettings plant)</argsstring>
+        <name>StorePlantSettings</name>
+        <param>
+          <type><ref refid="class_plant_settings" kindref="compound">PlantSettings</ref></type>
+          <declname>plant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="71" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="71" bodyend="91"/>
+        <references refid="class_plant_settings_1a177bfddd185ddca1d0784c1a40c2b1e5" compoundref="_plant_settings_8cs" startline="9">PlantSettings.Name</references>
+        <references refid="class_plant_settings_1a2bbf2e3449fb49879511e48455fcb61c" compoundref="_plant_settings_8cs" startline="10">PlantSettings.LocationDescription</references>
+        <references refid="class_plant_settings_1a1c1f7e402e63c8d9bbcb91e56cc1e4df" compoundref="_plant_settings_8cs" startline="11">PlantSettings.Company</references>
+        <references refid="class_plant_settings_1af526aceb5c55f8d2fa36fc7633179827" compoundref="_plant_settings_8cs" startline="12">PlantSettings.Description</references>
+        <references refid="class_plant_settings_1a188bcd3b0e807284256f4fe8ac12bde5" compoundref="_plant_settings_8cs" startline="13">PlantSettings.LatitudeFullDeg</references>
+        <references refid="class_plant_settings_1a8710d8ee2ca86ec19eda05fb5aaf0c76" compoundref="_plant_settings_8cs" startline="14">PlantSettings.LongitudeFullDeg</references>
+        <references refid="class_plant_settings_1a0585d33a62c175024d74037aa4de491b" compoundref="_plant_settings_8cs" startline="15">PlantSettings.RvmFilesNames</references>
+        <references refid="class_plant_settings_1a09b724758164500cd3bd159d5815a6f4" compoundref="_plant_settings_8cs" startline="16">PlantSettings.AttFilesNames</references>
+        <referencedby refid="class_settings_manager_1a45c71b583356ab8c268a4c9b4b1b8f8c" compoundref="_settings_manager_8cs" startline="182" endline="219">PopulateMockPlants</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a6e8b233eb4e8cae817131500068ea563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsManager.ErasePlantSettings</definition>
+        <argsstring>(int id)</argsstring>
+        <name>ErasePlantSettings</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="93" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="93" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a5c1c1fe4e33c799018dc41ac4ebde801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_plant_settings" kindref="compound">PlantSettings</ref></type>
+        <definition>PlantSettings SettingsManager.GetPlantSettings</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetPlantSettings</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="115" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="115" bodyend="157"/>
+        <referencedby refid="class_settings_manager_1a7e7845f2a734ad2114602b42e6d75e8e" compoundref="_settings_manager_8cs" startline="158" endline="181">GetAllPlantsSettings</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a7e7845f2a734ad2114602b42e6d75e8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_plant_settings" kindref="compound">PlantSettings</ref> &gt;</type>
+        <definition>List&lt;PlantSettings&gt; SettingsManager.GetAllPlantsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllPlantsSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="158" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="158" bodyend="181"/>
+        <references refid="class_settings_manager_1a5c1c1fe4e33c799018dc41ac4ebde801" compoundref="_settings_manager_8cs" startline="115" endline="157">GetPlantSettings</references>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_manager_1a45c71b583356ab8c268a4c9b4b1b8f8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsManager.PopulateMockPlants</definition>
+        <argsstring>()</argsstring>
+        <name>PopulateMockPlants</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="182" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="182" bodyend="219"/>
+        <references refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" compoundref="_settings_manager_8cs" startline="71" endline="91">StorePlantSettings</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="255">
+        <label>SettingsManager</label>
+        <link refid="class_settings_manager"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="257">
+        <label>SettingsManager</label>
+        <link refid="class_settings_manager"/>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="258">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsManager.cs" bodystart="5" bodyend="232"/>
+    <listofallmembers>
+      <member refid="class_settings_manager_1a398ba0cc314c194d57d47638830eec96" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>EraseAllIds</name></member>
+      <member refid="class_settings_manager_1adfdf1b6d0276ce230456250ad27286c3" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>EraseId</name></member>
+      <member refid="class_settings_manager_1a6e8b233eb4e8cae817131500068ea563" prot="public" virt="non-virtual"><scope>SettingsManager</scope><name>ErasePlantSettings</name></member>
+      <member refid="class_settings_manager_1a42993797c173e310fdd16626d3b150cc" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>FindFreeId</name></member>
+      <member refid="class_settings_manager_1a7e7845f2a734ad2114602b42e6d75e8e" prot="public" virt="non-virtual"><scope>SettingsManager</scope><name>GetAllPlantsSettings</name></member>
+      <member refid="class_settings_manager_1a973e9c2891d7c46da20bf9dd5f4d9871" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetIdsOfStoredPlantsSettings</name></member>
+      <member refid="class_settings_manager_1a1dafcbeb688edd9578e20643eff64838" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetIndexKeyInIdsList</name></member>
+      <member refid="class_settings_manager_1abaae500d0e78b082e950b83c3f6505cb" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantAttCountKey</name></member>
+      <member refid="class_settings_manager_1ac40b232c8c7169bbd2d95160e948b022" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantAttKey</name></member>
+      <member refid="class_settings_manager_1aae8274d6c3691081d4b2a5694b191ba3" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantCompanyKey</name></member>
+      <member refid="class_settings_manager_1a704e3ec857e19a5bfd76b7ce5b586e80" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantDescriptionKey</name></member>
+      <member refid="class_settings_manager_1ab6639dbe3e1f696cfb219e3d78436b53" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantLatitudeKey</name></member>
+      <member refid="class_settings_manager_1af5893813576341903398e6927ccc20e8" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantLocationDescriptionKey</name></member>
+      <member refid="class_settings_manager_1a6b89926f88f7e5aaf61a7edf5ea265a0" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantLongitudeKey</name></member>
+      <member refid="class_settings_manager_1aeb124366fae9a644fb1436bf79607c6c" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantNameKey</name></member>
+      <member refid="class_settings_manager_1a1cfc3f3cd8d2723f933f649a057f214b" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantRvmCountKey</name></member>
+      <member refid="class_settings_manager_1add8b3b33ffdc01f0e2f62d00ca91970e" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantRvmKey</name></member>
+      <member refid="class_settings_manager_1a40412db4f48c7562ca92796e7810acf0" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantsCountKey</name></member>
+      <member refid="class_settings_manager_1a5c1c1fe4e33c799018dc41ac4ebde801" prot="public" virt="non-virtual"><scope>SettingsManager</scope><name>GetPlantSettings</name></member>
+      <member refid="class_settings_manager_1a45c71b583356ab8c268a4c9b4b1b8f8c" prot="public" virt="non-virtual"><scope>SettingsManager</scope><name>PopulateMockPlants</name></member>
+      <member refid="class_settings_manager_1a10acd78357b5be7d14e239f2e6742dcf" prot="private" virt="non-virtual"><scope>SettingsManager</scope><name>StoreId</name></member>
+      <member refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" prot="public" virt="non-virtual"><scope>SettingsManager</scope><name>StorePlantSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

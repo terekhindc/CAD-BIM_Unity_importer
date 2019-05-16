@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_shape_base_data" kind="class" language="C#" prot="public">
+    <compoundname>ShapeBaseData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" prot="public" static="no" mutable="no">
+        <type>readonly float []</type>
+        <definition>readonly float [] ShapeBaseData.Parameters</definition>
+        <argsstring></argsstring>
+        <name>Parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs" bodystart="3" bodyend="-1"/>
+        <referencedby refid="class_shape_base_data_1ae357ef2e234f8aefe7c3ff2984e8c59c" compoundref="_shape_base_data_8cs" startline="5" endline="8">ShapeBaseData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shape_base_data_1ae357ef2e234f8aefe7c3ff2984e8c59c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShapeBaseData.ShapeBaseData</definition>
+        <argsstring>(float[] parameters)</argsstring>
+        <name>ShapeBaseData</name>
+        <param>
+          <type>float []</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs" bodystart="5" bodyend="8"/>
+        <references refid="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" compoundref="_shape_base_data_8cs" startline="3">Parameters</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs" bodystart="1" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" prot="public" virt="non-virtual"><scope>ShapeBaseData</scope><name>Parameters</name></member>
+      <member refid="class_shape_base_data_1ae357ef2e234f8aefe7c3ff2984e8c59c" prot="public" virt="non-virtual"><scope>ShapeBaseData</scope><name>ShapeBaseData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

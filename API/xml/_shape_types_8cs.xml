@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_shape_types_8cs" kind="file" language="C#">
+    <compoundname>ShapeTypes.cs</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ShapeTypes</name>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a03d46be0ffbbe4549161dc346df864fa" prot="public">
+          <name>TruncatedPyramids</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a185ec3ece71e6873edf517d5401192a5" prot="public">
+          <name>Boxes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a664701a5d5be3b45cf5db4106de19917" prot="public">
+          <name>RectangularToroids</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ad855db83f48a2910f56c242e535610bc" prot="public">
+          <name>Toroids</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac1940befb826174118910af0baa92d53" prot="public">
+          <name>EllipticalDishes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a7f4ef0b1e612743b9b00e4f96a78fe11" prot="public">
+          <name>SphericalDishes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac3e0032fea87975827a911eb180621b7" prot="public">
+          <name>Snouts</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a1f2784105a791fa003743c4b56191bda" prot="public">
+          <name>Cylinders</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a3f8199ac8eb5fec1effe06b54ce07f58" prot="public">
+          <name>Spheres</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13aa0b0293a2db49f5f93c15a62e095c819" prot="public">
+          <name>Lines</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13aa1ca41324e53ec603484ef25c216d704" prot="public">
+          <name>MultipleMeshes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac03608934672cd0de2c70698c7ece27a" prot="public">
+          <name>ShearedCylinders</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeTypes.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeTypes.cs" bodystart="5" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a03d46be0ffbbe4549161dc346df864fa" kindref="member">TruncatedPyramids</ref>,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a185ec3ece71e6873edf517d5401192a5" kindref="member">Boxes</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a664701a5d5be3b45cf5db4106de19917" kindref="member">RectangularToroids</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ad855db83f48a2910f56c242e535610bc" kindref="member">Toroids</ref>,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac1940befb826174118910af0baa92d53" kindref="member">EllipticalDishes</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a7f4ef0b1e612743b9b00e4f96a78fe11" kindref="member">SphericalDishes</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac3e0032fea87975827a911eb180621b7" kindref="member">Snouts</ref>,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a1f2784105a791fa003743c4b56191bda" kindref="member">Cylinders</ref>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a3f8199ac8eb5fec1effe06b54ce07f58" kindref="member">Spheres</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13aa0b0293a2db49f5f93c15a62e095c819" kindref="member">Lines</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13aa1ca41324e53ec603484ef25c216d704" kindref="member">MultipleMeshes</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac03608934672cd0de2c70698c7ece27a" kindref="member">ShearedCylinders</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeTypes.cs"/>
+  </compounddef>
+</doxygen>

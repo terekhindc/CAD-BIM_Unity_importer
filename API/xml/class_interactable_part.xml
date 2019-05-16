@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_interactable_part" kind="class" language="C#" prot="public">
+    <compoundname>InteractablePart</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_interactable_part_1af4bdaa1d6b1e5eb5454bd03349d69790" prot="private" static="no" mutable="no">
+        <type>Material []</type>
+        <definition>Material [] InteractablePart._normalMaterials</definition>
+        <argsstring></argsstring>
+        <name>_normalMaterials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_interactable_part_1a2f585007164fdf0f03073740b4a24731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.Highlight</definition>
+        <argsstring>()</argsstring>
+        <name>Highlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="10" bodyend="15"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <references refid="class_object_hive_vr_1a2f65eda8022673c0c981ed7f48d93594" compoundref="_object_hive_vr_8cs" startline="12">ObjectHiveVr.HighlightionMaterial</references>
+        <referencedby refid="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" compoundref="_object_hive_vr_8cs" startline="38" endline="49">ObjectHiveVr.HighlightObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1a8d39a62c630d0e7b01821974356188f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.Select</definition>
+        <argsstring>(string nickname=&quot;&quot;)</argsstring>
+        <name>Select</name>
+        <param>
+          <type>string</type>
+          <declname>nickname</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="17" bodyend="23"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <references refid="class_object_hive_vr_1aced5b60257918a2f678389425e0a719f" compoundref="_object_hive_vr_8cs" startline="13">ObjectHiveVr.SelectionMaterial</references>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1a1babfa8c538301b50ff51843fae6e663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.Unhighlight</definition>
+        <argsstring>()</argsstring>
+        <name>Unhighlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="25" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="25" bodyend="28"/>
+        <referencedby refid="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" compoundref="_object_hive_vr_8cs" startline="38" endline="49">ObjectHiveVr.HighlightObject</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1aa2727fdfaa9fbb4ee26ac4c6c8f10302" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.Deselect</definition>
+        <argsstring>()</argsstring>
+        <name>Deselect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="30" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="30" bodyend="34"/>
+        <references refid="class_ui_manager_vr_1afa03015a546e379de97b902462ae57cf" compoundref="_ui_manager_vr_8cs" startline="24" endline="31">UiManagerVr.I</references>
+        <references refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" compoundref="_ui_manager_vr_8cs" startline="95" endline="102">UiManagerVr.HideInfoPad</references>
+        <referencedby refid="class_object_hive_vr_1ac02837d7593b8950ea1fd00949630301" compoundref="_object_hive_vr_8cs" startline="102" endline="109">ObjectHiveVr.DeselectObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_interactable_part_1a457681b859fed8d1029ffc6e07b1847a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.ShowAttributeData</definition>
+        <argsstring>(string nickname=&quot;&quot;)</argsstring>
+        <name>ShowAttributeData</name>
+        <param>
+          <type>string</type>
+          <declname>nickname</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="36" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="36" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1a5ab6794c0c5f40d495f07ff23b34f530" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.StoreMaterials</definition>
+        <argsstring>()</argsstring>
+        <name>StoreMaterials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="79" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="79" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1a922a6e348dda05d9d235b67c918c0b4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.SetMaterials</definition>
+        <argsstring>(Material material)</argsstring>
+        <name>SetMaterials</name>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="89" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="89" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1a73a4bf0a6ca0d86590bf4f7794c84d51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.RestoreMaterials</definition>
+        <argsstring>()</argsstring>
+        <name>RestoreMaterials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="98" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="98" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1a17a18ac14ba32535b7903c7b2f5c4470" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.OnAttachedToHand</definition>
+        <argsstring>(Hand hand)</argsstring>
+        <name>OnAttachedToHand</name>
+        <param>
+          <type>Hand</type>
+          <declname>hand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="108" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1ac7a4ebb2c435c83095f1937f1a455bdd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractablePart.OnDetachedFromHand</definition>
+        <argsstring>(Hand hand)</argsstring>
+        <name>OnDetachedFromHand</name>
+        <param>
+          <type>Hand</type>
+          <declname>hand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="113" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interactable_part_1ae5b6637d99e35bd2c496552611b5b021" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; MeshRenderer &gt;</type>
+        <definition>List&lt;MeshRenderer&gt; InteractablePart.GetAllChildrensMeshRenderers</definition>
+        <argsstring>(Transform tr)</argsstring>
+        <name>GetAllChildrensMeshRenderers</name>
+        <param>
+          <type>Transform</type>
+          <declname>tr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="118" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="118" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>InteractablePart</label>
+        <link refid="class_interactable_part"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="88">
+        <label>InteractablePart</label>
+        <link refid="class_interactable_part"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/InteractablePart.cs" bodystart="6" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_interactable_part_1af4bdaa1d6b1e5eb5454bd03349d69790" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>_normalMaterials</name></member>
+      <member refid="class_interactable_part_1aa2727fdfaa9fbb4ee26ac4c6c8f10302" prot="public" virt="non-virtual"><scope>InteractablePart</scope><name>Deselect</name></member>
+      <member refid="class_interactable_part_1ae5b6637d99e35bd2c496552611b5b021" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>GetAllChildrensMeshRenderers</name></member>
+      <member refid="class_interactable_part_1a2f585007164fdf0f03073740b4a24731" prot="public" virt="non-virtual"><scope>InteractablePart</scope><name>Highlight</name></member>
+      <member refid="class_interactable_part_1a17a18ac14ba32535b7903c7b2f5c4470" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>OnAttachedToHand</name></member>
+      <member refid="class_interactable_part_1ac7a4ebb2c435c83095f1937f1a455bdd" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>OnDetachedFromHand</name></member>
+      <member refid="class_interactable_part_1a73a4bf0a6ca0d86590bf4f7794c84d51" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>RestoreMaterials</name></member>
+      <member refid="class_interactable_part_1a8d39a62c630d0e7b01821974356188f3" prot="public" virt="non-virtual"><scope>InteractablePart</scope><name>Select</name></member>
+      <member refid="class_interactable_part_1a922a6e348dda05d9d235b67c918c0b4e" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>SetMaterials</name></member>
+      <member refid="class_interactable_part_1a457681b859fed8d1029ffc6e07b1847a" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>ShowAttributeData</name></member>
+      <member refid="class_interactable_part_1a5ab6794c0c5f40d495f07ff23b34f530" prot="private" virt="non-virtual"><scope>InteractablePart</scope><name>StoreMaterials</name></member>
+      <member refid="class_interactable_part_1a1babfa8c538301b50ff51843fae6e663" prot="public" virt="non-virtual"><scope>InteractablePart</scope><name>Unhighlight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

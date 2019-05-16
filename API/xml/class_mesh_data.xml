@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_mesh_data" kind="class" language="C#" prot="public">
+    <compoundname>MeshData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_polygon_data" kindref="compound">PolygonData</ref> []</type>
+        <definition>readonly PolygonData [] MeshData.Polygons</definition>
+        <argsstring></argsstring>
+        <name>Polygons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs" bodystart="3" bodyend="-1"/>
+        <referencedby refid="class_mesh_data_1a02257789afdb8f8ff6a2898129ba858e" compoundref="_mesh_data_8cs" startline="5" endline="8">MeshData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mesh_data_1a02257789afdb8f8ff6a2898129ba858e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MeshData.MeshData</definition>
+        <argsstring>(PolygonData[] polygons)</argsstring>
+        <name>MeshData</name>
+        <param>
+          <type><ref refid="class_polygon_data" kindref="compound">PolygonData</ref> []</type>
+          <declname>polygons</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs" bodystart="5" bodyend="8"/>
+        <references refid="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" compoundref="_mesh_data_8cs" startline="3">Polygons</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="124">
+        <label>MeshData</label>
+        <link refid="class_mesh_data"/>
+        <childnode refid="125" relation="usage">
+          <edgelabel>Polygons</edgelabel>
+        </childnode>
+      </node>
+      <node id="125">
+        <label>PolygonData</label>
+        <link refid="class_polygon_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs" bodystart="1" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_mesh_data_1a02257789afdb8f8ff6a2898129ba858e" prot="public" virt="non-virtual"><scope>MeshData</scope><name>MeshData</name></member>
+      <member refid="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" prot="public" virt="non-virtual"><scope>MeshData</scope><name>Polygons</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

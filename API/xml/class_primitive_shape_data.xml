@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_primitive_shape_data" kind="class" language="C#" prot="public">
+    <compoundname>PrimitiveShapeData</compoundname>
+    <basecompoundref refid="class_shape_data" prot="public" virt="non-virtual">ShapeData</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" prot="public" static="no" mutable="no">
+        <type>readonly float []</type>
+        <definition>readonly float [] PrimitiveShapeData.Parameters</definition>
+        <argsstring></argsstring>
+        <name>Parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PrimitiveShapeData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PrimitiveShapeData.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</referencedby>
+        <referencedby refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</referencedby>
+        <referencedby refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</referencedby>
+        <referencedby refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</referencedby>
+        <referencedby refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</referencedby>
+        <referencedby refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" compoundref="_truncated_pyramid_builder_8cs" startline="5" endline="54">TruncatedPyramidBuilder.Build</referencedby>
+        <referencedby refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</referencedby>
+        <referencedby refid="class_primitive_shape_data_1a9edf451a799cf5abe5079669cc0564b4" compoundref="_primitive_shape_data_8cs" startline="7" endline="16">PrimitiveShapeData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_primitive_shape_data_1a9edf451a799cf5abe5079669cc0564b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PrimitiveShapeData.PrimitiveShapeData</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, float[] parameters, int parentId)</argsstring>
+        <name>PrimitiveShapeData</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <param>
+          <type>float []</type>
+          <declname>parameters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parentId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PrimitiveShapeData.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PrimitiveShapeData.cs" bodystart="7" bodyend="16"/>
+        <references refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" compoundref="_primitive_shape_data_8cs" startline="5">Parameters</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="216">
+        <label>PrimitiveShapeData</label>
+        <link refid="class_primitive_shape_data"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>ShapeData</label>
+        <link refid="class_shape_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="218">
+        <label>PrimitiveShapeData</label>
+        <link refid="class_primitive_shape_data"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>ShapeData</label>
+        <link refid="class_shape_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PrimitiveShapeData.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PrimitiveShapeData.cs" bodystart="3" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>BoundMax</name></member>
+      <member refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>BoundMin</name></member>
+      <member refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>Parameters</name></member>
+      <member refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>ParentId</name></member>
+      <member refid="class_primitive_shape_data_1a9edf451a799cf5abe5079669cc0564b4" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>PrimitiveShapeData</name></member>
+      <member refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>ShapeData</name></member>
+      <member refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>Transform</name></member>
+      <member refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" prot="public" virt="non-virtual"><scope>PrimitiveShapeData</scope><name>TransformMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

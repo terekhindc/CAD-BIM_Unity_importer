@@ -1,0 +1,161 @@
+\hypertarget{class_shape_data_repository}{}\section{Shape\+Data\+Repository Class Reference}
+\label{class_shape_data_repository}\index{ShapeDataRepository@{ShapeDataRepository}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_shape_data_repository_a72fa4e7e5d207d909ea6f3f37f90e96e}{Shape\+Data\+Repository}} ()
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_afba0b4ca1fb9e8ab06adcd58d804adda}{Set\+Root\+Node}} (string name)
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_a00ae8e4c8c8a1269d14e829a308bf71c}{Add\+Node}} (string name, Vector3 position)
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_aec3bcbfd198c43b2f215a63f900f7738}{Add\+Node}} (string name, Vector3 position, byte color\+Index)
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_aa451bfc416815c2c7d3c5718056f857a}{Select\+Nearest\+Parent}} ()
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_afb3ac8b9a7e92031a07ca53b2be82bc7}{Add\+Shape}} (int shape\+Type, Matrix4x4 transform\+Matrix, Vector3 bound\+Min, Vector3 bound\+Max, float\mbox{[}$\,$\mbox{]} parameters)
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_a73333f81396a254f00a9732c9512cb05}{Add\+Multiple\+Meshes}} (Matrix4x4 transform\+Matrix, Vector3 bound\+Min, Vector3 bound\+Max, \mbox{\hyperlink{class_multiple_meshes_data}{Multiple\+Meshes\+Data}} multiple\+Meshes\+Data)
+\item 
+void \mbox{\hyperlink{class_shape_data_repository_a2c313da2ff206137f70a1999a8970e5f}{Show\+Statistics}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ int, \mbox{\hyperlink{class_node}{Node}} $>$ \mbox{\hyperlink{class_shape_data_repository_a619c97595fd858080d11d3c827cda855}{Nodes}}
+\item 
+Dictionary$<$ int, \mbox{\hyperlink{class_shape_data}{Shape\+Data}} $>$ \mbox{\hyperlink{class_shape_data_repository_a3db12e581c70b38a9f2631ea345e2a68}{Shapes}}
+\item 
+List$<$ int $>$ \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_shape_data_repository_a8c56775a61e62f370fae03d64a5ba991}{All\+Shapes\+Ids}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 4 of file Shape\+Data\+Repository.\+cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_shape_data_repository_a72fa4e7e5d207d909ea6f3f37f90e96e}\label{class_shape_data_repository_a72fa4e7e5d207d909ea6f3f37f90e96e}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!ShapeDataRepository@{ShapeDataRepository}}
+\index{ShapeDataRepository@{ShapeDataRepository}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{ShapeDataRepository()}{ShapeDataRepository()}}
+{\footnotesize\ttfamily Shape\+Data\+Repository.\+Shape\+Data\+Repository (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file Shape\+Data\+Repository.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_shape_data_repository_a73333f81396a254f00a9732c9512cb05}\label{class_shape_data_repository_a73333f81396a254f00a9732c9512cb05}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!AddMultipleMeshes@{AddMultipleMeshes}}
+\index{AddMultipleMeshes@{AddMultipleMeshes}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{AddMultipleMeshes()}{AddMultipleMeshes()}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Add\+Multiple\+Meshes (\begin{DoxyParamCaption}\item[{Matrix4x4}]{transform\+Matrix,  }\item[{Vector3}]{bound\+Min,  }\item[{Vector3}]{bound\+Max,  }\item[{\mbox{\hyperlink{class_multiple_meshes_data}{Multiple\+Meshes\+Data}}}]{multiple\+Meshes\+Data }\end{DoxyParamCaption})}
+
+
+
+Definition at line 101 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_a00ae8e4c8c8a1269d14e829a308bf71c}\label{class_shape_data_repository_a00ae8e4c8c8a1269d14e829a308bf71c}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!AddNode@{AddNode}}
+\index{AddNode@{AddNode}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{AddNode()}{AddNode()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Add\+Node (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{Vector3}]{position }\end{DoxyParamCaption})}
+
+
+
+Definition at line 76 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_aec3bcbfd198c43b2f215a63f900f7738}\label{class_shape_data_repository_aec3bcbfd198c43b2f215a63f900f7738}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!AddNode@{AddNode}}
+\index{AddNode@{AddNode}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{AddNode()}{AddNode()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Add\+Node (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{Vector3}]{position,  }\item[{byte}]{color\+Index }\end{DoxyParamCaption})}
+
+
+
+Definition at line 81 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_afb3ac8b9a7e92031a07ca53b2be82bc7}\label{class_shape_data_repository_afb3ac8b9a7e92031a07ca53b2be82bc7}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!AddShape@{AddShape}}
+\index{AddShape@{AddShape}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{AddShape()}{AddShape()}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Add\+Shape (\begin{DoxyParamCaption}\item[{int}]{shape\+Type,  }\item[{Matrix4x4}]{transform\+Matrix,  }\item[{Vector3}]{bound\+Min,  }\item[{Vector3}]{bound\+Max,  }\item[{float \mbox{[}$\,$\mbox{]}}]{parameters }\end{DoxyParamCaption})}
+
+
+
+Definition at line 94 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_aa451bfc416815c2c7d3c5718056f857a}\label{class_shape_data_repository_aa451bfc416815c2c7d3c5718056f857a}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!SelectNearestParent@{SelectNearestParent}}
+\index{SelectNearestParent@{SelectNearestParent}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{SelectNearestParent()}{SelectNearestParent()}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Select\+Nearest\+Parent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 89 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_afba0b4ca1fb9e8ab06adcd58d804adda}\label{class_shape_data_repository_afba0b4ca1fb9e8ab06adcd58d804adda}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!SetRootNode@{SetRootNode}}
+\index{SetRootNode@{SetRootNode}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{SetRootNode()}{SetRootNode()}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Set\+Root\+Node (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+Definition at line 70 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_a2c313da2ff206137f70a1999a8970e5f}\label{class_shape_data_repository_a2c313da2ff206137f70a1999a8970e5f}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!ShowStatistics@{ShowStatistics}}
+\index{ShowStatistics@{ShowStatistics}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{ShowStatistics()}{ShowStatistics()}}
+{\footnotesize\ttfamily void Shape\+Data\+Repository.\+Show\+Statistics (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 109 of file Shape\+Data\+Repository.\+cs.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_shape_data_repository_a8c56775a61e62f370fae03d64a5ba991}\label{class_shape_data_repository_a8c56775a61e62f370fae03d64a5ba991}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!AllShapesIds@{AllShapesIds}}
+\index{AllShapesIds@{AllShapesIds}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{AllShapesIds}{AllShapesIds}}
+{\footnotesize\ttfamily List$<$int$>$ \mbox{[}$\,$\mbox{]} Shape\+Data\+Repository.\+All\+Shapes\+Ids}
+
+
+
+Definition at line 26 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_a619c97595fd858080d11d3c827cda855}\label{class_shape_data_repository_a619c97595fd858080d11d3c827cda855}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!Nodes@{Nodes}}
+\index{Nodes@{Nodes}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{Nodes}{Nodes}}
+{\footnotesize\ttfamily Dictionary$<$int, \mbox{\hyperlink{class_node}{Node}}$>$ Shape\+Data\+Repository.\+Nodes}
+
+
+
+Definition at line 6 of file Shape\+Data\+Repository.\+cs.
+
+\mbox{\Hypertarget{class_shape_data_repository_a3db12e581c70b38a9f2631ea345e2a68}\label{class_shape_data_repository_a3db12e581c70b38a9f2631ea345e2a68}} 
+\index{ShapeDataRepository@{ShapeDataRepository}!Shapes@{Shapes}}
+\index{Shapes@{Shapes}!ShapeDataRepository@{ShapeDataRepository}}
+\subsubsection{\texorpdfstring{Shapes}{Shapes}}
+{\footnotesize\ttfamily Dictionary$<$int, \mbox{\hyperlink{class_shape_data}{Shape\+Data}}$>$ Shape\+Data\+Repository.\+Shapes}
+
+
+
+Definition at line 7 of file Shape\+Data\+Repository.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Workspace/\+Unity/\+R\+V\+M\+\_\+\+Importer/\+Assets/\+Scripts/\mbox{\hyperlink{_shape_data_repository_8cs}{Shape\+Data\+Repository.\+cs}}\end{DoxyCompactItemize}

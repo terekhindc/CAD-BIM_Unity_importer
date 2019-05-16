@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_game_object_counter" kind="class" language="C#" prot="public">
+    <compoundname>GameObjectCounter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_object_counter_1a83b070a59a23eeada93101cb9862ecfd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GameObjectCounter.gameObjectName</definition>
+        <argsstring></argsstring>
+        <name>gameObjectName</name>
+        <initializer>= &quot;/4300&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_object_counter_1a06f6b04e264a25b65b3da3aa403a951a" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GameObjectCounter.gameObject</definition>
+        <argsstring></argsstring>
+        <name>gameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_object_counter_1a76b9d787fa46e9bca84bb4b6270c998e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjectCounter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_object_counter_1a8161d3b7cf95c21c6f4ca4d4a1514031" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GameObjectCounter.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="74">
+        <label>GameObjectCounter</label>
+        <link refid="class_game_object_counter"/>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="77">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="76">
+        <label>GameObjectCounter</label>
+        <link refid="class_game_object_counter"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/GameObjectCounter.cs" bodystart="5" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_game_object_counter_1a06f6b04e264a25b65b3da3aa403a951a" prot="private" virt="non-virtual"><scope>GameObjectCounter</scope><name>gameObject</name></member>
+      <member refid="class_game_object_counter_1a83b070a59a23eeada93101cb9862ecfd" prot="private" virt="non-virtual"><scope>GameObjectCounter</scope><name>gameObjectName</name></member>
+      <member refid="class_game_object_counter_1a76b9d787fa46e9bca84bb4b6270c998e" prot="private" virt="non-virtual"><scope>GameObjectCounter</scope><name>Start</name></member>
+      <member refid="class_game_object_counter_1a8161d3b7cf95c21c6f4ca4d4a1514031" prot="private" virt="non-virtual"><scope>GameObjectCounter</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

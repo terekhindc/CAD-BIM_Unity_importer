@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_103ed39609ae17f969483848ae8feea9" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels</compoundname>
+    <innerfile refid="_mesh_data_8cs">MeshData.cs</innerfile>
+    <innerfile refid="_multiple_meshes_data_8cs">MultipleMeshesData.cs</innerfile>
+    <innerfile refid="_multiple_mesh_shape_data_8cs">MultipleMeshShapeData.cs</innerfile>
+    <innerfile refid="_node_8cs">Node.cs</innerfile>
+    <innerfile refid="_polygon_data_8cs">PolygonData.cs</innerfile>
+    <innerfile refid="_primitive_shape_data_8cs">PrimitiveShapeData.cs</innerfile>
+    <innerfile refid="_shape_base_data_8cs">ShapeBaseData.cs</innerfile>
+    <innerfile refid="_shape_data_8cs">ShapeData.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_settings_scene_8cs" kind="file" language="C#">
+    <compoundname>SettingsScene.cs</compoundname>
+    <innerclass refid="class_settings_scene" prot="public">SettingsScene</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_settings_scene" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_settings_scene" kindref="compound">SettingsScene</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_settings_scene_1af41a4e4640fdd51b2ce0e0e62190f124" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_toroids_settings_window" kindref="compound">ToroidsSettingsWindow</ref><sp/><ref refid="class_settings_scene_1af41a4e4640fdd51b2ce0e0e62190f124" kindref="member">ToroidsW</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref><sp/>_rep;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref><sp/>_si;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Shapes<sp/>repository<sp/>hierarchy<sp/>initialization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1afba0b4ca1fb9e8ab06adcd58d804adda" kindref="member">SetRootNode</ref>(</highlight><highlight class="stringliteral">&quot;Root&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>r<sp/>=<sp/>Quaternion.Euler(0,<sp/>30,<sp/>0);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>p<sp/>=<sp/>Vector3.back;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)0).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)1).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)2).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateSamplesOfShape(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>.RectangularToroids,<sp/>p,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>0.5f,<sp/>0.7f,<sp/>0.4f,<sp/>Mathf.PI<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)3).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateSamplesOfShape(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>.Toroids,<sp/>p,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>0.7f,<sp/>0.5f,<sp/>Mathf.PI<sp/>});</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)4).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateSamplesOfShape(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>.EllipticalDishes,<sp/>p,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>0.5f,<sp/>0.7f<sp/>});</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)5).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateSamplesOfShape(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>.SphericalDishes,<sp/>p,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>0.5f,<sp/>0.5f<sp/>});</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)6).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateSamplesOfShape(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>.Snouts,<sp/>p,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>0.5f,<sp/>0.7f,<sp/>0.4f,<sp/>0.2f,<sp/>0.1f,<sp/>0f,<sp/>0f,<sp/>0f,<sp/>0f<sp/>});</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)7).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)8).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)9).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)10).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>p<sp/>=<sp/>r<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kindref="member">AddNode</ref>(((<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>)11).ToString(),<sp/>p);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kindref="member">SelectNearestParent</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_si<sp/>=<sp/>GetComponent&lt;SceneShapesInstantiator&gt;();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_si.<ref refid="class_scene_shapes_instantiator_1a84a665ef8ad23ac0700377a8034818d0" kindref="member">SetShapeDataRepository</ref>(_rep);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_si.<ref refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" kindref="member">CreateHierarchy</ref>();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_si.<ref refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" kindref="member">CreateAllShapes</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_settings_scene_1af41a4e4640fdd51b2ce0e0e62190f124" kindref="member">ToroidsW</ref>.<ref refid="class_toroids_settings_window_1a425a4f772ba43d04ff158f39d80be452" kindref="member">SetView</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_graphics_settings_manager" kindref="compound">GraphicsSettingsManager</ref>().ReadSmoothLathingLodSettings(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref>.Toroids),<sp/>_si.<ref refid="class_scene_shapes_instantiator_1a340b257c6f9383dceb8e9bbb0f1cf3a3" kindref="member">StandardMaterial</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CreateSamplesOfShape(<ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref><sp/>type,<sp/>Vector3<sp/>pos,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[]<sp/>parameters)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>rotation<sp/>=<sp/>Quaternion.identity;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>scale<sp/>=<sp/>Vector3.one;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>dir<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(pos.x,<sp/>1,<sp/>pos.z).normalized;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pos<sp/>+=<sp/>5f<sp/>*<sp/>Vector3.up;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>rot<sp/>=<sp/>Quaternion.AngleAxis(30,<sp/>dir);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(var<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>100;<sp/>i++)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_rep.<ref refid="class_shape_data_repository_1afb3ac8b9a7e92031a07ca53b2be82bc7" kindref="member">AddShape</ref>((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)type,<sp/>Matrix4x4.TRS(pos,<sp/>rotation,<sp/>scale),<sp/>Vector3.zero,<sp/>Vector3.zero,<sp/>parameters);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pos<sp/>=<sp/>rot<sp/>*<sp/>pos<sp/>+<sp/>dir;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rotation<sp/>*=<sp/>Quaternion.AngleAxis(15,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(1,<sp/>0,<sp/>1));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Update()</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Input.GetKeyUp(KeyCode.P))</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QualitySettings.lodBias<sp/>+=<sp/>0.1f;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(Input.GetKeyUp(KeyCode.O))</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QualitySettings.lodBias<sp/>-=<sp/>0.1f;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs"/>
+  </compounddef>
+</doxygen>

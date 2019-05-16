@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_connection_ui" kind="class" language="C#" prot="public">
+    <compoundname>ConnectionUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_connection_ui_1aed563c13ba5341487b65764173a7523b" prot="public" static="no" mutable="no">
+        <type>InputField</type>
+        <definition>InputField ConnectionUi.PortInput</definition>
+        <argsstring></argsstring>
+        <name>PortInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_connection_ui_1a8b5ff35ab29a4964a0414ce73eca4cd7" prot="public" static="no" mutable="no">
+        <type>InputField</type>
+        <definition>InputField ConnectionUi.ServerIpAddressInput</definition>
+        <argsstring></argsstring>
+        <name>ServerIpAddressInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_connection_ui_1a6c2286d1c435b94a5de2b958e03146b8" compoundref="_connection_ui_8cs" startline="18" endline="29">Connect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_connection_ui_1a71fb2a12b0875481c0b0ffde1e080ac3" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ConnectionUi.PPKEY_SERVERIPADDRESS</definition>
+        <argsstring></argsstring>
+        <name>PPKEY_SERVERIPADDRESS</name>
+        <initializer>= &quot;ServerIpAddress&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_connection_ui_1a337ca5168f5e9cec56004b5c69b22731" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConnectionUi.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_connection_ui_1adcf01d7848da3281bab9e122adcb69ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConnectionUi.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_connection_ui_1a6c2286d1c435b94a5de2b958e03146b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConnectionUi.Connect</definition>
+        <argsstring>()</argsstring>
+        <name>Connect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="18" bodyend="29"/>
+        <references refid="class_connection_ui_1a8b5ff35ab29a4964a0414ce73eca4cd7" compoundref="_connection_ui_8cs" startline="10">ServerIpAddressInput</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>ConnectionUi</label>
+        <link refid="class_connection_ui"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>ConnectionUi</label>
+        <link refid="class_connection_ui"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/ConnectionUi.cs" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_connection_ui_1a6c2286d1c435b94a5de2b958e03146b8" prot="public" virt="non-virtual"><scope>ConnectionUi</scope><name>Connect</name></member>
+      <member refid="class_connection_ui_1aed563c13ba5341487b65764173a7523b" prot="public" virt="non-virtual"><scope>ConnectionUi</scope><name>PortInput</name></member>
+      <member refid="class_connection_ui_1a71fb2a12b0875481c0b0ffde1e080ac3" prot="private" virt="non-virtual"><scope>ConnectionUi</scope><name>PPKEY_SERVERIPADDRESS</name></member>
+      <member refid="class_connection_ui_1a8b5ff35ab29a4964a0414ce73eca4cd7" prot="public" virt="non-virtual"><scope>ConnectionUi</scope><name>ServerIpAddressInput</name></member>
+      <member refid="class_connection_ui_1a337ca5168f5e9cec56004b5c69b22731" prot="private" virt="non-virtual"><scope>ConnectionUi</scope><name>Start</name></member>
+      <member refid="class_connection_ui_1adcf01d7848da3281bab9e122adcb69ee" prot="private" virt="non-virtual"><scope>ConnectionUi</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

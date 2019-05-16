@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_a95187025ae3462992bcf44da6f2d5d6" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp</compoundname>
+    <innerfile refid="_input_files_8cs">InputFiles.cs</innerfile>
+    <innerfile refid="_mesh_switch_8cs">MeshSwitch.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp/"/>
+  </compounddef>
+</doxygen>

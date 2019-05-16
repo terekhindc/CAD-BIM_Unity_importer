@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_76448a3ddda0a66a2c6642d8b8d818fc" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings</compoundname>
+    <innerfile refid="_builder_settings_8cs">BuilderSettings.cs</innerfile>
+    <innerfile refid="_edged_lathing_lod_settings_8cs">EdgedLathingLodSettings.cs</innerfile>
+    <innerfile refid="_lod_settings_8cs">LodSettings.cs</innerfile>
+    <innerfile refid="_smooth_lathing_lod_settings_8cs">SmoothLathingLodSettings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/"/>
+  </compounddef>
+</doxygen>

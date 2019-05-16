@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_test_toroid_builder_8cs" kind="file" language="C#">
+    <compoundname>TestToroidBuilder.cs</compoundname>
+    <innerclass refid="class_test_toroid_builder" prot="public">TestToroidBuilder</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>JetBrains.Annotations;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_test_toroid_builder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test_toroid_builder" kindref="compound">TestToroidBuilder</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_test_toroid_builder_1a584e935292aef19738eaaa90ce4b1290" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_toroid_builder_1a584e935292aef19738eaaa90ce4b1290" kindref="member">RevoluteRadius</ref><sp/>=<sp/>50f;</highlight></codeline>
+<codeline lineno="7" refid="class_test_toroid_builder_1a2b5d9819fc552ec1c7943c4bc94995d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_toroid_builder_1a2b5d9819fc552ec1c7943c4bc94995d2" kindref="member">CircularRadius</ref><sp/>=<sp/>10f;</highlight></codeline>
+<codeline lineno="8" refid="class_test_toroid_builder_1aec399be1f24a4fbfb2ccb6b5d773aad3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_toroid_builder_1aec399be1f24a4fbfb2ccb6b5d773aad3" kindref="member">FillAngle</ref><sp/>=<sp/>3.1415927f;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_test_toroid_builder_1ab071f202269896002b33707e4c246b03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_toroid_builder_1ab071f202269896002b33707e4c246b03" kindref="member">RevoluteStep</ref><sp/>=<sp/>60f;</highlight></codeline>
+<codeline lineno="11" refid="class_test_toroid_builder_1af618b2645e5d67e11c0b3941ed20ca79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_toroid_builder_1af618b2645e5d67e11c0b3941ed20ca79" kindref="member">CircularStep</ref><sp/>=<sp/>60f;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>[UsedImplicitly]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Start()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>go<sp/>=<sp/>gameObject;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>go.AddComponent&lt;MeshRenderer&gt;().material<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Material(Shader.Find(</highlight><highlight class="stringliteral">&quot;Diffuse&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>mf<sp/>=<sp/>go.AddComponent&lt;MeshFilter&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>m<sp/>=<sp/><ref refid="class_toroid_builder" kindref="compound">ToroidBuilder</ref>.<ref refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" kindref="member">Build</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Matrix4x4.identity,<sp/>Vector3.zero,<sp/>Vector3.zero,<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>RevoluteRadius,<sp/>CircularRadius,<sp/>FillAngle<sp/>},<sp/>0</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref>(0.5f,<sp/><ref refid="class_test_toroid_builder_1ab071f202269896002b33707e4c246b03" kindref="member">RevoluteStep</ref>,<sp/><ref refid="class_test_toroid_builder_1af618b2645e5d67e11c0b3941ed20ca79" kindref="member">CircularStep</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mf.sharedMesh<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestToroidBuilder.cs"/>
+  </compounddef>
+</doxygen>

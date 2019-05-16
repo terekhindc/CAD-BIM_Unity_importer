@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_name_input" kind="class" language="C#" prot="public">
+    <compoundname>NameInput</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_name_input_1a94a65c0729c11264f430f84d38b4ece1" prot="public" static="no" mutable="no">
+        <type>InputField</type>
+        <definition>InputField NameInput.NameInputField</definition>
+        <argsstring></argsstring>
+        <name>NameInputField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_name_input_1a1b37a22538af645721ca082b935901a3" compoundref="_name_input_8cs" startline="9" endline="12">OnEnable</referencedby>
+        <referencedby refid="class_name_input_1aec1965109a8d6d8cff9b9457745e9206" compoundref="_name_input_8cs" startline="14" endline="27">Commit</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_name_input_1a112c207988c098b75bc8893db91cb9ed" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text NameInput.CommitNameButtonText</definition>
+        <argsstring></argsstring>
+        <name>CommitNameButtonText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_name_input_1aec1965109a8d6d8cff9b9457745e9206" compoundref="_name_input_8cs" startline="14" endline="27">Commit</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_name_input_1a1b37a22538af645721ca082b935901a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NameInput.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_name_input_1a94a65c0729c11264f430f84d38b4ece1" compoundref="_name_input_8cs" startline="6">NameInputField</references>
+      </memberdef>
+      <memberdef kind="function" id="class_name_input_1aec1965109a8d6d8cff9b9457745e9206" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NameInput.Commit</definition>
+        <argsstring>()</argsstring>
+        <name>Commit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" bodystart="14" bodyend="27"/>
+        <references refid="class_name_input_1a94a65c0729c11264f430f84d38b4ece1" compoundref="_name_input_8cs" startline="6">NameInputField</references>
+        <references refid="class_name_input_1a112c207988c098b75bc8893db91cb9ed" compoundref="_name_input_8cs" startline="7">CommitNameButtonText</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="168">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="167">
+        <label>NameInput</label>
+        <link refid="class_name_input"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="171">
+        <label>Text</label>
+      </node>
+      <node id="170">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="169">
+        <label>NameInput</label>
+        <link refid="class_name_input"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>CommitNameButtonText</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/NameInput.cs" bodystart="4" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_name_input_1aec1965109a8d6d8cff9b9457745e9206" prot="public" virt="non-virtual"><scope>NameInput</scope><name>Commit</name></member>
+      <member refid="class_name_input_1a112c207988c098b75bc8893db91cb9ed" prot="public" virt="non-virtual"><scope>NameInput</scope><name>CommitNameButtonText</name></member>
+      <member refid="class_name_input_1a94a65c0729c11264f430f84d38b4ece1" prot="public" virt="non-virtual"><scope>NameInput</scope><name>NameInputField</name></member>
+      <member refid="class_name_input_1a1b37a22538af645721ca082b935901a3" prot="public" virt="non-virtual"><scope>NameInput</scope><name>OnEnable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

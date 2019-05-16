@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_332f7e9eb8bdd98877f3ccb0710dbe1c" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers</compoundname>
+    <innerfile refid="_dds_runtime_loader_8cs">DdsRuntimeLoader.cs</innerfile>
+    <innerfile refid="_x_plane_importer_8cs">XPlaneImporter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers/"/>
+  </compounddef>
+</doxygen>

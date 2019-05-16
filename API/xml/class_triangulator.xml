@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_triangulator" kind="class" language="C#" prot="public">
+    <compoundname>Triangulator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_triangulator_1a35b6e881ee95023d6ef6fce9edb14771" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector2 &gt;</type>
+        <definition>List&lt;Vector2&gt; Triangulator.m_points</definition>
+        <argsstring></argsstring>
+        <name>m_points</name>
+        <initializer>= new List&lt;Vector2&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_triangulator_1ac8b7c647942722515ef899f4a36a0b19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Triangulator.Triangulator</definition>
+        <argsstring>(Vector2[] points)</argsstring>
+        <name>Triangulator</name>
+        <param>
+          <type>Vector2 []</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_triangulator_1ac7f1cdff8f4aecc3990ca8dd7bdf5ddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int []</type>
+        <definition>int [] Triangulator.Triangulate</definition>
+        <argsstring>()</argsstring>
+        <name>Triangulate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="13" bodyend="69"/>
+        <referencedby refid="class_multiple_mesh_builder_1a527f861cbe6b6cdd4ced52287f789054" compoundref="_multiple_mesh_builder_8cs" startline="8" endline="46">MultipleMeshBuilder.BuildGo</referencedby>
+        <referencedby refid="class_multiple_mesh_builder_1a04d492393576d5da12920f4785d1faac" compoundref="_multiple_mesh_builder_8cs" startline="48" endline="80">MultipleMeshBuilder.Build</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_triangulator_1a6d2732bbd9b651b7380276732542474d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Triangulator.Area</definition>
+        <argsstring>()</argsstring>
+        <name>Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="71" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_triangulator_1a80ef439128e62277ddd7d93f3b549442" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Triangulator.Snip</definition>
+        <argsstring>(int u, int v, int w, int n, int[] V)</argsstring>
+        <name>Snip</name>
+        <param>
+          <type>int</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int []</type>
+          <declname>V</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="84" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="84" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_triangulator_1a5a6a4ada09f056b21862a2cc0aebf713" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Triangulator.InsideTriangle</definition>
+        <argsstring>(Vector2 A, Vector2 B, Vector2 C, Vector2 P)</argsstring>
+        <name>InsideTriangle</name>
+        <param>
+          <type>Vector2</type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>B</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>C</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>P</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="103" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="103" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors/Triangulator.cs" bodystart="4" bodyend="121"/>
+    <listofallmembers>
+      <member refid="class_triangulator_1a6d2732bbd9b651b7380276732542474d" prot="private" virt="non-virtual"><scope>Triangulator</scope><name>Area</name></member>
+      <member refid="class_triangulator_1a5a6a4ada09f056b21862a2cc0aebf713" prot="private" virt="non-virtual"><scope>Triangulator</scope><name>InsideTriangle</name></member>
+      <member refid="class_triangulator_1a35b6e881ee95023d6ef6fce9edb14771" prot="private" virt="non-virtual"><scope>Triangulator</scope><name>m_points</name></member>
+      <member refid="class_triangulator_1a80ef439128e62277ddd7d93f3b549442" prot="private" virt="non-virtual"><scope>Triangulator</scope><name>Snip</name></member>
+      <member refid="class_triangulator_1ac7f1cdff8f4aecc3990ca8dd7bdf5ddb" prot="public" virt="non-virtual"><scope>Triangulator</scope><name>Triangulate</name></member>
+      <member refid="class_triangulator_1ac8b7c647942722515ef899f4a36a0b19" prot="public" virt="non-virtual"><scope>Triangulator</scope><name>Triangulator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

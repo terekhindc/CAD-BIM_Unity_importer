@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_dds_runtime_loader" kind="class" language="C#" prot="public">
+    <compoundname>DdsRuntimeLoader</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dds_runtime_loader_1aeaf168419bc9b2b84a510944d33bf364" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>static Texture2D DdsRuntimeLoader.LoadDdsTexture</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>LoadDdsTexture</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers/DdsRuntimeLoader.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers/DdsRuntimeLoader.cs" bodystart="7" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers/DdsRuntimeLoader.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers/DdsRuntimeLoader.cs" bodystart="5" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_dds_runtime_loader_1aeaf168419bc9b2b84a510944d33bf364" prot="public" virt="non-virtual"><scope>DdsRuntimeLoader</scope><name>LoadDdsTexture</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

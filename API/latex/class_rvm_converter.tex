@@ -1,0 +1,111 @@
+\hypertarget{class_rvm_converter}{}\section{Rvm\+Converter Class Reference}
+\label{class_rvm_converter}\index{RvmConverter@{RvmConverter}}
+
+
+Основной класс \mbox{\hyperlink{class_rvm_converter}{Rvm\+Converter}}, инициализируется в качестве компонента на пустом игровом объекте в сцене. Осуществляет управление процессами импорта модели и её инстанциировании в сцене.  
+
+
+Inheritance diagram for Rvm\+Converter\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_rvm_converter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_rvm_converter_a3a476e45c2cabe4e69c9a15e4223f2de}{Start}} ()
+\item 
+Transform \mbox{\hyperlink{class_rvm_converter_a984b9502e39db3fcffc74d3281a1a155}{Import}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_input_files_8cs_afdf73d5dcfa18e5eaca6fa573fcf2590}{Input\+Files}} \mbox{\hyperlink{class_rvm_converter_a3411db3c1a04e63731d19e4253d32ac5}{Input\+File\+Name}}
+\begin{DoxyCompactList}\small\item\em Перечисление Input\+Files содержит имена файлов загружаеой модели. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_rvm_reader}{Rvm\+Reader}} \mbox{\hyperlink{class_rvm_converter_ac6c385f8b740331cd879b3ef11686355}{Rvm\+Reader}}
+\begin{DoxyCompactList}\small\item\em Объект \mbox{\hyperlink{class_rvm_reader}{Rvm\+Reader}} добавляется через сцену с помощью игрового объекта с соответствующим компонентом. Осуществляет чтение модели и создание данных о расположении игровых объектов в сцене. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_scene_shapes_instantiator}{Scene\+Shapes\+Instantiator}} \mbox{\hyperlink{class_rvm_converter_a88453bf28e3da9ffc41f40bb23460608}{Scene\+Shapes\+Instantiator}}
+\begin{DoxyCompactList}\small\item\em Объект \mbox{\hyperlink{class_scene_shapes_instantiator}{Scene\+Shapes\+Instantiator}} добавляется через сцену с помощью игрового объекта с соответствующим компонентом. Осуществляет инстанциирование и настройку компонентов игровых объектов в сцене на основе данных из Rmv\+Reader. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Основной класс \mbox{\hyperlink{class_rvm_converter}{Rvm\+Converter}}, инициализируется в качестве компонента на пустом игровом объекте в сцене. Осуществляет управление процессами импорта модели и её инстанциировании в сцене. 
+
+
+
+Definition at line 11 of file Rvm\+Converter.\+cs.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_rvm_converter_a984b9502e39db3fcffc74d3281a1a155}\label{class_rvm_converter_a984b9502e39db3fcffc74d3281a1a155}} 
+\index{RvmConverter@{RvmConverter}!Import@{Import}}
+\index{Import@{Import}!RvmConverter@{RvmConverter}}
+\subsubsection{\texorpdfstring{Import()}{Import()}}
+{\footnotesize\ttfamily Transform Rvm\+Converter.\+Import (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 35 of file Rvm\+Converter.\+cs.
+
+\mbox{\Hypertarget{class_rvm_converter_a3a476e45c2cabe4e69c9a15e4223f2de}\label{class_rvm_converter_a3a476e45c2cabe4e69c9a15e4223f2de}} 
+\index{RvmConverter@{RvmConverter}!Start@{Start}}
+\index{Start@{Start}!RvmConverter@{RvmConverter}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Rvm\+Converter.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 30 of file Rvm\+Converter.\+cs.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_rvm_converter_a3411db3c1a04e63731d19e4253d32ac5}\label{class_rvm_converter_a3411db3c1a04e63731d19e4253d32ac5}} 
+\index{RvmConverter@{RvmConverter}!InputFileName@{InputFileName}}
+\index{InputFileName@{InputFileName}!RvmConverter@{RvmConverter}}
+\subsubsection{\texorpdfstring{InputFileName}{InputFileName}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_input_files_8cs_afdf73d5dcfa18e5eaca6fa573fcf2590}{Input\+Files}} Rvm\+Converter.\+Input\+File\+Name}
+
+
+
+Перечисление Input\+Files содержит имена файлов загружаеой модели. 
+
+
+
+Definition at line 16 of file Rvm\+Converter.\+cs.
+
+\mbox{\Hypertarget{class_rvm_converter_ac6c385f8b740331cd879b3ef11686355}\label{class_rvm_converter_ac6c385f8b740331cd879b3ef11686355}} 
+\index{RvmConverter@{RvmConverter}!RvmReader@{RvmReader}}
+\index{RvmReader@{RvmReader}!RvmConverter@{RvmConverter}}
+\subsubsection{\texorpdfstring{RvmReader}{RvmReader}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_rvm_reader}{Rvm\+Reader}} Rvm\+Converter.\+Rvm\+Reader}
+
+
+
+Объект \mbox{\hyperlink{class_rvm_reader}{Rvm\+Reader}} добавляется через сцену с помощью игрового объекта с соответствующим компонентом. Осуществляет чтение модели и создание данных о расположении игровых объектов в сцене. 
+
+
+
+Definition at line 22 of file Rvm\+Converter.\+cs.
+
+\mbox{\Hypertarget{class_rvm_converter_a88453bf28e3da9ffc41f40bb23460608}\label{class_rvm_converter_a88453bf28e3da9ffc41f40bb23460608}} 
+\index{RvmConverter@{RvmConverter}!SceneShapesInstantiator@{SceneShapesInstantiator}}
+\index{SceneShapesInstantiator@{SceneShapesInstantiator}!RvmConverter@{RvmConverter}}
+\subsubsection{\texorpdfstring{SceneShapesInstantiator}{SceneShapesInstantiator}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_scene_shapes_instantiator}{Scene\+Shapes\+Instantiator}} Rvm\+Converter.\+Scene\+Shapes\+Instantiator}
+
+
+
+Объект \mbox{\hyperlink{class_scene_shapes_instantiator}{Scene\+Shapes\+Instantiator}} добавляется через сцену с помощью игрового объекта с соответствующим компонентом. Осуществляет инстанциирование и настройку компонентов игровых объектов в сцене на основе данных из Rmv\+Reader. 
+
+
+
+Definition at line 28 of file Rvm\+Converter.\+cs.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Workspace/\+Unity/\+R\+V\+M\+\_\+\+Importer/\+Assets/\+Scripts/\mbox{\hyperlink{_rvm_converter_8cs}{Rvm\+Converter.\+cs}}\end{DoxyCompactItemize}

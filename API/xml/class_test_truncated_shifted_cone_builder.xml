@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_test_truncated_shifted_cone_builder" kind="class" language="C#" prot="public">
+    <compoundname>TestTruncatedShiftedConeBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_truncated_shifted_cone_builder_1ad171df93b77b2ecb5660c641f62228e5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestTruncatedShiftedConeBuilder.BottomRadius</definition>
+        <argsstring></argsstring>
+        <name>BottomRadius</name>
+        <initializer>= 22.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_truncated_shifted_cone_builder_1a709530aa60aebe3a91631cfa70ad4519" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestTruncatedShiftedConeBuilder.TopRadius</definition>
+        <argsstring></argsstring>
+        <name>TopRadius</name>
+        <initializer>= 16.5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_truncated_shifted_cone_builder_1a0cef8a4bbaed1a5add60452d7a3e645e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestTruncatedShiftedConeBuilder.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <initializer>= 20f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_truncated_shifted_cone_builder_1a4120d5f26a5b334544ab422c17b0088c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestTruncatedShiftedConeBuilder.OffsetX</definition>
+        <argsstring></argsstring>
+        <name>OffsetX</name>
+        <initializer>= 5f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_truncated_shifted_cone_builder_1aec0ce8360ff6d59808f24b0a9f08c970" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestTruncatedShiftedConeBuilder.OffsetY</definition>
+        <argsstring></argsstring>
+        <name>OffsetY</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_truncated_shifted_cone_builder_1a210744bb0692019895c033c696c47ae7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestTruncatedShiftedConeBuilder.CircularStep</definition>
+        <argsstring></argsstring>
+        <name>CircularStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_truncated_shifted_cone_builder_1a3cf592ae111d0443a49dd06e4021c514" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestTruncatedShiftedConeBuilder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="15" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="346">
+        <label>TestTruncatedShiftedConeBuilder</label>
+        <link refid="class_test_truncated_shifted_cone_builder"/>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="347">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="348">
+        <label>TestTruncatedShiftedConeBuilder</label>
+        <link refid="class_test_truncated_shifted_cone_builder"/>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="349">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestTruncatedShiftedConeBuilder.cs" bodystart="4" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_test_truncated_shifted_cone_builder_1ad171df93b77b2ecb5660c641f62228e5" prot="public" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>BottomRadius</name></member>
+      <member refid="class_test_truncated_shifted_cone_builder_1a210744bb0692019895c033c696c47ae7" prot="public" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>CircularStep</name></member>
+      <member refid="class_test_truncated_shifted_cone_builder_1a0cef8a4bbaed1a5add60452d7a3e645e" prot="public" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>Height</name></member>
+      <member refid="class_test_truncated_shifted_cone_builder_1a4120d5f26a5b334544ab422c17b0088c" prot="public" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>OffsetX</name></member>
+      <member refid="class_test_truncated_shifted_cone_builder_1aec0ce8360ff6d59808f24b0a9f08c970" prot="public" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>OffsetY</name></member>
+      <member refid="class_test_truncated_shifted_cone_builder_1a3cf592ae111d0443a49dd06e4021c514" prot="private" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>Start</name></member>
+      <member refid="class_test_truncated_shifted_cone_builder_1a709530aa60aebe3a91631cfa70ad4519" prot="public" virt="non-virtual"><scope>TestTruncatedShiftedConeBuilder</scope><name>TopRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

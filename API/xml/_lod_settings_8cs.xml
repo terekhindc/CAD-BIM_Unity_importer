@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_lod_settings_8cs" kind="file" language="C#">
+    <compoundname>LodSettings.cs</compoundname>
+    <innerclass refid="class_lod_settings" prot="public">LodSettings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="class_lod_settings" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" kindref="member">ScreenRelativeTransitionHeight</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" kindref="member">LodSettings</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>screenRelativeTransitionHeight)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" kindref="member">ScreenRelativeTransitionHeight</ref><sp/>=<sp/>screenRelativeTransitionHeight;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/LodSettings.cs"/>
+  </compounddef>
+</doxygen>

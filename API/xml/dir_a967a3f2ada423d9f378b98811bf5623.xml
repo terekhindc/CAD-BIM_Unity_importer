@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_a967a3f2ada423d9f378b98811bf5623" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts</compoundname>
+    <innerfile refid="_model_import_ui_vr_8cs">ModelImportUiVr.cs</innerfile>
+    <innerfile refid="_object_hive_vr_8cs">ObjectHiveVr.cs</innerfile>
+    <innerfile refid="_show_nth_page_button_ui_vr_8cs">ShowNthPageButtonUiVr.cs</innerfile>
+    <innerfile refid="_ui_manager_vr_8cs">UiManagerVr.cs</innerfile>
+    <innerfile refid="_wherety_player_8cs">WheretyPlayer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/"/>
+  </compounddef>
+</doxygen>

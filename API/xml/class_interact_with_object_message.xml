@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_interact_with_object_message" kind="class" language="C#" prot="public">
+    <compoundname>InteractWithObjectMessage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MessageBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_interact_with_object_message_1ad1ac5a9bdebdd0806dcada8a94f144fa" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string InteractWithObjectMessage.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractWithObjectMessage.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractWithObjectMessage.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>MessageBase</label>
+      </node>
+      <node id="94">
+        <label>InteractWithObjectMessage</label>
+        <link refid="class_interact_with_object_message"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="97">
+        <label>MessageBase</label>
+      </node>
+      <node id="96">
+        <label>InteractWithObjectMessage</label>
+        <link refid="class_interact_with_object_message"/>
+        <childnode refid="97" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractWithObjectMessage.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractWithObjectMessage.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_interact_with_object_message_1ad1ac5a9bdebdd0806dcada8a94f144fa" prot="public" virt="non-virtual"><scope>InteractWithObjectMessage</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

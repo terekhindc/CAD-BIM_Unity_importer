@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_player" kind="class" language="C#" prot="public">
+    <compoundname>Player</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NetworkBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_wherety_player" prot="public" virt="non-virtual">IWheretyPlayer</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_1aa5b58a5ebfa1552e054794a7133ade51" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Player.Glasses</definition>
+        <argsstring></argsstring>
+        <name>Glasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="11" bodyend="31"/>
+        <references refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" compoundref="_object_hive_8cs" startline="16" endline="23">ObjectHive.Instance</references>
+        <references refid="class_object_hive_1af3fb446a374ca13950daefb4d408d621" compoundref="_object_hive_8cs" startline="7">ObjectHive.Aim</references>
+        <references refid="class_object_hive_1a10f297a8c8d875b9250799d2a86db441" compoundref="_object_hive_8cs" startline="10">ObjectHive.PlayerController</references>
+        <references refid="class_object_hive_1a933d07cee34249f0111144125b45b54c" compoundref="_object_hive_8cs" startline="11">ObjectHive.Player</references>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a2bb024cf54acc9d7aae98b2260a10471" compoundref="_ui_manager_8cs" startline="12">UiManager.ModelImportUi</references>
+        <references refid="class_model_import_ui_1a193c32700872638392857e078af43ad2" compoundref="_model_import_ui_8cs" startline="171" endline="176">ModelImportUi.InitializeAllFilesToLoadModels</references>
+        <references refid="class_player_1aa5b58a5ebfa1552e054794a7133ade51" compoundref="_player_8cs" startline="9">Glasses</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1ab1b799d89cacee820f5a1e83cf71b440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.HideObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>HideObject</name>
+        <reimplements refid="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c">HideObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1ac4db0b8b352f511d0d0715f755876c4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.InteractWithObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>InteractWithObject</name>
+        <reimplements refid="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3">InteractWithObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="44" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1ac8cf603009908d2e9b95fc4aff6ced70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.MoveObject</definition>
+        <argsstring>(Transform transform)</argsstring>
+        <name>MoveObject</name>
+        <reimplements refid="interface_i_wherety_player_1afd5f6bbda4034e3c00502d0ac26474c1">MoveObject</reimplements>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="55" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1af1241106018bc144720ada64954497dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.CmdHideObject</definition>
+        <argsstring>(HideObjectMessage message)</argsstring>
+        <name>CmdHideObject</name>
+        <param>
+          <type><ref refid="class_hide_object_message" kindref="compound">HideObjectMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="39" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1a7ecb0c23d408400314d103d1b2b21992" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.CmdInteractWithObject</definition>
+        <argsstring>(InteractWithObjectMessage message)</argsstring>
+        <name>CmdInteractWithObject</name>
+        <param>
+          <type><ref refid="class_interact_with_object_message" kindref="compound">InteractWithObjectMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="50" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="205">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="204">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+        <childnode refid="206" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="208">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="207">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Player.cs" bodystart="7" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_player_1af1241106018bc144720ada64954497dd" prot="private" virt="non-virtual"><scope>Player</scope><name>CmdHideObject</name></member>
+      <member refid="class_player_1a7ecb0c23d408400314d103d1b2b21992" prot="private" virt="non-virtual"><scope>Player</scope><name>CmdInteractWithObject</name></member>
+      <member refid="class_player_1aa5b58a5ebfa1552e054794a7133ade51" prot="public" virt="non-virtual"><scope>Player</scope><name>Glasses</name></member>
+      <member refid="class_player_1ab1b799d89cacee820f5a1e83cf71b440" prot="public" virt="non-virtual"><scope>Player</scope><name>HideObject</name></member>
+      <member refid="class_player_1ac4db0b8b352f511d0d0715f755876c4e" prot="public" virt="non-virtual"><scope>Player</scope><name>InteractWithObject</name></member>
+      <member refid="class_player_1ac8cf603009908d2e9b95fc4aff6ced70" prot="public" virt="non-virtual"><scope>Player</scope><name>MoveObject</name></member>
+      <member refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" prot="public" virt="non-virtual"><scope>Player</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

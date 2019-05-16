@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_show_nth_page_button_ui_vr_8cs" kind="file" language="C#">
+    <compoundname>ShowNthPageButtonUiVr.cs</compoundname>
+    <innerclass refid="class_show_nth_page_button_ui_vr" prot="public">ShowNthPageButtonUiVr</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_show_nth_page_button_ui_vr" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_show_nth_page_button_ui_vr" kindref="compound">ShowNthPageButtonUiVr</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_show_nth_page_button_ui_vr_1a0acbdf8d5d99979fd48ed1909aa5c36f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_model_import_ui_vr" kindref="compound">ModelImportUiVr</ref><sp/><ref refid="class_show_nth_page_button_ui_vr_1a0acbdf8d5d99979fd48ed1909aa5c36f" kindref="member">ModelImportUi</ref>;</highlight></codeline>
+<codeline lineno="7" refid="class_show_nth_page_button_ui_vr_1ad2b4444240bad6736dbeef14943771c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_show_nth_page_button_ui_vr_1ad2b4444240bad6736dbeef14943771c2" kindref="member">PageIndex</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_show_nth_page_button_ui_vr_1ae324d65614f056d2ffa67a8315dc7d15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_show_nth_page_button_ui_vr_1ae324d65614f056d2ffa67a8315dc7d15" kindref="member">Button</ref><sp/><ref refid="class_show_nth_page_button_ui_vr_1ae324d65614f056d2ffa67a8315dc7d15" kindref="member">Button</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_show_nth_page_button_ui_vr_1abc78e23efec1c960ebe9b2d6e3c5ccfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_show_nth_page_button_ui_vr_1abc78e23efec1c960ebe9b2d6e3c5ccfc" kindref="member">OnButtonClick</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_model_import_ui" kindref="compound">ModelImportUi</ref>.<ref refid="class_model_import_ui_1ab3f81f6357a8a955ab08082ee631b62f" kindref="member">ShowPage</ref>(<ref refid="class_show_nth_page_button_ui_vr_1ad2b4444240bad6736dbeef14943771c2" kindref="member">PageIndex</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ShowNthPageButtonUiVr.cs"/>
+  </compounddef>
+</doxygen>

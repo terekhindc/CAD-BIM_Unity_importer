@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_plant_settings_8cs" kind="file" language="C#">
+    <compoundname>PlantSettings.cs</compoundname>
+    <innerclass refid="class_plant_settings" prot="public">PlantSettings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_plant_settings" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_plant_settings" kindref="compound">PlantSettings</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_plant_settings_1a1f2ff2b67f41524fa46c571179c94520" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1a1f2ff2b67f41524fa46c571179c94520" kindref="member">Id</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_plant_settings_1a177bfddd185ddca1d0784c1a40c2b1e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1a177bfddd185ddca1d0784c1a40c2b1e5" kindref="member">Name</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_plant_settings_1a2bbf2e3449fb49879511e48455fcb61c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1a2bbf2e3449fb49879511e48455fcb61c" kindref="member">LocationDescription</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_plant_settings_1a1c1f7e402e63c8d9bbcb91e56cc1e4df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1a1c1f7e402e63c8d9bbcb91e56cc1e4df" kindref="member">Company</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_plant_settings_1af526aceb5c55f8d2fa36fc7633179827" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1af526aceb5c55f8d2fa36fc7633179827" kindref="member">Description</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_plant_settings_1a188bcd3b0e807284256f4fe8ac12bde5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1a188bcd3b0e807284256f4fe8ac12bde5" kindref="member">LatitudeFullDeg</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_plant_settings_1a8710d8ee2ca86ec19eda05fb5aaf0c76" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_plant_settings_1a8710d8ee2ca86ec19eda05fb5aaf0c76" kindref="member">LongitudeFullDeg</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_plant_settings_1a0585d33a62c175024d74037aa4de491b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;string&gt;<sp/><ref refid="class_plant_settings_1a0585d33a62c175024d74037aa4de491b" kindref="member">RvmFilesNames</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_plant_settings_1a09b724758164500cd3bd159d5815a6f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;string&gt;<sp/><ref refid="class_plant_settings_1a09b724758164500cd3bd159d5815a6f4" kindref="member">AttFilesNames</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/PlantSettings.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_edged_lathing_lod_settings" kind="class" language="C#" prot="public">
+    <compoundname>EdgedLathingLodSettings</compoundname>
+    <basecompoundref refid="class_lod_settings" prot="public" virt="non-virtual">LodSettings</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" prot="public" static="no" mutable="no">
+        <type>readonly float</type>
+        <definition>readonly float EdgedLathingLodSettings.RevoluteStep</definition>
+        <argsstring></argsstring>
+        <name>RevoluteStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" line="3" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" bodystart="3" bodyend="-1"/>
+        <referencedby refid="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" compoundref="_edged_lathing_lod_settings_8cs" startline="6" endline="10">EdgedLathingLodSettings</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" prot="public" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool EdgedLathingLodSettings.Caps</definition>
+        <argsstring></argsstring>
+        <name>Caps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" bodystart="4" bodyend="-1"/>
+        <referencedby refid="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" compoundref="_edged_lathing_lod_settings_8cs" startline="6" endline="10">EdgedLathingLodSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EdgedLathingLodSettings.EdgedLathingLodSettings</definition>
+        <argsstring>(float screenRelativeTransitionHeight, float revoluteStep, bool caps=false)</argsstring>
+        <name>EdgedLathingLodSettings</name>
+        <param>
+          <type>float</type>
+          <declname>screenRelativeTransitionHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>revoluteStep</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caps</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" bodystart="6" bodyend="10"/>
+        <references refid="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" compoundref="_edged_lathing_lod_settings_8cs" startline="3">RevoluteStep</references>
+        <references refid="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" compoundref="_edged_lathing_lod_settings_8cs" startline="4">Caps</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>EdgedLathingLodSettings</label>
+        <link refid="class_edged_lathing_lod_settings"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>LodSettings</label>
+        <link refid="class_lod_settings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>EdgedLathingLodSettings</label>
+        <link refid="class_edged_lathing_lod_settings"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>LodSettings</label>
+        <link refid="class_lod_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs" bodystart="1" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" prot="public" virt="non-virtual"><scope>EdgedLathingLodSettings</scope><name>Caps</name></member>
+      <member refid="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" prot="public" virt="non-virtual"><scope>EdgedLathingLodSettings</scope><name>EdgedLathingLodSettings</name></member>
+      <member refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" prot="public" virt="non-virtual"><scope>EdgedLathingLodSettings</scope><name>LodSettings</name></member>
+      <member refid="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" prot="public" virt="non-virtual"><scope>EdgedLathingLodSettings</scope><name>RevoluteStep</name></member>
+      <member refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" prot="public" virt="non-virtual"><scope>EdgedLathingLodSettings</scope><name>ScreenRelativeTransitionHeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

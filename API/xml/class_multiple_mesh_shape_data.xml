@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_multiple_mesh_shape_data" kind="class" language="C#" prot="public">
+    <compoundname>MultipleMeshShapeData</compoundname>
+    <basecompoundref refid="class_shape_data" prot="public" virt="non-virtual">ShapeData</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_multiple_mesh_shape_data_1a2ffb02bda59bf4da93a025537d762b54" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref></type>
+        <definition>readonly MultipleMeshesData MultipleMeshShapeData.MultipleMeshesData</definition>
+        <argsstring></argsstring>
+        <name>MultipleMeshesData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_multiple_mesh_builder_1a527f861cbe6b6cdd4ced52287f789054" compoundref="_multiple_mesh_builder_8cs" startline="8" endline="46">MultipleMeshBuilder.BuildGo</referencedby>
+        <referencedby refid="class_multiple_mesh_builder_1a04d492393576d5da12920f4785d1faac" compoundref="_multiple_mesh_builder_8cs" startline="48" endline="80">MultipleMeshBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiple_mesh_shape_data_1a0b948060fcca07176b1083c3db30c2b6" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 MultipleMeshShapeData.Offset</definition>
+        <argsstring></argsstring>
+        <name>Offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_multiple_mesh_shape_data_1a102a4edea562cc4e7527df92911e0e57" prot="public" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion MultipleMeshShapeData.Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_multiple_mesh_shape_data_1a58d64b20953f7a4116e518e5dfa0c301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MultipleMeshShapeData.MultipleMeshShapeData</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, int parentId, MultipleMeshesData multipleMeshesData)</argsstring>
+        <name>MultipleMeshShapeData</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parentId</declname>
+        </param>
+        <param>
+          <type><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref></type>
+          <declname>multipleMeshesData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" bodystart="10" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="161">
+        <label>ShapeData</label>
+        <link refid="class_shape_data"/>
+      </node>
+      <node id="160">
+        <label>MultipleMeshShapeData</label>
+        <link refid="class_multiple_mesh_shape_data"/>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="165">
+        <label>MeshData</label>
+        <link refid="class_mesh_data"/>
+        <childnode refid="166" relation="usage">
+          <edgelabel>Polygons</edgelabel>
+        </childnode>
+      </node>
+      <node id="164">
+        <label>MultipleMeshesData</label>
+        <link refid="class_multiple_meshes_data"/>
+        <childnode refid="165" relation="usage">
+          <edgelabel>Meshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="166">
+        <label>PolygonData</label>
+        <link refid="class_polygon_data"/>
+      </node>
+      <node id="163">
+        <label>ShapeData</label>
+        <link refid="class_shape_data"/>
+      </node>
+      <node id="162">
+        <label>MultipleMeshShapeData</label>
+        <link refid="class_multiple_mesh_shape_data"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+        <childnode refid="164" relation="usage">
+          <edgelabel>MultipleMeshesData</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshShapeData.cs" bodystart="3" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>BoundMax</name></member>
+      <member refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>BoundMin</name></member>
+      <member refid="class_multiple_mesh_shape_data_1a2ffb02bda59bf4da93a025537d762b54" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>MultipleMeshesData</name></member>
+      <member refid="class_multiple_mesh_shape_data_1a58d64b20953f7a4116e518e5dfa0c301" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>MultipleMeshShapeData</name></member>
+      <member refid="class_multiple_mesh_shape_data_1a0b948060fcca07176b1083c3db30c2b6" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>Offset</name></member>
+      <member refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>ParentId</name></member>
+      <member refid="class_multiple_mesh_shape_data_1a102a4edea562cc4e7527df92911e0e57" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>Rotation</name></member>
+      <member refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>ShapeData</name></member>
+      <member refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>Transform</name></member>
+      <member refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" prot="public" virt="non-virtual"><scope>MultipleMeshShapeData</scope><name>TransformMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

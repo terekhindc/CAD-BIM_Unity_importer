@@ -1,0 +1,78 @@
+.TH "RvmConverter" 3 "Thu May 16 2019" "CAD-BIM_Unity_Importer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+RvmConverter \- Основной класс \fBRvmConverter\fP, инициализируется в качестве компонента на пустом игровом объекте в сцене\&. Осуществляет управление процессами импорта модели и её инстанциировании в сцене\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits MonoBehaviour\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBStart\fP ()"
+.br
+.ti -1c
+.RI "Transform \fBImport\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBInputFiles\fP \fBInputFileName\fP"
+.br
+.RI "Перечисление InputFiles содержит имена файлов загружаеой модели\&. "
+.ti -1c
+.RI "\fBRvmReader\fP \fBRvmReader\fP"
+.br
+.RI "Объект \fBRvmReader\fP добавляется через сцену с помощью игрового объекта с соответствующим компонентом\&. Осуществляет чтение модели и создание данных о расположении игровых объектов в сцене\&. "
+.ti -1c
+.RI "\fBSceneShapesInstantiator\fP \fBSceneShapesInstantiator\fP"
+.br
+.RI "Объект \fBSceneShapesInstantiator\fP добавляется через сцену с помощью игрового объекта с соответствующим компонентом\&. Осуществляет инстанциирование и настройку компонентов игровых объектов в сцене на основе данных из RmvReader\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Основной класс \fBRvmConverter\fP, инициализируется в качестве компонента на пустом игровом объекте в сцене\&. Осуществляет управление процессами импорта модели и её инстанциировании в сцене\&. 
+
+
+.PP
+Definition at line 11 of file RvmConverter\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "Transform RvmConverter\&.Import ()"
+
+.PP
+Definition at line 35 of file RvmConverter\&.cs\&.
+.SS "void RvmConverter\&.Start ()"
+
+.PP
+Definition at line 30 of file RvmConverter\&.cs\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBInputFiles\fP RvmConverter\&.InputFileName"
+
+.PP
+Перечисление InputFiles содержит имена файлов загружаеой модели\&. 
+.PP
+Definition at line 16 of file RvmConverter\&.cs\&.
+.SS "\fBRvmReader\fP RvmConverter\&.RvmReader"
+
+.PP
+Объект \fBRvmReader\fP добавляется через сцену с помощью игрового объекта с соответствующим компонентом\&. Осуществляет чтение модели и создание данных о расположении игровых объектов в сцене\&. 
+.PP
+Definition at line 22 of file RvmConverter\&.cs\&.
+.SS "\fBSceneShapesInstantiator\fP RvmConverter\&.SceneShapesInstantiator"
+
+.PP
+Объект \fBSceneShapesInstantiator\fP добавляется через сцену с помощью игрового объекта с соответствующим компонентом\&. Осуществляет инстанциирование и настройку компонентов игровых объектов в сцене на основе данных из RmvReader\&. 
+.PP
+Definition at line 28 of file RvmConverter\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CAD-BIM_Unity_Importer from the source code\&.

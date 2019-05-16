@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_test_elliptical_lathing_builder" kind="class" language="C#" prot="public">
+    <compoundname>TestEllipticalLathingBuilder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_elliptical_lathing_builder_1ab6b1c9aebd9dd32313d1fc128ec7cec6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestEllipticalLathingBuilder.A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <initializer>= 50f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_elliptical_lathing_builder_1a13658559246698582df8ebf69e8e8b49" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestEllipticalLathingBuilder.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_elliptical_lathing_builder_1a25af2bfd880dbd8db4d04d524d6a8d66" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestEllipticalLathingBuilder.FillAngle</definition>
+        <argsstring></argsstring>
+        <name>FillAngle</name>
+        <initializer>= 360f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_elliptical_lathing_builder_1a679c335a5fed7101e459c2c03818a5b4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestEllipticalLathingBuilder.RevoluteStep</definition>
+        <argsstring></argsstring>
+        <name>RevoluteStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_elliptical_lathing_builder_1a9114338d9e50fea66dccff3549d83404" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestEllipticalLathingBuilder.CircularStep</definition>
+        <argsstring></argsstring>
+        <name>CircularStep</name>
+        <initializer>= 15f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_elliptical_lathing_builder_1a912d008ebc473d293d436c302c45a700" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestEllipticalLathingBuilder.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="14" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="314">
+        <label>TestEllipticalLathingBuilder</label>
+        <link refid="class_test_elliptical_lathing_builder"/>
+        <childnode refid="315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="315">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="316">
+        <label>TestEllipticalLathingBuilder</label>
+        <link refid="class_test_elliptical_lathing_builder"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/TestEllipticalLathingBuilder.cs" bodystart="4" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_test_elliptical_lathing_builder_1ab6b1c9aebd9dd32313d1fc128ec7cec6" prot="public" virt="non-virtual"><scope>TestEllipticalLathingBuilder</scope><name>A</name></member>
+      <member refid="class_test_elliptical_lathing_builder_1a13658559246698582df8ebf69e8e8b49" prot="public" virt="non-virtual"><scope>TestEllipticalLathingBuilder</scope><name>B</name></member>
+      <member refid="class_test_elliptical_lathing_builder_1a9114338d9e50fea66dccff3549d83404" prot="public" virt="non-virtual"><scope>TestEllipticalLathingBuilder</scope><name>CircularStep</name></member>
+      <member refid="class_test_elliptical_lathing_builder_1a25af2bfd880dbd8db4d04d524d6a8d66" prot="public" virt="non-virtual"><scope>TestEllipticalLathingBuilder</scope><name>FillAngle</name></member>
+      <member refid="class_test_elliptical_lathing_builder_1a679c335a5fed7101e459c2c03818a5b4" prot="public" virt="non-virtual"><scope>TestEllipticalLathingBuilder</scope><name>RevoluteStep</name></member>
+      <member refid="class_test_elliptical_lathing_builder_1a912d008ebc473d293d436c302c45a700" prot="private" virt="non-virtual"><scope>TestEllipticalLathingBuilder</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_ebf7d74f263d029ed4fea4ee5b83f5ce" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test</compoundname>
+    <innerfile refid="_lathing_parameters_8cs">LathingParameters.cs</innerfile>
+    <innerfile refid="_test_box_builder_8cs">TestBoxBuilder.cs</innerfile>
+    <innerfile refid="_test_cylinder_builder_8cs">TestCylinderBuilder.cs</innerfile>
+    <innerfile refid="_test_elliptical_lathing_builder_8cs">TestEllipticalLathingBuilder.cs</innerfile>
+    <innerfile refid="_test_equidistant_sphere_builder_8cs">TestEquidistantSphereBuilder.cs</innerfile>
+    <innerfile refid="_test_rectangular_toroid_builder_8cs">TestRectangularToroidBuilder.cs</innerfile>
+    <innerfile refid="_test_sloped_cylinder_builder_8cs">TestSlopedCylinderBuilder.cs</innerfile>
+    <innerfile refid="_test_sphere_builder_8cs">TestSphereBuilder.cs</innerfile>
+    <innerfile refid="_test_spherical_lathing_builder_8cs">TestSphericalLathingBuilder.cs</innerfile>
+    <innerfile refid="_test_toroid_builder_8cs">TestToroidBuilder.cs</innerfile>
+    <innerfile refid="_test_truncated_pyramid_builder_8cs">TestTruncatedPyramidBuilder.cs</innerfile>
+    <innerfile refid="_test_truncated_shifted_cone_builder_8cs">TestTruncatedShiftedConeBuilder.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/"/>
+  </compounddef>
+</doxygen>

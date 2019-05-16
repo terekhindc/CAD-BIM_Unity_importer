@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_7fc7288ae5fcd7b239122225cd4f0843" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings</compoundname>
+    <innerfile refid="_graphics_settings_manager_8cs">GraphicsSettingsManager.cs</innerfile>
+    <innerfile refid="_numeric_control_ui_8cs">NumericControlUi.cs</innerfile>
+    <innerfile refid="_plant_settings_8cs">PlantSettings.cs</innerfile>
+    <innerfile refid="_settings_manager_8cs">SettingsManager.cs</innerfile>
+    <innerfile refid="_settings_scene_8cs">SettingsScene.cs</innerfile>
+    <innerfile refid="_settings_window_8cs">SettingsWindow.cs</innerfile>
+    <innerfile refid="_toroids_settings_window_8cs">ToroidsSettingsWindow.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/"/>
+  </compounddef>
+</doxygen>

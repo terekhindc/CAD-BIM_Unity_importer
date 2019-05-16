@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_rvm_converter" kind="class" language="C#" prot="public">
+    <compoundname>RvmConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" prot="public" static="no" mutable="no">
+        <type><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590" kindref="member">InputFiles</ref></type>
+        <definition>InputFiles RvmConverter.InputFileName</definition>
+        <argsstring></argsstring>
+        <name>InputFileName</name>
+        <briefdescription>
+<para>Перечисление InputFiles содержит имена файлов загружаеой модели. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">Import</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_converter_1ac6c385f8b740331cd879b3ef11686355" prot="public" static="no" mutable="no">
+        <type><ref refid="class_rvm_reader" kindref="compound">RvmReader</ref></type>
+        <definition>RvmReader RvmConverter.RvmReader</definition>
+        <argsstring></argsstring>
+        <name>RvmReader</name>
+        <briefdescription>
+<para>Объект <ref refid="class_rvm_reader" kindref="compound">RvmReader</ref> добавляется через сцену с помощью игрового объекта с соответствующим компонентом. Осуществляет чтение модели и создание данных о расположении игровых объектов в сцене. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" line="22" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_converter_1a88453bf28e3da9ffc41f40bb23460608" prot="public" static="no" mutable="no">
+        <type><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref></type>
+        <definition>SceneShapesInstantiator RvmConverter.SceneShapesInstantiator</definition>
+        <argsstring></argsstring>
+        <name>SceneShapesInstantiator</name>
+        <briefdescription>
+<para>Объект <ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref> добавляется через сцену с помощью игрового объекта с соответствующим компонентом. Осуществляет инстанциирование и настройку компонентов игровых объектов в сцене на основе данных из RmvReader. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" line="28" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rvm_converter_1a3a476e45c2cabe4e69c9a15e4223f2de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmConverter.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" line="30" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">Import</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Transform</type>
+        <definition>Transform RvmConverter.Import</definition>
+        <argsstring>()</argsstring>
+        <name>Import</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" line="35" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" bodystart="35" bodyend="52"/>
+        <references refid="class_rvm_reader_1aa3bd98b005bfb52c4a901a17dcd19ff1" compoundref="_rvm_reader_8cs" startline="9">RvmReader.FileName</references>
+        <references refid="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" compoundref="_rvm_converter_8cs" startline="16">InputFileName</references>
+        <references refid="class_rvm_reader_1a453dc959a12db6d00466d5a730794d80" compoundref="_rvm_reader_8cs" startline="23" endline="28">RvmReader.Read</references>
+        <references refid="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" compoundref="_shape_data_repository_8cs" startline="109" endline="125">ShapeDataRepository.ShowStatistics</references>
+        <references refid="class_scene_shapes_instantiator_1a84a665ef8ad23ac0700377a8034818d0" compoundref="_scene_shapes_instantiator_8cs" startline="45" endline="49">SceneShapesInstantiator.SetShapeDataRepository</references>
+        <references refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" compoundref="_scene_shapes_instantiator_8cs" startline="51" endline="69">SceneShapesInstantiator.CreateHierarchy</references>
+        <references refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</references>
+        <references refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" compoundref="_scene_shapes_instantiator_8cs" startline="759" endline="786">SceneShapesInstantiator.CreateColliders</references>
+        <references refid="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" compoundref="_scene_shapes_instantiator_8cs" startline="191" endline="199">SceneShapesInstantiator.SetModelRotationAndMirroring</references>
+        <references refid="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" compoundref="_scene_shapes_instantiator_8cs" startline="641" endline="660">SceneShapesInstantiator.AssignColorsToAllShapes</references>
+        <references refid="class_att_reader_1abec2d3da93fe798b11e4ba34a4289580" compoundref="_att_reader_8cs" startline="185" endline="196">AttReader.LoadAndAttachAttributes</references>
+        <references refid="class_scene_shapes_instantiator_1ad947fac74cbe83b3acc39baab51625c2" compoundref="_scene_shapes_instantiator_8cs" startline="32">SceneShapesInstantiator.RootTransform</references>
+        <referencedby refid="class_model_import_manager_1a7f3893bf9257d111ee24f45533deeb51" compoundref="_model_import_manager_8cs" startline="22" endline="25">ModelImportManager.Import</referencedby>
+        <referencedby refid="class_rvm_converter_1a3a476e45c2cabe4e69c9a15e4223f2de" compoundref="_rvm_converter_8cs" startline="30" endline="33">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Основной класс <ref refid="class_rvm_converter" kindref="compound">RvmConverter</ref>, инициализируется в качестве компонента на пустом игровом объекте в сцене. Осуществляет управление процессами импорта модели и её инстанциировании в сцене. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="231">
+        <label>RvmConverter</label>
+        <link refid="class_rvm_converter"/>
+        <childnode refid="232" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="237">
+        <label>BuilderSettings</label>
+        <link refid="class_builder_settings"/>
+      </node>
+      <node id="235">
+        <label>RvmReader</label>
+        <link refid="class_rvm_reader"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>SceneShapesInstantiator</label>
+        <link refid="class_scene_shapes_instantiator"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+        <childnode refid="237" relation="usage">
+          <edgelabel>BuilderSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="233">
+        <label>RvmConverter</label>
+        <link refid="class_rvm_converter"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+        <childnode refid="235" relation="usage">
+          <edgelabel>RvmReader</edgelabel>
+        </childnode>
+        <childnode refid="236" relation="usage">
+          <edgelabel>SceneShapesInstantiator</edgelabel>
+        </childnode>
+      </node>
+      <node id="234">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs" bodystart="11" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" prot="public" virt="non-virtual"><scope>RvmConverter</scope><name>Import</name></member>
+      <member refid="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" prot="public" virt="non-virtual"><scope>RvmConverter</scope><name>InputFileName</name></member>
+      <member refid="class_rvm_converter_1ac6c385f8b740331cd879b3ef11686355" prot="public" virt="non-virtual"><scope>RvmConverter</scope><name>RvmReader</name></member>
+      <member refid="class_rvm_converter_1a88453bf28e3da9ffc41f40bb23460608" prot="public" virt="non-virtual"><scope>RvmConverter</scope><name>SceneShapesInstantiator</name></member>
+      <member refid="class_rvm_converter_1a3a476e45c2cabe4e69c9a15e4223f2de" prot="public" virt="non-virtual"><scope>RvmConverter</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

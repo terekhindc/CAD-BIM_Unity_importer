@@ -1,0 +1,908 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_scene_shapes_instantiator" kind="class" language="C#" prot="public">
+    <compoundname>SceneShapesInstantiator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a0cff8be70f96b6cb4dd334746f26820d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_builder_settings" kindref="compound">BuilderSettings</ref></type>
+        <definition>BuilderSettings SceneShapesInstantiator.BuilderSettings</definition>
+        <argsstring></argsstring>
+        <name>BuilderSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1adfa3657bf47b83545fe33125c44e6699" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.OptimizeForStaticBatching</definition>
+        <argsstring></argsstring>
+        <name>OptimizeForStaticBatching</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a05616961895590145e6c8052e076ebe4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SceneShapesInstantiator.DuplicatesThresholdForSwitchingToInstancing</definition>
+        <argsstring></argsstring>
+        <name>DuplicatesThresholdForSwitchingToInstancing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a96b27a2b4d7a93b85ebd729a97e46534" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.TruncatedPyramids</definition>
+        <argsstring></argsstring>
+        <name>TruncatedPyramids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1aa75cb20d2257e125bd3b612b952221f3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.Boxes</definition>
+        <argsstring></argsstring>
+        <name>Boxes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a07f459ad1e64db267fa57997217fd2d1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.RectangularToroids</definition>
+        <argsstring></argsstring>
+        <name>RectangularToroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a5f5ceca041209707a86caa15ca750a1c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.Toroids</definition>
+        <argsstring></argsstring>
+        <name>Toroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a9447b1da7403dc2f4f8bfe3a15e3099b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.EllipticalDishes</definition>
+        <argsstring></argsstring>
+        <name>EllipticalDishes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a54a180399d20c2c18b2612dfced1940a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.SphericalDishes</definition>
+        <argsstring></argsstring>
+        <name>SphericalDishes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1ae236a8a90784d7a5480f1b3a179d6bbd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.Snouts</definition>
+        <argsstring></argsstring>
+        <name>Snouts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a7bdf6dc22f0852bdaaab0c22a884295b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.Cylinders</definition>
+        <argsstring></argsstring>
+        <name>Cylinders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a12b50389cab084fa06b3b29cb4be19a3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.Spheres</definition>
+        <argsstring></argsstring>
+        <name>Spheres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1adb8dd376dc5df27675120c149153d394" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.CreateMultipleMeshes</definition>
+        <argsstring></argsstring>
+        <name>CreateMultipleMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="22" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1ad0f5a1c1d12b5eacd5b07ef5fe0cfeb5" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.ShearedCylinders</definition>
+        <argsstring></argsstring>
+        <name>ShearedCylinders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1ad947fac74cbe83b3acc39baab51625c2" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SceneShapesInstantiator.RootTransform</definition>
+        <argsstring></argsstring>
+        <name>RootTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="32" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" compoundref="_scene_shapes_instantiator_8cs" startline="51" endline="69">CreateHierarchy</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a340b257c6f9383dceb8e9bbb0f1cf3a3" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material SceneShapesInstantiator.StandardMaterial</definition>
+        <argsstring></argsstring>
+        <name>StandardMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="34" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">CreateAllShapes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a25a71700c5aa269c03bf5921acc43bb6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SceneShapesInstantiator.CameraRig</definition>
+        <argsstring></argsstring>
+        <name>CameraRig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="35" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" compoundref="_scene_shapes_instantiator_8cs" startline="191" endline="199">SetModelRotationAndMirroring</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a6069053b67e0a7205e6f5e71686204b6" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref>, GameObject &gt; []</type>
+        <definition>Dictionary&lt;PrimitiveShapeData, GameObject&gt; [] SceneShapesInstantiator._prefabs</definition>
+        <argsstring></argsstring>
+        <name>_prefabs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="28" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a6ec91fcc98ef180fd7c046f65f3fa24f" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 SceneShapesInstantiator._centerOfModel</definition>
+        <argsstring></argsstring>
+        <name>_centerOfModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="37" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a732d3151ac4bfb8b80cc1f5821926783" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SceneShapesInstantiator._prefabsStorage</definition>
+        <argsstring></argsstring>
+        <name>_prefabsStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="38" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1acf4941203b65be4d6dd56bcc980bafa2" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SceneShapesInstantiator._staticObjectsParent</definition>
+        <argsstring></argsstring>
+        <name>_staticObjectsParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="39" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_shapes_instantiator_1a04e8365cca533f9dde5f02cd47e5ce51" prot="private" static="no" mutable="no">
+        <type>Color []</type>
+        <definition>Color [] SceneShapesInstantiator._colors</definition>
+        <argsstring></argsstring>
+        <name>_colors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="41" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_scene_shapes_instantiator_1a59448891f574b4153d072c9815f626e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref></type>
+        <definition>ShapeDataRepository SceneShapesInstantiator.ShapeDataRepository</definition>
+        <argsstring></argsstring>
+        <name>ShapeDataRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="43" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a84a665ef8ad23ac0700377a8034818d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.SetShapeDataRepository</definition>
+        <argsstring>(ShapeDataRepository dataRepository)</argsstring>
+        <name>SetShapeDataRepository</name>
+        <param>
+          <type><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref></type>
+          <declname>dataRepository</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="45" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="45" bodyend="49"/>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateHierarchy</definition>
+        <argsstring>()</argsstring>
+        <name>CreateHierarchy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="51" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="51" bodyend="69"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">ShapeDataRepository.Nodes</references>
+        <references refid="class_scene_shapes_instantiator_1ad947fac74cbe83b3acc39baab51625c2" compoundref="_scene_shapes_instantiator_8cs" startline="32">RootTransform</references>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateAllShapes</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAllShapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="83" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="83" bodyend="189"/>
+        <references refid="class_scene_shapes_instantiator_1a0cff8be70f96b6cb4dd334746f26820d" compoundref="_scene_shapes_instantiator_8cs" startline="8">BuilderSettings</references>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">ShapeDataRepository.Nodes</references>
+        <references refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" compoundref="_shape_data_repository_8cs" startline="7">ShapeDataRepository.Shapes</references>
+        <references refid="class_scene_shapes_instantiator_1a96b27a2b4d7a93b85ebd729a97e46534" compoundref="_scene_shapes_instantiator_8cs" startline="13">TruncatedPyramids</references>
+        <references refid="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" compoundref="_truncated_pyramid_builder_8cs" startline="5" endline="54">TruncatedPyramidBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1a07f459ad1e64db267fa57997217fd2d1" compoundref="_scene_shapes_instantiator_8cs" startline="15">RectangularToroids</references>
+        <references refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" compoundref="_rectangular_toroid_builder_8cs" startline="6" endline="60">RectangularToroidBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1a5f5ceca041209707a86caa15ca750a1c" compoundref="_scene_shapes_instantiator_8cs" startline="16">Toroids</references>
+        <references refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" compoundref="_toroid_builder_8cs" startline="7" endline="72">ToroidBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1a54a180399d20c2c18b2612dfced1940a" compoundref="_scene_shapes_instantiator_8cs" startline="18">SphericalDishes</references>
+        <references refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" compoundref="_spherical_lathing_builder_8cs" startline="7" endline="65">SphericalLathingBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1ae236a8a90784d7a5480f1b3a179d6bbd" compoundref="_scene_shapes_instantiator_8cs" startline="19">Snouts</references>
+        <references refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" compoundref="_truncated_shifted_cone_builder_8cs" startline="8" endline="62">TruncatedShiftedConeBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1ad0f5a1c1d12b5eacd5b07ef5fe0cfeb5" compoundref="_scene_shapes_instantiator_8cs" startline="23">ShearedCylinders</references>
+        <references refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" compoundref="_sheared_cylinder_builder_8cs" startline="7" endline="67">ShearedCylinderBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1aa75cb20d2257e125bd3b612b952221f3" compoundref="_scene_shapes_instantiator_8cs" startline="14">Boxes</references>
+        <references refid="class_box_builder_1abc60d5703f823177fa84743c041866da" compoundref="_box_builder_8cs" startline="7" endline="84">BoxBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1a9447b1da7403dc2f4f8bfe3a15e3099b" compoundref="_scene_shapes_instantiator_8cs" startline="17">EllipticalDishes</references>
+        <references refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" compoundref="_elliptical_lathing_builder_8cs" startline="7" endline="65">EllipticalLathingBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1a7bdf6dc22f0852bdaaab0c22a884295b" compoundref="_scene_shapes_instantiator_8cs" startline="20">Cylinders</references>
+        <references refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" compoundref="_cylinder_builder_8cs" startline="7" endline="60">CylinderBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1a12b50389cab084fa06b3b29cb4be19a3" compoundref="_scene_shapes_instantiator_8cs" startline="21">Spheres</references>
+        <references refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" compoundref="_sphere_builder_8cs" startline="7" endline="78">SphereBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1adb8dd376dc5df27675120c149153d394" compoundref="_scene_shapes_instantiator_8cs" startline="22">CreateMultipleMeshes</references>
+        <references refid="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" compoundref="_shape_data_repository_8cs" startline="26">ShapeDataRepository.AllShapesIds</references>
+        <references refid="class_scene_shapes_instantiator_1a340b257c6f9383dceb8e9bbb0f1cf3a3" compoundref="_scene_shapes_instantiator_8cs" startline="34">StandardMaterial</references>
+        <references refid="class_multiple_mesh_builder_1a04d492393576d5da12920f4785d1faac" compoundref="_multiple_mesh_builder_8cs" startline="48" endline="80">MultipleMeshBuilder.Build</references>
+        <references refid="class_scene_shapes_instantiator_1adfa3657bf47b83545fe33125c44e6699" compoundref="_scene_shapes_instantiator_8cs" startline="9">OptimizeForStaticBatching</references>
+        <references refid="class_scene_shapes_instantiator_1a05616961895590145e6c8052e076ebe4" compoundref="_scene_shapes_instantiator_8cs" startline="10">DuplicatesThresholdForSwitchingToInstancing</references>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.SetModelRotationAndMirroring</definition>
+        <argsstring>()</argsstring>
+        <name>SetModelRotationAndMirroring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="191" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="191" bodyend="199"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">ShapeDataRepository.Nodes</references>
+        <references refid="class_scene_shapes_instantiator_1a25a71700c5aa269c03bf5921acc43bb6" compoundref="_scene_shapes_instantiator_8cs" startline="35">CameraRig</references>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a29c0c752b7e68cd04618f1e4de089df9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateAllColliders</definition>
+        <argsstring>()</argsstring>
+        <name>CreateAllColliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="201" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="201" bodyend="208"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">ShapeDataRepository.Nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.AssignColorsToAllShapes</definition>
+        <argsstring>()</argsstring>
+        <name>AssignColorsToAllShapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="641" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="641" bodyend="660"/>
+        <references refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" compoundref="_shape_data_repository_8cs" startline="7">ShapeDataRepository.Shapes</references>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">ShapeDataRepository.Nodes</references>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateColliders</definition>
+        <argsstring>()</argsstring>
+        <name>CreateColliders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="759" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="759" bodyend="786"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">ShapeDataRepository.Nodes</references>
+        <references refid="class_node_1ac49c69569aa07d54598b6b793ba26a31" compoundref="_node_8cs" startline="14">Node.ChildrenIds</references>
+        <references refid="class_att_data_1a502d563e2461a3f13f9ce28e54cdcea7" compoundref="_att_data_8cs" startline="6">AttData.NameFromAttributes</references>
+        <references refid="class_node_1a3616974f5d2d3cb5103f3ecc6f839cf6" compoundref="_node_8cs" startline="6">Node.Name</references>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a03ef9e1168071ed4c24716d266451045" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateChildren</definition>
+        <argsstring>(Transform parent, Node node)</argsstring>
+        <name>CreateChildren</name>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="71" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="71" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a895ef3656ddd5a276184245b31e80962" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateNodeColliders</definition>
+        <argsstring>(Node node)</argsstring>
+        <name>CreateNodeColliders</name>
+        <param>
+          <type><ref refid="class_node" kindref="compound">Node</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="210" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="210" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1af7e9c460fb8cb8166b38d8b1de2e64e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SceneShapesInstantiator.IsClone</definition>
+        <argsstring>(List&lt; MultipleMeshShapeData &gt; uniqueMeshes, MultipleMeshShapeData currentMeshes)</argsstring>
+        <name>IsClone</name>
+        <param>
+          <type>List&lt; <ref refid="class_multiple_mesh_shape_data" kindref="compound">MultipleMeshShapeData</ref> &gt;</type>
+          <declname>uniqueMeshes</declname>
+        </param>
+        <param>
+          <type><ref refid="class_multiple_mesh_shape_data" kindref="compound">MultipleMeshShapeData</ref></type>
+          <declname>currentMeshes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="327" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="327" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1aaace1023bc00fc5af1fc5466f0d4ef6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.CheckIsMeshNonDuplicateBySubobjectsCount</definition>
+        <argsstring>(MeshData[] md0, MeshData[] md1)</argsstring>
+        <name>CheckIsMeshNonDuplicateBySubobjectsCount</name>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>md0</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>md1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="342" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="342" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a82ff894572c965350cbbca9d2e4a913f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.CheckIsMeshNonDuplicateByVerticesCongruence</definition>
+        <argsstring>(MeshData[] md0, MeshData[] md1)</argsstring>
+        <name>CheckIsMeshNonDuplicateByVerticesCongruence</name>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>md0</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>md1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="357" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="357" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a1bcda63e93670d8a4da5a1a15c528647" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SceneShapesInstantiator.CheckIsMeshNonDuplicateBySegmentsLength</definition>
+        <argsstring>(MeshData[] md0, MeshData[] md1)</argsstring>
+        <name>CheckIsMeshNonDuplicateBySegmentsLength</name>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>md0</declname>
+        </param>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>md1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="379" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="379" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a71b4ad6648fca7fa37da8dbf2c4c79e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.SetTransformMrMf</definition>
+        <argsstring>(Transform target, Matrix4x4 transformMatrix, int parentId, bool worldPositionStays=true)</argsstring>
+        <name>SetTransformMrMf</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parentId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>worldPositionStays</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="411" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="411" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a133ce023cf8d3a85b405b1bc0f884c06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.BuildParametersMatchableShapes</definition>
+        <argsstring>(int shapeTypeId, Func&lt; PrimitiveShapeData, LodSettings, Mesh &gt; buildMethod)</argsstring>
+        <name>BuildParametersMatchableShapes</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref>, <ref refid="class_lod_settings" kindref="compound">LodSettings</ref>, Mesh &gt;</type>
+          <declname>buildMethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="420" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="420" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a1a093d87ecba128dba77e65fb9eed638" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.BuildParametersMatchableShapes2</definition>
+        <argsstring>(int shapeTypeId, Func&lt; PrimitiveShapeData, LodSettings, Mesh &gt; buildMethod)</argsstring>
+        <name>BuildParametersMatchableShapes2</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref>, <ref refid="class_lod_settings" kindref="compound">LodSettings</ref>, Mesh &gt;</type>
+          <declname>buildMethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="455" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="455" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a286602066cfd37de57faf029b9c1abb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.BuildScalableShapes</definition>
+        <argsstring>(int shapeTypeId, PrimitiveShapeData bsd, int[] scalingParametersIndexes, Func&lt; PrimitiveShapeData, LodSettings, Mesh &gt; buildMethod)</argsstring>
+        <name>BuildScalableShapes</name>
+        <param>
+          <type>int</type>
+          <declname>shapeTypeId</declname>
+        </param>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>bsd</declname>
+        </param>
+        <param>
+          <type>int []</type>
+          <declname>scalingParametersIndexes</declname>
+        </param>
+        <param>
+          <type>Func&lt; <ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref>, <ref refid="class_lod_settings" kindref="compound">LodSettings</ref>, Mesh &gt;</type>
+          <declname>buildMethod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="512" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="512" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a6b09708d13318b3a3a6cd270fec1b87a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject SceneShapesInstantiator.FindPrefabWithSameParameters</definition>
+        <argsstring>(PrimitiveShapeData sd, Dictionary&lt; PrimitiveShapeData, GameObject &gt; prefabsDict)</argsstring>
+        <name>FindPrefabWithSameParameters</name>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>sd</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; <ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref>, GameObject &gt;</type>
+          <declname>prefabsDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="545" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="545" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a584424766bd7dbb80d8b0126b916fade" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SceneShapesInstantiator.FindCloneBySameParameters</definition>
+        <argsstring>(PrimitiveShapeData currentPsd, List&lt; PrimitiveShapeData &gt; psds)</argsstring>
+        <name>FindCloneBySameParameters</name>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>currentPsd</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref> &gt;</type>
+          <declname>psds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="557" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="557" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1aa0684c4c09958fb0532d1b3c327f3402" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.AlignWithParentsMultipleMeshDataInStorage</definition>
+        <argsstring>()</argsstring>
+        <name>AlignWithParentsMultipleMeshDataInStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="570" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="570" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a8df178d06dbe7f7108717956a6ae85f5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.InitializeColors</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="593" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="593" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1ad3474d1734349bed45760446a3bdb1ff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.SetColorPropertyBlock</definition>
+        <argsstring>(MeshRenderer mr, byte colorIndex)</argsstring>
+        <name>SetColorPropertyBlock</name>
+        <param>
+          <type>MeshRenderer</type>
+          <declname>mr</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>colorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="629" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="629" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a1bf55bc521fed875e428760dc78a8ca5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.SetColorToTransformsChildrenRenderers</definition>
+        <argsstring>(Transform tr, byte colorIndex)</argsstring>
+        <name>SetColorToTransformsChildrenRenderers</name>
+        <param>
+          <type>Transform</type>
+          <declname>tr</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>colorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="662" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="662" bodyend="671"/>
+      </memberdef>
+      <memberdef kind="function" id="class_scene_shapes_instantiator_1a0972fb2cbbab229681f3a8170a56ad4f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneShapesInstantiator.CreateSimpleCollider</definition>
+        <argsstring>(Transform container)</argsstring>
+        <name>CreateSimpleCollider</name>
+        <param>
+          <type>Transform</type>
+          <declname>container</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="673" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="673" bodyend="757"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="246">
+        <label>SceneShapesInstantiator</label>
+        <link refid="class_scene_shapes_instantiator"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="250">
+        <label>BuilderSettings</label>
+        <link refid="class_builder_settings"/>
+      </node>
+      <node id="248">
+        <label>SceneShapesInstantiator</label>
+        <link refid="class_scene_shapes_instantiator"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>BuilderSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="249">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SceneShapesInstantiator.cs" bodystart="6" bodyend="787"/>
+    <listofallmembers>
+      <member refid="class_scene_shapes_instantiator_1a6ec91fcc98ef180fd7c046f65f3fa24f" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>_centerOfModel</name></member>
+      <member refid="class_scene_shapes_instantiator_1a04e8365cca533f9dde5f02cd47e5ce51" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>_colors</name></member>
+      <member refid="class_scene_shapes_instantiator_1a6069053b67e0a7205e6f5e71686204b6" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>_prefabs</name></member>
+      <member refid="class_scene_shapes_instantiator_1a732d3151ac4bfb8b80cc1f5821926783" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>_prefabsStorage</name></member>
+      <member refid="class_scene_shapes_instantiator_1acf4941203b65be4d6dd56bcc980bafa2" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>_staticObjectsParent</name></member>
+      <member refid="class_scene_shapes_instantiator_1aa0684c4c09958fb0532d1b3c327f3402" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>AlignWithParentsMultipleMeshDataInStorage</name></member>
+      <member refid="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>AssignColorsToAllShapes</name></member>
+      <member refid="class_scene_shapes_instantiator_1aa75cb20d2257e125bd3b612b952221f3" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>Boxes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a0cff8be70f96b6cb4dd334746f26820d" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>BuilderSettings</name></member>
+      <member refid="class_scene_shapes_instantiator_1a133ce023cf8d3a85b405b1bc0f884c06" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>BuildParametersMatchableShapes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a1a093d87ecba128dba77e65fb9eed638" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>BuildParametersMatchableShapes2</name></member>
+      <member refid="class_scene_shapes_instantiator_1a286602066cfd37de57faf029b9c1abb4" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>BuildScalableShapes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a25a71700c5aa269c03bf5921acc43bb6" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CameraRig</name></member>
+      <member refid="class_scene_shapes_instantiator_1a1bcda63e93670d8a4da5a1a15c528647" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CheckIsMeshNonDuplicateBySegmentsLength</name></member>
+      <member refid="class_scene_shapes_instantiator_1aaace1023bc00fc5af1fc5466f0d4ef6b" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CheckIsMeshNonDuplicateBySubobjectsCount</name></member>
+      <member refid="class_scene_shapes_instantiator_1a82ff894572c965350cbbca9d2e4a913f" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CheckIsMeshNonDuplicateByVerticesCongruence</name></member>
+      <member refid="class_scene_shapes_instantiator_1a29c0c752b7e68cd04618f1e4de089df9" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateAllColliders</name></member>
+      <member refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateAllShapes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a03ef9e1168071ed4c24716d266451045" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateChildren</name></member>
+      <member refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateColliders</name></member>
+      <member refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateHierarchy</name></member>
+      <member refid="class_scene_shapes_instantiator_1adb8dd376dc5df27675120c149153d394" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateMultipleMeshes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a895ef3656ddd5a276184245b31e80962" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateNodeColliders</name></member>
+      <member refid="class_scene_shapes_instantiator_1a0972fb2cbbab229681f3a8170a56ad4f" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>CreateSimpleCollider</name></member>
+      <member refid="class_scene_shapes_instantiator_1a7bdf6dc22f0852bdaaab0c22a884295b" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>Cylinders</name></member>
+      <member refid="class_scene_shapes_instantiator_1a05616961895590145e6c8052e076ebe4" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>DuplicatesThresholdForSwitchingToInstancing</name></member>
+      <member refid="class_scene_shapes_instantiator_1a9447b1da7403dc2f4f8bfe3a15e3099b" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>EllipticalDishes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a584424766bd7dbb80d8b0126b916fade" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>FindCloneBySameParameters</name></member>
+      <member refid="class_scene_shapes_instantiator_1a6b09708d13318b3a3a6cd270fec1b87a" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>FindPrefabWithSameParameters</name></member>
+      <member refid="class_scene_shapes_instantiator_1a8df178d06dbe7f7108717956a6ae85f5" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>InitializeColors</name></member>
+      <member refid="class_scene_shapes_instantiator_1af7e9c460fb8cb8166b38d8b1de2e64e3" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>IsClone</name></member>
+      <member refid="class_scene_shapes_instantiator_1adfa3657bf47b83545fe33125c44e6699" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>OptimizeForStaticBatching</name></member>
+      <member refid="class_scene_shapes_instantiator_1a07f459ad1e64db267fa57997217fd2d1" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>RectangularToroids</name></member>
+      <member refid="class_scene_shapes_instantiator_1ad947fac74cbe83b3acc39baab51625c2" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>RootTransform</name></member>
+      <member refid="class_scene_shapes_instantiator_1ad3474d1734349bed45760446a3bdb1ff" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>SetColorPropertyBlock</name></member>
+      <member refid="class_scene_shapes_instantiator_1a1bf55bc521fed875e428760dc78a8ca5" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>SetColorToTransformsChildrenRenderers</name></member>
+      <member refid="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>SetModelRotationAndMirroring</name></member>
+      <member refid="class_scene_shapes_instantiator_1a84a665ef8ad23ac0700377a8034818d0" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>SetShapeDataRepository</name></member>
+      <member refid="class_scene_shapes_instantiator_1a71b4ad6648fca7fa37da8dbf2c4c79e3" prot="private" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>SetTransformMrMf</name></member>
+      <member refid="class_scene_shapes_instantiator_1a59448891f574b4153d072c9815f626e4" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>ShapeDataRepository</name></member>
+      <member refid="class_scene_shapes_instantiator_1ad0f5a1c1d12b5eacd5b07ef5fe0cfeb5" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>ShearedCylinders</name></member>
+      <member refid="class_scene_shapes_instantiator_1ae236a8a90784d7a5480f1b3a179d6bbd" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>Snouts</name></member>
+      <member refid="class_scene_shapes_instantiator_1a12b50389cab084fa06b3b29cb4be19a3" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>Spheres</name></member>
+      <member refid="class_scene_shapes_instantiator_1a54a180399d20c2c18b2612dfced1940a" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>SphericalDishes</name></member>
+      <member refid="class_scene_shapes_instantiator_1a340b257c6f9383dceb8e9bbb0f1cf3a3" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>StandardMaterial</name></member>
+      <member refid="class_scene_shapes_instantiator_1a5f5ceca041209707a86caa15ca750a1c" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>Toroids</name></member>
+      <member refid="class_scene_shapes_instantiator_1a96b27a2b4d7a93b85ebd729a97e46534" prot="public" virt="non-virtual"><scope>SceneShapesInstantiator</scope><name>TruncatedPyramids</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

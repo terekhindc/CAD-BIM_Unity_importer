@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_character_animator" kind="class" language="C#" prot="public">
+    <compoundname>CharacterAnimator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_character_animator_1a8a6338921429b3592f686a85bf4c180f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CharacterAnimator.Threshold</definition>
+        <argsstring></argsstring>
+        <name>Threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_character_animator_1aa00597e81da1721e1f02fbd0e27368c0" compoundref="_character_animator_8cs" startline="25" endline="54">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_animator_1a814d1388371a3d17129e5be0014a98c7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CharacterAnimator.TimeThreshold</definition>
+        <argsstring></argsstring>
+        <name>TimeThreshold</name>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_character_animator_1aa00597e81da1721e1f02fbd0e27368c0" compoundref="_character_animator_8cs" startline="25" endline="54">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_character_animator_1af8dc74f6d64e6b1e889fbf9092da4e54" prot="private" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator CharacterAnimator._an</definition>
+        <argsstring></argsstring>
+        <name>_an</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_animator_1a51743844a84ae96ceb71dcbc4036ae4a" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CharacterAnimator._tr</definition>
+        <argsstring></argsstring>
+        <name>_tr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_animator_1af8c4512d5451edfcc4ce7998e8b409eb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CharacterAnimator._moving</definition>
+        <argsstring></argsstring>
+        <name>_moving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_animator_1af3dd06667e11dad28489703d1501e888" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CharacterAnimator._prevPos</definition>
+        <argsstring></argsstring>
+        <name>_prevPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_character_animator_1a360c27e272f196463b98aeabc4e4cce6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CharacterAnimator._elapsed</definition>
+        <argsstring></argsstring>
+        <name>_elapsed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_character_animator_1ac53582c38b509b8548095c9e1d201843" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterAnimator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_character_animator_1aa00597e81da1721e1f02fbd0e27368c0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CharacterAnimator.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="25" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="25" bodyend="54"/>
+        <references refid="class_character_animator_1a8a6338921429b3592f686a85bf4c180f" compoundref="_character_animator_8cs" startline="7">Threshold</references>
+        <references refid="class_character_animator_1a814d1388371a3d17129e5be0014a98c7" compoundref="_character_animator_8cs" startline="8">TimeThreshold</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>CharacterAnimator</label>
+        <link refid="class_character_animator"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>CharacterAnimator</label>
+        <link refid="class_character_animator"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/CharacterAnimator.cs" bodystart="5" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_character_animator_1af8dc74f6d64e6b1e889fbf9092da4e54" prot="private" virt="non-virtual"><scope>CharacterAnimator</scope><name>_an</name></member>
+      <member refid="class_character_animator_1a360c27e272f196463b98aeabc4e4cce6" prot="private" virt="non-virtual"><scope>CharacterAnimator</scope><name>_elapsed</name></member>
+      <member refid="class_character_animator_1af8c4512d5451edfcc4ce7998e8b409eb" prot="private" virt="non-virtual"><scope>CharacterAnimator</scope><name>_moving</name></member>
+      <member refid="class_character_animator_1af3dd06667e11dad28489703d1501e888" prot="private" virt="non-virtual"><scope>CharacterAnimator</scope><name>_prevPos</name></member>
+      <member refid="class_character_animator_1a51743844a84ae96ceb71dcbc4036ae4a" prot="private" virt="non-virtual"><scope>CharacterAnimator</scope><name>_tr</name></member>
+      <member refid="class_character_animator_1ac53582c38b509b8548095c9e1d201843" prot="protected" virt="non-virtual"><scope>CharacterAnimator</scope><name>Start</name></member>
+      <member refid="class_character_animator_1a8a6338921429b3592f686a85bf4c180f" prot="public" virt="non-virtual"><scope>CharacterAnimator</scope><name>Threshold</name></member>
+      <member refid="class_character_animator_1a814d1388371a3d17129e5be0014a98c7" prot="public" virt="non-virtual"><scope>CharacterAnimator</scope><name>TimeThreshold</name></member>
+      <member refid="class_character_animator_1aa00597e81da1721e1f02fbd0e27368c0" prot="protected" virt="non-virtual"><scope>CharacterAnimator</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

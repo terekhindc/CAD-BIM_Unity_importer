@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_wherety_network_manager" kind="class" language="C#" prot="public">
+    <compoundname>WheretyNetworkManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NetworkManager</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wherety_network_manager_1aa5ec96c0e0a247df2a8deef2b48f5d37" prot="public" static="no" mutable="no">
+        <type>const short</type>
+        <definition>const short WheretyNetworkManager.HideObjectMessageType</definition>
+        <argsstring></argsstring>
+        <name>HideObjectMessageType</name>
+        <initializer>= MsgType.Highest + 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_network_manager_1afc167de4176e136df7e0ea9b148e0051" prot="public" static="no" mutable="no">
+        <type>const short</type>
+        <definition>const short WheretyNetworkManager.InteractWithObjectMessageType</definition>
+        <argsstring></argsstring>
+        <name>InteractWithObjectMessageType</name>
+        <initializer>= MsgType.Highest + 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_network_manager_1a6d27960bd46c2086472904588aa41dd3" prot="public" static="no" mutable="no">
+        <type>const short</type>
+        <definition>const short WheretyNetworkManager.MoveObjectMessageType</definition>
+        <argsstring></argsstring>
+        <name>MoveObjectMessageType</name>
+        <initializer>= MsgType.Highest + 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_network_manager_1ae3eb8fd7f71b5d2c6f6bf0189f3deff3" prot="public" static="no" mutable="no">
+        <type>const short</type>
+        <definition>const short WheretyNetworkManager.PlayPickupAnimationMessageType</definition>
+        <argsstring></argsstring>
+        <name>PlayPickupAnimationMessageType</name>
+        <initializer>= MsgType.Highest + 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_network_manager_1a434267823b738ab40c2e56cea748c401" prot="public" static="no" mutable="no">
+        <type>const short</type>
+        <definition>const short WheretyNetworkManager.SelectAndShowAttributesMessageType</definition>
+        <argsstring></argsstring>
+        <name>SelectAndShowAttributesMessageType</name>
+        <initializer>= MsgType.Highest + 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void WheretyNetworkManager.OnClientConnect</definition>
+        <argsstring>(NetworkConnection connection)</argsstring>
+        <name>OnClientConnect</name>
+        <param>
+          <type>NetworkConnection</type>
+          <declname>connection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="14" bodyend="23"/>
+        <references refid="class_wherety_network_manager_1aa5ec96c0e0a247df2a8deef2b48f5d37" compoundref="_wherety_network_manager_8cs" startline="8">HideObjectMessageType</references>
+        <references refid="class_wherety_network_manager_1a6e186d393c4ed2142104942b3cb34565" compoundref="_wherety_network_manager_8cs" startline="25" endline="29">ReceiveHideObjectMessage</references>
+        <references refid="class_wherety_network_manager_1afc167de4176e136df7e0ea9b148e0051" compoundref="_wherety_network_manager_8cs" startline="9">InteractWithObjectMessageType</references>
+        <references refid="class_wherety_network_manager_1ab3b64000541e3ec84be5de029fa23327" compoundref="_wherety_network_manager_8cs" startline="31" endline="35">ReceiveInteractWithObjectMessage</references>
+        <references refid="class_wherety_network_manager_1a6d27960bd46c2086472904588aa41dd3" compoundref="_wherety_network_manager_8cs" startline="10">MoveObjectMessageType</references>
+        <references refid="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" compoundref="_wherety_network_manager_8cs" startline="37" endline="47">ReceiveMoveObjectMessage</references>
+        <references refid="class_wherety_network_manager_1ae3eb8fd7f71b5d2c6f6bf0189f3deff3" compoundref="_wherety_network_manager_8cs" startline="11">PlayPickupAnimationMessageType</references>
+        <references refid="class_wherety_network_manager_1a5f80307ac75bac2c91c9d856f9599fc3" compoundref="_wherety_network_manager_8cs" startline="49" endline="61">ReceivePlayPickupAnimationMessage</references>
+        <references refid="class_wherety_network_manager_1a434267823b738ab40c2e56cea748c401" compoundref="_wherety_network_manager_8cs" startline="12">SelectAndShowAttributesMessageType</references>
+        <references refid="class_wherety_network_manager_1a474f4d25df96e54eaa17593694ed8c2d" compoundref="_wherety_network_manager_8cs" startline="63" endline="67">ReceiveSelectAndShowAttributesMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_network_manager_1a6e186d393c4ed2142104942b3cb34565" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyNetworkManager.ReceiveHideObjectMessage</definition>
+        <argsstring>(NetworkMessage networkMessage)</argsstring>
+        <name>ReceiveHideObjectMessage</name>
+        <param>
+          <type>NetworkMessage</type>
+          <declname>networkMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="25" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="25" bodyend="29"/>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a1cb78e3a47e10b031ce57afb314ca325" compoundref="_ui_manager_8cs" startline="76" endline="81">UiManager.HideObject</references>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_network_manager_1ab3b64000541e3ec84be5de029fa23327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyNetworkManager.ReceiveInteractWithObjectMessage</definition>
+        <argsstring>(NetworkMessage networkMessage)</argsstring>
+        <name>ReceiveInteractWithObjectMessage</name>
+        <param>
+          <type>NetworkMessage</type>
+          <declname>networkMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="31" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="31" bodyend="35"/>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">UiManager.I</references>
+        <references refid="class_ui_manager_1a29bd6700b20d98d699f5fc7623460a3d" compoundref="_ui_manager_8cs" startline="83" endline="90">UiManager.InteractWithObject</references>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyNetworkManager.ReceiveMoveObjectMessage</definition>
+        <argsstring>(NetworkMessage networkMessage)</argsstring>
+        <name>ReceiveMoveObjectMessage</name>
+        <param>
+          <type>NetworkMessage</type>
+          <declname>networkMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="37" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="37" bodyend="47"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <references refid="class_object_hive_vr_1aed7cdec7b161cf6ecced26e603507571" compoundref="_object_hive_vr_8cs" startline="10">ObjectHiveVr.Player</references>
+        <references refid="class_move_object_message_1a64834890d0b6424af90c5c39d0ca4413" compoundref="_move_object_message_8cs" startline="10">MoveObjectMessage.Position</references>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_network_manager_1a5f80307ac75bac2c91c9d856f9599fc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyNetworkManager.ReceivePlayPickupAnimationMessage</definition>
+        <argsstring>(NetworkMessage networkMessage)</argsstring>
+        <name>ReceivePlayPickupAnimationMessage</name>
+        <param>
+          <type>NetworkMessage</type>
+          <declname>networkMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="49" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="49" bodyend="61"/>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_network_manager_1a474f4d25df96e54eaa17593694ed8c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyNetworkManager.ReceiveSelectAndShowAttributesMessage</definition>
+        <argsstring>(NetworkMessage networkMessage)</argsstring>
+        <name>ReceiveSelectAndShowAttributesMessage</name>
+        <param>
+          <type>NetworkMessage</type>
+          <declname>networkMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="63" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="63" bodyend="67"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <references refid="class_object_hive_vr_1a5b7d838d57f778ac91cc0e666709512f" compoundref="_object_hive_vr_8cs" startline="51" endline="64">ObjectHiveVr.SelectAndShowAttributes</references>
+        <referencedby refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" compoundref="_wherety_network_manager_8cs" startline="14" endline="23">OnClientConnect</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="390">
+        <label>WheretyNetworkManager</label>
+        <link refid="class_wherety_network_manager"/>
+        <childnode refid="391" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>NetworkManager</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="392">
+        <label>WheretyNetworkManager</label>
+        <link refid="class_wherety_network_manager"/>
+        <childnode refid="393" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>NetworkManager</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/WheretyNetworkManager.cs" bodystart="6" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_wherety_network_manager_1aa5ec96c0e0a247df2a8deef2b48f5d37" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>HideObjectMessageType</name></member>
+      <member refid="class_wherety_network_manager_1afc167de4176e136df7e0ea9b148e0051" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>InteractWithObjectMessageType</name></member>
+      <member refid="class_wherety_network_manager_1a6d27960bd46c2086472904588aa41dd3" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>MoveObjectMessageType</name></member>
+      <member refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>OnClientConnect</name></member>
+      <member refid="class_wherety_network_manager_1ae3eb8fd7f71b5d2c6f6bf0189f3deff3" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>PlayPickupAnimationMessageType</name></member>
+      <member refid="class_wherety_network_manager_1a6e186d393c4ed2142104942b3cb34565" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>ReceiveHideObjectMessage</name></member>
+      <member refid="class_wherety_network_manager_1ab3b64000541e3ec84be5de029fa23327" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>ReceiveInteractWithObjectMessage</name></member>
+      <member refid="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>ReceiveMoveObjectMessage</name></member>
+      <member refid="class_wherety_network_manager_1a5f80307ac75bac2c91c9d856f9599fc3" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>ReceivePlayPickupAnimationMessage</name></member>
+      <member refid="class_wherety_network_manager_1a474f4d25df96e54eaa17593694ed8c2d" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>ReceiveSelectAndShowAttributesMessage</name></member>
+      <member refid="class_wherety_network_manager_1a434267823b738ab40c2e56cea748c401" prot="public" virt="non-virtual"><scope>WheretyNetworkManager</scope><name>SelectAndShowAttributesMessageType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

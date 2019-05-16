@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_lathing_parameters" kind="class" language="C#" prot="public">
+    <compoundname>LathingParameters</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" prot="public" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool LathingParameters.Closed</definition>
+        <argsstring></argsstring>
+        <name>Closed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" compoundref="_lathing_parameters_8cs" startline="12" endline="32">LathingParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; LathingParameters.Indices</definition>
+        <argsstring></argsstring>
+        <name>Indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" compoundref="_lathing_parameters_8cs" startline="12" endline="32">LathingParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" prot="public" static="no" mutable="no">
+        <type>readonly Quaternion</type>
+        <definition>readonly Quaternion LathingParameters.Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" compoundref="_lathing_parameters_8cs" startline="12" endline="32">LathingParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int LathingParameters.StepsCount</definition>
+        <argsstring></argsstring>
+        <name>StepsCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" compoundref="_lathing_parameters_8cs" startline="12" endline="32">LathingParameters</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" prot="public" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; LathingParameters.Vertices</definition>
+        <argsstring></argsstring>
+        <name>Vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" compoundref="_lathing_parameters_8cs" startline="12" endline="32">LathingParameters</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LathingParameters.LathingParameters</definition>
+        <argsstring>(ref float revoluteStep, ref float fillAngle)</argsstring>
+        <name>LathingParameters</name>
+        <param>
+          <type>ref float</type>
+          <declname>revoluteStep</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>fillAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="12" bodyend="32"/>
+        <references refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" compoundref="_lathing_parameters_8cs" startline="6">Closed</references>
+        <references refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" compoundref="_lathing_parameters_8cs" startline="9">StepsCount</references>
+        <references refid="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" compoundref="_lathing_parameters_8cs" startline="8">Rotation</references>
+        <references refid="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" compoundref="_lathing_parameters_8cs" startline="7">Indices</references>
+        <references refid="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" compoundref="_lathing_parameters_8cs" startline="10">Vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test/LathingParameters.cs" bodystart="4" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" prot="public" virt="non-virtual"><scope>LathingParameters</scope><name>Closed</name></member>
+      <member refid="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" prot="public" virt="non-virtual"><scope>LathingParameters</scope><name>Indices</name></member>
+      <member refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" prot="public" virt="non-virtual"><scope>LathingParameters</scope><name>LathingParameters</name></member>
+      <member refid="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" prot="public" virt="non-virtual"><scope>LathingParameters</scope><name>Rotation</name></member>
+      <member refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" prot="public" virt="non-virtual"><scope>LathingParameters</scope><name>StepsCount</name></member>
+      <member refid="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" prot="public" virt="non-virtual"><scope>LathingParameters</scope><name>Vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

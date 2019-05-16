@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_multiple_meshes_data" kind="class" language="C#" prot="public">
+    <compoundname>MultipleMeshesData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+        <definition>readonly MeshData [] MultipleMeshesData.Meshes</definition>
+        <argsstring></argsstring>
+        <name>Meshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_multiple_mesh_builder_1a04d492393576d5da12920f4785d1faac" compoundref="_multiple_mesh_builder_8cs" startline="48" endline="80">MultipleMeshBuilder.Build</referencedby>
+        <referencedby refid="class_multiple_meshes_data_1a3bab441917499d497ad6410a6fd7864d" compoundref="_multiple_meshes_data_8cs" startline="7" endline="10">MultipleMeshesData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_multiple_meshes_data_1a3bab441917499d497ad6410a6fd7864d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MultipleMeshesData.MultipleMeshesData</definition>
+        <argsstring>(MeshData[] meshes)</argsstring>
+        <name>MultipleMeshesData</name>
+        <param>
+          <type><ref refid="class_mesh_data" kindref="compound">MeshData</ref> []</type>
+          <declname>meshes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs" bodystart="7" bodyend="10"/>
+        <references refid="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" compoundref="_multiple_meshes_data_8cs" startline="5">Meshes</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="158">
+        <label>MeshData</label>
+        <link refid="class_mesh_data"/>
+        <childnode refid="159" relation="usage">
+          <edgelabel>Polygons</edgelabel>
+        </childnode>
+      </node>
+      <node id="157">
+        <label>MultipleMeshesData</label>
+        <link refid="class_multiple_meshes_data"/>
+        <childnode refid="158" relation="usage">
+          <edgelabel>Meshes</edgelabel>
+        </childnode>
+      </node>
+      <node id="159">
+        <label>PolygonData</label>
+        <link refid="class_polygon_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs" bodystart="3" bodyend="11"/>
+    <listofallmembers>
+      <member refid="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" prot="public" virt="non-virtual"><scope>MultipleMeshesData</scope><name>Meshes</name></member>
+      <member refid="class_multiple_meshes_data_1a3bab441917499d497ad6410a6fd7864d" prot="public" virt="non-virtual"><scope>MultipleMeshesData</scope><name>MultipleMeshesData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

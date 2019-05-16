@@ -1,0 +1,106 @@
+.TH "ShapeDataRepository" 3 "Thu May 16 2019" "CAD-BIM_Unity_Importer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ShapeDataRepository
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBShapeDataRepository\fP ()"
+.br
+.ti -1c
+.RI "void \fBSetRootNode\fP (string name)"
+.br
+.ti -1c
+.RI "void \fBAddNode\fP (string name, Vector3 position)"
+.br
+.ti -1c
+.RI "void \fBAddNode\fP (string name, Vector3 position, byte colorIndex)"
+.br
+.ti -1c
+.RI "void \fBSelectNearestParent\fP ()"
+.br
+.ti -1c
+.RI "void \fBAddShape\fP (int shapeType, Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, float[] parameters)"
+.br
+.ti -1c
+.RI "void \fBAddMultipleMeshes\fP (Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, \fBMultipleMeshesData\fP multipleMeshesData)"
+.br
+.ti -1c
+.RI "void \fBShowStatistics\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "Dictionary< int, \fBNode\fP > \fBNodes\fP"
+.br
+.ti -1c
+.RI "Dictionary< int, \fBShapeData\fP > \fBShapes\fP"
+.br
+.ti -1c
+.RI "List< int > [] \fBAllShapesIds\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 4 of file ShapeDataRepository\&.cs\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "ShapeDataRepository\&.ShapeDataRepository ()"
+
+.PP
+Definition at line 30 of file ShapeDataRepository\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "void ShapeDataRepository\&.AddMultipleMeshes (Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, \fBMultipleMeshesData\fP multipleMeshesData)"
+
+.PP
+Definition at line 101 of file ShapeDataRepository\&.cs\&.
+.SS "void ShapeDataRepository\&.AddNode (string name, Vector3 position)"
+
+.PP
+Definition at line 76 of file ShapeDataRepository\&.cs\&.
+.SS "void ShapeDataRepository\&.AddNode (string name, Vector3 position, byte colorIndex)"
+
+.PP
+Definition at line 81 of file ShapeDataRepository\&.cs\&.
+.SS "void ShapeDataRepository\&.AddShape (int shapeType, Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, float [] parameters)"
+
+.PP
+Definition at line 94 of file ShapeDataRepository\&.cs\&.
+.SS "void ShapeDataRepository\&.SelectNearestParent ()"
+
+.PP
+Definition at line 89 of file ShapeDataRepository\&.cs\&.
+.SS "void ShapeDataRepository\&.SetRootNode (string name)"
+
+.PP
+Definition at line 70 of file ShapeDataRepository\&.cs\&.
+.SS "void ShapeDataRepository\&.ShowStatistics ()"
+
+.PP
+Definition at line 109 of file ShapeDataRepository\&.cs\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "List<int> [] ShapeDataRepository\&.AllShapesIds"
+
+.PP
+Definition at line 26 of file ShapeDataRepository\&.cs\&.
+.SS "Dictionary<int, \fBNode\fP> ShapeDataRepository\&.Nodes"
+
+.PP
+Definition at line 6 of file ShapeDataRepository\&.cs\&.
+.SS "Dictionary<int, \fBShapeData\fP> ShapeDataRepository\&.Shapes"
+
+.PP
+Definition at line 7 of file ShapeDataRepository\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CAD-BIM_Unity_Importer from the source code\&.

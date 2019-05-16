@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_truncated_pyramid_builder" kind="class" language="C#" prot="public">
+    <compoundname>TruncatedPyramidBuilder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh TruncatedPyramidBuilder.Build</definition>
+        <argsstring>(PrimitiveShapeData truncatedPyramidBaseData, LodSettings lodSettings)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>truncatedPyramidBaseData</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/TruncatedPyramidBuilder.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/TruncatedPyramidBuilder.cs" bodystart="5" bodyend="54"/>
+        <references refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" compoundref="_primitive_shape_data_8cs" startline="5">PrimitiveShapeData.Parameters</references>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/TruncatedPyramidBuilder.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/TruncatedPyramidBuilder.cs" bodystart="3" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" prot="public" virt="non-virtual"><scope>TruncatedPyramidBuilder</scope><name>Build</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

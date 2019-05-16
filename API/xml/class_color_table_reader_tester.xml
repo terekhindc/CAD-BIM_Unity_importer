@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_color_table_reader_tester" kind="class" language="C#" prot="public">
+    <compoundname>ColorTableReaderTester</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_color_table_reader_tester_1a0bf4c685cc38ed10b149cc7f89bb9d03" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColorTableReaderTester.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReaderTester.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReaderTester.cs" bodystart="5" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="36">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="35">
+        <label>ColorTableReaderTester</label>
+        <link refid="class_color_table_reader_tester"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="38">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="37">
+        <label>ColorTableReaderTester</label>
+        <link refid="class_color_table_reader_tester"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReaderTester.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReaderTester.cs" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_color_table_reader_tester_1a0bf4c685cc38ed10b149cc7f89bb9d03" prot="private" virt="non-virtual"><scope>ColorTableReaderTester</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

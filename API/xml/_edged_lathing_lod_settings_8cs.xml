@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_edged_lathing_lod_settings_8cs" kind="file" language="C#">
+    <compoundname>EdgedLathingLodSettings.cs</compoundname>
+    <innerclass refid="class_edged_lathing_lod_settings" prot="public">EdgedLathingLodSettings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="class_edged_lathing_lod_settings" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_edged_lathing_lod_settings" kindref="compound">EdgedLathingLodSettings</ref><sp/>:<sp/><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" kindref="member">RevoluteStep</ref>;</highlight></codeline>
+<codeline lineno="4" refid="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" kindref="member">Caps</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" kindref="member">EdgedLathingLodSettings</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>screenRelativeTransitionHeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>revoluteStep,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>caps<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>:<sp/>base(screenRelativeTransitionHeight)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" kindref="member">RevoluteStep</ref><sp/>=<sp/>revoluteStep;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" kindref="member">Caps</ref><sp/>=<sp/>caps;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings/EdgedLathingLodSettings.cs"/>
+  </compounddef>
+</doxygen>

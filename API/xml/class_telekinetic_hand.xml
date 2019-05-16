@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_telekinetic_hand" kind="class" language="C#" prot="public">
+    <compoundname>TelekineticHand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Hand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_telekinetic_hand_1a86a48e3990d5c9fca4abb0aa06b72264" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TelekineticHand._applicationLostFocusObject</definition>
+        <argsstring></argsstring>
+        <name>_applicationLostFocusObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_telekinetic_hand_1aec2c17c94a9e6db5375921221ed99369" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TelekineticHand.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_telekinetic_hand_1a625aaa03a03c5ece9ffdf4afe2e30ab7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void TelekineticHand.UpdateHovering</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateHovering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" bodystart="15" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="303">
+        <label>Hand</label>
+      </node>
+      <node id="302">
+        <label>TelekineticHand</label>
+        <link refid="class_telekinetic_hand"/>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="305">
+        <label>Hand</label>
+      </node>
+      <node id="304">
+        <label>TelekineticHand</label>
+        <link refid="class_telekinetic_hand"/>
+        <childnode refid="305" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/TelekineticHand.cs" bodystart="5" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_telekinetic_hand_1a86a48e3990d5c9fca4abb0aa06b72264" prot="private" virt="non-virtual"><scope>TelekineticHand</scope><name>_applicationLostFocusObject</name></member>
+      <member refid="class_telekinetic_hand_1aec2c17c94a9e6db5375921221ed99369" prot="protected" virt="non-virtual"><scope>TelekineticHand</scope><name>Awake</name></member>
+      <member refid="class_telekinetic_hand_1a625aaa03a03c5ece9ffdf4afe2e30ab7" prot="protected" virt="non-virtual"><scope>TelekineticHand</scope><name>UpdateHovering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

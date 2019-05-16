@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_shape_data" kind="class" language="C#" prot="public">
+    <compoundname>ShapeData</compoundname>
+    <derivedcompoundref refid="class_multiple_mesh_shape_data" prot="public" virt="non-virtual">MultipleMeshShapeData</derivedcompoundref>
+    <derivedcompoundref refid="class_primitive_shape_data" prot="public" virt="non-virtual">PrimitiveShapeData</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" prot="public" static="no" mutable="no">
+        <type>readonly Matrix4x4</type>
+        <definition>readonly Matrix4x4 ShapeData.TransformMatrix</definition>
+        <argsstring></argsstring>
+        <name>TransformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" compoundref="_shape_data_8cs" startline="12" endline="18">ShapeData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_1a3852657f21bb30029363cb63257299b6" prot="public" static="no" mutable="no">
+        <type>readonly Vector3</type>
+        <definition>readonly Vector3 ShapeData.BoundMin</definition>
+        <argsstring></argsstring>
+        <name>BoundMin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" compoundref="_shape_data_8cs" startline="12" endline="18">ShapeData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" prot="public" static="no" mutable="no">
+        <type>readonly Vector3</type>
+        <definition>readonly Vector3 ShapeData.BoundMax</definition>
+        <argsstring></argsstring>
+        <name>BoundMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" compoundref="_shape_data_8cs" startline="12" endline="18">ShapeData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ShapeData.Transform</definition>
+        <argsstring></argsstring>
+        <name>Transform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" prot="public" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int ShapeData.ParentId</definition>
+        <argsstring></argsstring>
+        <name>ParentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" compoundref="_shape_data_8cs" startline="12" endline="18">ShapeData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShapeData.ShapeData</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, int parentId)</argsstring>
+        <name>ShapeData</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parentId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="12" bodyend="18"/>
+        <references refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" compoundref="_shape_data_8cs" startline="5">TransformMatrix</references>
+        <references refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" compoundref="_shape_data_8cs" startline="6">BoundMin</references>
+        <references refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" compoundref="_shape_data_8cs" startline="7">BoundMax</references>
+        <references refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" compoundref="_shape_data_8cs" startline="10">ParentId</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="272">
+        <label>PrimitiveShapeData</label>
+        <link refid="class_primitive_shape_data"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>ShapeData</label>
+        <link refid="class_shape_data"/>
+      </node>
+      <node id="271">
+        <label>MultipleMeshShapeData</label>
+        <link refid="class_multiple_mesh_shape_data"/>
+        <childnode refid="270" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeData.cs" bodystart="3" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" prot="public" virt="non-virtual"><scope>ShapeData</scope><name>BoundMax</name></member>
+      <member refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" prot="public" virt="non-virtual"><scope>ShapeData</scope><name>BoundMin</name></member>
+      <member refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" prot="public" virt="non-virtual"><scope>ShapeData</scope><name>ParentId</name></member>
+      <member refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" prot="public" virt="non-virtual"><scope>ShapeData</scope><name>ShapeData</name></member>
+      <member refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" prot="public" virt="non-virtual"><scope>ShapeData</scope><name>Transform</name></member>
+      <member refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" prot="public" virt="non-virtual"><scope>ShapeData</scope><name>TransformMatrix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

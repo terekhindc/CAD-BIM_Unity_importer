@@ -1,0 +1,70 @@
+.TH "GeometryCommon" 3 "Thu May 16 2019" "CAD-BIM_Unity_Importer" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GeometryCommon
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static int [] \fBGetIndicesOfSmoothSection\fP (int startIndex, int verticesInSectionCount)"
+.br
+.ti -1c
+.RI "static int [] \fBGetIndicesOfSmoothDomedSection\fP (int startIndex, int verticesInSectionCount)"
+.br
+.ti -1c
+.RI "static int [] \fBTriangulateCapBySectionIndices\fP (int[] sectionVerticesIndices)"
+.br
+.ti -1c
+.RI "static List< Vector3 > \fBCreateVerticesRotatedSection\fP (List< Vector3 > sourceSection, Quaternion rotation)"
+.br
+.ti -1c
+.RI "static int [] \fBTriangulate2SectionsByIndices\fP (int[] startSectionVerticesIndices, int[] endSectionVerticesIndices)"
+.br
+.ti -1c
+.RI "static Mesh \fBCreateMesh\fP (List< Vector3 > vertices, List< int > indices, List< Vector2 > uvs=null)"
+.br
+.ti -1c
+.RI "static List< Vector3 > \fBCreateVerticesForSmoothCircleSection\fP (Vector3 offset, Vector3 startPoint, Vector3 rotationAxis, float circularStep)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 5 of file GeometryCommon\&.cs\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "static Mesh GeometryCommon\&.CreateMesh (List< Vector3 > vertices, List< int > indices, List< Vector2 > uvs = \fCnull\fP)\fC [static]\fP"
+
+.PP
+Definition at line 79 of file GeometryCommon\&.cs\&.
+.SS "static List<Vector3> GeometryCommon\&.CreateVerticesForSmoothCircleSection (Vector3 offset, Vector3 startPoint, Vector3 rotationAxis, float circularStep)\fC [static]\fP"
+
+.PP
+Definition at line 94 of file GeometryCommon\&.cs\&.
+.SS "static List<Vector3> GeometryCommon\&.CreateVerticesRotatedSection (List< Vector3 > sourceSection, Quaternion rotation)\fC [static]\fP"
+
+.PP
+Definition at line 49 of file GeometryCommon\&.cs\&.
+.SS "static int [] GeometryCommon\&.GetIndicesOfSmoothDomedSection (int startIndex, int verticesInSectionCount)\fC [static]\fP"
+
+.PP
+Definition at line 21 of file GeometryCommon\&.cs\&.
+.SS "static int [] GeometryCommon\&.GetIndicesOfSmoothSection (int startIndex, int verticesInSectionCount)\fC [static]\fP"
+
+.PP
+Definition at line 7 of file GeometryCommon\&.cs\&.
+.SS "static int [] GeometryCommon\&.Triangulate2SectionsByIndices (int [] startSectionVerticesIndices, int [] endSectionVerticesIndices)\fC [static]\fP"
+
+.PP
+Definition at line 61 of file GeometryCommon\&.cs\&.
+.SS "static int [] GeometryCommon\&.TriangulateCapBySectionIndices (int [] sectionVerticesIndices)\fC [static]\fP"
+
+.PP
+Definition at line 34 of file GeometryCommon\&.cs\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for CAD-BIM_Unity_Importer from the source code\&.

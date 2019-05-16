@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_move_object_message" kind="class" language="C#" prot="public">
+    <compoundname>MoveObjectMessage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MessageBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_move_object_message_1a431d0baf4f5d0b45ae8d4edda85edf97" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint MoveObjectMessage.PlayerNetId</definition>
+        <argsstring></argsstring>
+        <name>PlayerNetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_move_object_message_1a8a7426826fe27cf64737e60c17b6aa3f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string MoveObjectMessage.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_move_object_message_1a64834890d0b6424af90c5c39d0ca4413" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 MoveObjectMessage.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" compoundref="_wherety_network_manager_8cs" startline="37" endline="47">WheretyNetworkManager.ReceiveMoveObjectMessage</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_move_object_message_1aa28c8b56da7e61efcd2cb3c6d14ee2c1" prot="public" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion MoveObjectMessage.Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="151">
+        <label>MessageBase</label>
+      </node>
+      <node id="150">
+        <label>MoveObjectMessage</label>
+        <link refid="class_move_object_message"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="153">
+        <label>MessageBase</label>
+      </node>
+      <node id="152">
+        <label>MoveObjectMessage</label>
+        <link refid="class_move_object_message"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/MoveObjectMessage.cs" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_move_object_message_1a8a7426826fe27cf64737e60c17b6aa3f" prot="public" virt="non-virtual"><scope>MoveObjectMessage</scope><name>Name</name></member>
+      <member refid="class_move_object_message_1a431d0baf4f5d0b45ae8d4edda85edf97" prot="public" virt="non-virtual"><scope>MoveObjectMessage</scope><name>PlayerNetId</name></member>
+      <member refid="class_move_object_message_1a64834890d0b6424af90c5c39d0ca4413" prot="public" virt="non-virtual"><scope>MoveObjectMessage</scope><name>Position</name></member>
+      <member refid="class_move_object_message_1aa28c8b56da7e61efcd2cb3c6d14ee2c1" prot="public" virt="non-virtual"><scope>MoveObjectMessage</scope><name>Rotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

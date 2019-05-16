@@ -1,0 +1,1202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="class_action_menu_ui" kind="class"><name>ActionMenuUi</name>
+    <member refid="class_action_menu_ui_1a125b419d9b19f37c0e57bf574b3b5431" kind="variable"><name>InteractionObject</name></member>
+    <member refid="class_action_menu_ui_1a205cb239d9c7677519de0bab93018659" kind="function"><name>Hide</name></member>
+    <member refid="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a" kind="function"><name>Show</name></member>
+    <member refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" kind="function"><name>Interact</name></member>
+    <member refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" kind="function"><name>HidePart</name></member>
+  </compound>
+  <compound refid="class_aim" kind="class"><name>Aim</name>
+    <member refid="class_aim_1a7c3f5059710fa92c6f4d6442939103c8" kind="variable"><name>LaserTransform</name></member>
+    <member refid="class_aim_1a049d6d5df0f1b496b579d8d7abe2a166" kind="variable"><name>_cam</name></member>
+    <member refid="class_aim_1a145e7a054ef36b46a176c4d06f12f5ed" kind="variable"><name>_highlighted</name></member>
+    <member refid="class_aim_1a5c449ca032294a6decada7665591cc79" kind="variable"><name>_selected</name></member>
+    <member refid="class_aim_1ac8a74d2cb2d45ee8ae53a32dfd168c0f" kind="variable"><name>_screenCenter</name></member>
+    <member refid="class_aim_1aec5b76e36e51b4e13de045cde2fafde9" kind="variable"><name>UpAct</name></member>
+    <member refid="class_aim_1a0ac97301ab74d52416af371175bc5781" kind="function"><name>Start</name></member>
+    <member refid="class_aim_1af6492a8eb4afae08a066e0e670d9dd19" kind="function"><name>Update</name></member>
+    <member refid="class_aim_1a193f986098a52462327a00545f056541" kind="function"><name>FindTarget</name></member>
+  </compound>
+  <compound refid="class_animation_generator" kind="class"><name>AnimationGenerator</name>
+    <member refid="class_animation_generator_1adab5c046d19bfe7ac1481eb4ba90a5d0" kind="function"><name>Start</name></member>
+    <member refid="class_animation_generator_1af89932b566b36834b7df236611ad460a" kind="function"><name>CreateRotationAnimation</name></member>
+    <member refid="class_animation_generator_1a7eda6973543d285daeff12e9f5b64141" kind="function"><name>CreateTranslation</name></member>
+  </compound>
+  <compound refid="class_att_data" kind="class"><name>AttData</name>
+    <member refid="class_att_data_1a502d563e2461a3f13f9ce28e54cdcea7" kind="variable"><name>NameFromAttributes</name></member>
+    <member refid="class_att_data_1ab9b4685e9c604d469cf7f3f7601a188d" kind="variable"><name>Attributes</name></member>
+  </compound>
+  <compound refid="class_att_reader" kind="class"><name>AttReader</name>
+    <member refid="class_att_reader_1a52bf4faee965d1c5ef725eed6dad42a6" kind="function"><name>Read</name></member>
+    <member refid="class_att_reader_1a099df7907dc312646dfb9f55c84c41fd" kind="function"><name>AttachAttributesToObjectsInScene</name></member>
+    <member refid="class_att_reader_1abec2d3da93fe798b11e4ba34a4289580" kind="function"><name>LoadAndAttachAttributes</name></member>
+    <member refid="class_att_reader_1a7a6e38691ddada7ae5048bac2337832f" kind="function"><name>Highlight</name></member>
+  </compound>
+  <compound refid="class_att_reader_tester" kind="class"><name>AttReaderTester</name>
+    <member refid="class_att_reader_tester_1af5a4b71fdccabe095f1715251960a13f" kind="variable"><name>FileName</name></member>
+    <member refid="class_att_reader_tester_1a7c15935d9ac7ec723d4cf79b8dd980d3" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_box_builder" kind="class"><name>BoxBuilder</name>
+    <member refid="class_box_builder_1abc60d5703f823177fa84743c041866da" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="class_builder_settings" kind="class"><name>BuilderSettings</name>
+    <member refid="class_builder_settings_1a88e4ad513d7779376f9b94ec9201c49a" kind="variable"><name>Lods</name></member>
+    <member refid="class_builder_settings_1ac73d6ecb0d660bca8654b24161723c66" kind="function"><name>BuilderSettings</name></member>
+  </compound>
+  <compound refid="class_character_animator" kind="class"><name>CharacterAnimator</name>
+    <member refid="class_character_animator_1a8a6338921429b3592f686a85bf4c180f" kind="variable"><name>Threshold</name></member>
+    <member refid="class_character_animator_1a814d1388371a3d17129e5be0014a98c7" kind="variable"><name>TimeThreshold</name></member>
+    <member refid="class_character_animator_1af8dc74f6d64e6b1e889fbf9092da4e54" kind="variable"><name>_an</name></member>
+    <member refid="class_character_animator_1a51743844a84ae96ceb71dcbc4036ae4a" kind="variable"><name>_tr</name></member>
+    <member refid="class_character_animator_1af8c4512d5451edfcc4ce7998e8b409eb" kind="variable"><name>_moving</name></member>
+    <member refid="class_character_animator_1af3dd06667e11dad28489703d1501e888" kind="variable"><name>_prevPos</name></member>
+    <member refid="class_character_animator_1a360c27e272f196463b98aeabc4e4cce6" kind="variable"><name>_elapsed</name></member>
+    <member refid="class_character_animator_1ac53582c38b509b8548095c9e1d201843" kind="function"><name>Start</name></member>
+    <member refid="class_character_animator_1aa00597e81da1721e1f02fbd0e27368c0" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_color_table_reader" kind="class"><name>ColorTableReader</name>
+    <member refid="class_color_table_reader_1a1b5e976c34598413c6c0dbc371ce9483" kind="variable"><name>ColorNamesFile</name></member>
+    <member refid="class_color_table_reader_1ab8722a8a147e2cef30b8334a5f5797a5" kind="variable"><name>ColorCodesFile</name></member>
+    <member refid="class_color_table_reader_1a1f2fad4817dee685e730ddd8774deab4" kind="function"><name>Read</name></member>
+  </compound>
+  <compound refid="class_color_table_reader_tester" kind="class"><name>ColorTableReaderTester</name>
+    <member refid="class_color_table_reader_tester_1a0bf4c685cc38ed10b149cc7f89bb9d03" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_connection_ui" kind="class"><name>ConnectionUi</name>
+    <member refid="class_connection_ui_1aed563c13ba5341487b65764173a7523b" kind="variable"><name>PortInput</name></member>
+    <member refid="class_connection_ui_1a8b5ff35ab29a4964a0414ce73eca4cd7" kind="variable"><name>ServerIpAddressInput</name></member>
+    <member refid="class_connection_ui_1a71fb2a12b0875481c0b0ffde1e080ac3" kind="variable"><name>PPKEY_SERVERIPADDRESS</name></member>
+    <member refid="class_connection_ui_1a337ca5168f5e9cec56004b5c69b22731" kind="function"><name>Start</name></member>
+    <member refid="class_connection_ui_1adcf01d7848da3281bab9e122adcb69ee" kind="function"><name>Update</name></member>
+    <member refid="class_connection_ui_1a6c2286d1c435b94a5de2b958e03146b8" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_cylinder_builder" kind="class"><name>CylinderBuilder</name>
+    <member refid="class_cylinder_builder_1ac93fe5d5bdc4043dcfcef2bc12bb1a79" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="class_dds_runtime_loader" kind="class"><name>DdsRuntimeLoader</name>
+    <member refid="class_dds_runtime_loader_1aeaf168419bc9b2b84a510944d33bf364" kind="function"><name>LoadDdsTexture</name></member>
+  </compound>
+  <compound refid="class_decision_maker" kind="class"><name>DecisionMaker</name>
+    <member refid="class_decision_maker_1ab4e8b64116e631733740e6c872ca34d2" kind="variable"><name>DecisionSelection</name></member>
+    <member refid="class_decision_maker_1adf1e2a6e9420d716bcd9cd87a982fdef" kind="variable"><name>DecisionCommit</name></member>
+    <member refid="class_decision_maker_1a7245a8dc72a9c5a90f804c7495b5cc16" kind="variable"><name>Buttons</name></member>
+    <member refid="class_decision_maker_1ad5083f304d1a00f98982ef9154123fd9" kind="variable"><name>Normal</name></member>
+    <member refid="class_decision_maker_1a326799f4e5c3e22f67b94e3db746c693" kind="variable"><name>Hover</name></member>
+    <member refid="class_decision_maker_1ab085167ca1f639f0691d066954a3850b" kind="variable"><name>_hand</name></member>
+    <member refid="class_decision_maker_1a98a2ef0b963679fb9223804bbdaf1894" kind="variable"><name>_currentHover</name></member>
+    <member refid="class_decision_maker_1a5cdd3866d6c6a7f06b27cc0dfee6ae2f" kind="variable"><name>_currentDecisionId</name></member>
+    <member refid="class_decision_maker_1a470935745c991a804200f13a67188f4a" kind="function"><name>OnEnable</name></member>
+    <member refid="class_decision_maker_1a3738c8c80077eedd5cd03924de69daca" kind="function"><name>OnDisable</name></member>
+    <member refid="class_decision_maker_1ac538e7f553c728a34fedace2562adbd4" kind="function"><name>OnDecisionSelectionUpdate</name></member>
+    <member refid="class_decision_maker_1a64dbe480fc4b95dfba60c5b70b7aad90" kind="function"><name>SetHover</name></member>
+    <member refid="class_decision_maker_1a9ed98ad80cfaae13571174cb4829f218" kind="function"><name>OnDecisionCommitChange</name></member>
+    <member refid="class_decision_maker_1a079432cf227dc5850ded671b61a02f6f" kind="function"><name>GetDecisionId</name></member>
+  </compound>
+  <compound refid="class_edged_lathing_lod_settings" kind="class"><name>EdgedLathingLodSettings</name>
+    <member refid="class_edged_lathing_lod_settings_1ae1cffc298db4d3d84cf344014fd6405c" kind="variable"><name>RevoluteStep</name></member>
+    <member refid="class_edged_lathing_lod_settings_1a7223a3d1b90f5edef032a2d23ed48709" kind="variable"><name>Caps</name></member>
+    <member refid="class_edged_lathing_lod_settings_1adeb67a639420ab369d37e8bf319b6aee" kind="function"><name>EdgedLathingLodSettings</name></member>
+  </compound>
+  <compound refid="class_elliptical_lathing_builder" kind="class"><name>EllipticalLathingBuilder</name>
+    <member refid="class_elliptical_lathing_builder_1ade06a557cf2f6b9432ff4b8e7bc5a3a5" kind="function"><name>Build</name></member>
+    <member refid="class_elliptical_lathing_builder_1a8c6cf1c93fc98a1f7797db8064f98fc0" kind="function"><name>CreateVerticesForSmoothEllipticalSection</name></member>
+  </compound>
+  <compound refid="class_equidistant_sphere_builder" kind="class"><name>EquidistantSphereBuilder</name>
+    <member refid="class_equidistant_sphere_builder_1aa425c9b7641a2e583ab8dd34e749d72b" kind="function"><name>Build</name></member>
+    <member refid="class_equidistant_sphere_builder_1a6256b0c585406981b50b5feb29d6c0ec" kind="function"><name>Triangulate</name></member>
+  </compound>
+  <compound refid="class_file_usage_preference" kind="class"><name>FileUsagePreference</name>
+    <member refid="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" kind="variable"><name>FileFullAddress</name></member>
+    <member refid="class_file_usage_preference_1a43d76051845a1b45f5f78f83069ccb9e" kind="variable"><name>IsInspected</name></member>
+    <member refid="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" kind="variable"><name>IsNeeded</name></member>
+    <member refid="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" kind="variable"><name>IsLoaded</name></member>
+    <member refid="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" kind="variable"><name>GameObject</name></member>
+  </compound>
+  <compound refid="class_file_usage_preference_item_ui" kind="class"><name>FileUsagePreferenceItemUi</name>
+    <member refid="class_file_usage_preference_item_ui_1a51179156a86c0980fd228264d8c7acd0" kind="variable"><name>TitleText</name></member>
+    <member refid="class_file_usage_preference_item_ui_1a386a29774b430691d60023ab5d25184b" kind="variable"><name>IsLoadedText</name></member>
+    <member refid="class_file_usage_preference_item_ui_1a19a392fb3640c0767bd4924fdc837f85" kind="variable"><name>IsNeededTogle</name></member>
+    <member refid="class_file_usage_preference_item_ui_1a8ccf82d7b0a364890057d8fe1f9ec3c0" kind="variable"><name>_fileUsagePreference</name></member>
+    <member refid="class_file_usage_preference_item_ui_1a1a7504a37915fadae05f96b28c2369d4" kind="variable"><name>_index</name></member>
+    <member refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" kind="function"><name>SetFileUsagePreference</name></member>
+    <member refid="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" kind="function"><name>OnIsNeededToggle</name></member>
+  </compound>
+  <compound refid="class_flying" kind="class"><name>Flying</name>
+    <member refid="class_flying_1a038c8686f992ad9dcf177d50eb5ca812" kind="variable"><name>flyAction</name></member>
+    <member refid="class_flying_1a7fd7c0cc8163fec9302c8a4a3a8e7190" kind="variable"><name>hand</name></member>
+    <member refid="class_flying_1ad0aaba54151449abeb89a6d285fb5ce1" kind="variable"><name>Speed</name></member>
+    <member refid="class_flying_1a2129bdbcaf980a70619d0a629d97099a" kind="function"><name>OnEnable</name></member>
+    <member refid="class_flying_1a894a1bf0b6fa5bde38ba092fd66c7a8d" kind="function"><name>OnDisable</name></member>
+    <member refid="class_flying_1a524dfc8d6cf9af609d49b9774a70c4ad" kind="function"><name>OnFlyActionChange</name></member>
+  </compound>
+  <compound refid="class_follow_player_name_text" kind="class"><name>FollowPlayerNameText</name>
+    <member refid="class_follow_player_name_text_1a259c1be873fd605c4de8b40269dec16e" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_game_object_counter" kind="class"><name>GameObjectCounter</name>
+    <member refid="class_game_object_counter_1a83b070a59a23eeada93101cb9862ecfd" kind="variable"><name>gameObjectName</name></member>
+    <member refid="class_game_object_counter_1a06f6b04e264a25b65b3da3aa403a951a" kind="variable"><name>gameObject</name></member>
+    <member refid="class_game_object_counter_1a76b9d787fa46e9bca84bb4b6270c998e" kind="function"><name>Start</name></member>
+    <member refid="class_game_object_counter_1a8161d3b7cf95c21c6f4ca4d4a1514031" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_geometry_common" kind="class"><name>GeometryCommon</name>
+    <member refid="class_geometry_common_1a9dab84938cd8a24192b3552022819daa" kind="function"><name>GetIndicesOfSmoothSection</name></member>
+    <member refid="class_geometry_common_1a1f4f9acf5a00f335f85282261a31fd3c" kind="function"><name>GetIndicesOfSmoothDomedSection</name></member>
+    <member refid="class_geometry_common_1af7e0cdd1981d96161e9169449808b8a4" kind="function"><name>TriangulateCapBySectionIndices</name></member>
+    <member refid="class_geometry_common_1af2330eeb38210494e38fd37e4cba2809" kind="function"><name>CreateVerticesRotatedSection</name></member>
+    <member refid="class_geometry_common_1aa6a96089933023f69fffeb799c87debb" kind="function"><name>Triangulate2SectionsByIndices</name></member>
+    <member refid="class_geometry_common_1a384bdf59b9cedb2ff13f7cd71db2663c" kind="function"><name>CreateMesh</name></member>
+    <member refid="class_geometry_common_1adee2a9a148bfcd203fa8cf5a698e5dfc" kind="function"><name>CreateVerticesForSmoothCircleSection</name></member>
+  </compound>
+  <compound refid="class_graphics_settings_manager" kind="class"><name>GraphicsSettingsManager</name>
+    <member refid="class_graphics_settings_manager_1a3717acc2d0beb03673f30037b05ef07e" kind="variable"><name>KeyLod</name></member>
+    <member refid="class_graphics_settings_manager_1a00308a7af37a308ae8ed36c16cbbee56" kind="variable"><name>KeyScrRelTransH</name></member>
+    <member refid="class_graphics_settings_manager_1a5f19b28670e3602bcf719eb8028ad0be" kind="variable"><name>KeyRevStep</name></member>
+    <member refid="class_graphics_settings_manager_1aa761a3d54d371de705d20d412b184b56" kind="variable"><name>KeyCircStep</name></member>
+    <member refid="class_graphics_settings_manager_1acf897fb73dd92dc8c3302e2a24b8d3d0" kind="variable"><name>KeyLodsCount</name></member>
+    <member refid="class_graphics_settings_manager_1a40dbd2ad5b9ea8f704dda493a87b96b4" kind="variable"><name>KeyCaps</name></member>
+    <member refid="class_graphics_settings_manager_1ae8cb1fa784876b8a1a7907fa0a785757" kind="function"><name>StoreLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a6883354bfc01606cf75d70e067d0a28d" kind="function"><name>ReadLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1acd5f867b4893c148f46b267901130ce0" kind="function"><name>StoreEdgedLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a9492feedb687bce9bf90ac72ecd81188" kind="function"><name>ReadEdgedLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1af0136cd657b53d839c722092cfd691f2" kind="function"><name>StoreSmoothLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a5eb8cc166509d6efe01f2cd3683b7766" kind="function"><name>ReadSmoothLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a4d02f60a64880fa16f2aaf4000cbbfe9" kind="function"><name>GraphicsSettingsManager</name></member>
+    <member refid="class_graphics_settings_manager_1a9462457764b08416c13bdc9d74a25488" kind="function"><name>StoreLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a3057abb11e46261aa6d2f6c4dcf9e8a0" kind="function"><name>DeleteLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a15db714e4a86faadc68e07716d39245e" kind="function"><name>ReadLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1aa1d5b2e9c46c87c55f6a9b1872f94eef" kind="function"><name>StoreEdgedLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a0a165a09a367c17ca1e19ceeb370c8fa" kind="function"><name>DeleteEdgedLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1add4314bc80c6bd53f451e92b20a90992" kind="function"><name>ReadEdgedLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1adc413313a1932cebde4f981c5cae02f5" kind="function"><name>StoreSmoothLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a1361950731715ade2f23c492e440a8ea" kind="function"><name>DeleteSmoothLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a3e55cee07d61fd4d8c2aa44e089c33d2" kind="function"><name>ReadSmoothLathingLodSettings</name></member>
+    <member refid="class_graphics_settings_manager_1a4886d3b5d3df48cb5404530b6d701224" kind="function"><name>NthLodKey</name></member>
+    <member refid="class_graphics_settings_manager_1a4d599a6e4925535f5cbc03ff00ba9cba" kind="function"><name>LodKey</name></member>
+  </compound>
+  <compound refid="class_hide_object_message" kind="class"><name>HideObjectMessage</name>
+    <member refid="class_hide_object_message_1abe7217566effeb69e20d4776e8b5a220" kind="variable"><name>Name</name></member>
+  </compound>
+  <compound refid="class_interactable_part" kind="class"><name>InteractablePart</name>
+    <member refid="class_interactable_part_1af4bdaa1d6b1e5eb5454bd03349d69790" kind="variable"><name>_normalMaterials</name></member>
+    <member refid="class_interactable_part_1a2f585007164fdf0f03073740b4a24731" kind="function"><name>Highlight</name></member>
+    <member refid="class_interactable_part_1a8d39a62c630d0e7b01821974356188f3" kind="function"><name>Select</name></member>
+    <member refid="class_interactable_part_1a1babfa8c538301b50ff51843fae6e663" kind="function"><name>Unhighlight</name></member>
+    <member refid="class_interactable_part_1aa2727fdfaa9fbb4ee26ac4c6c8f10302" kind="function"><name>Deselect</name></member>
+    <member refid="class_interactable_part_1a457681b859fed8d1029ffc6e07b1847a" kind="function"><name>ShowAttributeData</name></member>
+    <member refid="class_interactable_part_1a5ab6794c0c5f40d495f07ff23b34f530" kind="function"><name>StoreMaterials</name></member>
+    <member refid="class_interactable_part_1a922a6e348dda05d9d235b67c918c0b4e" kind="function"><name>SetMaterials</name></member>
+    <member refid="class_interactable_part_1a73a4bf0a6ca0d86590bf4f7794c84d51" kind="function"><name>RestoreMaterials</name></member>
+    <member refid="class_interactable_part_1a17a18ac14ba32535b7903c7b2f5c4470" kind="function"><name>OnAttachedToHand</name></member>
+    <member refid="class_interactable_part_1ac7a4ebb2c435c83095f1937f1a455bdd" kind="function"><name>OnDetachedFromHand</name></member>
+    <member refid="class_interactable_part_1ae5b6637d99e35bd2c496552611b5b021" kind="function"><name>GetAllChildrensMeshRenderers</name></member>
+  </compound>
+  <compound refid="class_interaction_object" kind="class"><name>InteractionObject</name>
+    <member refid="class_interaction_object_1ab886d4c259311c2beb2c8db7599c077c" kind="variable"><name>_hoverEvents</name></member>
+    <member refid="class_interaction_object_1a68aae369663eddc98829d8fa9386b023" kind="variable"><name>_mr</name></member>
+    <member refid="class_interaction_object_1a1d9bbfd5728d48c2f7911481595c8a67" kind="variable"><name>_initialColor</name></member>
+    <member refid="class_interaction_object_1a7c7fcc433d4f42a854e8f73a8811bb61" kind="function"><name>Start</name></member>
+    <member refid="class_interaction_object_1a383df284eee8296858b858b93f6520ee" kind="function"><name>Highlight</name></member>
+    <member refid="class_interaction_object_1aea9d2f164a5fb7a5494e441b61c37eca" kind="function"><name>Leave</name></member>
+    <member refid="class_interaction_object_1a7db5da832121349c0d9133edb8d15f1a" kind="function"><name>Select</name></member>
+    <member refid="class_interaction_object_1a0ad947302ed8ed51e72b0bd400e13ecf" kind="function"><name>SetHoverEvents</name></member>
+  </compound>
+  <compound refid="class_interact_with_object_message" kind="class"><name>InteractWithObjectMessage</name>
+    <member refid="class_interact_with_object_message_1ad1ac5a9bdebdd0806dcada8a94f144fa" kind="variable"><name>Name</name></member>
+  </compound>
+  <compound refid="interface_i_wherety_player" kind="interface"><name>IWheretyPlayer</name>
+    <member refid="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c" kind="function"><name>HideObject</name></member>
+    <member refid="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3" kind="function"><name>InteractWithObject</name></member>
+    <member refid="interface_i_wherety_player_1afd5f6bbda4034e3c00502d0ac26474c1" kind="function"><name>MoveObject</name></member>
+  </compound>
+  <compound refid="interface_i_window" kind="interface"><name>IWindow</name>
+    <member refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9" kind="function"><name>Show</name></member>
+    <member refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378" kind="function"><name>Hide</name></member>
+  </compound>
+  <compound refid="class_keyboard_button" kind="class"><name>KeyboardButton</name>
+    <member refid="class_keyboard_button_1a8d576d016d62d49fa39230fdd77c121b" kind="variable"><name>NameInput</name></member>
+    <member refid="class_keyboard_button_1abca77d5a33fd544ec832c16d3970a7ff" kind="variable"><name>Char</name></member>
+    <member refid="class_keyboard_button_1a0fe9eff54a77603f03360f9e87f56027" kind="function"><name>AddCharToName</name></member>
+  </compound>
+  <compound refid="class_keyboard_input_controller" kind="class"><name>KeyboardInputController</name>
+    <member refid="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_lathing_parameters" kind="class"><name>LathingParameters</name>
+    <member refid="class_lathing_parameters_1a35b9527f47662b6122dacf4be86f8ea2" kind="variable"><name>Closed</name></member>
+    <member refid="class_lathing_parameters_1a6de58dd4768f3e0e1c8ef0856b28370a" kind="variable"><name>Indices</name></member>
+    <member refid="class_lathing_parameters_1a13c433ad2852ca57878eea751fb7c648" kind="variable"><name>Rotation</name></member>
+    <member refid="class_lathing_parameters_1a374bb79585d4c37fde7a1e362fea7b16" kind="variable"><name>StepsCount</name></member>
+    <member refid="class_lathing_parameters_1ae967f66a4402bd77573bf9281b8523c2" kind="variable"><name>Vertices</name></member>
+    <member refid="class_lathing_parameters_1ab0a3e48b9088f40d89cc2ca2595849a3" kind="function"><name>LathingParameters</name></member>
+  </compound>
+  <compound refid="class_lod_settings" kind="class"><name>LodSettings</name>
+    <member refid="class_lod_settings_1a38ac54ce2be38e74cdc4c66ca8541145" kind="variable"><name>ScreenRelativeTransitionHeight</name></member>
+    <member refid="class_lod_settings_1a604a6a3008c06d9d16b5fb3775e05a12" kind="function"><name>LodSettings</name></member>
+  </compound>
+  <compound refid="class_mesh_data" kind="class"><name>MeshData</name>
+    <member refid="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" kind="variable"><name>Polygons</name></member>
+    <member refid="class_mesh_data_1a02257789afdb8f8ff6a2898129ba858e" kind="function"><name>MeshData</name></member>
+  </compound>
+  <compound refid="class_mesh_switch" kind="class"><name>MeshSwitch</name>
+  </compound>
+  <compound refid="class_model_import_manager" kind="class"><name>ModelImportManager</name>
+    <member refid="class_model_import_manager_1a033e080b994736360d2230a94b49a8f3" kind="variable"><name>RvmConverter</name></member>
+    <member refid="class_model_import_manager_1a6e6fafc0e15cc807f0a9687a5ac49823" kind="function"><name>GetObjFilesList</name></member>
+    <member refid="class_model_import_manager_1a7f3893bf9257d111ee24f45533deeb51" kind="function"><name>Import</name></member>
+  </compound>
+  <compound refid="class_model_import_ui" kind="class"><name>ModelImportUi</name>
+    <member refid="class_model_import_ui_1a5b275d728820d77f486a8bfe7b3dc3f2" kind="variable"><name>ContentRect</name></member>
+    <member refid="class_model_import_ui_1a055ff2f78dafbee19346bb8b393f223a" kind="variable"><name>ControlsRect</name></member>
+    <member refid="class_model_import_ui_1aa7ced6e944b3736ed16f88abfdb5b7a2" kind="variable"><name>FileUsagePreferenceItemUiPrefab</name></member>
+    <member refid="class_model_import_ui_1a3b43e2001a2921b62cd56c7eda8881b6" kind="variable"><name>ShowNthPageButtonPrefab</name></member>
+    <member refid="class_model_import_ui_1a7d8183e6375e51d5ac52f0fe5526d95f" kind="variable"><name>PrevPageButtonGo</name></member>
+    <member refid="class_model_import_ui_1a8598a05c1c3f7317ffd9fefc771dab0f" kind="variable"><name>NextPageButtonGo</name></member>
+    <member refid="class_model_import_ui_1a720330a11dc2f26d2e39e8c18ade9aff" kind="variable"><name>FileUsagePreferences</name></member>
+    <member refid="class_model_import_ui_1a6334bbb19f852b5504a31a322a1eb125" kind="variable"><name>_itemHeight</name></member>
+    <member refid="class_model_import_ui_1aa5fa5f48ac04b95dc7a4ba12b0703d03" kind="variable"><name>_itemsPerPage</name></member>
+    <member refid="class_model_import_ui_1a7a9886198c37502423c193273eb88432" kind="variable"><name>_currentPageIndex</name></member>
+    <member refid="class_model_import_ui_1a6011b09fe0452cae11d8f68d6dbf8da3" kind="variable"><name>_pagesCount</name></member>
+    <member refid="class_model_import_ui_1a9d492a3ecb6c1abae09d77675e837044" kind="variable"><name>_currentCentralPageButtonIndex</name></member>
+    <member refid="class_model_import_ui_1af7d65b4163a346e57a18da7507d0ee15" kind="variable"><name>_showNthPagesButtonsGos</name></member>
+    <member refid="class_model_import_ui_1ad69f1875dc693625b159ae37b5d86671" kind="function"><name>ReplaceCurrentDisplayableContent</name></member>
+    <member refid="class_model_import_ui_1a193c32700872638392857e078af43ad2" kind="function"><name>InitializeAllFilesToLoadModels</name></member>
+    <member refid="class_model_import_ui_1ab3f81f6357a8a955ab08082ee631b62f" kind="function"><name>ShowPage</name></member>
+    <member refid="class_model_import_ui_1a3f6af56cdb9c346acfc58d9c00c4e6b0" kind="function"><name>ImportModels</name></member>
+    <member refid="class_model_import_ui_1a8f2d7bf13a1f5ad893e24106a56df774" kind="function"><name>Show</name></member>
+    <member refid="class_model_import_ui_1ad4cdb69e11afb1cc7cd6ec723bfde8a0" kind="function"><name>Hide</name></member>
+    <member refid="class_model_import_ui_1aae15ee15a6833496236511ddf9caf8e3" kind="function"><name>CenterOnNextPage</name></member>
+    <member refid="class_model_import_ui_1aca3d68848d4f475e18e38b00913d1b7a" kind="function"><name>CenterOnPrevPage</name></member>
+    <member refid="class_model_import_ui_1ad2e8d2f29370b88aa5ba6d825aed783a" kind="function"><name>DestroyShowNthPagesButtons</name></member>
+    <member refid="class_model_import_ui_1a9c673d0ce7b89ea83b2144d3d6a16971" kind="function"><name>GeneratePagesControlsButtons</name></member>
+    <member refid="class_model_import_ui_1a077cc26ec749635b9f1c0436d17fb499" kind="function"><name>ClearPage</name></member>
+    <member refid="class_model_import_ui_1a61b95886ae0f8bdb6785d07d362320df" kind="function"><name>ImportModelsAsync</name></member>
+  </compound>
+  <compound refid="class_model_import_ui_vr" kind="class"><name>ModelImportUiVr</name>
+    <member refid="class_model_import_ui_vr_1a43fbbfac9bf58148f3e2a05827824079" kind="variable"><name>ContentRect</name></member>
+    <member refid="class_model_import_ui_vr_1a2f5d329583de1c44327e65f5ed4ce302" kind="variable"><name>ControlsRect</name></member>
+    <member refid="class_model_import_ui_vr_1a379fe882068c6dd8b44320ac64164cf3" kind="variable"><name>FileUsagePreferenceItemUiPrefab</name></member>
+    <member refid="class_model_import_ui_vr_1ae7e432d08fdcad54d5b6967373b166f9" kind="variable"><name>ShowNthPageButtonPrefab</name></member>
+    <member refid="class_model_import_ui_vr_1a0ed1df0840dea3ca857fada817d83474" kind="variable"><name>PrevPageButtonGo</name></member>
+    <member refid="class_model_import_ui_vr_1a3e500d9c3c5d5f0d2a4b9dda1e76a4f9" kind="variable"><name>NextPageButtonGo</name></member>
+    <member refid="class_model_import_ui_vr_1a993eba8f0736dedb38513206772e011b" kind="variable"><name>FileUsagePreferences</name></member>
+    <member refid="class_model_import_ui_vr_1ab88c8a5ec9c3ea4f5a7316ca93adb996" kind="variable"><name>_itemHeight</name></member>
+    <member refid="class_model_import_ui_vr_1a46cbfe0397c9b7a5274430c6b016bcf8" kind="variable"><name>_itemsPerPage</name></member>
+    <member refid="class_model_import_ui_vr_1ac490c9cd52cb0112fc9afeda66f1fb26" kind="variable"><name>_currentPageIndex</name></member>
+    <member refid="class_model_import_ui_vr_1a3b94ca62196f2381e6e25d2bc12c694f" kind="variable"><name>_pagesCount</name></member>
+    <member refid="class_model_import_ui_vr_1aa1f325438603bf3675b94959c5c02258" kind="variable"><name>_currentCentralPageButtonIndex</name></member>
+    <member refid="class_model_import_ui_vr_1a7d24e988fbc316a0ec705b574cef90a9" kind="variable"><name>_showNthPagesButtonsGos</name></member>
+    <member refid="class_model_import_ui_vr_1a1c6fd3cd664db5ab76ecc012d4b63d2d" kind="function"><name>ReplaceCurrentDisplayableContent</name></member>
+    <member refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" kind="function"><name>InitializeAllFilesToLoadModels</name></member>
+    <member refid="class_model_import_ui_vr_1a0f0039545cfe15bbea8f647c6173a9a2" kind="function"><name>ShowPage</name></member>
+    <member refid="class_model_import_ui_vr_1a9a755198e4567dc72ee904c92f6df3ad" kind="function"><name>ImportModels</name></member>
+    <member refid="class_model_import_ui_vr_1ac34967a5831f33b6afe216322e2909bb" kind="function"><name>Show</name></member>
+    <member refid="class_model_import_ui_vr_1a20b68a74daa479ca9582518531871b77" kind="function"><name>Hide</name></member>
+    <member refid="class_model_import_ui_vr_1a1a0afbc19ce40ac3365a73716075bcd4" kind="function"><name>CenterOnNextPage</name></member>
+    <member refid="class_model_import_ui_vr_1a9aee36657340e839eae154bf9c4fdd22" kind="function"><name>CenterOnPrevPage</name></member>
+    <member refid="class_model_import_ui_vr_1a15b7b1739caf3cad36d84dc1655408a8" kind="function"><name>DestroyShowNthPagesButtons</name></member>
+    <member refid="class_model_import_ui_vr_1aba7f6908de659d4cf1e96d18f5b1afd4" kind="function"><name>GeneratePagesControlsButtons</name></member>
+    <member refid="class_model_import_ui_vr_1aa7909745516c4aea5210fee88e910f4c" kind="function"><name>ClearPage</name></member>
+    <member refid="class_model_import_ui_vr_1a85624a0bc5d49b93e20093883535447d" kind="function"><name>ImportModelsAsync</name></member>
+  </compound>
+  <compound refid="class_move_object_message" kind="class"><name>MoveObjectMessage</name>
+    <member refid="class_move_object_message_1a431d0baf4f5d0b45ae8d4edda85edf97" kind="variable"><name>PlayerNetId</name></member>
+    <member refid="class_move_object_message_1a8a7426826fe27cf64737e60c17b6aa3f" kind="variable"><name>Name</name></member>
+    <member refid="class_move_object_message_1a64834890d0b6424af90c5c39d0ca4413" kind="variable"><name>Position</name></member>
+    <member refid="class_move_object_message_1aa28c8b56da7e61efcd2cb3c6d14ee2c1" kind="variable"><name>Rotation</name></member>
+  </compound>
+  <compound refid="class_multiple_mesh_builder" kind="class"><name>MultipleMeshBuilder</name>
+    <member refid="class_multiple_mesh_builder_1a527f861cbe6b6cdd4ced52287f789054" kind="function"><name>BuildGo</name></member>
+    <member refid="class_multiple_mesh_builder_1a04d492393576d5da12920f4785d1faac" kind="function"><name>Build</name></member>
+    <member refid="class_multiple_mesh_builder_1a19e24e9c70813d6d5ae3509f82736025" kind="function"><name>GetMeshesCount</name></member>
+  </compound>
+  <compound refid="class_multiple_meshes_data" kind="class"><name>MultipleMeshesData</name>
+    <member refid="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" kind="variable"><name>Meshes</name></member>
+    <member refid="class_multiple_meshes_data_1a3bab441917499d497ad6410a6fd7864d" kind="function"><name>MultipleMeshesData</name></member>
+  </compound>
+  <compound refid="class_multiple_mesh_shape_data" kind="class"><name>MultipleMeshShapeData</name>
+    <member refid="class_multiple_mesh_shape_data_1a2ffb02bda59bf4da93a025537d762b54" kind="variable"><name>MultipleMeshesData</name></member>
+    <member refid="class_multiple_mesh_shape_data_1a0b948060fcca07176b1083c3db30c2b6" kind="variable"><name>Offset</name></member>
+    <member refid="class_multiple_mesh_shape_data_1a102a4edea562cc4e7527df92911e0e57" kind="variable"><name>Rotation</name></member>
+    <member refid="class_multiple_mesh_shape_data_1a58d64b20953f7a4116e518e5dfa0c301" kind="function"><name>MultipleMeshShapeData</name></member>
+  </compound>
+  <compound refid="class_name_input" kind="class"><name>NameInput</name>
+    <member refid="class_name_input_1a94a65c0729c11264f430f84d38b4ece1" kind="variable"><name>NameInputField</name></member>
+    <member refid="class_name_input_1a112c207988c098b75bc8893db91cb9ed" kind="variable"><name>CommitNameButtonText</name></member>
+    <member refid="class_name_input_1a1b37a22538af645721ca082b935901a3" kind="function"><name>OnEnable</name></member>
+    <member refid="class_name_input_1aec1965109a8d6d8cff9b9457745e9206" kind="function"><name>Commit</name></member>
+  </compound>
+  <compound refid="class_node" kind="class"><name>Node</name>
+    <member refid="class_node_1a3616974f5d2d3cb5103f3ecc6f839cf6" kind="variable"><name>Name</name></member>
+    <member refid="class_node_1a211f252da47c86c6395111473af56116" kind="variable"><name>ParentId</name></member>
+    <member refid="class_node_1a4ab676883b2af5ab37f07c1d41dfe93e" kind="variable"><name>Position</name></member>
+    <member refid="class_node_1a2255f55bc7904392510365aa7c7069f6" kind="variable"><name>ColorIndex</name></member>
+    <member refid="class_node_1ac49c69569aa07d54598b6b793ba26a31" kind="variable"><name>ChildrenIds</name></member>
+    <member refid="class_node_1ad1d0767136bf9f05acac77e77388a796" kind="variable"><name>GeometryContainersTransforms</name></member>
+    <member refid="class_node_1aa16042fa0253f5e0d97abdc5857363a6" kind="variable"><name>Transform</name></member>
+    <member refid="class_node_1a6fedf73b2cdbb61cb5c9cd810340210a" kind="function"><name>Node</name></member>
+  </compound>
+  <compound refid="class_numeric_control_ui" kind="class"><name>NumericControlUi</name>
+    <member refid="class_numeric_control_ui_1a364ae2a0aac660f08b9a1e11c30f8d1d" kind="variable"><name>DefaultValue</name></member>
+    <member refid="class_numeric_control_ui_1a1b5a87a59a991fd86ac43cf307ef31e5" kind="variable"><name>MinValue</name></member>
+    <member refid="class_numeric_control_ui_1abea5d1fe4f626c1c6e28f79787f5b8b7" kind="variable"><name>MaxValue</name></member>
+    <member refid="class_numeric_control_ui_1ac902f86a5846a21f8a59199e1c8e6d21" kind="variable"><name>Increment1</name></member>
+    <member refid="class_numeric_control_ui_1a4dc0c7082772f42ef9ddcae863c2dc2d" kind="variable"><name>Increment2</name></member>
+    <member refid="class_numeric_control_ui_1a7566ae406ed71a284164342567eb0094" kind="variable"><name>Increment3</name></member>
+    <member refid="class_numeric_control_ui_1ab8c218664ec27b8b0623a7d60bb4e2ca" kind="variable"><name>Decrement1</name></member>
+    <member refid="class_numeric_control_ui_1a855fcd77f32cfe2b6a25ebf03ac2e5d1" kind="variable"><name>Decrement2</name></member>
+    <member refid="class_numeric_control_ui_1a55693d2f583171375759278332669b4a" kind="variable"><name>Decrement3</name></member>
+    <member refid="class_numeric_control_ui_1a653ebdf7d80e0dbc9333d9c075258bdf" kind="variable"><name>DecimalAccuracy</name></member>
+    <member refid="class_numeric_control_ui_1a20bd51b0903ca3b98ad639986e510d7a" kind="variable"><name>HintString</name></member>
+    <member refid="class_numeric_control_ui_1a3a720216d8b23201f1fa31969104da88" kind="variable"><name>ValueText</name></member>
+    <member refid="class_numeric_control_ui_1ae3899a202f6c43282bc85877642ff3a5" kind="variable"><name>Increment1ButtonText</name></member>
+    <member refid="class_numeric_control_ui_1a6fdc9705bbb38673ff8a9db702991d33" kind="variable"><name>Increment2ButtonText</name></member>
+    <member refid="class_numeric_control_ui_1a7ad042c69fd8524be5a24dcfe550dc89" kind="variable"><name>Increment3ButtonText</name></member>
+    <member refid="class_numeric_control_ui_1a8146152735bf1db9e4d8b1e30b27869e" kind="variable"><name>Decrement1ButtonText</name></member>
+    <member refid="class_numeric_control_ui_1a80864db6311b50c928b7de9dc472a5dd" kind="variable"><name>Decrement2ButtonText</name></member>
+    <member refid="class_numeric_control_ui_1aa929f1c88082d2d13f871a1771f88b36" kind="variable"><name>Decrement3ButtonText</name></member>
+    <member refid="class_numeric_control_ui_1ae4d67252653e392dbb31ae60046b6090" kind="variable"><name>HintText</name></member>
+    <member refid="class_numeric_control_ui_1a0a572c78729a3d198cb1a30232b06f86" kind="variable"><name>_value</name></member>
+    <member refid="class_numeric_control_ui_1aedc4029860038af433ea84eeff744adf" kind="function"><name>SetValue</name></member>
+    <member refid="class_numeric_control_ui_1a34908899b9595379f0da02851afd7aae" kind="function"><name>ChangeValue</name></member>
+    <member refid="class_numeric_control_ui_1a581dfd71bee62b8026af485ad7df5f0d" kind="function"><name>Start</name></member>
+    <member refid="class_numeric_control_ui_1a03d4bf8f932d9ef9f7b8dee2626487b0" kind="function"><name>Value</name></member>
+    <member refid="class_numeric_control_ui_1acbca58e1608cef5a26dd50f27804b55a" kind="function"><name>Inc1</name></member>
+    <member refid="class_numeric_control_ui_1a2c6f6262aa2610841deae715120b5ac4" kind="function"><name>Inc2</name></member>
+    <member refid="class_numeric_control_ui_1a24bb521b7ba4f796cd17d8897f654f5c" kind="function"><name>Inc3</name></member>
+    <member refid="class_numeric_control_ui_1a9c8c73af6395bdf852b9b0accceee765" kind="function"><name>Dec1</name></member>
+    <member refid="class_numeric_control_ui_1a57c1bbd7814a56164695ce2eaddc24df" kind="function"><name>Dec2</name></member>
+    <member refid="class_numeric_control_ui_1acc9c65621a2fe11e5a05ebc0b79fb3dd" kind="function"><name>Dec3</name></member>
+  </compound>
+  <compound refid="class_object_hive" kind="class"><name>ObjectHive</name>
+    <member refid="class_object_hive_1af3fb446a374ca13950daefb4d408d621" kind="variable"><name>Aim</name></member>
+    <member refid="class_object_hive_1a8be6d8bd13ee8bd522b428a8c78c9f00" kind="variable"><name>KeyboardInputController</name></member>
+    <member refid="class_object_hive_1afbf790c375bc8228b66428070789247d" kind="variable"><name>ModelImportManager</name></member>
+    <member refid="class_object_hive_1a10f297a8c8d875b9250799d2a86db441" kind="variable"><name>PlayerController</name></member>
+    <member refid="class_object_hive_1a933d07cee34249f0111144125b45b54c" kind="variable"><name>Player</name></member>
+    <member refid="class_object_hive_1aa410cc36de5c0b6cf765dc88dd37102a" kind="variable"><name>_instance</name></member>
+    <member refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" kind="property"><name>Instance</name></member>
+    <member refid="class_object_hive_1a003de014f458041bc4ed74e3a716d77b" kind="function"><name>Awake</name></member>
+  </compound>
+  <compound refid="class_object_hive_vr" kind="class"><name>ObjectHiveVr</name>
+    <member refid="class_object_hive_vr_1a5d86649a9b24ee1b196f9c2aa413cbfd" kind="variable"><name>ModelImportManager</name></member>
+    <member refid="class_object_hive_vr_1add58fc9fdf79c5cfab3cfad8124c2ce7" kind="variable"><name>Teleport</name></member>
+    <member refid="class_object_hive_vr_1aed7cdec7b161cf6ecced26e603507571" kind="variable"><name>Player</name></member>
+    <member refid="class_object_hive_vr_1a4d84ab09a06a5365c4fff5f17c9fa2f5" kind="variable"><name>NotificationText</name></member>
+    <member refid="class_object_hive_vr_1a2f65eda8022673c0c981ed7f48d93594" kind="variable"><name>HighlightionMaterial</name></member>
+    <member refid="class_object_hive_vr_1aced5b60257918a2f678389425e0a719f" kind="variable"><name>SelectionMaterial</name></member>
+    <member refid="class_object_hive_vr_1a0cf0a7285ce568891bcabe852acb0e87" kind="variable"><name>LocalPlayerHeadTr</name></member>
+    <member refid="class_object_hive_vr_1aa00f4426f67a08ebb7ae7a46b122d7f1" kind="variable"><name>LocalPlayerTr</name></member>
+    <member refid="class_object_hive_vr_1ae93ae57750302e7923144b1ae10d3864" kind="variable"><name>HighlightedInteractionObject</name></member>
+    <member refid="class_object_hive_vr_1a746c51547433c72880a8f1aca7d4da3d" kind="variable"><name>SelectedInteractionObject</name></member>
+    <member refid="class_object_hive_vr_1a742aa01beba5a14cf0dfca9b192a117a" kind="variable"><name>_instance</name></member>
+    <member refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" kind="property"><name>Instance</name></member>
+    <member refid="class_object_hive_vr_1a85e943150fb8b266ab15d42149caa456" kind="function"><name>Awake</name></member>
+    <member refid="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" kind="function"><name>HighlightObject</name></member>
+    <member refid="class_object_hive_vr_1a5b7d838d57f778ac91cc0e666709512f" kind="function"><name>SelectAndShowAttributes</name></member>
+    <member refid="class_object_hive_vr_1aae31b142421654bbc931d81ff784bfad" kind="function"><name>SelectParent</name></member>
+    <member refid="class_object_hive_vr_1ac02837d7593b8950ea1fd00949630301" kind="function"><name>DeselectObject</name></member>
+    <member refid="class_object_hive_vr_1a98125bd079d1d37597e6f64e8d92f989" kind="function"><name>SelectAndShowAttributes</name></member>
+  </compound>
+  <compound refid="class_plant_settings" kind="class"><name>PlantSettings</name>
+    <member refid="class_plant_settings_1a1f2ff2b67f41524fa46c571179c94520" kind="variable"><name>Id</name></member>
+    <member refid="class_plant_settings_1a177bfddd185ddca1d0784c1a40c2b1e5" kind="variable"><name>Name</name></member>
+    <member refid="class_plant_settings_1a2bbf2e3449fb49879511e48455fcb61c" kind="variable"><name>LocationDescription</name></member>
+    <member refid="class_plant_settings_1a1c1f7e402e63c8d9bbcb91e56cc1e4df" kind="variable"><name>Company</name></member>
+    <member refid="class_plant_settings_1af526aceb5c55f8d2fa36fc7633179827" kind="variable"><name>Description</name></member>
+    <member refid="class_plant_settings_1a188bcd3b0e807284256f4fe8ac12bde5" kind="variable"><name>LatitudeFullDeg</name></member>
+    <member refid="class_plant_settings_1a8710d8ee2ca86ec19eda05fb5aaf0c76" kind="variable"><name>LongitudeFullDeg</name></member>
+    <member refid="class_plant_settings_1a0585d33a62c175024d74037aa4de491b" kind="variable"><name>RvmFilesNames</name></member>
+    <member refid="class_plant_settings_1a09b724758164500cd3bd159d5815a6f4" kind="variable"><name>AttFilesNames</name></member>
+  </compound>
+  <compound refid="class_player" kind="class"><name>Player</name>
+    <member refid="class_player_1aa5b58a5ebfa1552e054794a7133ade51" kind="variable"><name>Glasses</name></member>
+    <member refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" kind="function"><name>Start</name></member>
+    <member refid="class_player_1ab1b799d89cacee820f5a1e83cf71b440" kind="function"><name>HideObject</name></member>
+    <member refid="class_player_1ac4db0b8b352f511d0d0715f755876c4e" kind="function"><name>InteractWithObject</name></member>
+    <member refid="class_player_1ac8cf603009908d2e9b95fc4aff6ced70" kind="function"><name>MoveObject</name></member>
+    <member refid="class_player_1af1241106018bc144720ada64954497dd" kind="function"><name>CmdHideObject</name></member>
+    <member refid="class_player_1a7ecb0c23d408400314d103d1b2b21992" kind="function"><name>CmdInteractWithObject</name></member>
+  </compound>
+  <compound refid="class_play_pickup_animation_message" kind="class"><name>PlayPickupAnimationMessage</name>
+    <member refid="class_play_pickup_animation_message_1a605df20de6b297aefb196758f22accc8" kind="variable"><name>PlayerNetId</name></member>
+  </compound>
+  <compound refid="class_polygon_data" kind="class"><name>PolygonData</name>
+    <member refid="class_polygon_data_1ae9dfaa860511424803cd74822927bcac" kind="variable"><name>Vertices</name></member>
+    <member refid="class_polygon_data_1ad74733d05200dc339426df8e49a9ca6a" kind="variable"><name>Normals</name></member>
+    <member refid="class_polygon_data_1a1530c00aaaaedfbbbfc3bb17c7496afc" kind="function"><name>PolygonData</name></member>
+    <member refid="class_polygon_data_1a024ebb4875136879c093b7ba08a8b2c9" kind="function"><name>GetInPolygonsPlaneVerticesPresentation</name></member>
+  </compound>
+  <compound refid="class_primitive_shape_data" kind="class"><name>PrimitiveShapeData</name>
+    <member refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kind="variable"><name>Parameters</name></member>
+    <member refid="class_primitive_shape_data_1a9edf451a799cf5abe5079669cc0564b4" kind="function"><name>PrimitiveShapeData</name></member>
+  </compound>
+  <compound refid="class_progress_data" kind="class"><name>ProgressData</name>
+    <member refid="class_progress_data_1aef6d1fae14a8aca09596ec591b295f19" kind="variable"><name>Message</name></member>
+    <member refid="class_progress_data_1a492f8d3bcace30ba4b1ed320e1ca7823" kind="variable"><name>TotalToDoCount</name></member>
+    <member refid="class_progress_data_1a2a29b5afc1fc19673c81e615edbdda03" kind="variable"><name>CompletedCount</name></member>
+  </compound>
+  <compound refid="class_progress_ui" kind="class"><name>ProgressUi</name>
+    <member refid="class_progress_ui_1a510b0d8d5a1e7cf565beeca2b26d0463" kind="variable"><name>ProgressText</name></member>
+    <member refid="class_progress_ui_1a4ddaef0f03a85ae79966ca78243da48f" kind="variable"><name>ProgressSlider</name></member>
+    <member refid="class_progress_ui_1ac3ee49ce28ddca827f90fe13d434c9f4" kind="function"><name>Hide</name></member>
+    <member refid="class_progress_ui_1a59904d8df7c6b696637d26648a26a0b3" kind="function"><name>Show</name></member>
+  </compound>
+  <compound refid="class_rectangular_toroid_builder" kind="class"><name>RectangularToroidBuilder</name>
+    <member refid="class_rectangular_toroid_builder_1a79056965bb8f5c2022f2167d1d97eb24" kind="function"><name>Build</name></member>
+    <member refid="class_rectangular_toroid_builder_1a2c2a39a863213603c4932ffd2c49fa4d" kind="function"><name>CreateVerticesForSmoothSection</name></member>
+    <member refid="class_rectangular_toroid_builder_1a592f6329ccb724a93ea502c4ea87be76" kind="function"><name>CreateVerticesEdgySection</name></member>
+    <member refid="class_rectangular_toroid_builder_1a56d05a2a097d9612ad747bf1247fb5c7" kind="function"><name>SmoothSection</name></member>
+  </compound>
+  <compound refid="class_rvm_converter" kind="class"><name>RvmConverter</name>
+    <member refid="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" kind="variable"><name>InputFileName</name></member>
+    <member refid="class_rvm_converter_1ac6c385f8b740331cd879b3ef11686355" kind="variable"><name>RvmReader</name></member>
+    <member refid="class_rvm_converter_1a88453bf28e3da9ffc41f40bb23460608" kind="variable"><name>SceneShapesInstantiator</name></member>
+    <member refid="class_rvm_converter_1a3a476e45c2cabe4e69c9a15e4223f2de" kind="function"><name>Start</name></member>
+    <member refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" kind="function"><name>Import</name></member>
+  </compound>
+  <compound refid="class_rvm_reader" kind="class"><name>RvmReader</name>
+    <member refid="class_rvm_reader_1aa3bd98b005bfb52c4a901a17dcd19ff1" kind="variable"><name>FileName</name></member>
+    <member refid="class_rvm_reader_1a28634b9aaf8267d15af60dd3c5b2fbd9" kind="variable"><name>UnitsScale</name></member>
+    <member refid="class_rvm_reader_1aa7d8fc97c9f88e0cfaa53c6b38b41239" kind="variable"><name>_br</name></member>
+    <member refid="class_rvm_reader_1ab4cf4e2fed9cdd214083fd82dc6e465e" kind="variable"><name>_file</name></member>
+    <member refid="class_rvm_reader_1ac9d6f9f4f73dcc4f5d6dbbffa4deb591" kind="variable"><name>_utf8</name></member>
+    <member refid="class_rvm_reader_1a96987ea72bb4cb0ba3357a3ac32fb093" kind="variable"><name>_rep</name></member>
+    <member refid="class_rvm_reader_1a9b1b70ed34cbbe75b3bac2d559825a12" kind="variable"><name>_readShape</name></member>
+    <member refid="class_rvm_reader_1a25f048864df0fe6b2d0635589a32a314" kind="function"><name>ReadShapeDelegate</name></member>
+    <member refid="class_rvm_reader_1a3f9f87e71631ee92f249b714611c1b79" kind="function"><name>Initialize</name></member>
+    <member refid="class_rvm_reader_1a01f50a9caaac8a5a1754ee17ea00a13e" kind="function"><name>ReadRvm</name></member>
+    <member refid="class_rvm_reader_1a4caa5c0d3cd64b02bffb2670d0082353" kind="function"><name>ReadQuadriliteral4ByteUtf8Identifier</name></member>
+    <member refid="class_rvm_reader_1a284b6f1effd70aa7748d231cf5b353e3" kind="function"><name>ReadInt32</name></member>
+    <member refid="class_rvm_reader_1a41cc63cb1dde8c8f33db82ae37bdc949" kind="function"><name>ReadFloat</name></member>
+    <member refid="class_rvm_reader_1af3e02191e4b9e0d96a924962fa3b9d61" kind="function"><name>ReadString</name></member>
+    <member refid="class_rvm_reader_1ae27371b2c0f7561037a05081a96b65eb" kind="function"><name>CreateChildNode</name></member>
+    <member refid="class_rvm_reader_1a059c7584f0019f2a2b5e7903a6ec1ce2" kind="function"><name>CreatePrimitive</name></member>
+    <member refid="class_rvm_reader_1a754be54f6f86f25fb7edc83d81a54b05" kind="function"><name>ReadTransformMatrix</name></member>
+    <member refid="class_rvm_reader_1a7103d46d0475fa3bca7657e4fab39497" kind="function"><name>ReadVector3</name></member>
+    <member refid="class_rvm_reader_1a25c4e3bb99225347c30bba1ad6b56c28" kind="function"><name>ReadFloatParametersOfPrimitive</name></member>
+    <member refid="class_rvm_reader_1abd10fcf771d54e0d76fce8d4e4a8e256" kind="function"><name>ReadFloatParametersOfRectangularToroid</name></member>
+    <member refid="class_rvm_reader_1a8779cb2fef9664689ee826238769bc12" kind="function"><name>ReadFloatParametersOfToroid</name></member>
+    <member refid="class_rvm_reader_1a41d8565d1c5bafde2204812b7f3bc556" kind="function"><name>ReadColor</name></member>
+    <member refid="class_rvm_reader_1a09f6a5677a6c98c87b124d220b90df9f" kind="function"><name>SkipBytes</name></member>
+    <member refid="class_rvm_reader_1ad765e7f23b1cca18a186f117e0a9adc9" kind="function"><name>ReadTruncatedPyramid</name></member>
+    <member refid="class_rvm_reader_1aa89f60cee55806c9106e27d23394eb84" kind="function"><name>ReadBox</name></member>
+    <member refid="class_rvm_reader_1aee87972c71e067d1137abbe55d8bc613" kind="function"><name>ReadRectangularToroid</name></member>
+    <member refid="class_rvm_reader_1a7563778813d7bb1e7d123674d1d18443" kind="function"><name>ReadToroid</name></member>
+    <member refid="class_rvm_reader_1ad2eafc60d529b873a14c39e8303bb5af" kind="function"><name>ReadEllipticalDish</name></member>
+    <member refid="class_rvm_reader_1ac7b8b2c9060b06206adb6730b1a38ea0" kind="function"><name>ReadSpheicalDish</name></member>
+    <member refid="class_rvm_reader_1a87e6e6ef44115aca043c6dbf21d7f191" kind="function"><name>ReadSnout</name></member>
+    <member refid="class_rvm_reader_1af8345fb6d2b7c7bbae6536984ef8bf60" kind="function"><name>ReadCylinder</name></member>
+    <member refid="class_rvm_reader_1a4d6fbaaf8f53d167797417172f241cbc" kind="function"><name>ReadSphere</name></member>
+    <member refid="class_rvm_reader_1a68ec64350a0dfd9035cd2ebf16c04375" kind="function"><name>ReadLine</name></member>
+    <member refid="class_rvm_reader_1ab7933908963d5a6b7b5470825b53ca8b" kind="function"><name>ReadMultipleMeshes</name></member>
+    <member refid="class_rvm_reader_1a86af956c46fb12adaa9e0bd4c9c7e149" kind="function"><name>ReadMultipleMeshData</name></member>
+    <member refid="class_rvm_reader_1a453dc959a12db6d00466d5a730794d80" kind="function"><name>Read</name></member>
+  </compound>
+  <compound refid="class_rvm_structure_reader" kind="class"><name>RvmStructureReader</name>
+    <member refid="class_rvm_structure_reader_1ac3f5dbc43783e51008a044925f28f85a" kind="variable"><name>FileName</name></member>
+    <member refid="class_rvm_structure_reader_1a778b2b66638094b6e2d57dac6ca7977a" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_scene_shapes_instantiator" kind="class"><name>SceneShapesInstantiator</name>
+    <member refid="class_scene_shapes_instantiator_1a0cff8be70f96b6cb4dd334746f26820d" kind="variable"><name>BuilderSettings</name></member>
+    <member refid="class_scene_shapes_instantiator_1adfa3657bf47b83545fe33125c44e6699" kind="variable"><name>OptimizeForStaticBatching</name></member>
+    <member refid="class_scene_shapes_instantiator_1a05616961895590145e6c8052e076ebe4" kind="variable"><name>DuplicatesThresholdForSwitchingToInstancing</name></member>
+    <member refid="class_scene_shapes_instantiator_1a96b27a2b4d7a93b85ebd729a97e46534" kind="variable"><name>TruncatedPyramids</name></member>
+    <member refid="class_scene_shapes_instantiator_1aa75cb20d2257e125bd3b612b952221f3" kind="variable"><name>Boxes</name></member>
+    <member refid="class_scene_shapes_instantiator_1a07f459ad1e64db267fa57997217fd2d1" kind="variable"><name>RectangularToroids</name></member>
+    <member refid="class_scene_shapes_instantiator_1a5f5ceca041209707a86caa15ca750a1c" kind="variable"><name>Toroids</name></member>
+    <member refid="class_scene_shapes_instantiator_1a9447b1da7403dc2f4f8bfe3a15e3099b" kind="variable"><name>EllipticalDishes</name></member>
+    <member refid="class_scene_shapes_instantiator_1a54a180399d20c2c18b2612dfced1940a" kind="variable"><name>SphericalDishes</name></member>
+    <member refid="class_scene_shapes_instantiator_1ae236a8a90784d7a5480f1b3a179d6bbd" kind="variable"><name>Snouts</name></member>
+    <member refid="class_scene_shapes_instantiator_1a7bdf6dc22f0852bdaaab0c22a884295b" kind="variable"><name>Cylinders</name></member>
+    <member refid="class_scene_shapes_instantiator_1a12b50389cab084fa06b3b29cb4be19a3" kind="variable"><name>Spheres</name></member>
+    <member refid="class_scene_shapes_instantiator_1adb8dd376dc5df27675120c149153d394" kind="variable"><name>CreateMultipleMeshes</name></member>
+    <member refid="class_scene_shapes_instantiator_1ad0f5a1c1d12b5eacd5b07ef5fe0cfeb5" kind="variable"><name>ShearedCylinders</name></member>
+    <member refid="class_scene_shapes_instantiator_1ad947fac74cbe83b3acc39baab51625c2" kind="variable"><name>RootTransform</name></member>
+    <member refid="class_scene_shapes_instantiator_1a340b257c6f9383dceb8e9bbb0f1cf3a3" kind="variable"><name>StandardMaterial</name></member>
+    <member refid="class_scene_shapes_instantiator_1a25a71700c5aa269c03bf5921acc43bb6" kind="variable"><name>CameraRig</name></member>
+    <member refid="class_scene_shapes_instantiator_1a6069053b67e0a7205e6f5e71686204b6" kind="variable"><name>_prefabs</name></member>
+    <member refid="class_scene_shapes_instantiator_1a6ec91fcc98ef180fd7c046f65f3fa24f" kind="variable"><name>_centerOfModel</name></member>
+    <member refid="class_scene_shapes_instantiator_1a732d3151ac4bfb8b80cc1f5821926783" kind="variable"><name>_prefabsStorage</name></member>
+    <member refid="class_scene_shapes_instantiator_1acf4941203b65be4d6dd56bcc980bafa2" kind="variable"><name>_staticObjectsParent</name></member>
+    <member refid="class_scene_shapes_instantiator_1a04e8365cca533f9dde5f02cd47e5ce51" kind="variable"><name>_colors</name></member>
+    <member refid="class_scene_shapes_instantiator_1a59448891f574b4153d072c9815f626e4" kind="property"><name>ShapeDataRepository</name></member>
+    <member refid="class_scene_shapes_instantiator_1a84a665ef8ad23ac0700377a8034818d0" kind="function"><name>SetShapeDataRepository</name></member>
+    <member refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" kind="function"><name>CreateHierarchy</name></member>
+    <member refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" kind="function"><name>CreateAllShapes</name></member>
+    <member refid="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" kind="function"><name>SetModelRotationAndMirroring</name></member>
+    <member refid="class_scene_shapes_instantiator_1a29c0c752b7e68cd04618f1e4de089df9" kind="function"><name>CreateAllColliders</name></member>
+    <member refid="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" kind="function"><name>AssignColorsToAllShapes</name></member>
+    <member refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" kind="function"><name>CreateColliders</name></member>
+    <member refid="class_scene_shapes_instantiator_1a03ef9e1168071ed4c24716d266451045" kind="function"><name>CreateChildren</name></member>
+    <member refid="class_scene_shapes_instantiator_1a895ef3656ddd5a276184245b31e80962" kind="function"><name>CreateNodeColliders</name></member>
+    <member refid="class_scene_shapes_instantiator_1af7e9c460fb8cb8166b38d8b1de2e64e3" kind="function"><name>IsClone</name></member>
+    <member refid="class_scene_shapes_instantiator_1aaace1023bc00fc5af1fc5466f0d4ef6b" kind="function"><name>CheckIsMeshNonDuplicateBySubobjectsCount</name></member>
+    <member refid="class_scene_shapes_instantiator_1a82ff894572c965350cbbca9d2e4a913f" kind="function"><name>CheckIsMeshNonDuplicateByVerticesCongruence</name></member>
+    <member refid="class_scene_shapes_instantiator_1a1bcda63e93670d8a4da5a1a15c528647" kind="function"><name>CheckIsMeshNonDuplicateBySegmentsLength</name></member>
+    <member refid="class_scene_shapes_instantiator_1a71b4ad6648fca7fa37da8dbf2c4c79e3" kind="function"><name>SetTransformMrMf</name></member>
+    <member refid="class_scene_shapes_instantiator_1a133ce023cf8d3a85b405b1bc0f884c06" kind="function"><name>BuildParametersMatchableShapes</name></member>
+    <member refid="class_scene_shapes_instantiator_1a1a093d87ecba128dba77e65fb9eed638" kind="function"><name>BuildParametersMatchableShapes2</name></member>
+    <member refid="class_scene_shapes_instantiator_1a286602066cfd37de57faf029b9c1abb4" kind="function"><name>BuildScalableShapes</name></member>
+    <member refid="class_scene_shapes_instantiator_1a6b09708d13318b3a3a6cd270fec1b87a" kind="function"><name>FindPrefabWithSameParameters</name></member>
+    <member refid="class_scene_shapes_instantiator_1a584424766bd7dbb80d8b0126b916fade" kind="function"><name>FindCloneBySameParameters</name></member>
+    <member refid="class_scene_shapes_instantiator_1aa0684c4c09958fb0532d1b3c327f3402" kind="function"><name>AlignWithParentsMultipleMeshDataInStorage</name></member>
+    <member refid="class_scene_shapes_instantiator_1a8df178d06dbe7f7108717956a6ae85f5" kind="function"><name>InitializeColors</name></member>
+    <member refid="class_scene_shapes_instantiator_1ad3474d1734349bed45760446a3bdb1ff" kind="function"><name>SetColorPropertyBlock</name></member>
+    <member refid="class_scene_shapes_instantiator_1a1bf55bc521fed875e428760dc78a8ca5" kind="function"><name>SetColorToTransformsChildrenRenderers</name></member>
+    <member refid="class_scene_shapes_instantiator_1a0972fb2cbbab229681f3a8170a56ad4f" kind="function"><name>CreateSimpleCollider</name></member>
+  </compound>
+  <compound refid="class_select_and_show_attributes_message" kind="class"><name>SelectAndShowAttributesMessage</name>
+    <member refid="class_select_and_show_attributes_message_1ab6c7aee8b06c630af49e259739d6bd2b" kind="variable"><name>Name</name></member>
+    <member refid="class_select_and_show_attributes_message_1ad52a961dedef874b0dd19e6b5b2a9d97" kind="variable"><name>Nickname</name></member>
+  </compound>
+  <compound refid="class_settings_manager" kind="class"><name>SettingsManager</name>
+    <member refid="class_settings_manager_1a973e9c2891d7c46da20bf9dd5f4d9871" kind="function"><name>GetIdsOfStoredPlantsSettings</name></member>
+    <member refid="class_settings_manager_1a42993797c173e310fdd16626d3b150cc" kind="function"><name>FindFreeId</name></member>
+    <member refid="class_settings_manager_1a10acd78357b5be7d14e239f2e6742dcf" kind="function"><name>StoreId</name></member>
+    <member refid="class_settings_manager_1adfdf1b6d0276ce230456250ad27286c3" kind="function"><name>EraseId</name></member>
+    <member refid="class_settings_manager_1a398ba0cc314c194d57d47638830eec96" kind="function"><name>EraseAllIds</name></member>
+    <member refid="class_settings_manager_1a1dafcbeb688edd9578e20643eff64838" kind="function"><name>GetIndexKeyInIdsList</name></member>
+    <member refid="class_settings_manager_1a40412db4f48c7562ca92796e7810acf0" kind="function"><name>GetPlantsCountKey</name></member>
+    <member refid="class_settings_manager_1aeb124366fae9a644fb1436bf79607c6c" kind="function"><name>GetPlantNameKey</name></member>
+    <member refid="class_settings_manager_1af5893813576341903398e6927ccc20e8" kind="function"><name>GetPlantLocationDescriptionKey</name></member>
+    <member refid="class_settings_manager_1aae8274d6c3691081d4b2a5694b191ba3" kind="function"><name>GetPlantCompanyKey</name></member>
+    <member refid="class_settings_manager_1a704e3ec857e19a5bfd76b7ce5b586e80" kind="function"><name>GetPlantDescriptionKey</name></member>
+    <member refid="class_settings_manager_1ab6639dbe3e1f696cfb219e3d78436b53" kind="function"><name>GetPlantLatitudeKey</name></member>
+    <member refid="class_settings_manager_1a6b89926f88f7e5aaf61a7edf5ea265a0" kind="function"><name>GetPlantLongitudeKey</name></member>
+    <member refid="class_settings_manager_1a1cfc3f3cd8d2723f933f649a057f214b" kind="function"><name>GetPlantRvmCountKey</name></member>
+    <member refid="class_settings_manager_1abaae500d0e78b082e950b83c3f6505cb" kind="function"><name>GetPlantAttCountKey</name></member>
+    <member refid="class_settings_manager_1add8b3b33ffdc01f0e2f62d00ca91970e" kind="function"><name>GetPlantRvmKey</name></member>
+    <member refid="class_settings_manager_1ac40b232c8c7169bbd2d95160e948b022" kind="function"><name>GetPlantAttKey</name></member>
+    <member refid="class_settings_manager_1aeb3638844b2eee2c901a9e4bb4970697" kind="function"><name>StorePlantSettings</name></member>
+    <member refid="class_settings_manager_1a6e8b233eb4e8cae817131500068ea563" kind="function"><name>ErasePlantSettings</name></member>
+    <member refid="class_settings_manager_1a5c1c1fe4e33c799018dc41ac4ebde801" kind="function"><name>GetPlantSettings</name></member>
+    <member refid="class_settings_manager_1a7e7845f2a734ad2114602b42e6d75e8e" kind="function"><name>GetAllPlantsSettings</name></member>
+    <member refid="class_settings_manager_1a45c71b583356ab8c268a4c9b4b1b8f8c" kind="function"><name>PopulateMockPlants</name></member>
+  </compound>
+  <compound refid="class_settings_scene" kind="class"><name>SettingsScene</name>
+    <member refid="class_settings_scene_1af41a4e4640fdd51b2ce0e0e62190f124" kind="variable"><name>ToroidsW</name></member>
+    <member refid="class_settings_scene_1ab56f11aa33238faced264a6e1cdcc3d7" kind="variable"><name>_rep</name></member>
+    <member refid="class_settings_scene_1ae8efd1c2b5af7779ab3c19d88ffdcb2e" kind="variable"><name>_si</name></member>
+    <member refid="class_settings_scene_1a15c6130982119a1ca93067242bcbaf47" kind="function"><name>Start</name></member>
+    <member refid="class_settings_scene_1a4e570dc533ebe7e57c40c53d7e2bcc76" kind="function"><name>CreateSamplesOfShape</name></member>
+    <member refid="class_settings_scene_1a2170b4641dfb7c9f62365f3b16fa75d2" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_settings_window" kind="class"><name>SettingsWindow</name>
+    <member refid="class_settings_window_1aed24c62328169b35cb4952858b9d9725" kind="variable"><name>Material</name></member>
+    <member refid="class_settings_window_1a706b46c1692f4e53e73de2fc9a229eee" kind="variable"><name>_tr</name></member>
+    <member refid="class_settings_window_1a92c8cfbf10ca1d37a5c3f2cc1123ad0e" kind="function"><name>Start</name></member>
+    <member refid="class_settings_window_1a575309eef791f840c9d285443e3358d0" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_shape_base_data" kind="class"><name>ShapeBaseData</name>
+    <member refid="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" kind="variable"><name>Parameters</name></member>
+    <member refid="class_shape_base_data_1ae357ef2e234f8aefe7c3ff2984e8c59c" kind="function"><name>ShapeBaseData</name></member>
+  </compound>
+  <compound refid="class_shape_data" kind="class"><name>ShapeData</name>
+    <member refid="class_shape_data_1a604384bb9311f5a3e6eaaa8ac3965919" kind="variable"><name>TransformMatrix</name></member>
+    <member refid="class_shape_data_1a3852657f21bb30029363cb63257299b6" kind="variable"><name>BoundMin</name></member>
+    <member refid="class_shape_data_1ad57256c9447776d39f2d65b248ad92dc" kind="variable"><name>BoundMax</name></member>
+    <member refid="class_shape_data_1ac6bdbf9124190bfcd1d32cfb0df712ee" kind="variable"><name>Transform</name></member>
+    <member refid="class_shape_data_1ad47d3c37921e5c201d948387f79d81e7" kind="variable"><name>ParentId</name></member>
+    <member refid="class_shape_data_1ac267d3675f6750a85431b55b87fc677c" kind="function"><name>ShapeData</name></member>
+  </compound>
+  <compound refid="class_shape_data_repository" kind="class"><name>ShapeDataRepository</name>
+    <member refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" kind="variable"><name>Nodes</name></member>
+    <member refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" kind="variable"><name>Shapes</name></member>
+    <member refid="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" kind="variable"><name>AllShapesIds</name></member>
+    <member refid="class_shape_data_repository_1a2892b0766da1db0e741746fa5ef6c019" kind="variable"><name>_freeIdForNodeDict</name></member>
+    <member refid="class_shape_data_repository_1ad5309b7ddc8ce47de2d7308861548679" kind="variable"><name>_currentParentNodeId</name></member>
+    <member refid="class_shape_data_repository_1a6c4e0cd58129c79ad68d215456a68cd2" kind="variable"><name>_currentShapeId</name></member>
+    <member refid="class_shape_data_repository_1a4929ae9246797b923a77cfd96955da94" kind="variable"><name>_truncatedPyramids</name></member>
+    <member refid="class_shape_data_repository_1a5c5afee4931a7f58d4121b3e1f110987" kind="variable"><name>_boxes</name></member>
+    <member refid="class_shape_data_repository_1a69baa59e255103a27cc08354083d9825" kind="variable"><name>_rectangularToroids</name></member>
+    <member refid="class_shape_data_repository_1a16751e87d8c7032e453d51534e6d3d19" kind="variable"><name>_toroids</name></member>
+    <member refid="class_shape_data_repository_1a9618312343a38b72681243e0e8daa6bb" kind="variable"><name>_ellipticalDishes</name></member>
+    <member refid="class_shape_data_repository_1a90eac2b740bb61ec416397ee78bd9013" kind="variable"><name>_sphericalDishes</name></member>
+    <member refid="class_shape_data_repository_1a64c940b1ebc6b8e6f073e652e61f18b7" kind="variable"><name>_snouts</name></member>
+    <member refid="class_shape_data_repository_1a969e426d8ecc7deb08c120da818f2f62" kind="variable"><name>_cylinders</name></member>
+    <member refid="class_shape_data_repository_1a826cc18934b42989d233c016f82e8164" kind="variable"><name>_spheres</name></member>
+    <member refid="class_shape_data_repository_1a2572b8dc8b4e52579b0e1d549e4c98ac" kind="variable"><name>_lines</name></member>
+    <member refid="class_shape_data_repository_1afd1f7d9aba890a17508947def1fd84e0" kind="variable"><name>_multipleMeshes</name></member>
+    <member refid="class_shape_data_repository_1a05083e7b08c17353a851fe53c1617b24" kind="variable"><name>_shearedCylinders</name></member>
+    <member refid="class_shape_data_repository_1a8f45698fe38cb01a3922f49472b84e47" kind="variable"><name>_selectedNode</name></member>
+    <member refid="class_shape_data_repository_1a72fa4e7e5d207d909ea6f3f37f90e96e" kind="function"><name>ShapeDataRepository</name></member>
+    <member refid="class_shape_data_repository_1afba0b4ca1fb9e8ab06adcd58d804adda" kind="function"><name>SetRootNode</name></member>
+    <member refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" kind="function"><name>AddNode</name></member>
+    <member refid="class_shape_data_repository_1aec3bcbfd198c43b2f215a63f900f7738" kind="function"><name>AddNode</name></member>
+    <member refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" kind="function"><name>SelectNearestParent</name></member>
+    <member refid="class_shape_data_repository_1afb3ac8b9a7e92031a07ca53b2be82bc7" kind="function"><name>AddShape</name></member>
+    <member refid="class_shape_data_repository_1a73333f81396a254f00a9732c9512cb05" kind="function"><name>AddMultipleMeshes</name></member>
+    <member refid="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" kind="function"><name>ShowStatistics</name></member>
+  </compound>
+  <compound refid="class_sheared_cylinder_builder" kind="class"><name>ShearedCylinderBuilder</name>
+    <member refid="class_sheared_cylinder_builder_1a018baf9cf913dbc297669d668c66264c" kind="function"><name>Build</name></member>
+    <member refid="class_sheared_cylinder_builder_1a28276ae8d60802d9f40a2847f3fa4a5b" kind="function"><name>Slice</name></member>
+  </compound>
+  <compound refid="class_show_nth_page_button_ui" kind="class"><name>ShowNthPageButtonUi</name>
+    <member refid="class_show_nth_page_button_ui_1adc4338f73874204ed3c86faa877cd2eb" kind="variable"><name>ModelImportUi</name></member>
+    <member refid="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" kind="variable"><name>PageIndex</name></member>
+    <member refid="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" kind="variable"><name>Button</name></member>
+    <member refid="class_show_nth_page_button_ui_1aa1688012097d455138dc09cea38f6287" kind="function"><name>OnButtonClick</name></member>
+  </compound>
+  <compound refid="class_show_nth_page_button_ui_vr" kind="class"><name>ShowNthPageButtonUiVr</name>
+    <member refid="class_show_nth_page_button_ui_vr_1a0acbdf8d5d99979fd48ed1909aa5c36f" kind="variable"><name>ModelImportUi</name></member>
+    <member refid="class_show_nth_page_button_ui_vr_1ad2b4444240bad6736dbeef14943771c2" kind="variable"><name>PageIndex</name></member>
+    <member refid="class_show_nth_page_button_ui_vr_1ae324d65614f056d2ffa67a8315dc7d15" kind="variable"><name>Button</name></member>
+    <member refid="class_show_nth_page_button_ui_vr_1abc78e23efec1c960ebe9b2d6e3c5ccfc" kind="function"><name>OnButtonClick</name></member>
+  </compound>
+  <compound refid="class_smooth_lathing_lod_settings" kind="class"><name>SmoothLathingLodSettings</name>
+    <member refid="class_smooth_lathing_lod_settings_1a53a6e0dff50e8ede70039050bc5b274c" kind="variable"><name>RevoluteStep</name></member>
+    <member refid="class_smooth_lathing_lod_settings_1a35ee4b8040b8daccd52d974a37752b06" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_smooth_lathing_lod_settings_1a3fc49355e780895ff32251fd69bd809f" kind="function"><name>SmoothLathingLodSettings</name></member>
+  </compound>
+  <compound refid="class_sphere_builder" kind="class"><name>SphereBuilder</name>
+    <member refid="class_sphere_builder_1a51642e9e2dc154444a8e2dfa35c0c02e" kind="function"><name>Build</name></member>
+    <member refid="class_sphere_builder_1a330d04f8368479f026656de8aecb6f4c" kind="function"><name>CreateVerticesForSmoothHalfCircleSection</name></member>
+  </compound>
+  <compound refid="class_spherical_lathing_builder" kind="class"><name>SphericalLathingBuilder</name>
+    <member refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" kind="function"><name>Build</name></member>
+    <member refid="class_spherical_lathing_builder_1a22cfa5af81bed60b35486dea8d9d7acf" kind="function"><name>CreateVerticesForSmoothArclSection</name></member>
+  </compound>
+  <compound refid="class_telekinesis" kind="class"><name>Telekinesis</name>
+    <member refid="class_telekinesis_1a7a53fb30be87da42a5c0f1c353961436" kind="variable"><name>TelekinesisAiming</name></member>
+    <member refid="class_telekinesis_1aefc0f3d4b7ed0cb34ae46de26258bdf8" kind="variable"><name>TelekinesisAction</name></member>
+    <member refid="class_telekinesis_1a4a511b637671edf2a8223b53f406fca6" kind="variable"><name>TelekineticTracingLineGo</name></member>
+    <member refid="class_telekinesis_1a043d076980d4a21b7e38614fecf298f8" kind="variable"><name>_hand</name></member>
+    <member refid="class_telekinesis_1a966cdec454c01f7f6b4c54730ae3c8de" kind="variable"><name>_telekineticTracingLineTr</name></member>
+    <member refid="class_telekinesis_1a66369ed3555b2bfc94e463f390a78a02" kind="function"><name>OnEnable</name></member>
+    <member refid="class_telekinesis_1a51ed4a012d6156bc524e2c5d75899ba8" kind="function"><name>OnDisable</name></member>
+    <member refid="class_telekinesis_1a0876558165920bce241b5e2b7bcd3296" kind="function"><name>OnTelekinesisAimingUpdate</name></member>
+    <member refid="class_telekinesis_1adc5ea5a4d0a374971883c9713c76ee09" kind="function"><name>OnTelekinesisActionChange</name></member>
+  </compound>
+  <compound refid="class_telekinetic_hand" kind="class"><name>TelekineticHand</name>
+    <member refid="class_telekinetic_hand_1a86a48e3990d5c9fca4abb0aa06b72264" kind="variable"><name>_applicationLostFocusObject</name></member>
+    <member refid="class_telekinetic_hand_1aec2c17c94a9e6db5375921221ed99369" kind="function"><name>Awake</name></member>
+    <member refid="class_telekinetic_hand_1a625aaa03a03c5ece9ffdf4afe2e30ab7" kind="function"><name>UpdateHovering</name></member>
+  </compound>
+  <compound refid="class_test_box_builder" kind="class"><name>TestBoxBuilder</name>
+    <member refid="class_test_box_builder_1afb78309f42e9c23e47b8d54b754263b6" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_cylinder_builder" kind="class"><name>TestCylinderBuilder</name>
+    <member refid="class_test_cylinder_builder_1a892113deef5211dc7f189d0c721a3786" kind="variable"><name>Radius</name></member>
+    <member refid="class_test_cylinder_builder_1aedd952dfb0ae3ec8f0d4e1970f56d978" kind="variable"><name>Height</name></member>
+    <member refid="class_test_cylinder_builder_1a26d35e3c039912e2ba1eb820935cc646" kind="variable"><name>BuildCaps</name></member>
+    <member refid="class_test_cylinder_builder_1a8bc608e86857b56920743af1084ab6a6" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_cylinder_builder_1a7504ce595213c3be7713beb0e6baf111" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_elliptical_lathing_builder" kind="class"><name>TestEllipticalLathingBuilder</name>
+    <member refid="class_test_elliptical_lathing_builder_1ab6b1c9aebd9dd32313d1fc128ec7cec6" kind="variable"><name>A</name></member>
+    <member refid="class_test_elliptical_lathing_builder_1a13658559246698582df8ebf69e8e8b49" kind="variable"><name>B</name></member>
+    <member refid="class_test_elliptical_lathing_builder_1a25af2bfd880dbd8db4d04d524d6a8d66" kind="variable"><name>FillAngle</name></member>
+    <member refid="class_test_elliptical_lathing_builder_1a679c335a5fed7101e459c2c03818a5b4" kind="variable"><name>RevoluteStep</name></member>
+    <member refid="class_test_elliptical_lathing_builder_1a9114338d9e50fea66dccff3549d83404" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_elliptical_lathing_builder_1a912d008ebc473d293d436c302c45a700" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_equidistant_sphere_builder" kind="class"><name>TestEquidistantSphereBuilder</name>
+    <member refid="class_test_equidistant_sphere_builder_1a86962bb121302613285a046c3bb12e2f" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_rectangular_toroid_builder" kind="class"><name>TestRectangularToroidBuilder</name>
+    <member refid="class_test_rectangular_toroid_builder_1ad2d27a508825ab823e86a6ea3460a036" kind="variable"><name>InnerRadius</name></member>
+    <member refid="class_test_rectangular_toroid_builder_1aa8f9f63846378fa0a6b6e420e2391e88" kind="variable"><name>OutterRadius</name></member>
+    <member refid="class_test_rectangular_toroid_builder_1a9b5d6407a6daaa6bd9ec91acaf146065" kind="variable"><name>Height</name></member>
+    <member refid="class_test_rectangular_toroid_builder_1aedbb430ff20f22deb1d437fbfaa9cc4c" kind="variable"><name>FillAngle</name></member>
+    <member refid="class_test_rectangular_toroid_builder_1afc270db54a2a85d8f98ea6d46a7afac2" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_rectangular_toroid_builder_1adec6d807698b1266cb6f50aeb57d7957" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_sloped_cylinder_builder" kind="class"><name>TestSlopedCylinderBuilder</name>
+    <member refid="class_test_sloped_cylinder_builder_1abc7566777cbdcc1083686c92aa344481" kind="variable"><name>Radius</name></member>
+    <member refid="class_test_sloped_cylinder_builder_1a53324557fa6ca70df36741b6ed463b5f" kind="variable"><name>Height</name></member>
+    <member refid="class_test_sloped_cylinder_builder_1a24e6665f03622ec76c8a79448dba73fc" kind="variable"><name>BottomAngleX</name></member>
+    <member refid="class_test_sloped_cylinder_builder_1a4b3e3a73eee9404924361f1b39d3ea12" kind="variable"><name>BottomAngleY</name></member>
+    <member refid="class_test_sloped_cylinder_builder_1a6ed38c9d30e8bdaea84784b67fbf3d97" kind="variable"><name>TopAngleX</name></member>
+    <member refid="class_test_sloped_cylinder_builder_1aae0ad5f365a7d0308bf73b470a1de593" kind="variable"><name>TopAngleY</name></member>
+    <member refid="class_test_sloped_cylinder_builder_1a39f7dad3389b7b470994b961e3a170c2" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_sphere_builder" kind="class"><name>TestSphereBuilder</name>
+    <member refid="class_test_sphere_builder_1a2df230f71771bed5c9536e3dc1b0e400" kind="variable"><name>R</name></member>
+    <member refid="class_test_sphere_builder_1a2f2519aa35b59088558b1278b39785f6" kind="variable"><name>FillAngle</name></member>
+    <member refid="class_test_sphere_builder_1acfeb82ac98b24881642783bfc56f5bfa" kind="variable"><name>RevoluteStep</name></member>
+    <member refid="class_test_sphere_builder_1ac016d41c470e1f798516fdaf2a0a261d" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_sphere_builder_1a16e1d6eb765f6347c834b8db35f1c726" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_spherical_lathing_builder" kind="class"><name>TestSphericalLathingBuilder</name>
+    <member refid="class_test_spherical_lathing_builder_1a6553ab885937fc1376be0d8e0e495d97" kind="variable"><name>H</name></member>
+    <member refid="class_test_spherical_lathing_builder_1aa81e26148cebdd81ba7067d292ffacbd" kind="variable"><name>S</name></member>
+    <member refid="class_test_spherical_lathing_builder_1a977f0ccf34432c1ab9c21b909ed9f3c9" kind="variable"><name>FillAngle</name></member>
+    <member refid="class_test_spherical_lathing_builder_1a7a9ebb9b908c19519ccab9c82afa18d0" kind="variable"><name>RevoluteStep</name></member>
+    <member refid="class_test_spherical_lathing_builder_1a76d43d5f7e35d185be8d183321b43d25" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_spherical_lathing_builder_1a5af4837fb97edb8002c00bb22ee817e2" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_toroid_builder" kind="class"><name>TestToroidBuilder</name>
+    <member refid="class_test_toroid_builder_1a584e935292aef19738eaaa90ce4b1290" kind="variable"><name>RevoluteRadius</name></member>
+    <member refid="class_test_toroid_builder_1a2b5d9819fc552ec1c7943c4bc94995d2" kind="variable"><name>CircularRadius</name></member>
+    <member refid="class_test_toroid_builder_1aec399be1f24a4fbfb2ccb6b5d773aad3" kind="variable"><name>FillAngle</name></member>
+    <member refid="class_test_toroid_builder_1ab071f202269896002b33707e4c246b03" kind="variable"><name>RevoluteStep</name></member>
+    <member refid="class_test_toroid_builder_1af618b2645e5d67e11c0b3941ed20ca79" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_toroid_builder_1ab10f9fa0bfe92b0e9a75dbdd7323731e" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_truncated_pyramid_builder" kind="class"><name>TestTruncatedPyramidBuilder</name>
+    <member refid="class_test_truncated_pyramid_builder_1a6804c5da7c86360b18ccd7b1abd5ba7c" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_test_truncated_shifted_cone_builder" kind="class"><name>TestTruncatedShiftedConeBuilder</name>
+    <member refid="class_test_truncated_shifted_cone_builder_1ad171df93b77b2ecb5660c641f62228e5" kind="variable"><name>BottomRadius</name></member>
+    <member refid="class_test_truncated_shifted_cone_builder_1a709530aa60aebe3a91631cfa70ad4519" kind="variable"><name>TopRadius</name></member>
+    <member refid="class_test_truncated_shifted_cone_builder_1a0cef8a4bbaed1a5add60452d7a3e645e" kind="variable"><name>Height</name></member>
+    <member refid="class_test_truncated_shifted_cone_builder_1a4120d5f26a5b334544ab422c17b0088c" kind="variable"><name>OffsetX</name></member>
+    <member refid="class_test_truncated_shifted_cone_builder_1aec0ce8360ff6d59808f24b0a9f08c970" kind="variable"><name>OffsetY</name></member>
+    <member refid="class_test_truncated_shifted_cone_builder_1a210744bb0692019895c033c696c47ae7" kind="variable"><name>CircularStep</name></member>
+    <member refid="class_test_truncated_shifted_cone_builder_1a3cf592ae111d0443a49dd06e4021c514" kind="function"><name>Start</name></member>
+  </compound>
+  <compound refid="class_toroid_builder" kind="class"><name>ToroidBuilder</name>
+    <member refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="class_toroids_settings_window" kind="class"><name>ToroidsSettingsWindow</name>
+    <member refid="class_toroids_settings_window_1a425a4f772ba43d04ff158f39d80be452" kind="function"><name>SetView</name></member>
+    <member refid="class_toroids_settings_window_1a0eb33825fdceb6d504615b27a74e8ae7" kind="function"><name>CreateTorForLod</name></member>
+  </compound>
+  <compound refid="class_triangle_vertices" kind="class"><name>TriangleVertices</name>
+    <member refid="class_triangle_vertices_1a463b0b57c16239ba1104b7240e5f33e5" kind="variable"><name>StartingNumber</name></member>
+    <member refid="class_triangle_vertices_1a174eac8f7a3e07fcfefa321f1ae02e8d" kind="variable"><name>Count</name></member>
+  </compound>
+  <compound refid="class_triangulator" kind="class"><name>Triangulator</name>
+    <member refid="class_triangulator_1a35b6e881ee95023d6ef6fce9edb14771" kind="variable"><name>m_points</name></member>
+    <member refid="class_triangulator_1ac8b7c647942722515ef899f4a36a0b19" kind="function"><name>Triangulator</name></member>
+    <member refid="class_triangulator_1ac7f1cdff8f4aecc3990ca8dd7bdf5ddb" kind="function"><name>Triangulate</name></member>
+    <member refid="class_triangulator_1a6d2732bbd9b651b7380276732542474d" kind="function"><name>Area</name></member>
+    <member refid="class_triangulator_1a80ef439128e62277ddd7d93f3b549442" kind="function"><name>Snip</name></member>
+    <member refid="class_triangulator_1a5a6a4ada09f056b21862a2cc0aebf713" kind="function"><name>InsideTriangle</name></member>
+  </compound>
+  <compound refid="class_truncated_pyramid_builder" kind="class"><name>TruncatedPyramidBuilder</name>
+    <member refid="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="class_truncated_shifted_cone_builder" kind="class"><name>TruncatedShiftedConeBuilder</name>
+    <member refid="class_truncated_shifted_cone_builder_1a491e43c76ee1baa3132d6114c48aaa69" kind="function"><name>Build</name></member>
+  </compound>
+  <compound refid="class_ui_manager" kind="class"><name>UiManager</name>
+    <member refid="class_ui_manager_1adcd30c5a43465bae39f7dde94cbb5c11" kind="variable"><name>InformationPanel</name></member>
+    <member refid="class_ui_manager_1a2bb024cf54acc9d7aae98b2260a10471" kind="variable"><name>ModelImportUi</name></member>
+    <member refid="class_ui_manager_1a3afdba4b0bc234226776a09b30347b37" kind="variable"><name>ActionMenuUi</name></member>
+    <member refid="class_ui_manager_1a3bfed40246705bc1cb9d1611200e5064" kind="variable"><name>ProgressUi</name></member>
+    <member refid="class_ui_manager_1a95546a510c301fc66886b8547799f979" kind="variable"><name>ShowModelImportUiButton</name></member>
+    <member refid="class_ui_manager_1a0bc034c689d8de3c887d1ebae10858b9" kind="variable"><name>_instance</name></member>
+    <member refid="class_ui_manager_1aeca8577ade8396b9ef034876622f19a3" kind="variable"><name>_currentWindow</name></member>
+    <member refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" kind="property"><name>I</name></member>
+    <member refid="class_ui_manager_1a7e7d498b91dafeec3e17f437f8b21476" kind="function"><name>ShowModelImportUi</name></member>
+    <member refid="class_ui_manager_1aad8d3c4e5861408df38ba876342b7462" kind="function"><name>ShowActionMenuUi</name></member>
+    <member refid="class_ui_manager_1a8d0a41cbac769245cfec85bdbfea7016" kind="function"><name>ShowProgressUi</name></member>
+    <member refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" kind="function"><name>HideCurrentWindow</name></member>
+    <member refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" kind="function"><name>UpdateWindow</name></member>
+    <member refid="class_ui_manager_1a1cb78e3a47e10b031ce57afb314ca325" kind="function"><name>HideObject</name></member>
+    <member refid="class_ui_manager_1a29bd6700b20d98d699f5fc7623460a3d" kind="function"><name>InteractWithObject</name></member>
+    <member refid="class_ui_manager_1a258d350817ef4c325ac86d93f3bc12d8" kind="function"><name>ShowInfoPanel</name></member>
+    <member refid="class_ui_manager_1ad25d66056dc6d01b980834273ed41858" kind="function"><name>HideInfoPanel</name></member>
+    <member refid="class_ui_manager_1a5bee91ca221ddc59cb8f570adf02dc79" kind="function"><name>ShowWindow</name></member>
+  </compound>
+  <compound refid="class_ui_manager_vr" kind="class"><name>UiManagerVr</name>
+    <member refid="class_ui_manager_vr_1a27bc8c72cb7578069cf22da685da1409" kind="variable"><name>_instance</name></member>
+    <member refid="class_ui_manager_vr_1ab04ed26fa8682d8e562ba1f8a834f4d2" kind="variable"><name>_currentWindow</name></member>
+    <member refid="class_ui_manager_vr_1af9706465d734c91ff22a586b7e754d52" kind="variable"><name>ModelImportUi</name></member>
+    <member refid="class_ui_manager_vr_1abda753d4ff4fd97f4e0fef471cd3d640" kind="variable"><name>ActionMenuUi</name></member>
+    <member refid="class_ui_manager_vr_1a871729ea346c10fe7300e09166b244d7" kind="variable"><name>ProgressUi</name></member>
+    <member refid="class_ui_manager_vr_1a31765177746a67199f2d6cfe7afe49e5" kind="variable"><name>ShowModelImportUiButton</name></member>
+    <member refid="class_ui_manager_vr_1a7f1d4ca2de27fc39b82a37227e5057a3" kind="variable"><name>InfoPadGo</name></member>
+    <member refid="class_ui_manager_vr_1af61e7d3f15782b2eb08bb45a707c23ea" kind="variable"><name>InfoPadTitleText</name></member>
+    <member refid="class_ui_manager_vr_1af7bded7725537d18fbedd5b822a81426" kind="variable"><name>InfoPadTextLeft</name></member>
+    <member refid="class_ui_manager_vr_1a975a64404efb1fe598661394f9860d00" kind="variable"><name>InfoPadTextCenter</name></member>
+    <member refid="class_ui_manager_vr_1a92fcb7893989cedb289ac8db08a980e3" kind="variable"><name>InfoPadTextRight</name></member>
+    <member refid="class_ui_manager_vr_1afa03015a546e379de97b902462ae57cf" kind="property"><name>I</name></member>
+    <member refid="class_ui_manager_vr_1a92c0abcedbe5b18632841f7a1a0925e6" kind="function"><name>ShowModelImportUi</name></member>
+    <member refid="class_ui_manager_vr_1a6525aa6d75dfa7d978ef5186d73c96b7" kind="function"><name>ShowActionMenuUi</name></member>
+    <member refid="class_ui_manager_vr_1ad390498344390d6fc56c98346eac91ed" kind="function"><name>ShowProgressUi</name></member>
+    <member refid="class_ui_manager_vr_1a0cd1c6bfde1c157ec619602de6069802" kind="function"><name>HideCurrentWindow</name></member>
+    <member refid="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" kind="function"><name>UpdateWindow</name></member>
+    <member refid="class_ui_manager_vr_1ab88b1cbcb7449cb5486547191f1b685b" kind="function"><name>HideObject</name></member>
+    <member refid="class_ui_manager_vr_1aa12b63c05a476d09ac42ad93da298af0" kind="function"><name>InteractWithObject</name></member>
+    <member refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" kind="function"><name>ShowInfoPad</name></member>
+    <member refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" kind="function"><name>HideInfoPad</name></member>
+    <member refid="class_ui_manager_vr_1a55cb2d82e3f55d211065db5ce8eca01c" kind="function"><name>ShowWindow</name></member>
+  </compound>
+  <compound refid="class_vr_mp_player" kind="class"><name>VrMpPlayer</name>
+    <member refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" kind="function"><name>Start</name></member>
+    <member refid="class_vr_mp_player_1ac7a68dbb6ad184acc78e74a1b063a8d1" kind="function"><name>HideObject</name></member>
+    <member refid="class_vr_mp_player_1ac9b33feaa74e06413371cd9dbced5530" kind="function"><name>InteractWithObject</name></member>
+    <member refid="class_vr_mp_player_1a4f5c36d5a2629d9300f4aec04803e8f3" kind="function"><name>MoveObject</name></member>
+    <member refid="class_vr_mp_player_1a9fadafdec2f92e6aa2898d75e1338157" kind="function"><name>CmdHideObject</name></member>
+    <member refid="class_vr_mp_player_1aab1c9f37ece370e811468379dde612ac" kind="function"><name>CmdInteractWithObject</name></member>
+  </compound>
+  <compound refid="class_wherety_network_manager" kind="class"><name>WheretyNetworkManager</name>
+    <member refid="class_wherety_network_manager_1aa5ec96c0e0a247df2a8deef2b48f5d37" kind="variable"><name>HideObjectMessageType</name></member>
+    <member refid="class_wherety_network_manager_1afc167de4176e136df7e0ea9b148e0051" kind="variable"><name>InteractWithObjectMessageType</name></member>
+    <member refid="class_wherety_network_manager_1a6d27960bd46c2086472904588aa41dd3" kind="variable"><name>MoveObjectMessageType</name></member>
+    <member refid="class_wherety_network_manager_1ae3eb8fd7f71b5d2c6f6bf0189f3deff3" kind="variable"><name>PlayPickupAnimationMessageType</name></member>
+    <member refid="class_wherety_network_manager_1a434267823b738ab40c2e56cea748c401" kind="variable"><name>SelectAndShowAttributesMessageType</name></member>
+    <member refid="class_wherety_network_manager_1a6d43d882c74b5a92aa0fd5110de64070" kind="function"><name>OnClientConnect</name></member>
+    <member refid="class_wherety_network_manager_1a6e186d393c4ed2142104942b3cb34565" kind="function"><name>ReceiveHideObjectMessage</name></member>
+    <member refid="class_wherety_network_manager_1ab3b64000541e3ec84be5de029fa23327" kind="function"><name>ReceiveInteractWithObjectMessage</name></member>
+    <member refid="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" kind="function"><name>ReceiveMoveObjectMessage</name></member>
+    <member refid="class_wherety_network_manager_1a5f80307ac75bac2c91c9d856f9599fc3" kind="function"><name>ReceivePlayPickupAnimationMessage</name></member>
+    <member refid="class_wherety_network_manager_1a474f4d25df96e54eaa17593694ed8c2d" kind="function"><name>ReceiveSelectAndShowAttributesMessage</name></member>
+  </compound>
+  <compound refid="class_wherety_player" kind="class"><name>WheretyPlayer</name>
+    <member refid="class_wherety_player_1a4b69223c4cecc70a0d2e26da921cf7b4" kind="variable"><name>Nickname</name></member>
+    <member refid="class_wherety_player_1af04135914737331db79932a881d1a41f" kind="variable"><name>PlayerAvatarModel</name></member>
+    <member refid="class_wherety_player_1a06753b2e604bebeda7523f009f5259ca" kind="variable"><name>Animator</name></member>
+    <member refid="class_wherety_player_1aeddcaa682986588d775b22ec44c35aa9" kind="variable"><name>NicknameText</name></member>
+    <member refid="class_wherety_player_1a36a7fb7e2dfe289e6fe451b0d0e35a0a" kind="variable"><name>WarningTextCanvas</name></member>
+    <member refid="class_wherety_player_1a9cd68c0966f8c377a56a3f1db8104a1b" kind="variable"><name>_localPlayerHeadTr</name></member>
+    <member refid="class_wherety_player_1a86cd88d86150a1f913e2fb7d1cfef19a" kind="variable"><name>_localPlayerTr</name></member>
+    <member refid="class_wherety_player_1aecc92342283e031961977efb3de4ebc8" kind="variable"><name>_tr</name></member>
+    <member refid="class_wherety_player_1a856839b71fa72c41cc43564b3f2392d8" kind="variable"><name>_elapsedTime</name></member>
+    <member refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" kind="function"><name>Start</name></member>
+    <member refid="class_wherety_player_1a028e387db9360e7ba6b8530d1af5c6cf" kind="function"><name>ShowWarning</name></member>
+    <member refid="class_wherety_player_1a0b6974f0ad99de9dd1af2fb65f498264" kind="function"><name>HideObject</name></member>
+    <member refid="class_wherety_player_1a7f1fc81fea5ae4a082fc72b766171834" kind="function"><name>InteractWithObject</name></member>
+    <member refid="class_wherety_player_1a932686a63036f030e38a10f361d9d5d3" kind="function"><name>MoveObject</name></member>
+    <member refid="class_wherety_player_1acf5cc5d3c1f191864bdbfa501474ec24" kind="function"><name>PlayPickupAnimation</name></member>
+    <member refid="class_wherety_player_1a9d18e586a183cf3fcf768c863ca7575d" kind="function"><name>SelectAndShowAttributes</name></member>
+    <member refid="class_wherety_player_1a32b2a47a6cc8d56b695cdb2bb4a7db0d" kind="function"><name>CmdGetNickname</name></member>
+    <member refid="class_wherety_player_1a9a04b5f3b0bfddc84fcfa6478c094ce8" kind="function"><name>CmdSetNickname</name></member>
+    <member refid="class_wherety_player_1a07a986c05965cf9b0b43c0b03e85e89f" kind="function"><name>RpcSetNickname</name></member>
+    <member refid="class_wherety_player_1ad260231f66b900c47c5be74b1ed67c76" kind="function"><name>CmdShowWarning</name></member>
+    <member refid="class_wherety_player_1a1b63ab8d9e0439bb00c3b9791f41a377" kind="function"><name>RpcShowWarning</name></member>
+    <member refid="class_wherety_player_1a33165f56d767862e3018ff625ff56a9f" kind="function"><name>ShowingWarning</name></member>
+    <member refid="class_wherety_player_1a9caa65e1e9d04e8d6169f2e46201d72f" kind="function"><name>FixedUpdate</name></member>
+    <member refid="class_wherety_player_1a143cf04165c32107c3ac20ae08e5e772" kind="function"><name>SyncLocalAndNetwork</name></member>
+    <member refid="class_wherety_player_1a8a262a47c75493520b18895aa83ddcd7" kind="function"><name>CmdHideObject</name></member>
+    <member refid="class_wherety_player_1aa34b1badf5ee61388e8227ea8faef262" kind="function"><name>CmdInteractWithObject</name></member>
+    <member refid="class_wherety_player_1a3c1eaee6aaebb225ee591138bc6e6c65" kind="function"><name>CmdMoveObject</name></member>
+    <member refid="class_wherety_player_1abc132344d16fd53bcf366bd467d5142a" kind="function"><name>CmdPlayPickupAnimation</name></member>
+    <member refid="class_wherety_player_1ad9e1ba6d841fc11a55517187f6f787a9" kind="function"><name>CmdSelectAndShowAttributes</name></member>
+  </compound>
+  <compound refid="class_x_plane_importer" kind="class"><name>XPlaneImporter</name>
+    <member refid="class_x_plane_importer_1ab6eb4548431610293a67b2dc137fee4d" kind="variable"><name>MeshPrefab</name></member>
+    <member refid="class_x_plane_importer_1ae8898b38e75dfc7d6d6ee161add4067e" kind="variable"><name>FileName</name></member>
+    <member refid="class_x_plane_importer_1aff6827a1593ac6524589b2985aa24615" kind="variable"><name>ShowLog</name></member>
+    <member refid="class_x_plane_importer_1a2154c9f7703f60cf94bb13f03cfd078c" kind="variable"><name>ProcessNode</name></member>
+    <member refid="class_x_plane_importer_1abb5e854d1989a9388a75b7ef9c8256bc" kind="variable"><name>_linesCount</name></member>
+    <member refid="class_x_plane_importer_1a341decaa988b3d333a869085f7934a55" kind="variable"><name>_objectIndex</name></member>
+    <member refid="class_x_plane_importer_1af9c1d050b3b8bf739b6c86d7b2a737c8" kind="variable"><name>_level</name></member>
+    <member refid="class_x_plane_importer_1a38a92de4af0a1a120a622ad73629b1f0" kind="variable"><name>DirectoryPath</name></member>
+    <member refid="class_x_plane_importer_1afb6c4087931f8d30775082e16c940546" kind="variable"><name>_nodesCounts</name></member>
+    <member refid="class_x_plane_importer_1afcf33f8e96490b539b616e9feb7c88ef" kind="variable"><name>_vertices</name></member>
+    <member refid="class_x_plane_importer_1ae5533334a07e16ab4228dc40cfba2c90" kind="variable"><name>_triangles</name></member>
+    <member refid="class_x_plane_importer_1a4b1ffcdbdcbf94faef730a641e7cabf7" kind="variable"><name>_meshes</name></member>
+    <member refid="class_x_plane_importer_1ab5ec76298a03e9c149b7c670b2016336" kind="variable"><name>_uvs</name></member>
+    <member refid="class_x_plane_importer_1a4ea9c31d1fd3b1e043aeb99e90339b7f" kind="variable"><name>_currentParent</name></member>
+    <member refid="class_x_plane_importer_1a3314a3645b30dc9431bce434fc5cfeae" kind="variable"><name>_rotationAxis</name></member>
+    <member refid="class_x_plane_importer_1ad22f3f0588eb85e020f5de25ce2bd5c4" kind="variable"><name>_rotationAngle</name></member>
+    <member refid="class_x_plane_importer_1a0826600be08307d33215fc32c0d0cb64" kind="variable"><name>_firstKey</name></member>
+    <member refid="class_x_plane_importer_1a0643d4393d1e3bd1ed3e3f01d59e7525" kind="variable"><name>_material</name></member>
+    <member refid="class_x_plane_importer_1a58eb2de316752c3bcbd0881bca28cf9a" kind="variable"><name>_animation</name></member>
+    <member refid="class_x_plane_importer_1aa6bea0c6b8621e418a5f8995ad7299cf" kind="variable"><name>_clip</name></member>
+    <member refid="class_x_plane_importer_1a3f05ff142e0e58b2d1b5fffbc910d991" kind="variable"><name>_animationCurveX</name></member>
+    <member refid="class_x_plane_importer_1a1bb61ac2448549bcfafa753d4143e0c0" kind="variable"><name>_animationCurveY</name></member>
+    <member refid="class_x_plane_importer_1a0d4b25a90f50cbb54227ae0072b38959" kind="variable"><name>_animationCurveZ</name></member>
+    <member refid="class_x_plane_importer_1a389ccb747390b293c8e71a9e5e7c1c19" kind="variable"><name>_animationCurveW</name></member>
+    <member refid="class_x_plane_importer_1ace2783f97c0280a543da5a5dc854cddd" kind="variable"><name>_keysNonZeroFound</name></member>
+    <member refid="class_x_plane_importer_1a58e0b95434af532554936c50753607e8" kind="variable"><name>_animationQuaternions</name></member>
+    <member refid="class_x_plane_importer_1a900a89814a40058c59e1f6c062bf724e" kind="function"><name>NodeProcessor</name></member>
+    <member refid="class_x_plane_importer_1afbcd75869e373a08dd6452cb385d0961" kind="function"><name>Start</name></member>
+    <member refid="class_x_plane_importer_1a772fdc0a04e6ac2c4bb85cda64d85065" kind="function"><name>ImportFile</name></member>
+    <member refid="class_x_plane_importer_1a8a931a695140a55c2850d681e7f4875e" kind="function"><name>ProcessCommonNode</name></member>
+    <member refid="class_x_plane_importer_1a1a12a3c5aa96f5ae1cf9a05c1a51a3b8" kind="function"><name>CreateMesh</name></member>
+    <member refid="class_x_plane_importer_1a6872be2a30618ae9cb08ed363ba0b2af" kind="function"><name>FlipTriangles</name></member>
+    <member refid="class_x_plane_importer_1a69e23d1cd6de0ce960309e16a0122a2a" kind="function"><name>Initialize</name></member>
+    <member refid="class_x_plane_importer_1ade69ed971615f9d5e83319eb86220ff7" kind="function"><name>ReadVerticesIndexesFromStringArray</name></member>
+    <member refid="class_x_plane_importer_1adfa450bf23daef5c0e3627fe713f0b60" kind="function"><name>ReadVerticesIndexesRangeForTrianglesFromStringArray</name></member>
+    <member refid="class_x_plane_importer_1a47449adcd5e62a1ccd0dca615e863432" kind="function"><name>ShowFinalLog</name></member>
+    <member refid="class_x_plane_importer_1a4debdc77596eca5804bc29077d5f6ffc" kind="function"><name>StringArrayToVector3</name></member>
+    <member refid="class_x_plane_importer_1ae6ff782d01fc08d4d6d2238bd8955b06" kind="function"><name>StringArrayToVector2</name></member>
+    <member refid="class_x_plane_importer_1a2c1a00dff1ee7e12ee08b28d63861b36" kind="function"><name>LoadDiffuseTexture</name></member>
+    <member refid="class_x_plane_importer_1a1636c7b9dd7422a43759b27f40d4e51d" kind="function"><name>ProcessTransKey</name></member>
+    <member refid="class_x_plane_importer_1a2f557d81b4e96ad5c8362517fe8b2c16" kind="function"><name>FinalizeAnimationCreation</name></member>
+  </compound>
+  <compound refid="namespace_jet_brains_1_1_annotations" kind="namespace"><name>JetBrains::Annotations</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_remoting_1_1_messaging" kind="namespace"><name>System::Runtime::Remoting::Messaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_t_m_pro" kind="namespace"><name>TMPro</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_events" kind="namespace"><name>UnityEngine::Events</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_networking" kind="namespace"><name>UnityEngine::Networking</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u2_d" kind="namespace"><name>UnityEngine::U2D</name>
+  </compound>
+  <compound refid="namespace_unity_engine_1_1_u_i" kind="namespace"><name>UnityEngine::UI</name>
+  </compound>
+  <compound refid="namespace_valve_1_1_v_r" kind="namespace"><name>Valve::VR</name>
+  </compound>
+  <compound refid="namespace_valve_1_1_v_r_1_1_interaction_system" kind="namespace"><name>Valve::VR::InteractionSystem</name>
+  </compound>
+  <compound refid="_aim_8cs" kind="file"><name>Aim.cs</name>
+  </compound>
+  <compound refid="_animation_generator_8cs" kind="file"><name>AnimationGenerator.cs</name>
+  </compound>
+  <compound refid="_att_data_8cs" kind="file"><name>AttData.cs</name>
+  </compound>
+  <compound refid="_att_reader_8cs" kind="file"><name>AttReader.cs</name>
+  </compound>
+  <compound refid="_att_reader_tester_8cs" kind="file"><name>AttReaderTester.cs</name>
+  </compound>
+  <compound refid="_character_animator_8cs" kind="file"><name>CharacterAnimator.cs</name>
+  </compound>
+  <compound refid="_color_table_reader_8cs" kind="file"><name>ColorTableReader.cs</name>
+  </compound>
+  <compound refid="_color_table_reader_tester_8cs" kind="file"><name>ColorTableReaderTester.cs</name>
+  </compound>
+  <compound refid="_file_usage_preference_8cs" kind="file"><name>FileUsagePreference.cs</name>
+  </compound>
+  <compound refid="_file_usage_preference_item_ui_8cs" kind="file"><name>FileUsagePreferenceItemUi.cs</name>
+  </compound>
+  <compound refid="_game_object_counter_8cs" kind="file"><name>GameObjectCounter.cs</name>
+  </compound>
+  <compound refid="_box_builder_8cs" kind="file"><name>BoxBuilder.cs</name>
+  </compound>
+  <compound refid="_builder_settings_8cs" kind="file"><name>BuilderSettings.cs</name>
+  </compound>
+  <compound refid="_edged_lathing_lod_settings_8cs" kind="file"><name>EdgedLathingLodSettings.cs</name>
+  </compound>
+  <compound refid="_lod_settings_8cs" kind="file"><name>LodSettings.cs</name>
+  </compound>
+  <compound refid="_smooth_lathing_lod_settings_8cs" kind="file"><name>SmoothLathingLodSettings.cs</name>
+  </compound>
+  <compound refid="_cylinder_builder_8cs" kind="file"><name>CylinderBuilder.cs</name>
+  </compound>
+  <compound refid="_elliptical_lathing_builder_8cs" kind="file"><name>EllipticalLathingBuilder.cs</name>
+  </compound>
+  <compound refid="_equidistant_sphere_builder_8cs" kind="file"><name>EquidistantSphereBuilder.cs</name>
+  </compound>
+  <compound refid="_geometry_common_8cs" kind="file"><name>GeometryCommon.cs</name>
+  </compound>
+  <compound refid="_multiple_mesh_builder_8cs" kind="file"><name>MultipleMeshBuilder.cs</name>
+  </compound>
+  <compound refid="_rectangular_toroid_builder_8cs" kind="file"><name>RectangularToroidBuilder.cs</name>
+  </compound>
+  <compound refid="_sheared_cylinder_builder_8cs" kind="file"><name>ShearedCylinderBuilder.cs</name>
+  </compound>
+  <compound refid="_sphere_builder_8cs" kind="file"><name>SphereBuilder.cs</name>
+  </compound>
+  <compound refid="_spherical_lathing_builder_8cs" kind="file"><name>SphericalLathingBuilder.cs</name>
+  </compound>
+  <compound refid="_lathing_parameters_8cs" kind="file"><name>LathingParameters.cs</name>
+  </compound>
+  <compound refid="_test_box_builder_8cs" kind="file"><name>TestBoxBuilder.cs</name>
+  </compound>
+  <compound refid="_test_cylinder_builder_8cs" kind="file"><name>TestCylinderBuilder.cs</name>
+  </compound>
+  <compound refid="_test_elliptical_lathing_builder_8cs" kind="file"><name>TestEllipticalLathingBuilder.cs</name>
+  </compound>
+  <compound refid="_test_equidistant_sphere_builder_8cs" kind="file"><name>TestEquidistantSphereBuilder.cs</name>
+  </compound>
+  <compound refid="_test_rectangular_toroid_builder_8cs" kind="file"><name>TestRectangularToroidBuilder.cs</name>
+  </compound>
+  <compound refid="_test_sloped_cylinder_builder_8cs" kind="file"><name>TestSlopedCylinderBuilder.cs</name>
+  </compound>
+  <compound refid="_test_sphere_builder_8cs" kind="file"><name>TestSphereBuilder.cs</name>
+  </compound>
+  <compound refid="_test_spherical_lathing_builder_8cs" kind="file"><name>TestSphericalLathingBuilder.cs</name>
+  </compound>
+  <compound refid="_test_toroid_builder_8cs" kind="file"><name>TestToroidBuilder.cs</name>
+  </compound>
+  <compound refid="_test_truncated_pyramid_builder_8cs" kind="file"><name>TestTruncatedPyramidBuilder.cs</name>
+  </compound>
+  <compound refid="_test_truncated_shifted_cone_builder_8cs" kind="file"><name>TestTruncatedShiftedConeBuilder.cs</name>
+  </compound>
+  <compound refid="_toroid_builder_8cs" kind="file"><name>ToroidBuilder.cs</name>
+  </compound>
+  <compound refid="_truncated_pyramid_builder_8cs" kind="file"><name>TruncatedPyramidBuilder.cs</name>
+  </compound>
+  <compound refid="_truncated_shifted_cone_builder_8cs" kind="file"><name>TruncatedShiftedConeBuilder.cs</name>
+  </compound>
+  <compound refid="_mesh_data_8cs" kind="file"><name>MeshData.cs</name>
+  </compound>
+  <compound refid="_multiple_meshes_data_8cs" kind="file"><name>MultipleMeshesData.cs</name>
+  </compound>
+  <compound refid="_multiple_mesh_shape_data_8cs" kind="file"><name>MultipleMeshShapeData.cs</name>
+  </compound>
+  <compound refid="_node_8cs" kind="file"><name>Node.cs</name>
+  </compound>
+  <compound refid="_polygon_data_8cs" kind="file"><name>PolygonData.cs</name>
+  </compound>
+  <compound refid="_primitive_shape_data_8cs" kind="file"><name>PrimitiveShapeData.cs</name>
+  </compound>
+  <compound refid="_shape_base_data_8cs" kind="file"><name>ShapeBaseData.cs</name>
+  </compound>
+  <compound refid="_shape_data_8cs" kind="file"><name>ShapeData.cs</name>
+  </compound>
+  <compound refid="_triangulator_8cs" kind="file"><name>Triangulator.cs</name>
+  </compound>
+  <compound refid="_hide_object_message_8cs" kind="file"><name>HideObjectMessage.cs</name>
+  </compound>
+  <compound refid="_dds_runtime_loader_8cs" kind="file"><name>DdsRuntimeLoader.cs</name>
+  </compound>
+  <compound refid="_x_plane_importer_8cs" kind="file"><name>XPlaneImporter.cs</name>
+  </compound>
+  <compound refid="_interaction_object_8cs" kind="file"><name>InteractionObject.cs</name>
+  </compound>
+  <compound refid="_interact_with_object_message_8cs" kind="file"><name>InteractWithObjectMessage.cs</name>
+  </compound>
+  <compound refid="_i_wherety_player_8cs" kind="file"><name>IWheretyPlayer.cs</name>
+  </compound>
+  <compound refid="_keyboard_input_controller_8cs" kind="file"><name>KeyboardInputController.cs</name>
+  </compound>
+  <compound refid="_model_import_manager_8cs" kind="file"><name>ModelImportManager.cs</name>
+  </compound>
+  <compound refid="_move_object_message_8cs" kind="file"><name>MoveObjectMessage.cs</name>
+  </compound>
+  <compound refid="_object_hive_8cs" kind="file"><name>ObjectHive.cs</name>
+  </compound>
+  <compound refid="_wherety_network_manager_8cs" kind="file"><name>WheretyNetworkManager.cs</name>
+  </compound>
+  <compound refid="_player_8cs" kind="file"><name>Player.cs</name>
+  </compound>
+  <compound refid="_play_pickup_animation_message_8cs" kind="file"><name>PlayPickupAnimationMessage.cs</name>
+  </compound>
+  <compound refid="_progress_data_8cs" kind="file"><name>ProgressData.cs</name>
+  </compound>
+  <compound refid="_progress_ui_8cs" kind="file"><name>ProgressUi.cs</name>
+  </compound>
+  <compound refid="_rvm_converter_8cs" kind="file"><name>RvmConverter.cs</name>
+  </compound>
+  <compound refid="_rvm_reader_8cs" kind="file"><name>RvmReader.cs</name>
+  </compound>
+  <compound refid="_rvm_structure_reader_8cs" kind="file"><name>RvmStructureReader.cs</name>
+  </compound>
+  <compound refid="_scene_shapes_instantiator_8cs" kind="file"><name>SceneShapesInstantiator.cs</name>
+  </compound>
+  <compound refid="_select_and_show_attributes_message_8cs" kind="file"><name>SelectAndShowAttributesMessage.cs</name>
+  </compound>
+  <compound refid="_graphics_settings_manager_8cs" kind="file"><name>GraphicsSettingsManager.cs</name>
+  </compound>
+  <compound refid="_numeric_control_ui_8cs" kind="file"><name>NumericControlUi.cs</name>
+  </compound>
+  <compound refid="_plant_settings_8cs" kind="file"><name>PlantSettings.cs</name>
+  </compound>
+  <compound refid="_settings_manager_8cs" kind="file"><name>SettingsManager.cs</name>
+  </compound>
+  <compound refid="_settings_scene_8cs" kind="file"><name>SettingsScene.cs</name>
+  </compound>
+  <compound refid="_settings_window_8cs" kind="file"><name>SettingsWindow.cs</name>
+  </compound>
+  <compound refid="_toroids_settings_window_8cs" kind="file"><name>ToroidsSettingsWindow.cs</name>
+  </compound>
+  <compound refid="_shape_data_repository_8cs" kind="file"><name>ShapeDataRepository.cs</name>
+  </compound>
+  <compound refid="_shape_types_8cs" kind="file"><name>ShapeTypes.cs</name>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kind="enum"><name>ShapeTypes</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a03d46be0ffbbe4549161dc346df864fa" kind="enumvalue"><name>TruncatedPyramids</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a185ec3ece71e6873edf517d5401192a5" kind="enumvalue"><name>Boxes</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a664701a5d5be3b45cf5db4106de19917" kind="enumvalue"><name>RectangularToroids</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ad855db83f48a2910f56c242e535610bc" kind="enumvalue"><name>Toroids</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac1940befb826174118910af0baa92d53" kind="enumvalue"><name>EllipticalDishes</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a7f4ef0b1e612743b9b00e4f96a78fe11" kind="enumvalue"><name>SphericalDishes</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac3e0032fea87975827a911eb180621b7" kind="enumvalue"><name>Snouts</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a1f2784105a791fa003743c4b56191bda" kind="enumvalue"><name>Cylinders</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13a3f8199ac8eb5fec1effe06b54ce07f58" kind="enumvalue"><name>Spheres</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13aa0b0293a2db49f5f93c15a62e095c819" kind="enumvalue"><name>Lines</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13aa1ca41324e53ec603484ef25c216d704" kind="enumvalue"><name>MultipleMeshes</name></member>
+    <member refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13ac03608934672cd0de2c70698c7ece27a" kind="enumvalue"><name>ShearedCylinders</name></member>
+  </compound>
+  <compound refid="_connection_ui_8cs" kind="file"><name>ConnectionUi.cs</name>
+  </compound>
+  <compound refid="_decision_maker_8cs" kind="file"><name>DecisionMaker.cs</name>
+  </compound>
+  <compound refid="_flying_8cs" kind="file"><name>Flying.cs</name>
+  </compound>
+  <compound refid="_follow_player_name_text_8cs" kind="file"><name>FollowPlayerNameText.cs</name>
+  </compound>
+  <compound refid="_interactable_part_8cs" kind="file"><name>InteractablePart.cs</name>
+  </compound>
+  <compound refid="_keyboard_button_8cs" kind="file"><name>KeyboardButton.cs</name>
+  </compound>
+  <compound refid="_name_input_8cs" kind="file"><name>NameInput.cs</name>
+  </compound>
+  <compound refid="_telekinesis_8cs" kind="file"><name>Telekinesis.cs</name>
+  </compound>
+  <compound refid="_telekinetic_hand_8cs" kind="file"><name>TelekineticHand.cs</name>
+  </compound>
+  <compound refid="_ui_manager_8cs" kind="file"><name>UiManager.cs</name>
+  </compound>
+  <compound refid="_input_files_8cs" kind="file"><name>InputFiles.cs</name>
+    <member refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590" kind="enum"><name>InputFiles</name></member>
+    <member refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a2660064e68655415da2628c2ae2f7592" kind="enumvalue"><name>Small</name></member>
+    <member refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a87f8a6ab85c9ced3702b4ea641ad4bb5" kind="enumvalue"><name>Medium</name></member>
+    <member refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590ad491538da818a2ba11a3195ba035cfd3" kind="enumvalue"><name>Big</name></member>
+    <member refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a6311ae17c1ee52b36e68aaf4ad066387" kind="enumvalue"><name>Other</name></member>
+    <member refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590add539b6ec2758f30160e620093deb8ab" kind="enumvalue"><name>V_E_4102_07_EK</name></member>
+  </compound>
+  <compound refid="_mesh_switch_8cs" kind="file"><name>MeshSwitch.cs</name>
+  </compound>
+  <compound refid="_action_menu_ui_8cs" kind="file"><name>ActionMenuUi.cs</name>
+  </compound>
+  <compound refid="_i_window_8cs" kind="file"><name>IWindow.cs</name>
+  </compound>
+  <compound refid="_model_import_ui_8cs" kind="file"><name>ModelImportUi.cs</name>
+  </compound>
+  <compound refid="_show_nth_page_button_ui_8cs" kind="file"><name>ShowNthPageButtonUi.cs</name>
+  </compound>
+  <compound refid="_model_import_ui_vr_8cs" kind="file"><name>ModelImportUiVr.cs</name>
+  </compound>
+  <compound refid="_object_hive_vr_8cs" kind="file"><name>ObjectHiveVr.cs</name>
+  </compound>
+  <compound refid="_show_nth_page_button_ui_vr_8cs" kind="file"><name>ShowNthPageButtonUiVr.cs</name>
+  </compound>
+  <compound refid="_ui_manager_vr_8cs" kind="file"><name>UiManagerVr.cs</name>
+  </compound>
+  <compound refid="_wherety_player_8cs" kind="file"><name>WheretyPlayer.cs</name>
+  </compound>
+  <compound refid="_vr_mp_player_8cs" kind="file"><name>VrMpPlayer.cs</name>
+  </compound>
+  <compound refid="dir_434f56c0e29f2dbc2dbaa443dc938ca6" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets</name>
+  </compound>
+  <compound refid="dir_72549e83824b9311e10a736dc0cbeaf7" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders</name>
+  </compound>
+  <compound refid="dir_76448a3ddda0a66a2c6642d8b8d818fc" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings</name>
+  </compound>
+  <compound refid="dir_d9454b42a4029b9b71c9e7c6338901dc" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader</name>
+  </compound>
+  <compound refid="dir_103ed39609ae17f969483848ae8feea9" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels</name>
+  </compound>
+  <compound refid="dir_b6e7d6fc15f6401775b4e354c978c897" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry</name>
+  </compound>
+  <compound refid="dir_332f7e9eb8bdd98877f3ccb0710dbe1c" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Importers</name>
+  </compound>
+  <compound refid="dir_a0eedb2871d337d75772080595d2c80a" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking</name>
+  </compound>
+  <compound refid="dir_0d84e7c6d52046072d6508925d49d00c" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Processors</name>
+  </compound>
+  <compound refid="dir_6765db3cc24274e3ef087163d71da81f" kind="dir"><name>D:/Workspace/Unity/RVM_Importer</name>
+  </compound>
+  <compound refid="dir_1c90e3a6241c95a0a7859706d545c48e" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts</name>
+  </compound>
+  <compound refid="dir_7fc7288ae5fcd7b239122225cd4f0843" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings</name>
+  </compound>
+  <compound refid="dir_f68caa7bf3928204a4e8f4258c7db97a" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR</name>
+  </compound>
+  <compound refid="dir_a95187025ae3462992bcf44da6f2d5d6" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp</name>
+  </compound>
+  <compound refid="dir_ebf7d74f263d029ed4fea4ee5b83f5ce" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test</name>
+  </compound>
+  <compound refid="dir_5062b8a2b3b1db6b2b6243e91502a63e" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui</name>
+  </compound>
+  <compound refid="dir_3d328b3dca154a477d99beb656992be2" kind="dir"><name>D:/Workspace/Unity</name>
+  </compound>
+  <compound refid="dir_a967a3f2ada423d9f378b98811bf5623" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts</name>
+  </compound>
+  <compound refid="dir_5fc6d6da3d5f9559ec387cf335f0ddd3" kind="dir"><name>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VrAdaptedScripts</name>
+  </compound>
+</doxygenindex>

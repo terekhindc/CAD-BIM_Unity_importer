@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_file_usage_preference_8cs" kind="file" language="C#">
+    <compoundname>FileUsagePreference.cs</compoundname>
+    <innerclass refid="class_file_usage_preference" prot="public">FileUsagePreference</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2" refid="class_file_usage_preference" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="4" refid="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" kindref="member">FileFullAddress</ref>;</highlight></codeline>
+<codeline lineno="5" refid="class_file_usage_preference_1a43d76051845a1b45f5f78f83069ccb9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_file_usage_preference_1a43d76051845a1b45f5f78f83069ccb9e" kindref="member">IsInspected</ref>;</highlight></codeline>
+<codeline lineno="6" refid="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" kindref="member">IsNeeded</ref>;</highlight></codeline>
+<codeline lineno="7" refid="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" kindref="member">IsLoaded</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" kindref="member">GameObject</ref><sp/><ref refid="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" kindref="member">GameObject</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreference.cs"/>
+  </compounddef>
+</doxygen>

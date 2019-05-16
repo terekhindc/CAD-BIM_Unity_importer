@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_wherety_player" kind="class" language="C#" prot="public">
+    <compoundname>WheretyPlayer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">NetworkBehaviour</basecompoundref>
+    <basecompoundref refid="interface_i_wherety_player" prot="public" virt="non-virtual">IWheretyPlayer</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wherety_player_1a4b69223c4cecc70a0d2e26da921cf7b4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string WheretyPlayer.Nickname</definition>
+        <argsstring></argsstring>
+        <name>Nickname</name>
+        <initializer>= &quot;User&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">Start</referencedby>
+        <referencedby refid="class_wherety_player_1a9d18e586a183cf3fcf768c863ca7575d" compoundref="_wherety_player_8cs" startline="164" endline="171">SelectAndShowAttributes</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1af04135914737331db79932a881d1a41f" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WheretyPlayer.PlayerAvatarModel</definition>
+        <argsstring></argsstring>
+        <name>PlayerAvatarModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1a06753b2e604bebeda7523f009f5259ca" prot="public" static="no" mutable="no">
+        <type>Animator</type>
+        <definition>Animator WheretyPlayer.Animator</definition>
+        <argsstring></argsstring>
+        <name>Animator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1aeddcaa682986588d775b22ec44c35aa9" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text WheretyPlayer.NicknameText</definition>
+        <argsstring></argsstring>
+        <name>NicknameText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1a36a7fb7e2dfe289e6fe451b0d0e35a0a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject WheretyPlayer.WarningTextCanvas</definition>
+        <argsstring></argsstring>
+        <name>WarningTextCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wherety_player_1a9cd68c0966f8c377a56a3f1db8104a1b" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform WheretyPlayer._localPlayerHeadTr</definition>
+        <argsstring></argsstring>
+        <name>_localPlayerHeadTr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1a86cd88d86150a1f913e2fb7d1cfef19a" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform WheretyPlayer._localPlayerTr</definition>
+        <argsstring></argsstring>
+        <name>_localPlayerTr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1aecc92342283e031961977efb3de4ebc8" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform WheretyPlayer._tr</definition>
+        <argsstring></argsstring>
+        <name>_tr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_wherety_player_1a856839b71fa72c41cc43564b3f2392d8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WheretyPlayer._elapsedTime</definition>
+        <argsstring></argsstring>
+        <name>_elapsedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="23" bodyend="45"/>
+        <references refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" compoundref="_object_hive_vr_8cs" startline="24" endline="31">ObjectHiveVr.Instance</references>
+        <references refid="class_object_hive_vr_1aed7cdec7b161cf6ecced26e603507571" compoundref="_object_hive_vr_8cs" startline="10">ObjectHiveVr.Player</references>
+        <references refid="class_object_hive_vr_1add58fc9fdf79c5cfab3cfad8124c2ce7" compoundref="_object_hive_vr_8cs" startline="9">ObjectHiveVr.Teleport</references>
+        <references refid="class_object_hive_vr_1a0cf0a7285ce568891bcabe852acb0e87" compoundref="_object_hive_vr_8cs" startline="15">ObjectHiveVr.LocalPlayerHeadTr</references>
+        <references refid="class_object_hive_vr_1aa00f4426f67a08ebb7ae7a46b122d7f1" compoundref="_object_hive_vr_8cs" startline="16">ObjectHiveVr.LocalPlayerTr</references>
+        <references refid="class_wherety_player_1af04135914737331db79932a881d1a41f" compoundref="_wherety_player_8cs" startline="13">PlayerAvatarModel</references>
+        <references refid="class_wherety_player_1aeddcaa682986588d775b22ec44c35aa9" compoundref="_wherety_player_8cs" startline="15">NicknameText</references>
+        <references refid="class_wherety_player_1a4b69223c4cecc70a0d2e26da921cf7b4" compoundref="_wherety_player_8cs" startline="11">Nickname</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a028e387db9360e7ba6b8530d1af5c6cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.ShowWarning</definition>
+        <argsstring>()</argsstring>
+        <name>ShowWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="67" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a0b6974f0ad99de9dd1af2fb65f498264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.HideObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>HideObject</name>
+        <reimplements refid="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c">HideObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="111" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a7f1fc81fea5ae4a082fc72b766171834" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.InteractWithObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>InteractWithObject</name>
+        <reimplements refid="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3">InteractWithObject</reimplements>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="122" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a932686a63036f030e38a10f361d9d5d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.MoveObject</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>MoveObject</name>
+        <reimplements refid="interface_i_wherety_player_1afd5f6bbda4034e3c00502d0ac26474c1">MoveObject</reimplements>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="133" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="133" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1acf5cc5d3c1f191864bdbfa501474ec24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.PlayPickupAnimation</definition>
+        <argsstring>()</argsstring>
+        <name>PlayPickupAnimation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="150" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="150" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a9d18e586a183cf3fcf768c863ca7575d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.SelectAndShowAttributes</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SelectAndShowAttributes</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="164" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="164" bodyend="171"/>
+        <references refid="class_wherety_player_1a4b69223c4cecc70a0d2e26da921cf7b4" compoundref="_wherety_player_8cs" startline="11">Nickname</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wherety_player_1a32b2a47a6cc8d56b695cdb2bb4a7db0d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdGetNickname</definition>
+        <argsstring>()</argsstring>
+        <name>CmdGetNickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="48" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a9a04b5f3b0bfddc84fcfa6478c094ce8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdSetNickname</definition>
+        <argsstring>(string nickname)</argsstring>
+        <name>CmdSetNickname</name>
+        <param>
+          <type>string</type>
+          <declname>nickname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="54" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a07a986c05965cf9b0b43c0b03e85e89f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.RpcSetNickname</definition>
+        <argsstring>()</argsstring>
+        <name>RpcSetNickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="61" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1ad260231f66b900c47c5be74b1ed67c76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdShowWarning</definition>
+        <argsstring>()</argsstring>
+        <name>CmdShowWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="73" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a1b63ab8d9e0439bb00c3b9791f41a377" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.RpcShowWarning</definition>
+        <argsstring>()</argsstring>
+        <name>RpcShowWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="79" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="79" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a33165f56d767862e3018ff625ff56a9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator WheretyPlayer.ShowingWarning</definition>
+        <argsstring>()</argsstring>
+        <name>ShowingWarning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="86" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="86" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a9caa65e1e9d04e8d6169f2e46201d72f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="98" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a143cf04165c32107c3ac20ae08e5e772" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.SyncLocalAndNetwork</definition>
+        <argsstring>()</argsstring>
+        <name>SyncLocalAndNetwork</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="103" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a8a262a47c75493520b18895aa83ddcd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdHideObject</definition>
+        <argsstring>(HideObjectMessage message)</argsstring>
+        <name>CmdHideObject</name>
+        <param>
+          <type><ref refid="class_hide_object_message" kindref="compound">HideObjectMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="117" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1aa34b1badf5ee61388e8227ea8faef262" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdInteractWithObject</definition>
+        <argsstring>(InteractWithObjectMessage message)</argsstring>
+        <name>CmdInteractWithObject</name>
+        <param>
+          <type><ref refid="class_interact_with_object_message" kindref="compound">InteractWithObjectMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="128" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1a3c1eaee6aaebb225ee591138bc6e6c65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdMoveObject</definition>
+        <argsstring>(MoveObjectMessage message)</argsstring>
+        <name>CmdMoveObject</name>
+        <param>
+          <type><ref refid="class_move_object_message" kindref="compound">MoveObjectMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="145" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1abc132344d16fd53bcf366bd467d5142a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdPlayPickupAnimation</definition>
+        <argsstring>(PlayPickupAnimationMessage message)</argsstring>
+        <name>CmdPlayPickupAnimation</name>
+        <param>
+          <type><ref refid="class_play_pickup_animation_message" kindref="compound">PlayPickupAnimationMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="159" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_wherety_player_1ad9e1ba6d841fc11a55517187f6f787a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WheretyPlayer.CmdSelectAndShowAttributes</definition>
+        <argsstring>(SelectAndShowAttributesMessage message)</argsstring>
+        <name>CmdSelectAndShowAttributes</name>
+        <param>
+          <type><ref refid="class_select_and_show_attributes_message" kindref="compound">SelectAndShowAttributesMessage</ref></type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="174" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="174" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="395">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="394">
+        <label>WheretyPlayer</label>
+        <link refid="class_wherety_player"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="398">
+        <label>NetworkBehaviour</label>
+      </node>
+      <node id="400">
+        <label>Text</label>
+      </node>
+      <node id="397">
+        <label>WheretyPlayer</label>
+        <link refid="class_wherety_player"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+        <childnode refid="399" relation="public-inheritance">
+        </childnode>
+        <childnode refid="400" relation="usage">
+          <edgelabel>NicknameText</edgelabel>
+        </childnode>
+      </node>
+      <node id="399">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/WheretyPlayer.cs" bodystart="9" bodyend="178"/>
+    <listofallmembers>
+      <member refid="class_wherety_player_1a856839b71fa72c41cc43564b3f2392d8" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>_elapsedTime</name></member>
+      <member refid="class_wherety_player_1a9cd68c0966f8c377a56a3f1db8104a1b" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>_localPlayerHeadTr</name></member>
+      <member refid="class_wherety_player_1a86cd88d86150a1f913e2fb7d1cfef19a" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>_localPlayerTr</name></member>
+      <member refid="class_wherety_player_1aecc92342283e031961977efb3de4ebc8" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>_tr</name></member>
+      <member refid="class_wherety_player_1a06753b2e604bebeda7523f009f5259ca" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>Animator</name></member>
+      <member refid="class_wherety_player_1a32b2a47a6cc8d56b695cdb2bb4a7db0d" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdGetNickname</name></member>
+      <member refid="class_wherety_player_1a8a262a47c75493520b18895aa83ddcd7" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdHideObject</name></member>
+      <member refid="class_wherety_player_1aa34b1badf5ee61388e8227ea8faef262" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdInteractWithObject</name></member>
+      <member refid="class_wherety_player_1a3c1eaee6aaebb225ee591138bc6e6c65" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdMoveObject</name></member>
+      <member refid="class_wherety_player_1abc132344d16fd53bcf366bd467d5142a" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdPlayPickupAnimation</name></member>
+      <member refid="class_wherety_player_1ad9e1ba6d841fc11a55517187f6f787a9" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdSelectAndShowAttributes</name></member>
+      <member refid="class_wherety_player_1a9a04b5f3b0bfddc84fcfa6478c094ce8" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdSetNickname</name></member>
+      <member refid="class_wherety_player_1ad260231f66b900c47c5be74b1ed67c76" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>CmdShowWarning</name></member>
+      <member refid="class_wherety_player_1a9caa65e1e9d04e8d6169f2e46201d72f" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>FixedUpdate</name></member>
+      <member refid="class_wherety_player_1a0b6974f0ad99de9dd1af2fb65f498264" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>HideObject</name></member>
+      <member refid="class_wherety_player_1a7f1fc81fea5ae4a082fc72b766171834" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>InteractWithObject</name></member>
+      <member refid="class_wherety_player_1a932686a63036f030e38a10f361d9d5d3" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>MoveObject</name></member>
+      <member refid="class_wherety_player_1a4b69223c4cecc70a0d2e26da921cf7b4" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>Nickname</name></member>
+      <member refid="class_wherety_player_1aeddcaa682986588d775b22ec44c35aa9" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>NicknameText</name></member>
+      <member refid="class_wherety_player_1af04135914737331db79932a881d1a41f" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>PlayerAvatarModel</name></member>
+      <member refid="class_wherety_player_1acf5cc5d3c1f191864bdbfa501474ec24" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>PlayPickupAnimation</name></member>
+      <member refid="class_wherety_player_1a07a986c05965cf9b0b43c0b03e85e89f" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>RpcSetNickname</name></member>
+      <member refid="class_wherety_player_1a1b63ab8d9e0439bb00c3b9791f41a377" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>RpcShowWarning</name></member>
+      <member refid="class_wherety_player_1a9d18e586a183cf3fcf768c863ca7575d" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>SelectAndShowAttributes</name></member>
+      <member refid="class_wherety_player_1a33165f56d767862e3018ff625ff56a9f" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>ShowingWarning</name></member>
+      <member refid="class_wherety_player_1a028e387db9360e7ba6b8530d1af5c6cf" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>ShowWarning</name></member>
+      <member refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>Start</name></member>
+      <member refid="class_wherety_player_1a143cf04165c32107c3ac20ae08e5e772" prot="private" virt="non-virtual"><scope>WheretyPlayer</scope><name>SyncLocalAndNetwork</name></member>
+      <member refid="class_wherety_player_1a36a7fb7e2dfe289e6fe451b0d0e35a0a" prot="public" virt="non-virtual"><scope>WheretyPlayer</scope><name>WarningTextCanvas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

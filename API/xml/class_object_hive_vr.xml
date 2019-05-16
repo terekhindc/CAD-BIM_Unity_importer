@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_object_hive_vr" kind="class" language="C#" prot="public">
+    <compoundname>ObjectHiveVr</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_object_hive_vr_1a5d86649a9b24ee1b196f9c2aa413cbfd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_model_import_manager" kindref="compound">ModelImportManager</ref></type>
+        <definition>ModelImportManager ObjectHiveVr.ModelImportManager</definition>
+        <argsstring></argsstring>
+        <name>ModelImportManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" compoundref="_model_import_ui_vr_8cs" startline="171" endline="176">ModelImportUiVr.InitializeAllFilesToLoadModels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1add58fc9fdf79c5cfab3cfad8124c2ce7" prot="public" static="no" mutable="no">
+        <type>Valve.VR.InteractionSystem.Teleport</type>
+        <definition>Valve.VR.InteractionSystem.Teleport ObjectHiveVr.Teleport</definition>
+        <argsstring></argsstring>
+        <name>Teleport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">WheretyPlayer.Start</referencedby>
+        <referencedby refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" compoundref="_vr_mp_player_8cs" startline="9" endline="30">VrMpPlayer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1aed7cdec7b161cf6ecced26e603507571" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_i_wherety_player" kindref="compound">IWheretyPlayer</ref></type>
+        <definition>IWheretyPlayer ObjectHiveVr.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" compoundref="_wherety_network_manager_8cs" startline="37" endline="47">WheretyNetworkManager.ReceiveMoveObjectMessage</referencedby>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">WheretyPlayer.Start</referencedby>
+        <referencedby refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" compoundref="_vr_mp_player_8cs" startline="9" endline="30">VrMpPlayer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1a4d84ab09a06a5365c4fff5f17c9fa2f5" prot="public" static="no" mutable="no">
+        <type>TextMeshProUGUI</type>
+        <definition>TextMeshProUGUI ObjectHiveVr.NotificationText</definition>
+        <argsstring></argsstring>
+        <name>NotificationText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1a2f65eda8022673c0c981ed7f48d93594" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material ObjectHiveVr.HighlightionMaterial</definition>
+        <argsstring></argsstring>
+        <name>HighlightionMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_interactable_part_1a2f585007164fdf0f03073740b4a24731" compoundref="_interactable_part_8cs" startline="10" endline="15">InteractablePart.Highlight</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1aced5b60257918a2f678389425e0a719f" prot="public" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material ObjectHiveVr.SelectionMaterial</definition>
+        <argsstring></argsstring>
+        <name>SelectionMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_interactable_part_1a8d39a62c630d0e7b01821974356188f3" compoundref="_interactable_part_8cs" startline="17" endline="23">InteractablePart.Select</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1a0cf0a7285ce568891bcabe852acb0e87" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ObjectHiveVr.LocalPlayerHeadTr</definition>
+        <argsstring></argsstring>
+        <name>LocalPlayerHeadTr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">WheretyPlayer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1aa00f4426f67a08ebb7ae7a46b122d7f1" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ObjectHiveVr.LocalPlayerTr</definition>
+        <argsstring></argsstring>
+        <name>LocalPlayerTr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">WheretyPlayer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1ae93ae57750302e7923144b1ae10d3864" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interactable_part" kindref="compound">InteractablePart</ref></type>
+        <definition>InteractablePart ObjectHiveVr.HighlightedInteractionObject</definition>
+        <argsstring></argsstring>
+        <name>HighlightedInteractionObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" compoundref="_object_hive_vr_8cs" startline="38" endline="49">HighlightObject</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_vr_1a746c51547433c72880a8f1aca7d4da3d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_interactable_part" kindref="compound">InteractablePart</ref></type>
+        <definition>InteractablePart ObjectHiveVr.SelectedInteractionObject</definition>
+        <argsstring></argsstring>
+        <name>SelectedInteractionObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" compoundref="_object_hive_vr_8cs" startline="38" endline="49">HighlightObject</referencedby>
+        <referencedby refid="class_object_hive_vr_1aae31b142421654bbc931d81ff784bfad" compoundref="_object_hive_vr_8cs" startline="86" endline="100">SelectParent</referencedby>
+        <referencedby refid="class_object_hive_vr_1ac02837d7593b8950ea1fd00949630301" compoundref="_object_hive_vr_8cs" startline="102" endline="109">DeselectObject</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_object_hive_vr_1a742aa01beba5a14cf0dfca9b192a117a" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_object_hive_vr" kindref="compound">ObjectHiveVr</ref></type>
+        <definition>ObjectHiveVr ObjectHiveVr._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_object_hive_vr" kindref="compound">ObjectHiveVr</ref></type>
+        <definition>ObjectHiveVr ObjectHiveVr.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="24" bodyend="31"/>
+        <referencedby refid="class_wherety_network_manager_1a481b9ef40f177e7c95ea9552ba6fefa7" compoundref="_wherety_network_manager_8cs" startline="37" endline="47">WheretyNetworkManager.ReceiveMoveObjectMessage</referencedby>
+        <referencedby refid="class_wherety_network_manager_1a474f4d25df96e54eaa17593694ed8c2d" compoundref="_wherety_network_manager_8cs" startline="63" endline="67">WheretyNetworkManager.ReceiveSelectAndShowAttributesMessage</referencedby>
+        <referencedby refid="class_interactable_part_1a2f585007164fdf0f03073740b4a24731" compoundref="_interactable_part_8cs" startline="10" endline="15">InteractablePart.Highlight</referencedby>
+        <referencedby refid="class_interactable_part_1a8d39a62c630d0e7b01821974356188f3" compoundref="_interactable_part_8cs" startline="17" endline="23">InteractablePart.Select</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" compoundref="_model_import_ui_vr_8cs" startline="171" endline="176">ModelImportUiVr.InitializeAllFilesToLoadModels</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a9a755198e4567dc72ee904c92f6df3ad" compoundref="_model_import_ui_vr_8cs" startline="224" endline="246">ModelImportUiVr.ImportModels</referencedby>
+        <referencedby refid="class_wherety_player_1a31c5250223298c32c6909fb84772fad8" compoundref="_wherety_player_8cs" startline="23" endline="45">WheretyPlayer.Start</referencedby>
+        <referencedby refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" compoundref="_vr_mp_player_8cs" startline="9" endline="30">VrMpPlayer.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_object_hive_vr_1a85e943150fb8b266ab15d42149caa456" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHiveVr.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHiveVr.HighlightObject</definition>
+        <argsstring>(InteractablePart ip)</argsstring>
+        <name>HighlightObject</name>
+        <param>
+          <type><ref refid="class_interactable_part" kindref="compound">InteractablePart</ref></type>
+          <declname>ip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="38" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="38" bodyend="49"/>
+        <references refid="class_object_hive_vr_1ae93ae57750302e7923144b1ae10d3864" compoundref="_object_hive_vr_8cs" startline="18">HighlightedInteractionObject</references>
+        <references refid="class_interactable_part_1a1babfa8c538301b50ff51843fae6e663" compoundref="_interactable_part_8cs" startline="25" endline="28">InteractablePart.Unhighlight</references>
+        <references refid="class_object_hive_vr_1a746c51547433c72880a8f1aca7d4da3d" compoundref="_object_hive_vr_8cs" startline="19">SelectedInteractionObject</references>
+        <references refid="class_interactable_part_1a2f585007164fdf0f03073740b4a24731" compoundref="_interactable_part_8cs" startline="10" endline="15">InteractablePart.Highlight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_object_hive_vr_1a5b7d838d57f778ac91cc0e666709512f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHiveVr.SelectAndShowAttributes</definition>
+        <argsstring>(string objectName, string nickname=&quot;&quot;)</argsstring>
+        <name>SelectAndShowAttributes</name>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nickname</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="51" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="51" bodyend="64"/>
+        <referencedby refid="class_wherety_network_manager_1a474f4d25df96e54eaa17593694ed8c2d" compoundref="_wherety_network_manager_8cs" startline="63" endline="67">WheretyNetworkManager.ReceiveSelectAndShowAttributesMessage</referencedby>
+        <referencedby refid="class_object_hive_vr_1aae31b142421654bbc931d81ff784bfad" compoundref="_object_hive_vr_8cs" startline="86" endline="100">SelectParent</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_object_hive_vr_1aae31b142421654bbc931d81ff784bfad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHiveVr.SelectParent</definition>
+        <argsstring>()</argsstring>
+        <name>SelectParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="86" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="86" bodyend="100"/>
+        <references refid="class_object_hive_vr_1a746c51547433c72880a8f1aca7d4da3d" compoundref="_object_hive_vr_8cs" startline="19">SelectedInteractionObject</references>
+        <references refid="class_object_hive_vr_1a5b7d838d57f778ac91cc0e666709512f" compoundref="_object_hive_vr_8cs" startline="51" endline="64">SelectAndShowAttributes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_object_hive_vr_1ac02837d7593b8950ea1fd00949630301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHiveVr.DeselectObject</definition>
+        <argsstring>()</argsstring>
+        <name>DeselectObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="102" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="102" bodyend="109"/>
+        <references refid="class_object_hive_vr_1a746c51547433c72880a8f1aca7d4da3d" compoundref="_object_hive_vr_8cs" startline="19">SelectedInteractionObject</references>
+        <references refid="class_interactable_part_1aa2727fdfaa9fbb4ee26ac4c6c8f10302" compoundref="_interactable_part_8cs" startline="30" endline="34">InteractablePart.Deselect</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_object_hive_vr_1a98125bd079d1d37597e6f64e8d92f989" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHiveVr.SelectAndShowAttributes</definition>
+        <argsstring>(InteractablePart ip, string nickname=&quot;&quot;)</argsstring>
+        <name>SelectAndShowAttributes</name>
+        <param>
+          <type><ref refid="class_interactable_part" kindref="compound">InteractablePart</ref></type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nickname</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="66" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="66" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="190">
+        <label>ObjectHiveVr</label>
+        <link refid="class_object_hive_vr"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="200">
+        <label>BuilderSettings</label>
+        <link refid="class_builder_settings"/>
+      </node>
+      <node id="196">
+        <label>ModelImportManager</label>
+        <link refid="class_model_import_manager"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="197" relation="usage">
+          <edgelabel>RvmConverter</edgelabel>
+        </childnode>
+      </node>
+      <node id="201">
+        <label>InteractablePart</label>
+        <link refid="class_interactable_part"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>RvmReader</label>
+        <link refid="class_rvm_reader"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>SceneShapesInstantiator</label>
+        <link refid="class_scene_shapes_instantiator"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="200" relation="usage">
+          <edgelabel>BuilderSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="195">
+        <label>VR</label>
+      </node>
+      <node id="192">
+        <label>ObjectHiveVr</label>
+        <link refid="class_object_hive_vr"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="194" relation="usage">
+          <edgelabel>Player</edgelabel>
+        </childnode>
+        <childnode refid="195" relation="usage">
+          <edgelabel>Teleport</edgelabel>
+        </childnode>
+        <childnode refid="196" relation="usage">
+          <edgelabel>ModelImportManager</edgelabel>
+        </childnode>
+        <childnode refid="201" relation="usage">
+          <edgelabel>SelectedInteractionObject</edgelabel>
+          <edgelabel>HighlightedInteractionObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="197">
+        <label>RvmConverter</label>
+        <link refid="class_rvm_converter"/>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="198" relation="usage">
+          <edgelabel>RvmReader</edgelabel>
+        </childnode>
+        <childnode refid="199" relation="usage">
+          <edgelabel>SceneShapesInstantiator</edgelabel>
+        </childnode>
+      </node>
+      <node id="193">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="194">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/ObjectHiveVr.cs" bodystart="6" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_object_hive_vr_1a742aa01beba5a14cf0dfca9b192a117a" prot="private" virt="non-virtual"><scope>ObjectHiveVr</scope><name>_instance</name></member>
+      <member refid="class_object_hive_vr_1a85e943150fb8b266ab15d42149caa456" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>Awake</name></member>
+      <member refid="class_object_hive_vr_1ac02837d7593b8950ea1fd00949630301" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>DeselectObject</name></member>
+      <member refid="class_object_hive_vr_1ae93ae57750302e7923144b1ae10d3864" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>HighlightedInteractionObject</name></member>
+      <member refid="class_object_hive_vr_1a2f65eda8022673c0c981ed7f48d93594" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>HighlightionMaterial</name></member>
+      <member refid="class_object_hive_vr_1a411f1acf0f2047c8248ccf1662999f21" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>HighlightObject</name></member>
+      <member refid="class_object_hive_vr_1a536da3e66f9e9f1ddc9f88a8957ff7eb" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>Instance</name></member>
+      <member refid="class_object_hive_vr_1a0cf0a7285ce568891bcabe852acb0e87" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>LocalPlayerHeadTr</name></member>
+      <member refid="class_object_hive_vr_1aa00f4426f67a08ebb7ae7a46b122d7f1" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>LocalPlayerTr</name></member>
+      <member refid="class_object_hive_vr_1a5d86649a9b24ee1b196f9c2aa413cbfd" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>ModelImportManager</name></member>
+      <member refid="class_object_hive_vr_1a4d84ab09a06a5365c4fff5f17c9fa2f5" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>NotificationText</name></member>
+      <member refid="class_object_hive_vr_1aed7cdec7b161cf6ecced26e603507571" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>Player</name></member>
+      <member refid="class_object_hive_vr_1a5b7d838d57f778ac91cc0e666709512f" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>SelectAndShowAttributes</name></member>
+      <member refid="class_object_hive_vr_1a98125bd079d1d37597e6f64e8d92f989" prot="private" virt="non-virtual"><scope>ObjectHiveVr</scope><name>SelectAndShowAttributes</name></member>
+      <member refid="class_object_hive_vr_1a746c51547433c72880a8f1aca7d4da3d" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>SelectedInteractionObject</name></member>
+      <member refid="class_object_hive_vr_1aced5b60257918a2f678389425e0a719f" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>SelectionMaterial</name></member>
+      <member refid="class_object_hive_vr_1aae31b142421654bbc931d81ff784bfad" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>SelectParent</name></member>
+      <member refid="class_object_hive_vr_1add58fc9fdf79c5cfab3cfad8124c2ce7" prot="public" virt="non-virtual"><scope>ObjectHiveVr</scope><name>Teleport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

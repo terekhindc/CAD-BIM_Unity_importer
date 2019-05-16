@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_select_and_show_attributes_message_8cs" kind="file" language="C#">
+    <compoundname>SelectAndShowAttributesMessage.cs</compoundname>
+    <innerclass refid="class_select_and_show_attributes_message" prot="public">SelectAndShowAttributesMessage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.Networking;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_select_and_show_attributes_message" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_select_and_show_attributes_message" kindref="compound">SelectAndShowAttributesMessage</ref><sp/>:<sp/>MessageBase</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_select_and_show_attributes_message_1ab6c7aee8b06c630af49e259739d6bd2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_select_and_show_attributes_message_1ab6c7aee8b06c630af49e259739d6bd2b" kindref="member">Name</ref>;</highlight></codeline>
+<codeline lineno="6" refid="class_select_and_show_attributes_message_1ad52a961dedef874b0dd19e6b5b2a9d97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_select_and_show_attributes_message_1ad52a961dedef874b0dd19e6b5b2a9d97" kindref="member">Nickname</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs"/>
+  </compounddef>
+</doxygen>

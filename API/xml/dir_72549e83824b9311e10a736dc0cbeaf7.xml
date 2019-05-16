@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_72549e83824b9311e10a736dc0cbeaf7" kind="dir">
+    <compoundname>D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders</compoundname>
+    <innerdir refid="dir_76448a3ddda0a66a2c6642d8b8d818fc">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/BuildersSettings</innerdir>
+    <innerdir refid="dir_ebf7d74f263d029ed4fea4ee5b83f5ce">D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/Test</innerdir>
+    <innerfile refid="_box_builder_8cs">BoxBuilder.cs</innerfile>
+    <innerfile refid="_cylinder_builder_8cs">CylinderBuilder.cs</innerfile>
+    <innerfile refid="_elliptical_lathing_builder_8cs">EllipticalLathingBuilder.cs</innerfile>
+    <innerfile refid="_equidistant_sphere_builder_8cs">EquidistantSphereBuilder.cs</innerfile>
+    <innerfile refid="_geometry_common_8cs">GeometryCommon.cs</innerfile>
+    <innerfile refid="_multiple_mesh_builder_8cs">MultipleMeshBuilder.cs</innerfile>
+    <innerfile refid="_rectangular_toroid_builder_8cs">RectangularToroidBuilder.cs</innerfile>
+    <innerfile refid="_sheared_cylinder_builder_8cs">ShearedCylinderBuilder.cs</innerfile>
+    <innerfile refid="_sphere_builder_8cs">SphereBuilder.cs</innerfile>
+    <innerfile refid="_spherical_lathing_builder_8cs">SphericalLathingBuilder.cs</innerfile>
+    <innerfile refid="_toroid_builder_8cs">ToroidBuilder.cs</innerfile>
+    <innerfile refid="_truncated_pyramid_builder_8cs">TruncatedPyramidBuilder.cs</innerfile>
+    <innerfile refid="_truncated_shifted_cone_builder_8cs">TruncatedShiftedConeBuilder.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/"/>
+  </compounddef>
+</doxygen>

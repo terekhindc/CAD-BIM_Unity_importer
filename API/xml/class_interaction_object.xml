@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_interaction_object" kind="class" language="C#" prot="public">
+    <compoundname>InteractionObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_interaction_object_1ab886d4c259311c2beb2c8db7599c077c" prot="private" static="no" mutable="no">
+        <type>Valve.VR.InteractionSystem.InteractableHoverEvents</type>
+        <definition>Valve.VR.InteractionSystem.InteractableHoverEvents InteractionObject._hoverEvents</definition>
+        <argsstring></argsstring>
+        <name>_hoverEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interaction_object_1a68aae369663eddc98829d8fa9386b023" prot="private" static="no" mutable="no">
+        <type>MeshRenderer</type>
+        <definition>MeshRenderer InteractionObject._mr</definition>
+        <argsstring></argsstring>
+        <name>_mr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_interaction_object_1a1d9bbfd5728d48c2f7911481595c8a67" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color InteractionObject._initialColor</definition>
+        <argsstring></argsstring>
+        <name>_initialColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_interaction_object_1a7c7fcc433d4f42a854e8f73a8811bb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractionObject.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="12" bodyend="16"/>
+        <referencedby refid="class_interaction_object_1a0ad947302ed8ed51e72b0bd400e13ecf" compoundref="_interaction_object_8cs" startline="33" endline="43">SetHoverEvents</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_interaction_object_1a383df284eee8296858b858b93f6520ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractionObject.Highlight</definition>
+        <argsstring>()</argsstring>
+        <name>Highlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="18" bodyend="21"/>
+        <referencedby refid="class_interaction_object_1a0ad947302ed8ed51e72b0bd400e13ecf" compoundref="_interaction_object_8cs" startline="33" endline="43">SetHoverEvents</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_interaction_object_1aea9d2f164a5fb7a5494e441b61c37eca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractionObject.Leave</definition>
+        <argsstring>()</argsstring>
+        <name>Leave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="23" bodyend="26"/>
+        <referencedby refid="class_interaction_object_1a0ad947302ed8ed51e72b0bd400e13ecf" compoundref="_interaction_object_8cs" startline="33" endline="43">SetHoverEvents</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_interaction_object_1a7db5da832121349c0d9133edb8d15f1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void InteractionObject.Select</definition>
+        <argsstring>()</argsstring>
+        <name>Select</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="28" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_interaction_object_1a0ad947302ed8ed51e72b0bd400e13ecf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InteractionObject.SetHoverEvents</definition>
+        <argsstring>(Valve.VR.InteractionSystem.InteractableHoverEvents ihe)</argsstring>
+        <name>SetHoverEvents</name>
+        <param>
+          <type>Valve.VR.InteractionSystem.InteractableHoverEvents</type>
+          <declname>ihe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="33" bodyend="43"/>
+        <references refid="class_interaction_object_1a7c7fcc433d4f42a854e8f73a8811bb61" compoundref="_interaction_object_8cs" startline="12" endline="16">Start</references>
+        <references refid="class_interaction_object_1a383df284eee8296858b858b93f6520ee" compoundref="_interaction_object_8cs" startline="18" endline="21">Highlight</references>
+        <references refid="class_interaction_object_1aea9d2f164a5fb7a5494e441b61c37eca" compoundref="_interaction_object_8cs" startline="23" endline="26">Leave</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="91">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="90">
+        <label>InteractionObject</label>
+        <link refid="class_interaction_object"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="93">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="92">
+        <label>InteractionObject</label>
+        <link refid="class_interaction_object"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/InteractionObject.cs" bodystart="6" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_interaction_object_1ab886d4c259311c2beb2c8db7599c077c" prot="private" virt="non-virtual"><scope>InteractionObject</scope><name>_hoverEvents</name></member>
+      <member refid="class_interaction_object_1a1d9bbfd5728d48c2f7911481595c8a67" prot="private" virt="non-virtual"><scope>InteractionObject</scope><name>_initialColor</name></member>
+      <member refid="class_interaction_object_1a68aae369663eddc98829d8fa9386b023" prot="private" virt="non-virtual"><scope>InteractionObject</scope><name>_mr</name></member>
+      <member refid="class_interaction_object_1a383df284eee8296858b858b93f6520ee" prot="public" virt="non-virtual"><scope>InteractionObject</scope><name>Highlight</name></member>
+      <member refid="class_interaction_object_1aea9d2f164a5fb7a5494e441b61c37eca" prot="public" virt="non-virtual"><scope>InteractionObject</scope><name>Leave</name></member>
+      <member refid="class_interaction_object_1a7db5da832121349c0d9133edb8d15f1a" prot="public" virt="virtual"><scope>InteractionObject</scope><name>Select</name></member>
+      <member refid="class_interaction_object_1a0ad947302ed8ed51e72b0bd400e13ecf" prot="public" virt="non-virtual"><scope>InteractionObject</scope><name>SetHoverEvents</name></member>
+      <member refid="class_interaction_object_1a7c7fcc433d4f42a854e8f73a8811bb61" prot="public" virt="non-virtual"><scope>InteractionObject</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

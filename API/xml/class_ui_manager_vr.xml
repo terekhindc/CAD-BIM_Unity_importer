@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_ui_manager_vr" kind="class" language="C#" prot="public">
+    <compoundname>UiManagerVr</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ui_manager_vr_1a27bc8c72cb7578069cf22da685da1409" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_ui_manager_vr" kindref="compound">UiManagerVr</ref></type>
+        <definition>UiManagerVr UiManagerVr._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ui_manager_vr_1ab04ed26fa8682d8e562ba1f8a834f4d2" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_i_window" kindref="compound">IWindow</ref></type>
+        <definition>IWindow UiManagerVr._currentWindow</definition>
+        <argsstring></argsstring>
+        <name>_currentWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui_manager_vr_1af9706465d734c91ff22a586b7e754d52" prot="public" static="no" mutable="no">
+        <type><ref refid="class_model_import_ui_vr" kindref="compound">ModelImportUiVr</ref></type>
+        <definition>ModelImportUiVr UiManagerVr.ModelImportUi</definition>
+        <argsstring></argsstring>
+        <name>ModelImportUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" compoundref="_vr_mp_player_8cs" startline="9" endline="30">VrMpPlayer.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1abda753d4ff4fd97f4e0fef471cd3d640" prot="public" static="no" mutable="no">
+        <type><ref refid="class_action_menu_ui" kindref="compound">ActionMenuUi</ref></type>
+        <definition>ActionMenuUi UiManagerVr.ActionMenuUi</definition>
+        <argsstring></argsstring>
+        <name>ActionMenuUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1a871729ea346c10fe7300e09166b244d7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_progress_ui" kindref="compound">ProgressUi</ref></type>
+        <definition>ProgressUi UiManagerVr.ProgressUi</definition>
+        <argsstring></argsstring>
+        <name>ProgressUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1a31765177746a67199f2d6cfe7afe49e5" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UiManagerVr.ShowModelImportUiButton</definition>
+        <argsstring></argsstring>
+        <name>ShowModelImportUiButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_vr_1a0cd1c6bfde1c157ec619602de6069802" compoundref="_ui_manager_vr_8cs" startline="48" endline="54">HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" compoundref="_ui_manager_vr_8cs" startline="63" endline="68">UpdateWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1a7f1d4ca2de27fc39b82a37227e5057a3" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UiManagerVr.InfoPadGo</definition>
+        <argsstring></argsstring>
+        <name>InfoPadGo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" compoundref="_ui_manager_vr_8cs" startline="86" endline="93">ShowInfoPad</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" compoundref="_ui_manager_vr_8cs" startline="95" endline="102">HideInfoPad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1af61e7d3f15782b2eb08bb45a707c23ea" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text UiManagerVr.InfoPadTitleText</definition>
+        <argsstring></argsstring>
+        <name>InfoPadTitleText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" compoundref="_ui_manager_vr_8cs" startline="86" endline="93">ShowInfoPad</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" compoundref="_ui_manager_vr_8cs" startline="95" endline="102">HideInfoPad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1af7bded7725537d18fbedd5b822a81426" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text UiManagerVr.InfoPadTextLeft</definition>
+        <argsstring></argsstring>
+        <name>InfoPadTextLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" compoundref="_ui_manager_vr_8cs" startline="86" endline="93">ShowInfoPad</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" compoundref="_ui_manager_vr_8cs" startline="95" endline="102">HideInfoPad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1a975a64404efb1fe598661394f9860d00" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text UiManagerVr.InfoPadTextCenter</definition>
+        <argsstring></argsstring>
+        <name>InfoPadTextCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" compoundref="_ui_manager_vr_8cs" startline="86" endline="93">ShowInfoPad</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" compoundref="_ui_manager_vr_8cs" startline="95" endline="102">HideInfoPad</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_vr_1a92fcb7893989cedb289ac8db08a980e3" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text UiManagerVr.InfoPadTextRight</definition>
+        <argsstring></argsstring>
+        <name>InfoPadTextRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" compoundref="_ui_manager_vr_8cs" startline="86" endline="93">ShowInfoPad</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" compoundref="_ui_manager_vr_8cs" startline="95" endline="102">HideInfoPad</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ui_manager_vr_1afa03015a546e379de97b902462ae57cf" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_ui_manager_vr" kindref="compound">UiManagerVr</ref></type>
+        <definition>UiManagerVr UiManagerVr.I</definition>
+        <argsstring></argsstring>
+        <name>I</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="24" bodyend="31"/>
+        <referencedby refid="class_interactable_part_1aa2727fdfaa9fbb4ee26ac4c6c8f10302" compoundref="_interactable_part_8cs" startline="30" endline="34">InteractablePart.Deselect</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a0cd1c6bfde1c157ec619602de6069802" compoundref="_ui_manager_vr_8cs" startline="48" endline="54">HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" compoundref="_ui_manager_vr_8cs" startline="63" endline="68">UpdateWindow</referencedby>
+        <referencedby refid="class_vr_mp_player_1ac5ce52a2494308d5d8a7edc6e6e6f5d3" compoundref="_vr_mp_player_8cs" startline="9" endline="30">VrMpPlayer.Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui_manager_vr_1a92c0abcedbe5b18632841f7a1a0925e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.ShowModelImportUi</definition>
+        <argsstring>()</argsstring>
+        <name>ShowModelImportUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1a6525aa6d75dfa7d978ef5186d73c96b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.ShowActionMenuUi</definition>
+        <argsstring>(InteractionObject interactionObject)</argsstring>
+        <name>ShowActionMenuUi</name>
+        <param>
+          <type><ref refid="class_interaction_object" kindref="compound">InteractionObject</ref></type>
+          <declname>interactionObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="38" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1ad390498344390d6fc56c98346eac91ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.ShowProgressUi</definition>
+        <argsstring>(ProgressData data)</argsstring>
+        <name>ShowProgressUi</name>
+        <param>
+          <type><ref refid="class_progress_data" kindref="compound">ProgressData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="43" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="43" bodyend="46"/>
+        <references refid="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" compoundref="_ui_manager_vr_8cs" startline="63" endline="68">UpdateWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1a0cd1c6bfde1c157ec619602de6069802" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.HideCurrentWindow</definition>
+        <argsstring>()</argsstring>
+        <name>HideCurrentWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="48" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="48" bodyend="54"/>
+        <references refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378">IWindow.Hide</references>
+        <references refid="class_ui_manager_vr_1afa03015a546e379de97b902462ae57cf" compoundref="_ui_manager_vr_8cs" startline="24" endline="31">I</references>
+        <references refid="class_ui_manager_vr_1a31765177746a67199f2d6cfe7afe49e5" compoundref="_ui_manager_vr_8cs" startline="15">ShowModelImportUiButton</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.UpdateWindow</definition>
+        <argsstring>(IWindow window, object dataObject=null)</argsstring>
+        <name>UpdateWindow</name>
+        <param>
+          <type><ref refid="interface_i_window" kindref="compound">IWindow</ref></type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="63" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="63" bodyend="68"/>
+        <references refid="class_ui_manager_vr_1afa03015a546e379de97b902462ae57cf" compoundref="_ui_manager_vr_8cs" startline="24" endline="31">I</references>
+        <references refid="class_ui_manager_vr_1a31765177746a67199f2d6cfe7afe49e5" compoundref="_ui_manager_vr_8cs" startline="15">ShowModelImportUiButton</references>
+        <references refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9">IWindow.Show</references>
+        <referencedby refid="class_ui_manager_vr_1ad390498344390d6fc56c98346eac91ed" compoundref="_ui_manager_vr_8cs" startline="43" endline="46">ShowProgressUi</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1ab88b1cbcb7449cb5486547191f1b685b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.HideObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>HideObject</name>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="70" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1aa12b63c05a476d09ac42ad93da298af0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.InteractWithObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>InteractWithObject</name>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="77" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="77" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.ShowInfoPad</definition>
+        <argsstring>(string title, string left, string center, string right)</argsstring>
+        <name>ShowInfoPad</name>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="86" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="86" bodyend="93"/>
+        <references refid="class_ui_manager_vr_1a7f1d4ca2de27fc39b82a37227e5057a3" compoundref="_ui_manager_vr_8cs" startline="17">InfoPadGo</references>
+        <references refid="class_ui_manager_vr_1af61e7d3f15782b2eb08bb45a707c23ea" compoundref="_ui_manager_vr_8cs" startline="18">InfoPadTitleText</references>
+        <references refid="class_ui_manager_vr_1af7bded7725537d18fbedd5b822a81426" compoundref="_ui_manager_vr_8cs" startline="19">InfoPadTextLeft</references>
+        <references refid="class_ui_manager_vr_1a975a64404efb1fe598661394f9860d00" compoundref="_ui_manager_vr_8cs" startline="20">InfoPadTextCenter</references>
+        <references refid="class_ui_manager_vr_1a92fcb7893989cedb289ac8db08a980e3" compoundref="_ui_manager_vr_8cs" startline="21">InfoPadTextRight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.HideInfoPad</definition>
+        <argsstring>()</argsstring>
+        <name>HideInfoPad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="95" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="95" bodyend="102"/>
+        <references refid="class_ui_manager_vr_1a7f1d4ca2de27fc39b82a37227e5057a3" compoundref="_ui_manager_vr_8cs" startline="17">InfoPadGo</references>
+        <references refid="class_ui_manager_vr_1af61e7d3f15782b2eb08bb45a707c23ea" compoundref="_ui_manager_vr_8cs" startline="18">InfoPadTitleText</references>
+        <references refid="class_ui_manager_vr_1af7bded7725537d18fbedd5b822a81426" compoundref="_ui_manager_vr_8cs" startline="19">InfoPadTextLeft</references>
+        <references refid="class_ui_manager_vr_1a975a64404efb1fe598661394f9860d00" compoundref="_ui_manager_vr_8cs" startline="20">InfoPadTextCenter</references>
+        <references refid="class_ui_manager_vr_1a92fcb7893989cedb289ac8db08a980e3" compoundref="_ui_manager_vr_8cs" startline="21">InfoPadTextRight</references>
+        <referencedby refid="class_interactable_part_1aa2727fdfaa9fbb4ee26ac4c6c8f10302" compoundref="_interactable_part_8cs" startline="30" endline="34">InteractablePart.Deselect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ui_manager_vr_1a55cb2d82e3f55d211065db5ce8eca01c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManagerVr.ShowWindow</definition>
+        <argsstring>(IWindow window, object dataObject=null)</argsstring>
+        <name>ShowWindow</name>
+        <param>
+          <type><ref refid="interface_i_window" kindref="compound">IWindow</ref></type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="56" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="374">
+        <label>UiManagerVr</label>
+        <link refid="class_ui_manager_vr"/>
+        <childnode refid="375" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="375">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="380">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="379">
+        <label>ModelImportUiVr</label>
+        <link refid="class_model_import_ui_vr"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="381">
+        <label>ActionMenuUi</label>
+        <link refid="class_action_menu_ui"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+        <childnode refid="382" relation="usage">
+          <edgelabel>InteractionObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="383">
+        <label>ProgressUi</label>
+        <link refid="class_progress_ui"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+        <childnode refid="380" relation="public-inheritance">
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>ProgressText</edgelabel>
+        </childnode>
+      </node>
+      <node id="378">
+        <label>Text</label>
+      </node>
+      <node id="376">
+        <label>UiManagerVr</label>
+        <link refid="class_ui_manager_vr"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+        <childnode refid="378" relation="usage">
+          <edgelabel>InfoPadTextCenter</edgelabel>
+          <edgelabel>InfoPadTitleText</edgelabel>
+          <edgelabel>InfoPadTextLeft</edgelabel>
+          <edgelabel>InfoPadTextRight</edgelabel>
+        </childnode>
+        <childnode refid="379" relation="usage">
+          <edgelabel>ModelImportUi</edgelabel>
+        </childnode>
+        <childnode refid="381" relation="usage">
+          <edgelabel>ActionMenuUi</edgelabel>
+        </childnode>
+        <childnode refid="383" relation="usage">
+          <edgelabel>ProgressUi</edgelabel>
+        </childnode>
+      </node>
+      <node id="377">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="382">
+        <label>InteractionObject</label>
+        <link refid="class_interaction_object"/>
+        <childnode refid="377" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/VR_adapted_scripts/UiManagerVr.cs" bodystart="6" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_ui_manager_vr_1ab04ed26fa8682d8e562ba1f8a834f4d2" prot="private" virt="non-virtual"><scope>UiManagerVr</scope><name>_currentWindow</name></member>
+      <member refid="class_ui_manager_vr_1a27bc8c72cb7578069cf22da685da1409" prot="private" virt="non-virtual"><scope>UiManagerVr</scope><name>_instance</name></member>
+      <member refid="class_ui_manager_vr_1abda753d4ff4fd97f4e0fef471cd3d640" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ActionMenuUi</name></member>
+      <member refid="class_ui_manager_vr_1a0cd1c6bfde1c157ec619602de6069802" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>HideCurrentWindow</name></member>
+      <member refid="class_ui_manager_vr_1a7f563c162158404fe1fed2796bcac4a2" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>HideInfoPad</name></member>
+      <member refid="class_ui_manager_vr_1ab88b1cbcb7449cb5486547191f1b685b" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>HideObject</name></member>
+      <member refid="class_ui_manager_vr_1afa03015a546e379de97b902462ae57cf" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>I</name></member>
+      <member refid="class_ui_manager_vr_1a7f1d4ca2de27fc39b82a37227e5057a3" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>InfoPadGo</name></member>
+      <member refid="class_ui_manager_vr_1a975a64404efb1fe598661394f9860d00" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>InfoPadTextCenter</name></member>
+      <member refid="class_ui_manager_vr_1af7bded7725537d18fbedd5b822a81426" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>InfoPadTextLeft</name></member>
+      <member refid="class_ui_manager_vr_1a92fcb7893989cedb289ac8db08a980e3" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>InfoPadTextRight</name></member>
+      <member refid="class_ui_manager_vr_1af61e7d3f15782b2eb08bb45a707c23ea" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>InfoPadTitleText</name></member>
+      <member refid="class_ui_manager_vr_1aa12b63c05a476d09ac42ad93da298af0" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>InteractWithObject</name></member>
+      <member refid="class_ui_manager_vr_1af9706465d734c91ff22a586b7e754d52" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ModelImportUi</name></member>
+      <member refid="class_ui_manager_vr_1a871729ea346c10fe7300e09166b244d7" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ProgressUi</name></member>
+      <member refid="class_ui_manager_vr_1a6525aa6d75dfa7d978ef5186d73c96b7" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ShowActionMenuUi</name></member>
+      <member refid="class_ui_manager_vr_1afa2445911343a9737745c3fb0151d133" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ShowInfoPad</name></member>
+      <member refid="class_ui_manager_vr_1a92c0abcedbe5b18632841f7a1a0925e6" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ShowModelImportUi</name></member>
+      <member refid="class_ui_manager_vr_1a31765177746a67199f2d6cfe7afe49e5" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ShowModelImportUiButton</name></member>
+      <member refid="class_ui_manager_vr_1ad390498344390d6fc56c98346eac91ed" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>ShowProgressUi</name></member>
+      <member refid="class_ui_manager_vr_1a55cb2d82e3f55d211065db5ce8eca01c" prot="private" virt="non-virtual"><scope>UiManagerVr</scope><name>ShowWindow</name></member>
+      <member refid="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" prot="public" virt="non-virtual"><scope>UiManagerVr</scope><name>UpdateWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

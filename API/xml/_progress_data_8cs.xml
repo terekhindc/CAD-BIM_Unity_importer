@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_progress_data_8cs" kind="file" language="C#">
+    <compoundname>ProgressData.cs</compoundname>
+    <innerclass refid="class_progress_data" prot="public">ProgressData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="class_progress_data" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_progress_data" kindref="compound">ProgressData</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_progress_data_1aef6d1fae14a8aca09596ec591b295f19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_progress_data_1aef6d1fae14a8aca09596ec591b295f19" kindref="member">Message</ref>;</highlight></codeline>
+<codeline lineno="4" refid="class_progress_data_1a492f8d3bcace30ba4b1ed320e1ca7823" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_progress_data_1a492f8d3bcace30ba4b1ed320e1ca7823" kindref="member">TotalToDoCount</ref>;</highlight></codeline>
+<codeline lineno="5" refid="class_progress_data_1a2a29b5afc1fc19673c81e615edbdda03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_progress_data_1a2a29b5afc1fc19673c81e615edbdda03" kindref="member">CompletedCount</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ProgressData.cs"/>
+  </compounddef>
+</doxygen>

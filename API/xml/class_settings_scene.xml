@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_settings_scene" kind="class" language="C#" prot="public">
+    <compoundname>SettingsScene</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_settings_scene_1af41a4e4640fdd51b2ce0e0e62190f124" prot="public" static="no" mutable="no">
+        <type><ref refid="class_toroids_settings_window" kindref="compound">ToroidsSettingsWindow</ref></type>
+        <definition>ToroidsSettingsWindow SettingsScene.ToroidsW</definition>
+        <argsstring></argsstring>
+        <name>ToroidsW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_settings_scene_1ab56f11aa33238faced264a6e1cdcc3d7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref></type>
+        <definition>ShapeDataRepository SettingsScene._rep</definition>
+        <argsstring></argsstring>
+        <name>_rep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_settings_scene_1ae8efd1c2b5af7779ab3c19d88ffdcb2e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref></type>
+        <definition>SceneShapesInstantiator SettingsScene._si</definition>
+        <argsstring></argsstring>
+        <name>_si</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_settings_scene_1a15c6130982119a1ca93067242bcbaf47" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsScene.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="12" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_scene_1a4e570dc533ebe7e57c40c53d7e2bcc76" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsScene.CreateSamplesOfShape</definition>
+        <argsstring>(ShapeTypes type, Vector3 pos, float[] parameters)</argsstring>
+        <name>CreateSamplesOfShape</name>
+        <param>
+          <type><ref refid="_shape_types_8cs_1af0e24915ca1b4c216da56b86a5f3de13" kindref="member">ShapeTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>float []</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="81" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="81" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_settings_scene_1a2170b4641dfb7c9f62365f3b16fa75d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SettingsScene.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="96" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="96" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="259">
+        <label>SettingsScene</label>
+        <link refid="class_settings_scene"/>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="261">
+        <label>SettingsScene</label>
+        <link refid="class_settings_scene"/>
+        <childnode refid="262" relation="public-inheritance">
+        </childnode>
+        <childnode refid="263" relation="usage">
+          <edgelabel>ToroidsW</edgelabel>
+        </childnode>
+      </node>
+      <node id="263">
+        <label>ToroidsSettingsWindow</label>
+        <link refid="class_toroids_settings_window"/>
+        <childnode refid="262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/SettingsScene.cs" bodystart="5" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_settings_scene_1ab56f11aa33238faced264a6e1cdcc3d7" prot="private" virt="non-virtual"><scope>SettingsScene</scope><name>_rep</name></member>
+      <member refid="class_settings_scene_1ae8efd1c2b5af7779ab3c19d88ffdcb2e" prot="private" virt="non-virtual"><scope>SettingsScene</scope><name>_si</name></member>
+      <member refid="class_settings_scene_1a4e570dc533ebe7e57c40c53d7e2bcc76" prot="private" virt="non-virtual"><scope>SettingsScene</scope><name>CreateSamplesOfShape</name></member>
+      <member refid="class_settings_scene_1a15c6130982119a1ca93067242bcbaf47" prot="private" virt="non-virtual"><scope>SettingsScene</scope><name>Start</name></member>
+      <member refid="class_settings_scene_1af41a4e4640fdd51b2ce0e0e62190f124" prot="public" virt="non-virtual"><scope>SettingsScene</scope><name>ToroidsW</name></member>
+      <member refid="class_settings_scene_1a2170b4641dfb7c9f62365f3b16fa75d2" prot="private" virt="non-virtual"><scope>SettingsScene</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

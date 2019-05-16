@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_rvm_reader" kind="class" language="C#" prot="public">
+    <compoundname>RvmReader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rvm_reader_1aa3bd98b005bfb52c4a901a17dcd19ff1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string RvmReader.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_reader_1a28634b9aaf8267d15af60dd3c5b2fbd9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RvmReader.UnitsScale</definition>
+        <argsstring></argsstring>
+        <name>UnitsScale</name>
+        <initializer>= 0.001f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rvm_reader_1aa7d8fc97c9f88e0cfaa53c6b38b41239" prot="private" static="no" mutable="no">
+        <type>BinaryReader</type>
+        <definition>BinaryReader RvmReader._br</definition>
+        <argsstring></argsstring>
+        <name>_br</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_reader_1ab4cf4e2fed9cdd214083fd82dc6e465e" prot="private" static="no" mutable="no">
+        <type>FileStream</type>
+        <definition>FileStream RvmReader._file</definition>
+        <argsstring></argsstring>
+        <name>_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_reader_1ac9d6f9f4f73dcc4f5d6dbbffa4deb591" prot="private" static="no" mutable="no">
+        <type>Encoding</type>
+        <definition>Encoding RvmReader._utf8</definition>
+        <argsstring></argsstring>
+        <name>_utf8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_reader_1a96987ea72bb4cb0ba3357a3ac32fb093" prot="private" static="no" mutable="no">
+        <type><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref></type>
+        <definition>ShapeDataRepository RvmReader._rep</definition>
+        <argsstring></argsstring>
+        <name>_rep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rvm_reader_1a9b1b70ed34cbbe75b3bac2d559825a12" prot="private" static="no" mutable="no">
+        <type>ReadShapeDelegate []</type>
+        <definition>ReadShapeDelegate [] RvmReader._readShape</definition>
+        <argsstring></argsstring>
+        <name>_readShape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rvm_reader_1a25f048864df0fe6b2d0635589a32a314" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void RvmReader.ReadShapeDelegate</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadShapeDelegate</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a3f9f87e71631ee92f249b714611c1b79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="30" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="30" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a01f50a9caaac8a5a1754ee17ea00a13e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadRvm</definition>
+        <argsstring>()</argsstring>
+        <name>ReadRvm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="50" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="50" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a4caa5c0d3cd64b02bffb2670d0082353" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string RvmReader.ReadQuadriliteral4ByteUtf8Identifier</definition>
+        <argsstring>()</argsstring>
+        <name>ReadQuadriliteral4ByteUtf8Identifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="124" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="124" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a284b6f1effd70aa7748d231cf5b353e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int RvmReader.ReadInt32</definition>
+        <argsstring>()</argsstring>
+        <name>ReadInt32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="135" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="135" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a41cc63cb1dde8c8f33db82ae37bdc949" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float RvmReader.ReadFloat</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFloat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="141" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1af3e02191e4b9e0d96a924962fa3b9d61" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string RvmReader.ReadString</definition>
+        <argsstring>()</argsstring>
+        <name>ReadString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="147" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="147" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1ae27371b2c0f7561037a05081a96b65eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.CreateChildNode</definition>
+        <argsstring>(string nodeName)</argsstring>
+        <name>CreateChildNode</name>
+        <param>
+          <type>string</type>
+          <declname>nodeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="154" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="154" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a059c7584f0019f2a2b5e7903a6ec1ce2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.CreatePrimitive</definition>
+        <argsstring>(int primitiveType, bool shouldLog=false)</argsstring>
+        <name>CreatePrimitive</name>
+        <param>
+          <type>int</type>
+          <declname>primitiveType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shouldLog</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="166" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="166" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a754be54f6f86f25fb7edc83d81a54b05" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Matrix4x4</type>
+        <definition>Matrix4x4 RvmReader.ReadTransformMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>ReadTransformMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="177" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="177" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a7103d46d0475fa3bca7657e4fab39497" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RvmReader.ReadVector3</definition>
+        <argsstring>()</argsstring>
+        <name>ReadVector3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="193" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="193" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a25c4e3bb99225347c30bba1ad6b56c28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float []</type>
+        <definition>float [] RvmReader.ReadFloatParametersOfPrimitive</definition>
+        <argsstring>(int parametersCount)</argsstring>
+        <name>ReadFloatParametersOfPrimitive</name>
+        <param>
+          <type>int</type>
+          <declname>parametersCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="203" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="203" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1abd10fcf771d54e0d76fce8d4e4a8e256" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float []</type>
+        <definition>float [] RvmReader.ReadFloatParametersOfRectangularToroid</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFloatParametersOfRectangularToroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="213" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="213" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a8779cb2fef9664689ee826238769bc12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float []</type>
+        <definition>float [] RvmReader.ReadFloatParametersOfToroid</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFloatParametersOfToroid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="223" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="223" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a41d8565d1c5bafde2204812b7f3bc556" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadColor</definition>
+        <argsstring>()</argsstring>
+        <name>ReadColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="232" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="232" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a09f6a5677a6c98c87b124d220b90df9f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.SkipBytes</definition>
+        <argsstring>(int count)</argsstring>
+        <name>SkipBytes</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="237" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="237" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1ad765e7f23b1cca18a186f117e0a9adc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadTruncatedPyramid</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadTruncatedPyramid</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="243" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1aa89f60cee55806c9106e27d23394eb84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadBox</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadBox</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="247" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="247" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1aee87972c71e067d1137abbe55d8bc613" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadRectangularToroid</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadRectangularToroid</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="251" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a7563778813d7bb1e7d123674d1d18443" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadToroid</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadToroid</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="255" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1ad2eafc60d529b873a14c39e8303bb5af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadEllipticalDish</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadEllipticalDish</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="259" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="259" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1ac7b8b2c9060b06206adb6730b1a38ea0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadSpheicalDish</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadSpheicalDish</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="263" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a87e6e6ef44115aca043c6dbf21d7f191" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadSnout</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadSnout</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="267" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="267" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1af8345fb6d2b7c7bbae6536984ef8bf60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadCylinder</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadCylinder</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="286" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a4d6fbaaf8f53d167797417172f241cbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadSphere</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadSphere</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="290" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a68ec64350a0dfd9035cd2ebf16c04375" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadLine</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadLine</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="294" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1ab7933908963d5a6b7b5470825b53ca8b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RvmReader.ReadMultipleMeshes</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax)</argsstring>
+        <name>ReadMultipleMeshes</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="298" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="298" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rvm_reader_1a86af956c46fb12adaa9e0bd4c9c7e149" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref></type>
+        <definition>MultipleMeshesData RvmReader.ReadMultipleMeshData</definition>
+        <argsstring>()</argsstring>
+        <name>ReadMultipleMeshData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="302" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="302" bodyend="327"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rvm_reader_1a453dc959a12db6d00466d5a730794d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_shape_data_repository" kindref="compound">ShapeDataRepository</ref></type>
+        <definition>ShapeDataRepository RvmReader.Read</definition>
+        <argsstring>()</argsstring>
+        <name>Read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="23" bodyend="28"/>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="238">
+        <label>RvmReader</label>
+        <link refid="class_rvm_reader"/>
+        <childnode refid="239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="239">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="240">
+        <label>RvmReader</label>
+        <link refid="class_rvm_reader"/>
+        <childnode refid="241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="241">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmReader.cs" bodystart="7" bodyend="328"/>
+    <listofallmembers>
+      <member refid="class_rvm_reader_1aa7d8fc97c9f88e0cfaa53c6b38b41239" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>_br</name></member>
+      <member refid="class_rvm_reader_1ab4cf4e2fed9cdd214083fd82dc6e465e" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>_file</name></member>
+      <member refid="class_rvm_reader_1a9b1b70ed34cbbe75b3bac2d559825a12" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>_readShape</name></member>
+      <member refid="class_rvm_reader_1a96987ea72bb4cb0ba3357a3ac32fb093" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>_rep</name></member>
+      <member refid="class_rvm_reader_1ac9d6f9f4f73dcc4f5d6dbbffa4deb591" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>_utf8</name></member>
+      <member refid="class_rvm_reader_1ae27371b2c0f7561037a05081a96b65eb" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>CreateChildNode</name></member>
+      <member refid="class_rvm_reader_1a059c7584f0019f2a2b5e7903a6ec1ce2" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>CreatePrimitive</name></member>
+      <member refid="class_rvm_reader_1aa3bd98b005bfb52c4a901a17dcd19ff1" prot="public" virt="non-virtual"><scope>RvmReader</scope><name>FileName</name></member>
+      <member refid="class_rvm_reader_1a3f9f87e71631ee92f249b714611c1b79" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>Initialize</name></member>
+      <member refid="class_rvm_reader_1a453dc959a12db6d00466d5a730794d80" prot="public" virt="non-virtual"><scope>RvmReader</scope><name>Read</name></member>
+      <member refid="class_rvm_reader_1aa89f60cee55806c9106e27d23394eb84" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadBox</name></member>
+      <member refid="class_rvm_reader_1a41d8565d1c5bafde2204812b7f3bc556" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadColor</name></member>
+      <member refid="class_rvm_reader_1af8345fb6d2b7c7bbae6536984ef8bf60" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadCylinder</name></member>
+      <member refid="class_rvm_reader_1ad2eafc60d529b873a14c39e8303bb5af" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadEllipticalDish</name></member>
+      <member refid="class_rvm_reader_1a41cc63cb1dde8c8f33db82ae37bdc949" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadFloat</name></member>
+      <member refid="class_rvm_reader_1a25c4e3bb99225347c30bba1ad6b56c28" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadFloatParametersOfPrimitive</name></member>
+      <member refid="class_rvm_reader_1abd10fcf771d54e0d76fce8d4e4a8e256" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadFloatParametersOfRectangularToroid</name></member>
+      <member refid="class_rvm_reader_1a8779cb2fef9664689ee826238769bc12" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadFloatParametersOfToroid</name></member>
+      <member refid="class_rvm_reader_1a284b6f1effd70aa7748d231cf5b353e3" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadInt32</name></member>
+      <member refid="class_rvm_reader_1a68ec64350a0dfd9035cd2ebf16c04375" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadLine</name></member>
+      <member refid="class_rvm_reader_1a86af956c46fb12adaa9e0bd4c9c7e149" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadMultipleMeshData</name></member>
+      <member refid="class_rvm_reader_1ab7933908963d5a6b7b5470825b53ca8b" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadMultipleMeshes</name></member>
+      <member refid="class_rvm_reader_1a4caa5c0d3cd64b02bffb2670d0082353" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadQuadriliteral4ByteUtf8Identifier</name></member>
+      <member refid="class_rvm_reader_1aee87972c71e067d1137abbe55d8bc613" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadRectangularToroid</name></member>
+      <member refid="class_rvm_reader_1a01f50a9caaac8a5a1754ee17ea00a13e" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadRvm</name></member>
+      <member refid="class_rvm_reader_1a25f048864df0fe6b2d0635589a32a314" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadShapeDelegate</name></member>
+      <member refid="class_rvm_reader_1a87e6e6ef44115aca043c6dbf21d7f191" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadSnout</name></member>
+      <member refid="class_rvm_reader_1ac7b8b2c9060b06206adb6730b1a38ea0" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadSpheicalDish</name></member>
+      <member refid="class_rvm_reader_1a4d6fbaaf8f53d167797417172f241cbc" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadSphere</name></member>
+      <member refid="class_rvm_reader_1af3e02191e4b9e0d96a924962fa3b9d61" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadString</name></member>
+      <member refid="class_rvm_reader_1a7563778813d7bb1e7d123674d1d18443" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadToroid</name></member>
+      <member refid="class_rvm_reader_1a754be54f6f86f25fb7edc83d81a54b05" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadTransformMatrix</name></member>
+      <member refid="class_rvm_reader_1ad765e7f23b1cca18a186f117e0a9adc9" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadTruncatedPyramid</name></member>
+      <member refid="class_rvm_reader_1a7103d46d0475fa3bca7657e4fab39497" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>ReadVector3</name></member>
+      <member refid="class_rvm_reader_1a09f6a5677a6c98c87b124d220b90df9f" prot="private" virt="non-virtual"><scope>RvmReader</scope><name>SkipBytes</name></member>
+      <member refid="class_rvm_reader_1a28634b9aaf8267d15af60dd3c5b2fbd9" prot="public" virt="non-virtual"><scope>RvmReader</scope><name>UnitsScale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

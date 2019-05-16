@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_decision_maker" kind="class" language="C#" prot="public">
+    <compoundname>DecisionMaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_decision_maker_1ab4e8b64116e631733740e6c872ca34d2" prot="public" static="no" mutable="no">
+        <type>SteamVR_Action_Vector2</type>
+        <definition>SteamVR_Action_Vector2 DecisionMaker.DecisionSelection</definition>
+        <argsstring></argsstring>
+        <name>DecisionSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decision_maker_1adf1e2a6e9420d716bcd9cd87a982fdef" prot="public" static="no" mutable="no">
+        <type>SteamVR_Action_Boolean</type>
+        <definition>SteamVR_Action_Boolean DecisionMaker.DecisionCommit</definition>
+        <argsstring></argsstring>
+        <name>DecisionCommit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decision_maker_1a7245a8dc72a9c5a90f804c7495b5cc16" prot="public" static="no" mutable="no">
+        <type>Image []</type>
+        <definition>Image [] DecisionMaker.Buttons</definition>
+        <argsstring></argsstring>
+        <name>Buttons</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decision_maker_1ad5083f304d1a00f98982ef9154123fd9" prot="public" static="no" mutable="no">
+        <type>Sprite []</type>
+        <definition>Sprite [] DecisionMaker.Normal</definition>
+        <argsstring></argsstring>
+        <name>Normal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decision_maker_1a326799f4e5c3e22f67b94e3db746c693" prot="public" static="no" mutable="no">
+        <type>Sprite []</type>
+        <definition>Sprite [] DecisionMaker.Hover</definition>
+        <argsstring></argsstring>
+        <name>Hover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_decision_maker_1ab085167ca1f639f0691d066954a3850b" prot="private" static="no" mutable="no">
+        <type>Hand</type>
+        <definition>Hand DecisionMaker._hand</definition>
+        <argsstring></argsstring>
+        <name>_hand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decision_maker_1a98a2ef0b963679fb9223804bbdaf1894" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DecisionMaker._currentHover</definition>
+        <argsstring></argsstring>
+        <name>_currentHover</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_decision_maker_1a5cdd3866d6c6a7f06b27cc0dfee6ae2f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DecisionMaker._currentDecisionId</definition>
+        <argsstring></argsstring>
+        <name>_currentDecisionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_decision_maker_1a470935745c991a804200f13a67188f4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecisionMaker.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="21" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decision_maker_1a3738c8c80077eedd5cd03924de69daca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecisionMaker.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="43" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="43" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decision_maker_1ac538e7f553c728a34fedace2562adbd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecisionMaker.OnDecisionSelectionUpdate</definition>
+        <argsstring>(SteamVR_Action_Vector2 actionIn, SteamVR_Input_Sources inputSource, Vector2 newValue)</argsstring>
+        <name>OnDecisionSelectionUpdate</name>
+        <param>
+          <type>SteamVR_Action_Vector2</type>
+          <declname>actionIn</declname>
+        </param>
+        <param>
+          <type>SteamVR_Input_Sources</type>
+          <declname>inputSource</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="56" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decision_maker_1a64dbe480fc4b95dfba60c5b70b7aad90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecisionMaker.SetHover</definition>
+        <argsstring>(int id)</argsstring>
+        <name>SetHover</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="63" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decision_maker_1a9ed98ad80cfaae13571174cb4829f218" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DecisionMaker.OnDecisionCommitChange</definition>
+        <argsstring>(SteamVR_Action_Boolean actionIn, SteamVR_Input_Sources inputSource, bool newValue)</argsstring>
+        <name>OnDecisionCommitChange</name>
+        <param>
+          <type>SteamVR_Action_Boolean</type>
+          <declname>actionIn</declname>
+        </param>
+        <param>
+          <type>SteamVR_Input_Sources</type>
+          <declname>inputSource</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="70" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="70" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_decision_maker_1a079432cf227dc5850ded671b61a02f6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DecisionMaker.GetDecisionId</definition>
+        <argsstring>(Vector2 decisionPadCoordinates)</argsstring>
+        <name>GetDecisionId</name>
+        <param>
+          <type>Vector2</type>
+          <declname>decisionPadCoordinates</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="92" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="92" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>DecisionMaker</label>
+        <link refid="class_decision_maker"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>DecisionMaker</label>
+        <link refid="class_decision_maker"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/DecisionMaker.cs" bodystart="7" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_decision_maker_1a5cdd3866d6c6a7f06b27cc0dfee6ae2f" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>_currentDecisionId</name></member>
+      <member refid="class_decision_maker_1a98a2ef0b963679fb9223804bbdaf1894" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>_currentHover</name></member>
+      <member refid="class_decision_maker_1ab085167ca1f639f0691d066954a3850b" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>_hand</name></member>
+      <member refid="class_decision_maker_1a7245a8dc72a9c5a90f804c7495b5cc16" prot="public" virt="non-virtual"><scope>DecisionMaker</scope><name>Buttons</name></member>
+      <member refid="class_decision_maker_1adf1e2a6e9420d716bcd9cd87a982fdef" prot="public" virt="non-virtual"><scope>DecisionMaker</scope><name>DecisionCommit</name></member>
+      <member refid="class_decision_maker_1ab4e8b64116e631733740e6c872ca34d2" prot="public" virt="non-virtual"><scope>DecisionMaker</scope><name>DecisionSelection</name></member>
+      <member refid="class_decision_maker_1a079432cf227dc5850ded671b61a02f6f" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>GetDecisionId</name></member>
+      <member refid="class_decision_maker_1a326799f4e5c3e22f67b94e3db746c693" prot="public" virt="non-virtual"><scope>DecisionMaker</scope><name>Hover</name></member>
+      <member refid="class_decision_maker_1ad5083f304d1a00f98982ef9154123fd9" prot="public" virt="non-virtual"><scope>DecisionMaker</scope><name>Normal</name></member>
+      <member refid="class_decision_maker_1a9ed98ad80cfaae13571174cb4829f218" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>OnDecisionCommitChange</name></member>
+      <member refid="class_decision_maker_1ac538e7f553c728a34fedace2562adbd4" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>OnDecisionSelectionUpdate</name></member>
+      <member refid="class_decision_maker_1a3738c8c80077eedd5cd03924de69daca" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>OnDisable</name></member>
+      <member refid="class_decision_maker_1a470935745c991a804200f13a67188f4a" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>OnEnable</name></member>
+      <member refid="class_decision_maker_1a64dbe480fc4b95dfba60c5b70b7aad90" prot="private" virt="non-virtual"><scope>DecisionMaker</scope><name>SetHover</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

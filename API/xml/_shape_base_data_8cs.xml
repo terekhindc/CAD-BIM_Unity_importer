@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_shape_base_data_8cs" kind="file" language="C#">
+    <compoundname>ShapeBaseData.cs</compoundname>
+    <innerclass refid="class_shape_base_data" prot="public">ShapeBaseData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="class_shape_base_data" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_shape_base_data" kindref="compound">ShapeBaseData</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[]<sp/><ref refid="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" kindref="member">Parameters</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_shape_base_data_1ae357ef2e234f8aefe7c3ff2984e8c59c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_shape_base_data_1ae357ef2e234f8aefe7c3ff2984e8c59c" kindref="member">ShapeBaseData</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">[]<sp/>parameters)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_shape_base_data_1a263fe301ad336f18484de57a0a7361b0" kindref="member">Parameters</ref><sp/>=<sp/>parameters;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/ShapeBaseData.cs"/>
+  </compounddef>
+</doxygen>

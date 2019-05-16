@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="interface_i_wherety_player" kind="interface" language="C#" prot="public">
+    <compoundname>IWheretyPlayer</compoundname>
+    <derivedcompoundref refid="class_player" prot="public" virt="non-virtual">Player</derivedcompoundref>
+    <derivedcompoundref refid="class_vr_mp_player" prot="public" virt="non-virtual">VrMpPlayer</derivedcompoundref>
+    <derivedcompoundref refid="class_wherety_player" prot="public" virt="non-virtual">WheretyPlayer</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IWheretyPlayer.HideObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>HideObject</name>
+        <reimplementedby refid="class_vr_mp_player_1ac7a68dbb6ad184acc78e74a1b063a8d1">HideObject</reimplementedby>
+        <reimplementedby refid="class_player_1ab1b799d89cacee820f5a1e83cf71b440">HideObject</reimplementedby>
+        <reimplementedby refid="class_wherety_player_1a0b6974f0ad99de9dd1af2fb65f498264">HideObject</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/IWheretyPlayer.cs" line="5" column="1"/>
+        <referencedby refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" compoundref="_action_menu_ui_8cs" startline="54" endline="69">ActionMenuUi.HidePart</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IWheretyPlayer.InteractWithObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>InteractWithObject</name>
+        <reimplementedby refid="class_vr_mp_player_1ac9b33feaa74e06413371cd9dbced5530">InteractWithObject</reimplementedby>
+        <reimplementedby refid="class_player_1ac4db0b8b352f511d0d0715f755876c4e">InteractWithObject</reimplementedby>
+        <reimplementedby refid="class_wherety_player_1a7f1fc81fea5ae4a082fc72b766171834">InteractWithObject</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/IWheretyPlayer.cs" line="6" column="1"/>
+        <referencedby refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" compoundref="_action_menu_ui_8cs" startline="30" endline="52">ActionMenuUi.Interact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_wherety_player_1afd5f6bbda4034e3c00502d0ac26474c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IWheretyPlayer.MoveObject</definition>
+        <argsstring>(Transform transform)</argsstring>
+        <name>MoveObject</name>
+        <reimplementedby refid="class_vr_mp_player_1a4f5c36d5a2629d9300f4aec04803e8f3">MoveObject</reimplementedby>
+        <reimplementedby refid="class_player_1ac8cf603009908d2e9b95fc4aff6ced70">MoveObject</reimplementedby>
+        <reimplementedby refid="class_wherety_player_1a932686a63036f030e38a10f361d9d5d3">MoveObject</reimplementedby>
+        <param>
+          <type>Transform</type>
+          <declname>transform</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/IWheretyPlayer.cs" line="7" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="100">
+        <label>VrMpPlayer</label>
+        <link refid="class_vr_mp_player"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>Player</label>
+        <link refid="class_player"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>WheretyPlayer</label>
+        <link refid="class_wherety_player"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/IWheretyPlayer.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/IWheretyPlayer.cs" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="interface_i_wherety_player_1a2cd247a5438cb6b3142046991f39352c" prot="public" virt="non-virtual"><scope>IWheretyPlayer</scope><name>HideObject</name></member>
+      <member refid="interface_i_wherety_player_1af8af069999158f329d99f2709b0b4fb3" prot="public" virt="non-virtual"><scope>IWheretyPlayer</scope><name>InteractWithObject</name></member>
+      <member refid="interface_i_wherety_player_1afd5f6bbda4034e3c00502d0ac26474c1" prot="public" virt="non-virtual"><scope>IWheretyPlayer</scope><name>MoveObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

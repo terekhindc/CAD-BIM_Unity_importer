@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_rvm_converter_8cs" kind="file" language="C#">
+    <compoundname>RvmConverter.cs</compoundname>
+    <innerclass refid="class_rvm_converter" prot="public">RvmConverter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_rvm_converter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_rvm_converter" kindref="compound">RvmConverter</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590" kindref="member">InputFiles</ref><sp/><ref refid="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" kindref="member">InputFileName</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_rvm_converter_1ac6c385f8b740331cd879b3ef11686355" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_rvm_reader" kindref="compound">RvmReader</ref><sp/><ref refid="class_rvm_converter_1ac6c385f8b740331cd879b3ef11686355" kindref="member">RvmReader</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_rvm_converter_1a88453bf28e3da9ffc41f40bb23460608" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref><sp/><ref refid="class_rvm_converter_1a88453bf28e3da9ffc41f40bb23460608" kindref="member">SceneShapesInstantiator</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_rvm_converter_1a3a476e45c2cabe4e69c9a15e4223f2de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_rvm_converter_1a3a476e45c2cabe4e69c9a15e4223f2de" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" kindref="member">Import</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" kindref="member">Import</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>startTime<sp/>=<sp/>DateTime.Now;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rvm_reader" kindref="compound">RvmReader</ref>.<ref refid="class_rvm_reader_1aa3bd98b005bfb52c4a901a17dcd19ff1" kindref="member">FileName</ref><sp/>=<sp/><ref refid="class_rvm_converter_1a3411db3c1a04e63731d19e4253d32ac5" kindref="member">InputFileName</ref>.ToString()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.rvm&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>rep<sp/>=<sp/><ref refid="class_rvm_reader" kindref="compound">RvmReader</ref>.<ref refid="class_rvm_reader_1a453dc959a12db6d00466d5a730794d80" kindref="member">Read</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rep.<ref refid="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" kindref="member">ShowStatistics</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1a84a665ef8ad23ac0700377a8034818d0" kindref="member">SetShapeDataRepository</ref>(rep);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" kindref="member">CreateHierarchy</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" kindref="member">CreateAllShapes</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//SceneShapesInstantiator.CreateAllColliders();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" kindref="member">CreateColliders</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" kindref="member">SetModelRotationAndMirroring</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" kindref="member">AssignColorsToAllShapes</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>finishTime<sp/>=<sp/>DateTime.Now;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Total<sp/>duration:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>((finishTime<sp/>-<sp/>startTime).TotalMilliseconds<sp/>/<sp/>1000f)<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>sec&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_att_reader" kindref="compound">AttReader</ref>.<ref refid="class_att_reader_1abec2d3da93fe798b11e4ba34a4289580" kindref="member">LoadAndAttachAttributes</ref>(<ref refid="class_rvm_reader" kindref="compound">RvmReader</ref>.<ref refid="class_rvm_reader_1aa3bd98b005bfb52c4a901a17dcd19ff1" kindref="member">FileName</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_scene_shapes_instantiator" kindref="compound">SceneShapesInstantiator</ref>.<ref refid="class_scene_shapes_instantiator_1ad947fac74cbe83b3acc39baab51625c2" kindref="member">RootTransform</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/RvmConverter.cs"/>
+  </compounddef>
+</doxygen>

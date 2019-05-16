@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_truncated_pyramid_builder_8cs" kind="file" language="C#">
+    <compoundname>TruncatedPyramidBuilder.cs</compoundname>
+    <innerclass refid="class_truncated_pyramid_builder" prot="public">TruncatedPyramidBuilder</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_truncated_pyramid_builder" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_truncated_pyramid_builder" kindref="compound">TruncatedPyramidBuilder</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Mesh<sp/><ref refid="class_truncated_pyramid_builder_1a82a5ce9bedb0bc90ea47169531c6623d" kindref="member">Build</ref>(<ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref><sp/>truncatedPyramidBaseData,<sp/><ref refid="class_lod_settings" kindref="compound">LodSettings</ref><sp/>lodSettings)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>basementWidth<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[0];</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>basementHeight<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[1];</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofWidth<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[2];</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofHeight<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[3];</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofOffsetX<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[4];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofOffsetZ<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[5];</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>height<sp/>=<sp/>truncatedPyramidBaseData.<ref refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" kindref="member">Parameters</ref>[6];</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>basementBottomLeft<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(-0.5f<sp/>*<sp/>basementWidth,<sp/>-0.5f<sp/>*<sp/>height,<sp/>-0.5f<sp/>*<sp/>basementHeight);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>basementTopLeft<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(-0.5f<sp/>*<sp/>basementWidth,<sp/>-0.5f<sp/>*<sp/>height,<sp/>0.5f<sp/>*<sp/>basementHeight);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>basementTopRight<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0.5f<sp/>*<sp/>basementWidth,<sp/>-0.5f<sp/>*<sp/>height,<sp/>0.5f<sp/>*<sp/>basementHeight);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>basementBottomRight<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0.5f<sp/>*<sp/>basementWidth,<sp/>-0.5f<sp/>*<sp/>height,<sp/>-0.5f<sp/>*<sp/>basementHeight);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofBottomLeft<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(-0.5f<sp/>*<sp/>roofWidth<sp/>+<sp/>roofOffsetX,<sp/>0.5f<sp/>*<sp/>height,<sp/>-0.5f<sp/>*<sp/>roofHeight<sp/>+<sp/>roofOffsetZ);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofTopLeft<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(-0.5f<sp/>*<sp/>roofWidth<sp/>+<sp/>roofOffsetX,<sp/>0.5f<sp/>*<sp/>height,<sp/>0.5f<sp/>*<sp/>roofHeight<sp/>+<sp/>roofOffsetZ);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofTopRight<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0.5f<sp/>*<sp/>roofWidth<sp/>+<sp/>roofOffsetX,<sp/>0.5f<sp/>*<sp/>height,<sp/>0.5f<sp/>*<sp/>roofHeight<sp/>+<sp/>roofOffsetZ);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>roofBottomRight<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0.5f<sp/>*<sp/>roofWidth<sp/>+<sp/>roofOffsetX,<sp/>0.5f<sp/>*<sp/>height,<sp/>-0.5f<sp/>*<sp/>roofHeight<sp/>+<sp/>roofOffsetZ);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>vertices<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>basementBottomLeft,<sp/>basementTopLeft,<sp/>basementTopRight,<sp/>basementBottomRight,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>basementBottomLeft,<sp/>basementTopLeft,<sp/>roofTopLeft,<sp/>roofBottomLeft,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>basementTopLeft,<sp/>basementTopRight,<sp/>roofTopRight,<sp/>roofTopLeft,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>basementTopRight,<sp/>basementBottomRight,<sp/>roofBottomRight,<sp/>roofTopRight,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>basementBottomRight,<sp/>basementBottomLeft,<sp/>roofBottomLeft,<sp/>roofBottomRight,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>roofBottomLeft,<sp/>roofTopLeft,<sp/>roofTopRight,<sp/>roofBottomRight</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>triangles<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/>2,<sp/>1,<sp/>0,<sp/>3,<sp/>2,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4,<sp/>5,<sp/>6,<sp/>4,<sp/>6,<sp/>7,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>8,<sp/>9,<sp/>10,<sp/>8,<sp/>10,<sp/>11,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12,<sp/>13,<sp/>14,<sp/>12,<sp/>14,<sp/>15,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>16,<sp/>17,<sp/>18,<sp/>16,<sp/>18,<sp/>19,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20,<sp/>21,<sp/>22,<sp/>20,<sp/>22,<sp/>23</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>m<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Mesh</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vertices<sp/>=<sp/>vertices,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>triangles<sp/>=<sp/>triangles</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.RecalculateNormals();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m.RecalculateBounds();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/TruncatedPyramidBuilder.cs"/>
+  </compounddef>
+</doxygen>

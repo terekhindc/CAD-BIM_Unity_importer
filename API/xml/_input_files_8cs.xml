@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_input_files_8cs" kind="file" language="C#">
+    <compoundname>InputFiles.cs</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>InputFiles</name>
+        <enumvalue id="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a2660064e68655415da2628c2ae2f7592" prot="public">
+          <name>Small</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590ad491538da818a2ba11a3195ba035cfd3" prot="public">
+          <name>Big</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a6311ae17c1ee52b36e68aaf4ad066387" prot="public">
+          <name>Other</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590add539b6ec2758f30160e620093deb8ab" prot="public">
+          <name>V_E_4102_07_EK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp/InputFiles.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp/InputFiles.cs" bodystart="1" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590" refkind="member"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590" kindref="member">InputFiles</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a2660064e68655415da2628c2ae2f7592" kindref="member">Small</ref>,</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a87f8a6ab85c9ced3702b4ea641ad4bb5" kindref="member">Medium</ref>,</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590ad491538da818a2ba11a3195ba035cfd3" kindref="member">Big</ref>,</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590a6311ae17c1ee52b36e68aaf4ad066387" kindref="member">Other</ref>,</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_input_files_8cs_1afdf73d5dcfa18e5eaca6fa573fcf2590add539b6ec2758f30160e620093deb8ab" kindref="member">V_E_4102_07_EK</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Temp/InputFiles.cs"/>
+  </compounddef>
+</doxygen>

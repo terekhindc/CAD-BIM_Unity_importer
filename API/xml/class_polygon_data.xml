@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_polygon_data" kind="class" language="C#" prot="public">
+    <compoundname>PolygonData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_polygon_data_1ae9dfaa860511424803cd74822927bcac" prot="public" static="no" mutable="no">
+        <type>Vector3 []</type>
+        <definition>Vector3 [] PolygonData.Vertices</definition>
+        <argsstring></argsstring>
+        <name>Vertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_polygon_data_1a1530c00aaaaedfbbbfc3bb17c7496afc" compoundref="_polygon_data_8cs" startline="8" endline="12">PolygonData</referencedby>
+        <referencedby refid="class_polygon_data_1a024ebb4875136879c093b7ba08a8b2c9" compoundref="_polygon_data_8cs" startline="14" endline="37">GetInPolygonsPlaneVerticesPresentation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_polygon_data_1ad74733d05200dc339426df8e49a9ca6a" prot="public" static="no" mutable="no">
+        <type>readonly Vector3 []</type>
+        <definition>readonly Vector3 [] PolygonData.Normals</definition>
+        <argsstring></argsstring>
+        <name>Normals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_polygon_data_1a1530c00aaaaedfbbbfc3bb17c7496afc" compoundref="_polygon_data_8cs" startline="8" endline="12">PolygonData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_polygon_data_1a1530c00aaaaedfbbbfc3bb17c7496afc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PolygonData.PolygonData</definition>
+        <argsstring>(Vector3[] vertices, Vector3[] normals)</argsstring>
+        <name>PolygonData</name>
+        <param>
+          <type>Vector3 []</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>Vector3 []</type>
+          <declname>normals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" bodystart="8" bodyend="12"/>
+        <references refid="class_polygon_data_1ae9dfaa860511424803cd74822927bcac" compoundref="_polygon_data_8cs" startline="5">Vertices</references>
+        <references refid="class_polygon_data_1ad74733d05200dc339426df8e49a9ca6a" compoundref="_polygon_data_8cs" startline="6">Normals</references>
+      </memberdef>
+      <memberdef kind="function" id="class_polygon_data_1a024ebb4875136879c093b7ba08a8b2c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2 []</type>
+        <definition>Vector2 [] PolygonData.GetInPolygonsPlaneVerticesPresentation</definition>
+        <argsstring>()</argsstring>
+        <name>GetInPolygonsPlaneVerticesPresentation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" bodystart="14" bodyend="37"/>
+        <references refid="class_polygon_data_1ae9dfaa860511424803cd74822927bcac" compoundref="_polygon_data_8cs" startline="5">Vertices</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/PolygonData.cs" bodystart="3" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_polygon_data_1a024ebb4875136879c093b7ba08a8b2c9" prot="public" virt="non-virtual"><scope>PolygonData</scope><name>GetInPolygonsPlaneVerticesPresentation</name></member>
+      <member refid="class_polygon_data_1ad74733d05200dc339426df8e49a9ca6a" prot="public" virt="non-virtual"><scope>PolygonData</scope><name>Normals</name></member>
+      <member refid="class_polygon_data_1a1530c00aaaaedfbbbfc3bb17c7496afc" prot="public" virt="non-virtual"><scope>PolygonData</scope><name>PolygonData</name></member>
+      <member refid="class_polygon_data_1ae9dfaa860511424803cd74822927bcac" prot="public" virt="non-virtual"><scope>PolygonData</scope><name>Vertices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

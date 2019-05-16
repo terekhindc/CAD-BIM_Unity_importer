@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_file_usage_preference_item_ui" kind="class" language="C#" prot="public">
+    <compoundname>FileUsagePreferenceItemUi</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_file_usage_preference_item_ui_1a51179156a86c0980fd228264d8c7acd0" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text FileUsagePreferenceItemUi.TitleText</definition>
+        <argsstring></argsstring>
+        <name>TitleText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" compoundref="_file_usage_preference_item_ui_8cs" startline="16" endline="24">SetFileUsagePreference</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_item_ui_1a386a29774b430691d60023ab5d25184b" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text FileUsagePreferenceItemUi.IsLoadedText</definition>
+        <argsstring></argsstring>
+        <name>IsLoadedText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" compoundref="_file_usage_preference_item_ui_8cs" startline="16" endline="24">SetFileUsagePreference</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_item_ui_1a19a392fb3640c0767bd4924fdc837f85" prot="public" static="no" mutable="no">
+        <type>Toggle</type>
+        <definition>Toggle FileUsagePreferenceItemUi.IsNeededTogle</definition>
+        <argsstring></argsstring>
+        <name>IsNeededTogle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" compoundref="_file_usage_preference_item_ui_8cs" startline="16" endline="24">SetFileUsagePreference</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_usage_preference_item_ui_1a8ccf82d7b0a364890057d8fe1f9ec3c0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref></type>
+        <definition>FileUsagePreference FileUsagePreferenceItemUi._fileUsagePreference</definition>
+        <argsstring></argsstring>
+        <name>_fileUsagePreference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_file_usage_preference_item_ui_1a1a7504a37915fadae05f96b28c2369d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FileUsagePreferenceItemUi._index</definition>
+        <argsstring></argsstring>
+        <name>_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileUsagePreferenceItemUi.SetFileUsagePreference</definition>
+        <argsstring>(FileUsagePreference value, int index)</argsstring>
+        <name>SetFileUsagePreference</name>
+        <param>
+          <type><ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref></type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="16" bodyend="24"/>
+        <references refid="class_file_usage_preference_item_ui_1a51179156a86c0980fd228264d8c7acd0" compoundref="_file_usage_preference_item_ui_8cs" startline="9">TitleText</references>
+        <references refid="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" compoundref="_file_usage_preference_8cs" startline="4">FileUsagePreference.FileFullAddress</references>
+        <references refid="class_file_usage_preference_item_ui_1a386a29774b430691d60023ab5d25184b" compoundref="_file_usage_preference_item_ui_8cs" startline="10">IsLoadedText</references>
+        <references refid="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" compoundref="_file_usage_preference_8cs" startline="7">FileUsagePreference.IsLoaded</references>
+        <references refid="class_file_usage_preference_item_ui_1a19a392fb3640c0767bd4924fdc837f85" compoundref="_file_usage_preference_item_ui_8cs" startline="11">IsNeededTogle</references>
+        <references refid="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" compoundref="_file_usage_preference_8cs" startline="6">FileUsagePreference.IsNeeded</references>
+      </memberdef>
+      <memberdef kind="function" id="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileUsagePreferenceItemUi.OnIsNeededToggle</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>OnIsNeededToggle</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="26" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="26" bodyend="44"/>
+        <references refid="class_file_usage_preference_1ab77a6aa7c4fb2f733c9568eb9a34d38c" compoundref="_file_usage_preference_8cs" startline="6">FileUsagePreference.IsNeeded</references>
+        <references refid="class_file_usage_preference_1aabdc15d32f9897e75e6db8a34af43515" compoundref="_file_usage_preference_8cs" startline="7">FileUsagePreference.IsLoaded</references>
+        <references refid="class_file_usage_preference_1a1ccc8bac7642cb88370c9232502d99ed" compoundref="_file_usage_preference_8cs" startline="8">FileUsagePreference.GameObject</references>
+        <references refid="class_file_usage_preference_1acc6b06a21675825a267f4339abb17139" compoundref="_file_usage_preference_8cs" startline="4">FileUsagePreference.FileFullAddress</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>FileUsagePreferenceItemUi</label>
+        <link refid="class_file_usage_preference_item_ui"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>FileUsagePreferenceItemUi</label>
+        <link refid="class_file_usage_preference_item_ui"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="usage">
+          <edgelabel>TitleText</edgelabel>
+          <edgelabel>IsLoadedText</edgelabel>
+        </childnode>
+      </node>
+      <node id="65">
+        <label>Text</label>
+      </node>
+      <node id="64">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/FileUsagePreferenceItemUi.cs" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_file_usage_preference_item_ui_1a8ccf82d7b0a364890057d8fe1f9ec3c0" prot="private" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>_fileUsagePreference</name></member>
+      <member refid="class_file_usage_preference_item_ui_1a1a7504a37915fadae05f96b28c2369d4" prot="private" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>_index</name></member>
+      <member refid="class_file_usage_preference_item_ui_1a386a29774b430691d60023ab5d25184b" prot="public" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>IsLoadedText</name></member>
+      <member refid="class_file_usage_preference_item_ui_1a19a392fb3640c0767bd4924fdc837f85" prot="public" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>IsNeededTogle</name></member>
+      <member refid="class_file_usage_preference_item_ui_1a80a460ca8c3f5138305bd5785152024a" prot="public" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>OnIsNeededToggle</name></member>
+      <member refid="class_file_usage_preference_item_ui_1ac8e29452cd2b12b088417ff1e23d3e33" prot="public" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>SetFileUsagePreference</name></member>
+      <member refid="class_file_usage_preference_item_ui_1a51179156a86c0980fd228264d8c7acd0" prot="public" virt="non-virtual"><scope>FileUsagePreferenceItemUi</scope><name>TitleText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_play_pickup_animation_message" kind="class" language="C#" prot="public">
+    <compoundname>PlayPickupAnimationMessage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MessageBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_play_pickup_animation_message_1a605df20de6b297aefb196758f22accc8" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint PlayPickupAnimationMessage.PlayerNetId</definition>
+        <argsstring></argsstring>
+        <name>PlayerNetId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/PlayPickupAnimationMessage.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/PlayPickupAnimationMessage.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="211">
+        <label>MessageBase</label>
+      </node>
+      <node id="210">
+        <label>PlayPickupAnimationMessage</label>
+        <link refid="class_play_pickup_animation_message"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="213">
+        <label>MessageBase</label>
+      </node>
+      <node id="212">
+        <label>PlayPickupAnimationMessage</label>
+        <link refid="class_play_pickup_animation_message"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/PlayPickupAnimationMessage.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/PlayPickupAnimationMessage.cs" bodystart="6" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_play_pickup_animation_message_1a605df20de6b297aefb196758f22accc8" prot="public" virt="non-virtual"><scope>PlayPickupAnimationMessage</scope><name>PlayerNetId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

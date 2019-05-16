@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="interface_i_window" kind="interface" language="C#" prot="public">
+    <compoundname>IWindow</compoundname>
+    <derivedcompoundref refid="class_action_menu_ui" prot="public" virt="non-virtual">ActionMenuUi</derivedcompoundref>
+    <derivedcompoundref refid="class_model_import_ui" prot="public" virt="non-virtual">ModelImportUi</derivedcompoundref>
+    <derivedcompoundref refid="class_model_import_ui_vr" prot="public" virt="non-virtual">ModelImportUiVr</derivedcompoundref>
+    <derivedcompoundref refid="class_progress_ui" prot="public" virt="non-virtual">ProgressUi</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IWindow.Show</definition>
+        <argsstring>(object dataObject=null)</argsstring>
+        <name>Show</name>
+        <reimplementedby refid="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a">Show</reimplementedby>
+        <reimplementedby refid="class_progress_ui_1a59904d8df7c6b696637d26648a26a0b3">Show</reimplementedby>
+        <reimplementedby refid="class_model_import_ui_vr_1ac34967a5831f33b6afe216322e2909bb">Show</reimplementedby>
+        <reimplementedby refid="class_model_import_ui_1a8f2d7bf13a1f5ad893e24106a56df774">Show</reimplementedby>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/IWindow.cs" line="3" column="1"/>
+        <referencedby refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UiManager.UpdateWindow</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a456f3ed4e5cb1a0022d9cebfd35d7c82" compoundref="_ui_manager_vr_8cs" startline="63" endline="68">UiManagerVr.UpdateWindow</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_window_1a829d3aa9bcf80a75ba84968399492378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IWindow.Hide</definition>
+        <argsstring>()</argsstring>
+        <name>Hide</name>
+        <reimplementedby refid="class_action_menu_ui_1a205cb239d9c7677519de0bab93018659">Hide</reimplementedby>
+        <reimplementedby refid="class_progress_ui_1ac3ee49ce28ddca827f90fe13d434c9f4">Hide</reimplementedby>
+        <reimplementedby refid="class_model_import_ui_vr_1a20b68a74daa479ca9582518531871b77">Hide</reimplementedby>
+        <reimplementedby refid="class_model_import_ui_1ad4cdb69e11afb1cc7cd6ec723bfde8a0">Hide</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/IWindow.cs" line="4" column="1"/>
+        <referencedby refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_vr_1a0cd1c6bfde1c157ec619602de6069802" compoundref="_ui_manager_vr_8cs" startline="48" endline="54">UiManagerVr.HideCurrentWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="103">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="106">
+        <label>ModelImportUiVr</label>
+        <link refid="class_model_import_ui_vr"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>ActionMenuUi</label>
+        <link refid="class_action_menu_ui"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>ProgressUi</label>
+        <link refid="class_progress_ui"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>ModelImportUi</label>
+        <link refid="class_model_import_ui"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/IWindow.cs" line="2" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/IWindow.cs" bodystart="1" bodyend="5"/>
+    <listofallmembers>
+      <member refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378" prot="public" virt="non-virtual"><scope>IWindow</scope><name>Hide</name></member>
+      <member refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9" prot="public" virt="non-virtual"><scope>IWindow</scope><name>Show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

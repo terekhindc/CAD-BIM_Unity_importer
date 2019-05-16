@@ -1,0 +1,31 @@
+digraph "ObjectHive"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="ObjectHive",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Aim" ,fontname="Helvetica"];
+  Node4 [label="Aim",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_aim.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Player" ,fontname="Helvetica"];
+  Node5 [label="IWheretyPlayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_i_wherety_player.html",tooltip=" "];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ModelImportManager" ,fontname="Helvetica"];
+  Node6 [label="ModelImportManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_model_import_manager.html",tooltip=" "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" RvmConverter" ,fontname="Helvetica"];
+  Node7 [label="RvmConverter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_rvm_converter.html",tooltip="Основной класс RvmConverter, инициализируется в качестве компонента на пустом игровом объекте в сцене..."];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" RvmReader" ,fontname="Helvetica"];
+  Node8 [label="RvmReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_rvm_reader.html",tooltip=" "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" SceneShapesInstantiator" ,fontname="Helvetica"];
+  Node9 [label="SceneShapesInstantiator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_scene_shapes_instantiator.html",tooltip=" "];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" BuilderSettings" ,fontname="Helvetica"];
+  Node10 [label="BuilderSettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_builder_settings.html",tooltip=" "];
+  Node11 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" KeyboardInputController" ,fontname="Helvetica"];
+  Node11 [label="KeyboardInputController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_keyboard_input_controller.html",tooltip=" "];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

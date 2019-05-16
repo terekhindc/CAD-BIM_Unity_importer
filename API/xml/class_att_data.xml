@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_att_data" kind="class" language="C#" prot="public">
+    <compoundname>AttData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_att_data_1a502d563e2461a3f13f9ce28e54cdcea7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AttData.NameFromAttributes</definition>
+        <argsstring></argsstring>
+        <name>NameFromAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttData.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttData.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_att_reader_1a099df7907dc312646dfb9f55c84c41fd" compoundref="_att_reader_8cs" startline="152" endline="178">AttReader.AttachAttributesToObjectsInScene</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" compoundref="_scene_shapes_instantiator_8cs" startline="759" endline="786">SceneShapesInstantiator.CreateColliders</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_att_data_1ab9b4685e9c604d469cf7f3f7601a188d" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; string, string &gt;</type>
+        <definition>Dictionary&lt;string, string&gt; AttData.Attributes</definition>
+        <argsstring></argsstring>
+        <name>Attributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttData.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttData.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>AttData</label>
+        <link refid="class_att_data"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>AttData</label>
+        <link refid="class_att_data"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttData.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttData.cs" bodystart="4" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_att_data_1ab9b4685e9c604d469cf7f3f7601a188d" prot="public" virt="non-virtual"><scope>AttData</scope><name>Attributes</name></member>
+      <member refid="class_att_data_1a502d563e2461a3f13f9ce28e54cdcea7" prot="public" virt="non-virtual"><scope>AttData</scope><name>NameFromAttributes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

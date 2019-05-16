@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_color_table_reader" kind="class" language="C#" prot="public">
+    <compoundname>ColorTableReader</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_color_table_reader_1a1b5e976c34598413c6c0dbc371ce9483" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ColorTableReader.ColorNamesFile</definition>
+        <argsstring></argsstring>
+        <name>ColorNamesFile</name>
+        <initializer>= &quot;ColorNames.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_color_table_reader_1a1f2fad4817dee685e730ddd8774deab4" compoundref="_color_table_reader_8cs" startline="11" endline="89">Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_color_table_reader_1ab8722a8a147e2cef30b8334a5f5797a5" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ColorTableReader.ColorCodesFile</definition>
+        <argsstring></argsstring>
+        <name>ColorCodesFile</name>
+        <initializer>= &quot;ColorCodes.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_color_table_reader_1a1f2fad4817dee685e730ddd8774deab4" compoundref="_color_table_reader_8cs" startline="11" endline="89">Read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_color_table_reader_1a1f2fad4817dee685e730ddd8774deab4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color []</type>
+        <definition>static Color [] ColorTableReader.Read</definition>
+        <argsstring>()</argsstring>
+        <name>Read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" bodystart="11" bodyend="89"/>
+        <references refid="class_color_table_reader_1a1b5e976c34598413c6c0dbc371ce9483" compoundref="_color_table_reader_8cs" startline="8">ColorNamesFile</references>
+        <references refid="class_color_table_reader_1ab8722a8a147e2cef30b8334a5f5797a5" compoundref="_color_table_reader_8cs" startline="9">ColorCodesFile</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ColorTableReader/ColorTableReader.cs" bodystart="6" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_color_table_reader_1ab8722a8a147e2cef30b8334a5f5797a5" prot="public" virt="non-virtual"><scope>ColorTableReader</scope><name>ColorCodesFile</name></member>
+      <member refid="class_color_table_reader_1a1b5e976c34598413c6c0dbc371ce9483" prot="public" virt="non-virtual"><scope>ColorTableReader</scope><name>ColorNamesFile</name></member>
+      <member refid="class_color_table_reader_1a1f2fad4817dee685e730ddd8774deab4" prot="public" virt="non-virtual"><scope>ColorTableReader</scope><name>Read</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

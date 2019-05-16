@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_select_and_show_attributes_message" kind="class" language="C#" prot="public">
+    <compoundname>SelectAndShowAttributesMessage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MessageBase</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_select_and_show_attributes_message_1ab6c7aee8b06c630af49e259739d6bd2b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SelectAndShowAttributesMessage.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_select_and_show_attributes_message_1ad52a961dedef874b0dd19e6b5b2a9d97" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SelectAndShowAttributesMessage.Nickname</definition>
+        <argsstring></argsstring>
+        <name>Nickname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="252">
+        <label>MessageBase</label>
+      </node>
+      <node id="251">
+        <label>SelectAndShowAttributesMessage</label>
+        <link refid="class_select_and_show_attributes_message"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="254">
+        <label>MessageBase</label>
+      </node>
+      <node id="253">
+        <label>SelectAndShowAttributesMessage</label>
+        <link refid="class_select_and_show_attributes_message"/>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs" line="4" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SelectAndShowAttributesMessage.cs" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="class_select_and_show_attributes_message_1ab6c7aee8b06c630af49e259739d6bd2b" prot="public" virt="non-virtual"><scope>SelectAndShowAttributesMessage</scope><name>Name</name></member>
+      <member refid="class_select_and_show_attributes_message_1ad52a961dedef874b0dd19e6b5b2a9d97" prot="public" virt="non-virtual"><scope>SelectAndShowAttributesMessage</scope><name>Nickname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

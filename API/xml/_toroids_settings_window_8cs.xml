@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_toroids_settings_window_8cs" kind="file" language="C#">
+    <compoundname>ToroidsSettingsWindow.cs</compoundname>
+    <innerclass refid="class_toroids_settings_window" prot="public">ToroidsSettingsWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_toroids_settings_window" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_toroids_settings_window" kindref="compound">ToroidsSettingsWindow</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_toroids_settings_window_1a425a4f772ba43d04ff158f39d80be452" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_toroids_settings_window_1a425a4f772ba43d04ff158f39d80be452" kindref="member">SetView</ref>(List&lt;LodSettings&gt;<sp/>lodSettings,<sp/>Material<sp/>material)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>ray1<sp/>=<sp/>Camera.main.ViewportPointToRay(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0.75f,<sp/>1f,<sp/>0f));</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RaycastHit<sp/>hit1;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Physics.Raycast(ray1,<sp/>out<sp/>hit1,<sp/>100f,<sp/>LayerMask.GetMask(</highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Colliders&quot;</highlight><highlight class="normal"><sp/>})))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>p1<sp/>=<sp/>hit1.point;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>ray2<sp/>=<sp/>Camera.main.ViewportPointToRay(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(0.75f,<sp/>0f,<sp/>0f));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RaycastHit<sp/>hit2;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!Physics.Raycast(ray2,<sp/>out<sp/>hit2,<sp/>100f,<sp/>LayerMask.GetMask(</highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/></highlight><highlight class="stringliteral">&quot;Colliders&quot;</highlight><highlight class="normal"><sp/>})))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>p2<sp/>=<sp/>hit2.point;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>f<sp/>=<sp/>1f;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>pos<sp/>=<sp/>0.5f<sp/>*<sp/>(p2<sp/>+<sp/>p1);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>fullCenterlineRadius<sp/>=<sp/>0.4f<sp/>*<sp/>(p1.y<sp/>-<sp/>p2.y);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(var<sp/>l<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>lodSettings)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>ls<sp/>=<sp/>(<ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref>)l;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateTorForLod(ls,<sp/>f,<sp/>fullCenterlineRadius,<sp/>pos,<sp/>material);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pos<sp/>+=<sp/>f<sp/>*<sp/>fullCenterlineRadius<sp/>*<sp/>Vector3.forward;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>f<sp/>=<sp/>ls.ScreenRelativeTransitionHeight;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CreateTorForLod(ls,<sp/>f,<sp/>fullCenterlineRadius,<sp/>pos,<sp/>material);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pos<sp/>+=<sp/>f<sp/>*<sp/>fullCenterlineRadius<sp/>*<sp/>Vector3.forward;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CreateTorForLod(<ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref><sp/>ls,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>fulCenterlineRadius,<sp/>Vector3<sp/>position,<sp/>Material<sp/>material)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>torCenterR<sp/>=<sp/>f<sp/>*<sp/>fulCenterlineRadius;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>torSectionR<sp/>=<sp/>0.25f<sp/>*<sp/>torCenterR;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>go<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GameObject(</highlight><highlight class="stringliteral">&quot;Toroid&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>go.AddComponent&lt;MeshRenderer&gt;().sharedMaterial<sp/>=<sp/>material;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>go.AddComponent&lt;MeshFilter&gt;().sharedMesh<sp/>=</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_toroid_builder" kindref="compound">ToroidBuilder</ref>.<ref refid="class_toroid_builder_1a7bf17e3933f6a8fd2da062cbd652f96e" kindref="member">Build</ref>(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref>(Matrix4x4.identity,<sp/>Vector3.zero,<sp/>Vector3.zero,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">[]<sp/>{<sp/>torCenterR,<sp/>torSectionR,<sp/>Mathf.PI<sp/>},<sp/>0),<sp/>ls);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>tr<sp/>=<sp/>go.transform;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tr.position<sp/>=<sp/>position;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tr.localRotation<sp/>=<sp/>Quaternion.Euler(0f,<sp/>45f,<sp/>90f);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs"/>
+  </compounddef>
+</doxygen>

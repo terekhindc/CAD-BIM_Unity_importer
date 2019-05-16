@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_object_hive" kind="class" language="C#" prot="public">
+    <compoundname>ObjectHive</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_object_hive_1af3fb446a374ca13950daefb4d408d621" prot="public" static="no" mutable="no">
+        <type><ref refid="class_aim" kindref="compound">Aim</ref></type>
+        <definition>Aim ObjectHive.Aim</definition>
+        <argsstring></argsstring>
+        <name>Aim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Player.Start</referencedby>
+        <referencedby refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UiManager.UpdateWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_1a8be6d8bd13ee8bd522b428a8c78c9f00" prot="public" static="no" mutable="no">
+        <type><ref refid="class_keyboard_input_controller" kindref="compound">KeyboardInputController</ref></type>
+        <definition>KeyboardInputController ObjectHive.KeyboardInputController</definition>
+        <argsstring></argsstring>
+        <name>KeyboardInputController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_1afbf790c375bc8228b66428070789247d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_model_import_manager" kindref="compound">ModelImportManager</ref></type>
+        <definition>ModelImportManager ObjectHive.ModelImportManager</definition>
+        <argsstring></argsstring>
+        <name>ModelImportManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_model_import_ui_1a193c32700872638392857e078af43ad2" compoundref="_model_import_ui_8cs" startline="171" endline="176">ModelImportUi.InitializeAllFilesToLoadModels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_1a10f297a8c8d875b9250799d2a86db441" prot="public" static="no" mutable="no">
+        <type>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController</type>
+        <definition>UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController ObjectHive.PlayerController</definition>
+        <argsstring></argsstring>
+        <name>PlayerController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Player.Start</referencedby>
+        <referencedby refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UiManager.UpdateWindow</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_object_hive_1a933d07cee34249f0111144125b45b54c" prot="public" static="no" mutable="no">
+        <type><ref refid="interface_i_wherety_player" kindref="compound">IWheretyPlayer</ref></type>
+        <definition>IWheretyPlayer ObjectHive.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Player.Start</referencedby>
+        <referencedby refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" compoundref="_action_menu_ui_8cs" startline="30" endline="52">ActionMenuUi.Interact</referencedby>
+        <referencedby refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" compoundref="_action_menu_ui_8cs" startline="54" endline="69">ActionMenuUi.HidePart</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_object_hive_1aa410cc36de5c0b6cf765dc88dd37102a" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_object_hive" kindref="compound">ObjectHive</ref></type>
+        <definition>ObjectHive ObjectHive._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_object_hive" kindref="compound">ObjectHive</ref></type>
+        <definition>ObjectHive ObjectHive.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="16" bodyend="23"/>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Player.Start</referencedby>
+        <referencedby refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">UiManager.HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UiManager.UpdateWindow</referencedby>
+        <referencedby refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" compoundref="_action_menu_ui_8cs" startline="30" endline="52">ActionMenuUi.Interact</referencedby>
+        <referencedby refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" compoundref="_action_menu_ui_8cs" startline="54" endline="69">ActionMenuUi.HidePart</referencedby>
+        <referencedby refid="class_model_import_ui_1a193c32700872638392857e078af43ad2" compoundref="_model_import_ui_8cs" startline="171" endline="176">ModelImportUi.InitializeAllFilesToLoadModels</referencedby>
+        <referencedby refid="class_model_import_ui_1a3f6af56cdb9c346acfc58d9c00c4e6b0" compoundref="_model_import_ui_8cs" startline="224" endline="246">ModelImportUi.ImportModels</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_object_hive_1a003de014f458041bc4ed74e3a716d77b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjectHive.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="25" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="25" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="178">
+        <label>ObjectHive</label>
+        <link refid="class_object_hive"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="188">
+        <label>BuilderSettings</label>
+        <link refid="class_builder_settings"/>
+      </node>
+      <node id="180">
+        <label>ObjectHive</label>
+        <link refid="class_object_hive"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="182" relation="usage">
+          <edgelabel>Aim</edgelabel>
+        </childnode>
+        <childnode refid="183" relation="usage">
+          <edgelabel>Player</edgelabel>
+        </childnode>
+        <childnode refid="184" relation="usage">
+          <edgelabel>ModelImportManager</edgelabel>
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>KeyboardInputController</edgelabel>
+        </childnode>
+      </node>
+      <node id="184">
+        <label>ModelImportManager</label>
+        <link refid="class_model_import_manager"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="185" relation="usage">
+          <edgelabel>RvmConverter</edgelabel>
+        </childnode>
+      </node>
+      <node id="182">
+        <label>Aim</label>
+        <link refid="class_aim"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>RvmReader</label>
+        <link refid="class_rvm_reader"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>SceneShapesInstantiator</label>
+        <link refid="class_scene_shapes_instantiator"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="188" relation="usage">
+          <edgelabel>BuilderSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="185">
+        <label>RvmConverter</label>
+        <link refid="class_rvm_converter"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="186" relation="usage">
+          <edgelabel>RvmReader</edgelabel>
+        </childnode>
+        <childnode refid="187" relation="usage">
+          <edgelabel>SceneShapesInstantiator</edgelabel>
+        </childnode>
+      </node>
+      <node id="181">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="189">
+        <label>KeyboardInputController</label>
+        <link refid="class_keyboard_input_controller"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>IWheretyPlayer</label>
+        <link refid="interface_i_wherety_player"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Networking/ObjectHive.cs" bodystart="5" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_object_hive_1aa410cc36de5c0b6cf765dc88dd37102a" prot="private" virt="non-virtual"><scope>ObjectHive</scope><name>_instance</name></member>
+      <member refid="class_object_hive_1af3fb446a374ca13950daefb4d408d621" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>Aim</name></member>
+      <member refid="class_object_hive_1a003de014f458041bc4ed74e3a716d77b" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>Awake</name></member>
+      <member refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>Instance</name></member>
+      <member refid="class_object_hive_1a8be6d8bd13ee8bd522b428a8c78c9f00" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>KeyboardInputController</name></member>
+      <member refid="class_object_hive_1afbf790c375bc8228b66428070789247d" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>ModelImportManager</name></member>
+      <member refid="class_object_hive_1a933d07cee34249f0111144125b45b54c" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>Player</name></member>
+      <member refid="class_object_hive_1a10f297a8c8d875b9250799d2a86db441" prot="public" virt="non-virtual"><scope>ObjectHive</scope><name>PlayerController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

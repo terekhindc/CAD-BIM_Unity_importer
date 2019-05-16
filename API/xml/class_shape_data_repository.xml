@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_shape_data_repository" kind="class" language="C#" prot="public">
+    <compoundname>ShapeDataRepository</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; int, <ref refid="class_node" kindref="compound">Node</ref> &gt;</type>
+        <definition>Dictionary&lt;int, Node&gt; ShapeDataRepository.Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a62e5a27617df3d1dd071d74365e197f1" compoundref="_scene_shapes_instantiator_8cs" startline="51" endline="69">SceneShapesInstantiator.CreateHierarchy</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1ad5840900aadc513eb435105164c959d5" compoundref="_scene_shapes_instantiator_8cs" startline="191" endline="199">SceneShapesInstantiator.SetModelRotationAndMirroring</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a29c0c752b7e68cd04618f1e4de089df9" compoundref="_scene_shapes_instantiator_8cs" startline="201" endline="208">SceneShapesInstantiator.CreateAllColliders</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" compoundref="_scene_shapes_instantiator_8cs" startline="641" endline="660">SceneShapesInstantiator.AssignColorsToAllShapes</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a39f8076e858d5c0b4b72253e07199553" compoundref="_scene_shapes_instantiator_8cs" startline="759" endline="786">SceneShapesInstantiator.CreateColliders</referencedby>
+        <referencedby refid="class_shape_data_repository_1a72fa4e7e5d207d909ea6f3f37f90e96e" compoundref="_shape_data_repository_8cs" startline="30" endline="68">ShapeDataRepository</referencedby>
+        <referencedby refid="class_shape_data_repository_1afba0b4ca1fb9e8ab06adcd58d804adda" compoundref="_shape_data_repository_8cs" startline="70" endline="74">SetRootNode</referencedby>
+        <referencedby refid="class_shape_data_repository_1aec3bcbfd198c43b2f215a63f900f7738" compoundref="_shape_data_repository_8cs" startline="81" endline="87">AddNode</referencedby>
+        <referencedby refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" compoundref="_shape_data_repository_8cs" startline="89" endline="92">SelectNearestParent</referencedby>
+        <referencedby refid="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" compoundref="_shape_data_repository_8cs" startline="109" endline="125">ShowStatistics</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" prot="public" static="no" mutable="no">
+        <type>Dictionary&lt; int, <ref refid="class_shape_data" kindref="compound">ShapeData</ref> &gt;</type>
+        <definition>Dictionary&lt;int, ShapeData&gt; ShapeDataRepository.Shapes</definition>
+        <argsstring></argsstring>
+        <name>Shapes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+        <referencedby refid="class_scene_shapes_instantiator_1a3575e9b10cd0aa419f47977ef6dda3d2" compoundref="_scene_shapes_instantiator_8cs" startline="641" endline="660">SceneShapesInstantiator.AssignColorsToAllShapes</referencedby>
+        <referencedby refid="class_shape_data_repository_1a72fa4e7e5d207d909ea6f3f37f90e96e" compoundref="_shape_data_repository_8cs" startline="30" endline="68">ShapeDataRepository</referencedby>
+        <referencedby refid="class_shape_data_repository_1afb3ac8b9a7e92031a07ca53b2be82bc7" compoundref="_shape_data_repository_8cs" startline="94" endline="99">AddShape</referencedby>
+        <referencedby refid="class_shape_data_repository_1a73333f81396a254f00a9732c9512cb05" compoundref="_shape_data_repository_8cs" startline="101" endline="107">AddMultipleMeshes</referencedby>
+        <referencedby refid="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" compoundref="_shape_data_repository_8cs" startline="109" endline="125">ShowStatistics</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" prot="public" static="no" mutable="no">
+        <type>List&lt; int &gt; []</type>
+        <definition>List&lt;int&gt; [] ShapeDataRepository.AllShapesIds</definition>
+        <argsstring></argsstring>
+        <name>AllShapesIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="26" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+        <referencedby refid="class_shape_data_repository_1a72fa4e7e5d207d909ea6f3f37f90e96e" compoundref="_shape_data_repository_8cs" startline="30" endline="68">ShapeDataRepository</referencedby>
+        <referencedby refid="class_shape_data_repository_1afb3ac8b9a7e92031a07ca53b2be82bc7" compoundref="_shape_data_repository_8cs" startline="94" endline="99">AddShape</referencedby>
+        <referencedby refid="class_shape_data_repository_1a73333f81396a254f00a9732c9512cb05" compoundref="_shape_data_repository_8cs" startline="101" endline="107">AddMultipleMeshes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shape_data_repository_1a2892b0766da1db0e741746fa5ef6c019" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ShapeDataRepository._freeIdForNodeDict</definition>
+        <argsstring></argsstring>
+        <name>_freeIdForNodeDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1ad5309b7ddc8ce47de2d7308861548679" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ShapeDataRepository._currentParentNodeId</definition>
+        <argsstring></argsstring>
+        <name>_currentParentNodeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a6c4e0cd58129c79ad68d215456a68cd2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ShapeDataRepository._currentShapeId</definition>
+        <argsstring></argsstring>
+        <name>_currentShapeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a4929ae9246797b923a77cfd96955da94" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._truncatedPyramids</definition>
+        <argsstring></argsstring>
+        <name>_truncatedPyramids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a5c5afee4931a7f58d4121b3e1f110987" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._boxes</definition>
+        <argsstring></argsstring>
+        <name>_boxes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a69baa59e255103a27cc08354083d9825" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._rectangularToroids</definition>
+        <argsstring></argsstring>
+        <name>_rectangularToroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="15" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a16751e87d8c7032e453d51534e6d3d19" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._toroids</definition>
+        <argsstring></argsstring>
+        <name>_toroids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a9618312343a38b72681243e0e8daa6bb" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._ellipticalDishes</definition>
+        <argsstring></argsstring>
+        <name>_ellipticalDishes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="17" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a90eac2b740bb61ec416397ee78bd9013" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._sphericalDishes</definition>
+        <argsstring></argsstring>
+        <name>_sphericalDishes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a64c940b1ebc6b8e6f073e652e61f18b7" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._snouts</definition>
+        <argsstring></argsstring>
+        <name>_snouts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="19" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a969e426d8ecc7deb08c120da818f2f62" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._cylinders</definition>
+        <argsstring></argsstring>
+        <name>_cylinders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="20" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a826cc18934b42989d233c016f82e8164" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._spheres</definition>
+        <argsstring></argsstring>
+        <name>_spheres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="21" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a2572b8dc8b4e52579b0e1d549e4c98ac" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._lines</definition>
+        <argsstring></argsstring>
+        <name>_lines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="22" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1afd1f7d9aba890a17508947def1fd84e0" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._multipleMeshes</definition>
+        <argsstring></argsstring>
+        <name>_multipleMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="23" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a05083e7b08c17353a851fe53c1617b24" prot="private" static="no" mutable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; ShapeDataRepository._shearedCylinders</definition>
+        <argsstring></argsstring>
+        <name>_shearedCylinders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="24" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_data_repository_1a8f45698fe38cb01a3922f49472b84e47" prot="private" static="no" mutable="no">
+        <type><ref refid="class_node" kindref="compound">Node</ref></type>
+        <definition>Node ShapeDataRepository._selectedNode</definition>
+        <argsstring></argsstring>
+        <name>_selectedNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="28" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shape_data_repository_1a72fa4e7e5d207d909ea6f3f37f90e96e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShapeDataRepository.ShapeDataRepository</definition>
+        <argsstring>()</argsstring>
+        <name>ShapeDataRepository</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="30" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="30" bodyend="68"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">Nodes</references>
+        <references refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" compoundref="_shape_data_repository_8cs" startline="7">Shapes</references>
+        <references refid="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" compoundref="_shape_data_repository_8cs" startline="26">AllShapesIds</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1afba0b4ca1fb9e8ab06adcd58d804adda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.SetRootNode</definition>
+        <argsstring>(string name)</argsstring>
+        <name>SetRootNode</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="70" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="70" bodyend="74"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">Nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.AddNode</definition>
+        <argsstring>(string name, Vector3 position)</argsstring>
+        <name>AddNode</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="76" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1aec3bcbfd198c43b2f215a63f900f7738" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.AddNode</definition>
+        <argsstring>(string name, Vector3 position, byte colorIndex)</argsstring>
+        <name>AddNode</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>colorIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="81" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="81" bodyend="87"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">Nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.SelectNearestParent</definition>
+        <argsstring>()</argsstring>
+        <name>SelectNearestParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="89" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="89" bodyend="92"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">Nodes</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1afb3ac8b9a7e92031a07ca53b2be82bc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.AddShape</definition>
+        <argsstring>(int shapeType, Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, float[] parameters)</argsstring>
+        <name>AddShape</name>
+        <param>
+          <type>int</type>
+          <declname>shapeType</declname>
+        </param>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <param>
+          <type>float []</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="94" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="94" bodyend="99"/>
+        <references refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" compoundref="_shape_data_repository_8cs" startline="7">Shapes</references>
+        <references refid="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" compoundref="_shape_data_repository_8cs" startline="26">AllShapesIds</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1a73333f81396a254f00a9732c9512cb05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.AddMultipleMeshes</definition>
+        <argsstring>(Matrix4x4 transformMatrix, Vector3 boundMin, Vector3 boundMax, MultipleMeshesData multipleMeshesData)</argsstring>
+        <name>AddMultipleMeshes</name>
+        <param>
+          <type>Matrix4x4</type>
+          <declname>transformMatrix</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>boundMax</declname>
+        </param>
+        <param>
+          <type><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref></type>
+          <declname>multipleMeshesData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="101" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="101" bodyend="107"/>
+        <references refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" compoundref="_shape_data_repository_8cs" startline="7">Shapes</references>
+        <references refid="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" compoundref="_shape_data_repository_8cs" startline="26">AllShapesIds</references>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeDataRepository.ShowStatistics</definition>
+        <argsstring>()</argsstring>
+        <name>ShowStatistics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="109" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="109" bodyend="125"/>
+        <references refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" compoundref="_shape_data_repository_8cs" startline="6">Nodes</references>
+        <references refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" compoundref="_shape_data_repository_8cs" startline="7">Shapes</references>
+        <referencedby refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ShapeDataRepository.cs" bodystart="4" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_shape_data_repository_1a5c5afee4931a7f58d4121b3e1f110987" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_boxes</name></member>
+      <member refid="class_shape_data_repository_1ad5309b7ddc8ce47de2d7308861548679" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_currentParentNodeId</name></member>
+      <member refid="class_shape_data_repository_1a6c4e0cd58129c79ad68d215456a68cd2" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_currentShapeId</name></member>
+      <member refid="class_shape_data_repository_1a969e426d8ecc7deb08c120da818f2f62" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_cylinders</name></member>
+      <member refid="class_shape_data_repository_1a9618312343a38b72681243e0e8daa6bb" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_ellipticalDishes</name></member>
+      <member refid="class_shape_data_repository_1a2892b0766da1db0e741746fa5ef6c019" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_freeIdForNodeDict</name></member>
+      <member refid="class_shape_data_repository_1a2572b8dc8b4e52579b0e1d549e4c98ac" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_lines</name></member>
+      <member refid="class_shape_data_repository_1afd1f7d9aba890a17508947def1fd84e0" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_multipleMeshes</name></member>
+      <member refid="class_shape_data_repository_1a69baa59e255103a27cc08354083d9825" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_rectangularToroids</name></member>
+      <member refid="class_shape_data_repository_1a8f45698fe38cb01a3922f49472b84e47" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_selectedNode</name></member>
+      <member refid="class_shape_data_repository_1a05083e7b08c17353a851fe53c1617b24" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_shearedCylinders</name></member>
+      <member refid="class_shape_data_repository_1a64c940b1ebc6b8e6f073e652e61f18b7" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_snouts</name></member>
+      <member refid="class_shape_data_repository_1a826cc18934b42989d233c016f82e8164" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_spheres</name></member>
+      <member refid="class_shape_data_repository_1a90eac2b740bb61ec416397ee78bd9013" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_sphericalDishes</name></member>
+      <member refid="class_shape_data_repository_1a16751e87d8c7032e453d51534e6d3d19" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_toroids</name></member>
+      <member refid="class_shape_data_repository_1a4929ae9246797b923a77cfd96955da94" prot="private" virt="non-virtual"><scope>ShapeDataRepository</scope><name>_truncatedPyramids</name></member>
+      <member refid="class_shape_data_repository_1a73333f81396a254f00a9732c9512cb05" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>AddMultipleMeshes</name></member>
+      <member refid="class_shape_data_repository_1a00ae8e4c8c8a1269d14e829a308bf71c" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>AddNode</name></member>
+      <member refid="class_shape_data_repository_1aec3bcbfd198c43b2f215a63f900f7738" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>AddNode</name></member>
+      <member refid="class_shape_data_repository_1afb3ac8b9a7e92031a07ca53b2be82bc7" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>AddShape</name></member>
+      <member refid="class_shape_data_repository_1a8c56775a61e62f370fae03d64a5ba991" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>AllShapesIds</name></member>
+      <member refid="class_shape_data_repository_1a619c97595fd858080d11d3c827cda855" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>Nodes</name></member>
+      <member refid="class_shape_data_repository_1aa451bfc416815c2c7d3c5718056f857a" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>SelectNearestParent</name></member>
+      <member refid="class_shape_data_repository_1afba0b4ca1fb9e8ab06adcd58d804adda" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>SetRootNode</name></member>
+      <member refid="class_shape_data_repository_1a72fa4e7e5d207d909ea6f3f37f90e96e" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>ShapeDataRepository</name></member>
+      <member refid="class_shape_data_repository_1a3db12e581c70b38a9f2631ea345e2a68" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>Shapes</name></member>
+      <member refid="class_shape_data_repository_1a2c313da2ff206137f70a1999a8970e5f" prot="public" virt="non-virtual"><scope>ShapeDataRepository</scope><name>ShowStatistics</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_show_nth_page_button_ui_8cs" kind="file" language="C#">
+    <compoundname>ShowNthPageButtonUi.cs</compoundname>
+    <innerclass refid="class_show_nth_page_button_ui" prot="public">ShowNthPageButtonUi</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_show_nth_page_button_ui" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_show_nth_page_button_ui" kindref="compound">ShowNthPageButtonUi</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_show_nth_page_button_ui_1adc4338f73874204ed3c86faa877cd2eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_model_import_ui" kindref="compound">ModelImportUi</ref><sp/><ref refid="class_show_nth_page_button_ui_1adc4338f73874204ed3c86faa877cd2eb" kindref="member">ModelImportUi</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" kindref="member">PageIndex</ref>;</highlight></codeline>
+<codeline lineno="10" refid="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" kindref="member">Button</ref><sp/><ref refid="class_show_nth_page_button_ui_1a08c2eeefe4be66c7634ddd116a32a9a2" kindref="member">Button</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_show_nth_page_button_ui_1aa1688012097d455138dc09cea38f6287" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_show_nth_page_button_ui_1aa1688012097d455138dc09cea38f6287" kindref="member">OnButtonClick</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_model_import_ui" kindref="compound">ModelImportUi</ref>.<ref refid="class_model_import_ui_1ab3f81f6357a8a955ab08082ee631b62f" kindref="member">ShowPage</ref>(<ref refid="class_show_nth_page_button_ui_1ad2b792df63716831e4998506efe008e5" kindref="member">PageIndex</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Ui/ShowNthPageButtonUi.cs"/>
+  </compounddef>
+</doxygen>

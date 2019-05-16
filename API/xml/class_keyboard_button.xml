@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_keyboard_button" kind="class" language="C#" prot="public">
+    <compoundname>KeyboardButton</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_keyboard_button_1a8d576d016d62d49fa39230fdd77c121b" prot="public" static="no" mutable="no">
+        <type>InputField</type>
+        <definition>InputField KeyboardButton.NameInput</definition>
+        <argsstring></argsstring>
+        <name>NameInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_keyboard_button_1abca77d5a33fd544ec832c16d3970a7ff" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string KeyboardButton.Char</definition>
+        <argsstring></argsstring>
+        <name>Char</name>
+        <initializer>= &quot;Й&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_keyboard_button_1a0fe9eff54a77603f03360f9e87f56027" compoundref="_keyboard_button_8cs" startline="9" endline="27">AddCharToName</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_keyboard_button_1a0fe9eff54a77603f03360f9e87f56027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KeyboardButton.AddCharToName</definition>
+        <argsstring>()</argsstring>
+        <name>AddCharToName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" bodystart="9" bodyend="27"/>
+        <references refid="class_keyboard_button_1abca77d5a33fd544ec832c16d3970a7ff" compoundref="_keyboard_button_8cs" startline="7">Char</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="109">
+        <label>KeyboardButton</label>
+        <link refid="class_keyboard_button"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>KeyboardButton</label>
+        <link refid="class_keyboard_button"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/KeyboardButton.cs" bodystart="4" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_keyboard_button_1a0fe9eff54a77603f03360f9e87f56027" prot="public" virt="non-virtual"><scope>KeyboardButton</scope><name>AddCharToName</name></member>
+      <member refid="class_keyboard_button_1abca77d5a33fd544ec832c16d3970a7ff" prot="public" virt="non-virtual"><scope>KeyboardButton</scope><name>Char</name></member>
+      <member refid="class_keyboard_button_1a8d576d016d62d49fa39230fdd77c121b" prot="public" virt="non-virtual"><scope>KeyboardButton</scope><name>NameInput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

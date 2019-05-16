@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_att_reader_tester" kind="class" language="C#" prot="public">
+    <compoundname>AttReaderTester</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_att_reader_tester_1af5a4b71fdccabe095f1715251960a13f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string AttReaderTester.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttReaderTester.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttReaderTester.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_att_reader_tester_1a7c15935d9ac7ec723d4cf79b8dd980d3" compoundref="_att_reader_tester_8cs" startline="11" endline="14">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_att_reader_tester_1a7c15935d9ac7ec723d4cf79b8dd980d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AttReaderTester.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttReaderTester.cs" line="11" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttReaderTester.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_att_reader_1a52bf4faee965d1c5ef725eed6dad42a6" compoundref="_att_reader_8cs" startline="10" endline="150">AttReader.Read</references>
+        <references refid="class_att_reader_tester_1af5a4b71fdccabe095f1715251960a13f" compoundref="_att_reader_tester_8cs" startline="9">FileName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="21">
+        <label>AttReaderTester</label>
+        <link refid="class_att_reader_tester"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="23">
+        <label>AttReaderTester</label>
+        <link refid="class_att_reader_tester"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttReaderTester.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/AttReaderTester.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_att_reader_tester_1af5a4b71fdccabe095f1715251960a13f" prot="public" virt="non-virtual"><scope>AttReaderTester</scope><name>FileName</name></member>
+      <member refid="class_att_reader_tester_1a7c15935d9ac7ec723d4cf79b8dd980d3" prot="public" virt="non-virtual"><scope>AttReaderTester</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

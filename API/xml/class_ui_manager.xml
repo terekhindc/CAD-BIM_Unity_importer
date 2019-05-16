@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_ui_manager" kind="class" language="C#" prot="public">
+    <compoundname>UiManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ui_manager_1adcd30c5a43465bae39f7dde94cbb5c11" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UiManager.InformationPanel</definition>
+        <argsstring></argsstring>
+        <name>InformationPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_1a258d350817ef4c325ac86d93f3bc12d8" compoundref="_ui_manager_8cs" startline="92" endline="96">ShowInfoPanel</referencedby>
+        <referencedby refid="class_ui_manager_1ad25d66056dc6d01b980834273ed41858" compoundref="_ui_manager_8cs" startline="98" endline="101">HideInfoPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_1a2bb024cf54acc9d7aae98b2260a10471" prot="public" static="no" mutable="no">
+        <type><ref refid="class_model_import_ui" kindref="compound">ModelImportUi</ref></type>
+        <definition>ModelImportUi UiManager.ModelImportUi</definition>
+        <argsstring></argsstring>
+        <name>ModelImportUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="12" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Player.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_1a3afdba4b0bc234226776a09b30347b37" prot="public" static="no" mutable="no">
+        <type><ref refid="class_action_menu_ui" kindref="compound">ActionMenuUi</ref></type>
+        <definition>ActionMenuUi UiManager.ActionMenuUi</definition>
+        <argsstring></argsstring>
+        <name>ActionMenuUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="13" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_1a3bfed40246705bc1cb9d1611200e5064" prot="public" static="no" mutable="no">
+        <type><ref refid="class_progress_ui" kindref="compound">ProgressUi</ref></type>
+        <definition>ProgressUi UiManager.ProgressUi</definition>
+        <argsstring></argsstring>
+        <name>ProgressUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="14" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ui_manager_1a95546a510c301fc66886b8547799f979" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UiManager.ShowModelImportUiButton</definition>
+        <argsstring></argsstring>
+        <name>ShowModelImportUiButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="16" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UpdateWindow</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ui_manager_1a0bc034c689d8de3c887d1ebae10858b9" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_ui_manager" kindref="compound">UiManager</ref></type>
+        <definition>UiManager UiManager._instance</definition>
+        <argsstring></argsstring>
+        <name>_instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="9" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ui_manager_1aeca8577ade8396b9ef034876622f19a3" prot="private" static="no" mutable="no">
+        <type><ref refid="interface_i_window" kindref="compound">IWindow</ref></type>
+        <definition>IWindow UiManager._currentWindow</definition>
+        <argsstring></argsstring>
+        <name>_currentWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_ui_manager" kindref="compound">UiManager</ref></type>
+        <definition>UiManager UiManager.I</definition>
+        <argsstring></argsstring>
+        <name>I</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="18" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="19" bodyend="26"/>
+        <referencedby refid="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" compoundref="_keyboard_input_controller_8cs" startline="5" endline="9">KeyboardInputController.Update</referencedby>
+        <referencedby refid="class_wherety_network_manager_1a6e186d393c4ed2142104942b3cb34565" compoundref="_wherety_network_manager_8cs" startline="25" endline="29">WheretyNetworkManager.ReceiveHideObjectMessage</referencedby>
+        <referencedby refid="class_wherety_network_manager_1ab3b64000541e3ec84be5de029fa23327" compoundref="_wherety_network_manager_8cs" startline="31" endline="35">WheretyNetworkManager.ReceiveInteractWithObjectMessage</referencedby>
+        <referencedby refid="class_player_1a1a09a3ded16ac1646f6bdd4f25fe0ddd" compoundref="_player_8cs" startline="11" endline="31">Player.Start</referencedby>
+        <referencedby refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" compoundref="_ui_manager_8cs" startline="43" endline="54">HideCurrentWindow</referencedby>
+        <referencedby refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UpdateWindow</referencedby>
+        <referencedby refid="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a" compoundref="_action_menu_ui_8cs" startline="18" endline="28">ActionMenuUi.Show</referencedby>
+        <referencedby refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" compoundref="_action_menu_ui_8cs" startline="30" endline="52">ActionMenuUi.Interact</referencedby>
+        <referencedby refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" compoundref="_action_menu_ui_8cs" startline="54" endline="69">ActionMenuUi.HidePart</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ui_manager_1a7e7d498b91dafeec3e17f437f8b21476" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.ShowModelImportUi</definition>
+        <argsstring>()</argsstring>
+        <name>ShowModelImportUi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="28" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="28" bodyend="31"/>
+        <referencedby refid="class_keyboard_input_controller_1a935a37d33af1ca6bfc104f6dcabaf392" compoundref="_keyboard_input_controller_8cs" startline="5" endline="9">KeyboardInputController.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1aad8d3c4e5861408df38ba876342b7462" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.ShowActionMenuUi</definition>
+        <argsstring>(InteractionObject interactionObject)</argsstring>
+        <name>ShowActionMenuUi</name>
+        <param>
+          <type><ref refid="class_interaction_object" kindref="compound">InteractionObject</ref></type>
+          <declname>interactionObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1a8d0a41cbac769245cfec85bdbfea7016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.ShowProgressUi</definition>
+        <argsstring>(ProgressData data)</argsstring>
+        <name>ShowProgressUi</name>
+        <param>
+          <type><ref refid="class_progress_data" kindref="compound">ProgressData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="38" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="38" bodyend="41"/>
+        <references refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" compoundref="_ui_manager_8cs" startline="63" endline="74">UpdateWindow</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.HideCurrentWindow</definition>
+        <argsstring>()</argsstring>
+        <name>HideCurrentWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="43" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="43" bodyend="54"/>
+        <references refid="interface_i_window_1a829d3aa9bcf80a75ba84968399492378">IWindow.Hide</references>
+        <references refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" compoundref="_object_hive_8cs" startline="16" endline="23">ObjectHive.Instance</references>
+        <references refid="class_object_hive_1a10f297a8c8d875b9250799d2a86db441" compoundref="_object_hive_8cs" startline="10">ObjectHive.PlayerController</references>
+        <references refid="class_object_hive_1af3fb446a374ca13950daefb4d408d621" compoundref="_object_hive_8cs" startline="7">ObjectHive.Aim</references>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">I</references>
+        <references refid="class_ui_manager_1a95546a510c301fc66886b8547799f979" compoundref="_ui_manager_8cs" startline="16">ShowModelImportUiButton</references>
+        <referencedby refid="class_action_menu_ui_1a8eb85d66f1eb4b4531400dfca9a3b19a" compoundref="_action_menu_ui_8cs" startline="18" endline="28">ActionMenuUi.Show</referencedby>
+        <referencedby refid="class_action_menu_ui_1af5a4e0171f5fcdc35a2464eeb1854a85" compoundref="_action_menu_ui_8cs" startline="30" endline="52">ActionMenuUi.Interact</referencedby>
+        <referencedby refid="class_action_menu_ui_1a3656f512a20980a20263283712bac01d" compoundref="_action_menu_ui_8cs" startline="54" endline="69">ActionMenuUi.HidePart</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.UpdateWindow</definition>
+        <argsstring>(IWindow window, object dataObject=null)</argsstring>
+        <name>UpdateWindow</name>
+        <param>
+          <type><ref refid="interface_i_window" kindref="compound">IWindow</ref></type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="63" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="63" bodyend="74"/>
+        <references refid="class_object_hive_1a1e74114f0e3a5a7e6bbd998ade53eb53" compoundref="_object_hive_8cs" startline="16" endline="23">ObjectHive.Instance</references>
+        <references refid="class_object_hive_1a10f297a8c8d875b9250799d2a86db441" compoundref="_object_hive_8cs" startline="10">ObjectHive.PlayerController</references>
+        <references refid="class_object_hive_1af3fb446a374ca13950daefb4d408d621" compoundref="_object_hive_8cs" startline="7">ObjectHive.Aim</references>
+        <references refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" compoundref="_ui_manager_8cs" startline="19" endline="26">I</references>
+        <references refid="class_ui_manager_1a95546a510c301fc66886b8547799f979" compoundref="_ui_manager_8cs" startline="16">ShowModelImportUiButton</references>
+        <references refid="interface_i_window_1aba12a3c53948d87aef07aed93b225aa9">IWindow.Show</references>
+        <referencedby refid="class_ui_manager_1a8d0a41cbac769245cfec85bdbfea7016" compoundref="_ui_manager_8cs" startline="38" endline="41">ShowProgressUi</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1a1cb78e3a47e10b031ce57afb314ca325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.HideObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>HideObject</name>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="76" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="76" bodyend="81"/>
+        <referencedby refid="class_wherety_network_manager_1a6e186d393c4ed2142104942b3cb34565" compoundref="_wherety_network_manager_8cs" startline="25" endline="29">WheretyNetworkManager.ReceiveHideObjectMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1a29bd6700b20d98d699f5fc7623460a3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.InteractWithObject</definition>
+        <argsstring>(string objectName)</argsstring>
+        <name>InteractWithObject</name>
+        <param>
+          <type>string</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="83" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="83" bodyend="90"/>
+        <referencedby refid="class_wherety_network_manager_1ab3b64000541e3ec84be5de029fa23327" compoundref="_wherety_network_manager_8cs" startline="31" endline="35">WheretyNetworkManager.ReceiveInteractWithObjectMessage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1a258d350817ef4c325ac86d93f3bc12d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.ShowInfoPanel</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ShowInfoPanel</name>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="92" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="92" bodyend="96"/>
+        <references refid="class_ui_manager_1adcd30c5a43465bae39f7dde94cbb5c11" compoundref="_ui_manager_8cs" startline="7">InformationPanel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_ui_manager_1ad25d66056dc6d01b980834273ed41858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.HideInfoPanel</definition>
+        <argsstring>()</argsstring>
+        <name>HideInfoPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="98" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="98" bodyend="101"/>
+        <references refid="class_ui_manager_1adcd30c5a43465bae39f7dde94cbb5c11" compoundref="_ui_manager_8cs" startline="7">InformationPanel</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ui_manager_1a5bee91ca221ddc59cb8f570adf02dc79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UiManager.ShowWindow</definition>
+        <argsstring>(IWindow window, object dataObject=null)</argsstring>
+        <name>ShowWindow</name>
+        <param>
+          <type><ref refid="interface_i_window" kindref="compound">IWindow</ref></type>
+          <declname>window</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>dataObject</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="56" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="365">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="364">
+        <label>UiManager</label>
+        <link refid="class_ui_manager"/>
+        <childnode refid="365" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="369">
+        <label>IWindow</label>
+        <link refid="interface_i_window"/>
+      </node>
+      <node id="370">
+        <label>ActionMenuUi</label>
+        <link refid="class_action_menu_ui"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+        <childnode refid="371" relation="usage">
+          <edgelabel>InteractionObject</edgelabel>
+        </childnode>
+      </node>
+      <node id="372">
+        <label>ProgressUi</label>
+        <link refid="class_progress_ui"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+        <childnode refid="373" relation="usage">
+          <edgelabel>ProgressText</edgelabel>
+        </childnode>
+      </node>
+      <node id="373">
+        <label>Text</label>
+      </node>
+      <node id="367">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="371">
+        <label>InteractionObject</label>
+        <link refid="class_interaction_object"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="368">
+        <label>ModelImportUi</label>
+        <link refid="class_model_import_ui"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="369" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="366">
+        <label>UiManager</label>
+        <link refid="class_ui_manager"/>
+        <childnode refid="367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="368" relation="usage">
+          <edgelabel>ModelImportUi</edgelabel>
+        </childnode>
+        <childnode refid="370" relation="usage">
+          <edgelabel>ActionMenuUi</edgelabel>
+        </childnode>
+        <childnode refid="372" relation="usage">
+          <edgelabel>ProgressUi</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/SteamVR/UiManager.cs" bodystart="5" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_ui_manager_1aeca8577ade8396b9ef034876622f19a3" prot="private" virt="non-virtual"><scope>UiManager</scope><name>_currentWindow</name></member>
+      <member refid="class_ui_manager_1a0bc034c689d8de3c887d1ebae10858b9" prot="private" virt="non-virtual"><scope>UiManager</scope><name>_instance</name></member>
+      <member refid="class_ui_manager_1a3afdba4b0bc234226776a09b30347b37" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ActionMenuUi</name></member>
+      <member refid="class_ui_manager_1a55a912344d1a6881b8107492ea3483a1" prot="public" virt="non-virtual"><scope>UiManager</scope><name>HideCurrentWindow</name></member>
+      <member refid="class_ui_manager_1ad25d66056dc6d01b980834273ed41858" prot="public" virt="non-virtual"><scope>UiManager</scope><name>HideInfoPanel</name></member>
+      <member refid="class_ui_manager_1a1cb78e3a47e10b031ce57afb314ca325" prot="public" virt="non-virtual"><scope>UiManager</scope><name>HideObject</name></member>
+      <member refid="class_ui_manager_1a26e1bd8ac1902121819f42a097f7f93b" prot="public" virt="non-virtual"><scope>UiManager</scope><name>I</name></member>
+      <member refid="class_ui_manager_1adcd30c5a43465bae39f7dde94cbb5c11" prot="public" virt="non-virtual"><scope>UiManager</scope><name>InformationPanel</name></member>
+      <member refid="class_ui_manager_1a29bd6700b20d98d699f5fc7623460a3d" prot="public" virt="non-virtual"><scope>UiManager</scope><name>InteractWithObject</name></member>
+      <member refid="class_ui_manager_1a2bb024cf54acc9d7aae98b2260a10471" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ModelImportUi</name></member>
+      <member refid="class_ui_manager_1a3bfed40246705bc1cb9d1611200e5064" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ProgressUi</name></member>
+      <member refid="class_ui_manager_1aad8d3c4e5861408df38ba876342b7462" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ShowActionMenuUi</name></member>
+      <member refid="class_ui_manager_1a258d350817ef4c325ac86d93f3bc12d8" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ShowInfoPanel</name></member>
+      <member refid="class_ui_manager_1a7e7d498b91dafeec3e17f437f8b21476" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ShowModelImportUi</name></member>
+      <member refid="class_ui_manager_1a95546a510c301fc66886b8547799f979" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ShowModelImportUiButton</name></member>
+      <member refid="class_ui_manager_1a8d0a41cbac769245cfec85bdbfea7016" prot="public" virt="non-virtual"><scope>UiManager</scope><name>ShowProgressUi</name></member>
+      <member refid="class_ui_manager_1a5bee91ca221ddc59cb8f570adf02dc79" prot="private" virt="non-virtual"><scope>UiManager</scope><name>ShowWindow</name></member>
+      <member refid="class_ui_manager_1a5299b0432a8a19d7c98dca26506d7519" prot="public" virt="non-virtual"><scope>UiManager</scope><name>UpdateWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

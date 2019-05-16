@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_spherical_lathing_builder" kind="class" language="C#" prot="public">
+    <compoundname>SphericalLathingBuilder</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>static Mesh SphericalLathingBuilder.Build</definition>
+        <argsstring>(PrimitiveShapeData spericalLathingBaseData, LodSettings lodSettings)</argsstring>
+        <name>Build</name>
+        <param>
+          <type><ref refid="class_primitive_shape_data" kindref="compound">PrimitiveShapeData</ref></type>
+          <declname>spericalLathingBaseData</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lod_settings" kindref="compound">LodSettings</ref></type>
+          <declname>lodSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/SphericalLathingBuilder.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/SphericalLathingBuilder.cs" bodystart="7" bodyend="65"/>
+        <references refid="class_primitive_shape_data_1a707cc26c1812c832d26605d848e5c3e4" compoundref="_primitive_shape_data_8cs" startline="5">PrimitiveShapeData.Parameters</references>
+        <references refid="class_geometry_common_1a1f4f9acf5a00f335f85282261a31fd3c" compoundref="_geometry_common_8cs" startline="21" endline="32">GeometryCommon.GetIndicesOfSmoothDomedSection</references>
+        <references refid="class_geometry_common_1af2330eeb38210494e38fd37e4cba2809" compoundref="_geometry_common_8cs" startline="49" endline="59">GeometryCommon.CreateVerticesRotatedSection</references>
+        <references refid="class_geometry_common_1aa6a96089933023f69fffeb799c87debb" compoundref="_geometry_common_8cs" startline="61" endline="77">GeometryCommon.Triangulate2SectionsByIndices</references>
+        <references refid="class_geometry_common_1af7e0cdd1981d96161e9169449808b8a4" compoundref="_geometry_common_8cs" startline="34" endline="47">GeometryCommon.TriangulateCapBySectionIndices</references>
+        <references refid="class_geometry_common_1a384bdf59b9cedb2ff13f7cd71db2663c" compoundref="_geometry_common_8cs" startline="79" endline="92">GeometryCommon.CreateMesh</references>
+        <referencedby refid="class_scene_shapes_instantiator_1a65c7dea0e58715677f41651a4e4cbc08" compoundref="_scene_shapes_instantiator_8cs" startline="83" endline="189">SceneShapesInstantiator.CreateAllShapes</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_spherical_lathing_builder_1a22cfa5af81bed60b35486dea8d9d7acf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>static List&lt;Vector3&gt; SphericalLathingBuilder.CreateVerticesForSmoothArclSection</definition>
+        <argsstring>(float h, float s, float circularStep)</argsstring>
+        <name>CreateVerticesForSmoothArclSection</name>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>circularStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/SphericalLathingBuilder.cs" line="67" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/SphericalLathingBuilder.cs" bodystart="67" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/SphericalLathingBuilder.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/Builders/SphericalLathingBuilder.cs" bodystart="5" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_spherical_lathing_builder_1ad7ab4591ed11c87e514117a0633f152b" prot="public" virt="non-virtual"><scope>SphericalLathingBuilder</scope><name>Build</name></member>
+      <member refid="class_spherical_lathing_builder_1a22cfa5af81bed60b35486dea8d9d7acf" prot="private" virt="non-virtual"><scope>SphericalLathingBuilder</scope><name>CreateVerticesForSmoothArclSection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

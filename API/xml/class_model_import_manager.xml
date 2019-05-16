@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_model_import_manager" kind="class" language="C#" prot="public">
+    <compoundname>ModelImportManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_model_import_manager_1a033e080b994736360d2230a94b49a8f3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_rvm_converter" kindref="compound">RvmConverter</ref></type>
+        <definition>RvmConverter ModelImportManager.RvmConverter</definition>
+        <argsstring></argsstring>
+        <name>RvmConverter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" line="8" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_model_import_manager_1a6e6fafc0e15cc807f0a9687a5ac49823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref> &gt;</type>
+        <definition>List&lt;FileUsagePreference&gt; ModelImportManager.GetObjFilesList</definition>
+        <argsstring>()</argsstring>
+        <name>GetObjFilesList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" line="10" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" bodystart="10" bodyend="20"/>
+        <referencedby refid="class_model_import_ui_1a193c32700872638392857e078af43ad2" compoundref="_model_import_ui_8cs" startline="171" endline="176">ModelImportUi.InitializeAllFilesToLoadModels</referencedby>
+        <referencedby refid="class_model_import_ui_vr_1a573f2274f78d0837383d52326aff5174" compoundref="_model_import_ui_vr_8cs" startline="171" endline="176">ModelImportUiVr.InitializeAllFilesToLoadModels</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_model_import_manager_1a7f3893bf9257d111ee24f45533deeb51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GameObject</type>
+        <definition>GameObject ModelImportManager.Import</definition>
+        <argsstring>(FileUsagePreference fileUsagePreference)</argsstring>
+        <name>Import</name>
+        <param>
+          <type><ref refid="class_file_usage_preference" kindref="compound">FileUsagePreference</ref></type>
+          <declname>fileUsagePreference</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" line="22" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" bodystart="22" bodyend="25"/>
+        <references refid="class_rvm_converter_1a984b9502e39db3fcffc74d3281a1a155" compoundref="_rvm_converter_8cs" startline="35" endline="52">RvmConverter.Import</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>ModelImportManager</label>
+        <link refid="class_model_import_manager"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="137">
+        <label>BuilderSettings</label>
+        <link refid="class_builder_settings"/>
+      </node>
+      <node id="132">
+        <label>ModelImportManager</label>
+        <link refid="class_model_import_manager"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>RvmConverter</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>RvmReader</label>
+        <link refid="class_rvm_reader"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>SceneShapesInstantiator</label>
+        <link refid="class_scene_shapes_instantiator"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+        <childnode refid="137" relation="usage">
+          <edgelabel>BuilderSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>RvmConverter</label>
+        <link refid="class_rvm_converter"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+        <childnode refid="135" relation="usage">
+          <edgelabel>RvmReader</edgelabel>
+        </childnode>
+        <childnode refid="136" relation="usage">
+          <edgelabel>SceneShapesInstantiator</edgelabel>
+        </childnode>
+      </node>
+      <node id="133">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" line="7" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/ModelImportManager.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_model_import_manager_1a6e6fafc0e15cc807f0a9687a5ac49823" prot="public" virt="non-virtual"><scope>ModelImportManager</scope><name>GetObjFilesList</name></member>
+      <member refid="class_model_import_manager_1a7f3893bf9257d111ee24f45533deeb51" prot="public" virt="non-virtual"><scope>ModelImportManager</scope><name>Import</name></member>
+      <member refid="class_model_import_manager_1a033e080b994736360d2230a94b49a8f3" prot="public" virt="non-virtual"><scope>ModelImportManager</scope><name>RvmConverter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

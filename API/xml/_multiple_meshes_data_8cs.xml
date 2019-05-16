@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_multiple_meshes_data_8cs" kind="file" language="C#">
+    <compoundname>MultipleMeshesData.cs</compoundname>
+    <innerclass refid="class_multiple_meshes_data" prot="public">MultipleMeshesData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_multiple_meshes_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_multiple_meshes_data" kindref="compound">MultipleMeshesData</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_mesh_data" kindref="compound">MeshData</ref>[]<sp/><ref refid="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" kindref="member">Meshes</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_multiple_meshes_data_1a3bab441917499d497ad6410a6fd7864d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_multiple_meshes_data_1a3bab441917499d497ad6410a6fd7864d" kindref="member">MultipleMeshesData</ref>(<ref refid="class_mesh_data" kindref="compound">MeshData</ref>[]<sp/>meshes)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_multiple_meshes_data_1a70294a22d9584f7a4f280a799f308681" kindref="member">Meshes</ref><sp/>=<sp/>meshes;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MultipleMeshesData.cs"/>
+  </compounddef>
+</doxygen>

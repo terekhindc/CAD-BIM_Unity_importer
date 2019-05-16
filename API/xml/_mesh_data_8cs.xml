@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="_mesh_data_8cs" kind="file" language="C#">
+    <compoundname>MeshData.cs</compoundname>
+    <innerclass refid="class_mesh_data" prot="public">MeshData</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="class_mesh_data" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_mesh_data" kindref="compound">MeshData</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>readonly<sp/><ref refid="class_polygon_data" kindref="compound">PolygonData</ref>[]<sp/><ref refid="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" kindref="member">Polygons</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_mesh_data_1a02257789afdb8f8ff6a2898129ba858e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_mesh_data_1a02257789afdb8f8ff6a2898129ba858e" kindref="member">MeshData</ref>(<ref refid="class_polygon_data" kindref="compound">PolygonData</ref>[]<sp/>polygons)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_mesh_data_1a4c8bf9097af78b726829adfc21694da1" kindref="member">Polygons</ref><sp/>=<sp/>polygons;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Geometry/DataModels/MeshData.cs"/>
+  </compounddef>
+</doxygen>

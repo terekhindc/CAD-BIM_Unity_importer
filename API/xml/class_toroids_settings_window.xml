@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_toroids_settings_window" kind="class" language="C#" prot="public">
+    <compoundname>ToroidsSettingsWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_toroids_settings_window_1a425a4f772ba43d04ff158f39d80be452" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ToroidsSettingsWindow.SetView</definition>
+        <argsstring>(List&lt; LodSettings &gt; lodSettings, Material material)</argsstring>
+        <name>SetView</name>
+        <param>
+          <type>List&lt; <ref refid="class_lod_settings" kindref="compound">LodSettings</ref> &gt;</type>
+          <declname>lodSettings</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs" line="6" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs" bodystart="6" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_toroids_settings_window_1a0eb33825fdceb6d504615b27a74e8ae7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ToroidsSettingsWindow.CreateTorForLod</definition>
+        <argsstring>(SmoothLathingLodSettings ls, float f, float fulCenterlineRadius, Vector3 position, Material material)</argsstring>
+        <name>CreateTorForLod</name>
+        <param>
+          <type><ref refid="class_smooth_lathing_lod_settings" kindref="compound">SmoothLathingLodSettings</ref></type>
+          <declname>ls</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fulCenterlineRadius</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>Material</type>
+          <declname>material</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs" line="33" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs" bodystart="33" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="352">
+        <label>ToroidsSettingsWindow</label>
+        <link refid="class_toroids_settings_window"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="354">
+        <label>ToroidsSettingsWindow</label>
+        <link refid="class_toroids_settings_window"/>
+        <childnode refid="355" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="355">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs" line="5" column="1" bodyfile="D:/Workspace/Unity/RVM_Importer/Assets/Scripts/Settings/ToroidsSettingsWindow.cs" bodystart="4" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_toroids_settings_window_1a0eb33825fdceb6d504615b27a74e8ae7" prot="private" virt="non-virtual"><scope>ToroidsSettingsWindow</scope><name>CreateTorForLod</name></member>
+      <member refid="class_toroids_settings_window_1a425a4f772ba43d04ff158f39d80be452" prot="public" virt="non-virtual"><scope>ToroidsSettingsWindow</scope><name>SetView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
